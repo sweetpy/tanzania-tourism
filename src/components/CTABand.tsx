@@ -5,6 +5,9 @@ type Props = {
   description?: string;
   href?: string;
   label?: string;
+  secondaryHref?: string;
+  secondaryLabel?: string;
+  variant?: "traveler" | "operator";
 };
 
 export function CTABand({
@@ -12,19 +15,49 @@ export function CTABand({
   description = "Share your travel window and interests. We'll reply with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend of all three.",
   href = "/enquire",
   label = "Enquire now",
+  secondaryHref,
+  secondaryLabel,
+  variant = "traveler",
 }: Props) {
+  const isOp = variant === "operator";
   return (
-    <section className="rounded-3xl bg-gradient-to-br from-amber-900 via-amber-800 to-stone-900 px-6 py-12 text-center text-amber-50 sm:px-10">
-      <h2 className="font-serif text-3xl sm:text-4xl">{title}</h2>
-      <p className="mx-auto mt-3 max-w-2xl text-base text-amber-100/90">
+    <section
+      className={`relative overflow-hidden rounded-3xl px-6 py-12 text-center sm:px-10 ${
+        isOp
+          ? "bg-gradient-to-br from-teal via-teal to-ink"
+          : "bg-gradient-to-br from-ink via-ink-soft to-[#1a1510]"
+      }`}
+    >
+      <div
+        className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-gold/20 blur-3xl"
+        aria-hidden
+      />
+      <h2 className="relative font-display text-3xl font-bold text-cream sm:text-4xl">
+        {title}
+      </h2>
+      <p className="relative mx-auto mt-3 max-w-2xl text-base text-cream/70">
         {description}
       </p>
-      <Link
-        href={href}
-        className="mt-6 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-amber-950 shadow hover:bg-amber-50"
-      >
-        {label}
-      </Link>
+      <div className="relative mt-6 flex flex-wrap items-center justify-center gap-3">
+        <Link
+          href={href}
+          className={`inline-flex rounded-full px-6 py-3 text-sm font-semibold shadow transition ${
+            isOp
+              ? "bg-cream text-teal hover:bg-white"
+              : "bg-gold text-ink hover:bg-gold-bright"
+          }`}
+        >
+          {label}
+        </Link>
+        {secondaryHref && secondaryLabel && (
+          <Link
+            href={secondaryHref}
+            className="inline-flex rounded-full border border-cream/30 px-6 py-3 text-sm font-semibold text-cream hover:bg-cream/10"
+          >
+            {secondaryLabel}
+          </Link>
+        )}
+      </div>
     </section>
   );
 }
