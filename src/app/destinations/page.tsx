@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 
 export default function DestinationsPage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="Destinations"
         title="Where Tanzania unfolds"
         description="Six cornerstone places — from migration plains and crater floors to summit trails and spice-island beaches."
       />
-      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {destinations.map((d) => (
           <Card
             key={d.slug}

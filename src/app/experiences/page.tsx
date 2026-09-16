@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 
 export default function ExperiencesPage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="Experiences"
         title="Ways to feel Tanzania"
         description="Choose a focus — or combine safari mornings with summit nights and island rest."
       />
-      <div className="mt-10 grid gap-6 sm:grid-cols-2">
+      <div className="mt-12 grid gap-6 sm:grid-cols-2">
         {experiences.map((exp) => (
           <Card
             key={exp.slug}
