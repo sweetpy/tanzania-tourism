@@ -32,7 +32,7 @@ export default async function EnquirePage({ searchParams }: Props) {
       <SectionHeading
         eyebrow="Enquire"
         title="Tell us about your Tanzania trip"
-        description="Share a few details and we’ll follow up with a thoughtful outline. No payment required to enquire — this form validates and stores a stub record for demo purposes."
+        description="Share a few details and we'll follow up with a thoughtful outline. No payment required to enquire — this form validates and stores a stub record for demo purposes."
       />
       <p className="mt-4 text-sm text-ink/55">
         Tour operator?{" "}
