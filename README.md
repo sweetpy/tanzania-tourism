@@ -59,10 +59,43 @@ Typography: **Syne** (display) + **DM Sans** (body). Cinematic full-viewport her
 - **PartnershipStrip** — TTB / MNRT / TATO framing on home + operators
 - Stats are grounded in workspace research files; do not invent numbers
 
+## Lead delivery (MVP — no CRM)
+
+`POST /api/enquire` and `POST /api/partner`:
+
+1. **Postgres** (preferred): `INSERT` into `enquiries` / `partner_applications` when `DATABASE_URL` is set. Tables are created on first request (`id`, `created_at`, `payload` JSONB, `status`).
+2. **JSONL backup**: still append one line to `LEADS_LOG_PATH` (default `/data/leads.jsonl`) when writable.
+3. **Optionally** email the founder when transport is configured (best-effort — never fails the user after a successful DB write):
+   - `FOUNDER_EMAIL` (default `agubouy@gmail.com`)
+   - `RESEND_API_KEY` + optional `LEADS_FROM_EMAIL`, **or**
+   - `LEADS_WEBHOOK_URL` (POST JSON payload)
+
+Success UI shows a reference id and honest timing (human review, 1–2 business days). No fake CRM / instant quote portal.
+
+Railway: wire `DATABASE_URL=${{Postgres.DATABASE_URL}}` on the web service; optional volume at `/data` for JSONL backup.
+
+### Sample schema
+
+```sql
+CREATE TABLE enquiries (
+  id TEXT PRIMARY KEY,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  payload JSONB NOT NULL,
+  status TEXT NOT NULL DEFAULT 'new'
+);
+
+CREATE TABLE partner_applications (
+  id TEXT PRIMARY KEY,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  payload JSONB NOT NULL,
+  status TEXT NOT NULL DEFAULT 'new'
+);
+```
+
 ## Stack
 
-- Next.js App Router + TypeScript + Tailwind CSS v4
-- Railway-ready: `Dockerfile` (standalone output), `railway.toml`
+- Next.js App Router + TypeScript + Tailwind CSS v4 + `pg`
+- Railway-ready: `Dockerfile` (standalone output), `railway.toml`, Postgres template
 - Production: https://tanzania-tourism-production.up.railway.app
 
 ## Local
@@ -83,6 +116,7 @@ npm start
 - Nixpacks or Docker both work; Docker uses Next `output: "standalone"`
 - Healthcheck: `/`
 - Set `PORT` (Railway injects it); `npm start` binds `0.0.0.0`
+- Recommended: `DATABASE_URL`, volume at `/data`, `FOUNDER_EMAIL`, optional `RESEND_API_KEY`
 
 ## Research grounding
 

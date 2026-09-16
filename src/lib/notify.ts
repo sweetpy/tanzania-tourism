@@ -34,7 +34,7 @@ function formatBody(
     "",
     ...lines,
     "",
-    "— Wazi lead notify (MVP). Also appended to the server JSONL lead log.",
+    "— Wazi lead notify (MVP). Also stored in Postgres (and JSONL backup when available).",
   ].join("\n");
   return { subject, text };
 }
@@ -111,7 +111,7 @@ async function sendWebhook(
   }
 }
 
-/** Best-effort notify. Never throws — callers still succeed if JSONL persisted. */
+/** Best-effort notify. Never throws — callers still succeed if DB/JSONL persisted. */
 export async function notifyFounder(
   kind: "enquire" | "partner",
   id: string,
