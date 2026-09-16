@@ -191,8 +191,12 @@ export function Header() {
         )}
       </header>
 
-      {/* Sticky mobile CTA */}
-      <div className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-night/95 p-3 backdrop-blur-xl lg:hidden">
+      {/* Sticky mobile CTA — TWO distinct buttons; gold only on traveler primary */}
+      <div
+        className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-night/95 p-3 backdrop-blur-xl lg:hidden"
+        role="navigation"
+        aria-label="Mobile quick actions"
+      >
         <div className="mx-auto flex max-w-lg gap-2">
           <Link
             href="/enquire"
