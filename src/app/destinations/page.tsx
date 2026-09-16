@@ -34,7 +34,7 @@ export default function DestinationsPage() {
       <div className="mt-16">
         <CTABand
           title="Not sure which parks fit your dates?"
-          description="Tell us your season and interests — we'll suggest a routing that matches wildlife highlights and your pace."
+          description="Tell us your season and interests — we’ll suggest a routing that matches wildlife highlights and your pace."
         />
       </div>
     </div>

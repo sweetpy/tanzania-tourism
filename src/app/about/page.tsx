@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { CTABand } from "@/components/CTABand";
 import { SectionHeading } from "@/components/SectionHeading";
+import { TrustStrip } from "@/components/TrustStrip";
+import { packageInsights } from "@/data/insights";
 
 export const metadata: Metadata = {
   title: "About Tanzania",
   description:
-    "Why visit Tanzania, best seasons for safari and Kilimanjaro, and responsible travel tips.",
+    "Why visit Tanzania, best seasons for safari and Kilimanjaro, responsible travel, and research-grounded visitor context.",
 };
 
 const seasons = [
@@ -31,38 +34,45 @@ const seasons = [
 export default function AboutPage() {
   return (
     <>
-      <section className="relative isolate overflow-hidden">
+      <section className="relative isolate overflow-hidden grain">
         <div className="absolute inset-0 -z-10">
           <Image
             src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=2000&q=80"
-            alt="Wide African landscape under a vast sky representing Tanzania's open spaces"
+            alt="Wide African landscape under a vast sky representing Tanzania’s open spaces"
             fill
             priority
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-stone-950/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/70 to-ink/40" />
         </div>
-        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
-          <p className="text-sm font-semibold uppercase tracking-widest text-amber-200">
+        <div className="mx-auto max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-bright">
             About Tanzania
           </p>
-          <h1 className="mt-3 max-w-3xl font-serif text-4xl text-white sm:text-5xl">
-            A country of plains, peaks, and Swahili shores
+          <h1 className="mt-4 max-w-3xl font-display text-4xl font-extrabold text-cream sm:text-5xl lg:text-6xl">
+            Plains, peaks, and Swahili shores
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-stone-200">
-            Tanzania holds some of Africa's most celebrated wildlife landscapes
+          <p className="mt-5 max-w-2xl text-lg text-cream/75">
+            Tanzania holds some of Africa’s most celebrated wildlife landscapes
             — and a coastline of spice islands that softens every safari ending.
+            In 2025,{" "}
+            {(packageInsights.arrivals2025 / 1_000_000).toFixed(2)}M
+            international arrivals and USD{" "}
+            {packageInsights.earningsUsdMillion2025.toLocaleString("en-US")}{" "}
+            million in tourism earnings (Exit Survey).
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+      <TrustStrip showMarkets={false} compact />
+
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeading
           title="Why Tanzania"
           description="Few destinations combine migration drama, crater denseness, a freestanding 5,895 m peak, and UNESCO-listed Stone Town within one well-connected country."
         />
-        <div className="mt-8 grid gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
           {[
             {
               t: "Wildlife density & diversity",
@@ -74,34 +84,36 @@ export default function AboutPage() {
             },
             {
               t: "One itinerary, many moods",
-              b: "Bush to beach is seamless: finish with Zanzibar's reefs and spice farms, or start with Kilimanjaro before safari.",
+              b: "Bush to beach is seamless: finish with Zanzibar’s reefs and spice farms, or start with Kilimanjaro before safari.",
             },
           ].map((item) => (
             <div
               key={item.t}
-              className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm"
+              className="rounded-2xl border border-ink/10 bg-white/80 p-6"
             >
-              <h2 className="font-serif text-xl text-stone-900">{item.t}</h2>
-              <p className="mt-2 text-sm leading-relaxed text-stone-600">
+              <h2 className="font-display text-xl font-bold text-ink">
+                {item.t}
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-ink/65">
                 {item.b}
               </p>
             </div>
           ))}
         </div>
 
-        <div className="mt-16">
+        <div className="mt-20">
           <SectionHeading
             title="Best seasons"
-            description="There is no single 'perfect' month — only the right match for migration timing, climbing windows, and your tolerance for rain or crowds."
+            description="There is no single ‘perfect’ month — only the right match for migration timing, climbing windows, and your tolerance for rain or crowds."
           />
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {seasons.map((s) => (
               <div
                 key={s.name}
-                className="rounded-2xl border border-stone-200 bg-amber-50/40 p-5"
+                className="rounded-2xl border border-ink/10 bg-cream-deep/40 p-5"
               >
-                <h3 className="font-semibold text-stone-900">{s.name}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-stone-700">
+                <h3 className="font-semibold text-ink">{s.name}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink/70">
                   {s.body}
                 </p>
               </div>
@@ -109,11 +121,11 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="mt-16 rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
-          <h2 className="font-serif text-3xl text-stone-900">
+        <div className="mt-20 rounded-3xl border border-ink/10 bg-white/80 p-8 shadow-sm">
+          <h2 className="font-display text-3xl font-bold text-ink">
             Responsible travel
           </h2>
-          <ul className="mt-4 list-disc space-y-3 pl-5 text-stone-700">
+          <ul className="mt-4 list-disc space-y-3 pl-5 text-ink/70">
             <li>
               Choose operators who treat guides and porters fairly — especially
               on Kilimanjaro — and who respect park rules and wildlife distance.
@@ -129,15 +141,26 @@ export default function AboutPage() {
             <li>
               Travel insurance, yellow fever certificate requirements (where
               applicable), and malaria precautions are part of responsible
-              planning — we'll remind you during enquiry follow-up.
+              planning — we’ll remind you during enquiry follow-up.
             </li>
           </ul>
         </div>
 
+        <div className="mt-12 rounded-2xl border border-teal/20 bg-teal/5 p-6 text-sm text-ink/70">
+          <p>
+            <strong className="text-ink">Platform note:</strong> We also serve
+            outbound tour operators who resell Tanzanian packages.{" "}
+            <Link href="/operators" className="font-semibold text-teal hover:underline">
+              Learn how partnership works
+            </Link>
+            .
+          </p>
+        </div>
+
         <div className="mt-16">
           <CTABand
-            title="Let's match you to the right season"
-            description="Share your preferred months and must-sees. We'll outline options that fit wildlife peaks, climbing weather, and beach time."
+            title="Let’s match you to the right season"
+            description="Share your preferred months and must-sees. We’ll outline options that fit wildlife peaks, climbing weather, and beach time."
           />
         </div>
       </div>

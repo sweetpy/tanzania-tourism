@@ -1,18 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f3eee4;
-  --foreground: #0c1210;
-  --ink: #0c1210;
-  --ink-soft: #1a2420;
-  --cream: #f3eee4;
-  --cream-deep: #e8e0d2;
-  --gold: #c9a227;
-  --gold-bright: #e8c547;
-  --terracotta: #c45c26;
-  --teal: #1a5c5a;
-  --teal-bright: #2a8a86;
-  --mist: rgba(243, 238, 228, 0.08);
+  /* Wazi brand tokens — Brand Studio lock */
+  --background: #F4F0E6; /* ivory */
+  --foreground: #141C2E; /* ink */
+  --night: #0B1220;
+  --ink: #141C2E;
+  --ink-soft: #1c2740;
+  --cream: #F4F0E6; /* ivory */
+  --cream-deep: #E8E2D4;
+  --gold: #D4A017;
+  --gold-bright: #E8B84A;
+  --terracotta: #C45C26; /* ember */
+  --teal: #1F6F78; /* reef */
+  --teal-bright: #2A8F99;
+  --sand: #C4B49A;
+  --mist: #8B93A7;
+  --mist-soft: rgba(244, 240, 230, 0.08);
 }
 
 @theme inline {
@@ -27,6 +31,9 @@
   --color-terracotta: var(--terracotta);
   --color-teal: var(--teal);
   --color-teal-bright: var(--teal-bright);
+  --color-night: var(--night);
+  --color-sand: var(--sand);
+  --color-mist-token: var(--mist);
   --font-sans: var(--font-dm-sans);
   --font-display: var(--font-syne);
 }

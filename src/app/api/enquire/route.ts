@@ -83,6 +83,7 @@ export async function POST(request: Request) {
     }
   }
 
+  // Stub persistence — replace with CRM / email / database later.
   const enquiry = {
     id: `enq_${Date.now()}`,
     receivedAt: new Date().toISOString(),
