@@ -211,7 +211,7 @@ export function PartnerForm({
           value={form.message}
           onChange={(e) => update("message", e.target.value)}
           className={field}
-          placeholder="Volume, product mix (safari / beach / climb), and how you'd like to resell…"
+          placeholder="Volume, product mix (safari / beach / climb), and how you’d like to resell…"
         />
       </label>
 

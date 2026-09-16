@@ -20,7 +20,7 @@ export const packages: Package[] = [
     duration: "7 days / 6 nights",
     fromPriceUsd: 2890,
     summary:
-      "Tarangire or Manyara, Ngorongoro Crater, and the Serengeti — Tanzania's most loved wildlife circuit in one seamless week.",
+      "Tarangire or Manyara, Ngorongoro Crater, and the Serengeti — Tanzania’s most loved wildlife circuit in one seamless week.",
     highlights: [
       "Ngorongoro Crater full-day game drive",
       "Serengeti plains and predator viewing",
@@ -98,7 +98,7 @@ export const packages: Package[] = [
     duration: "10 days / 9 nights",
     fromPriceUsd: 3890,
     summary:
-      "Six days of northern safari highlights followed by four nights on Zanzibar's beaches — bush then barefoot bliss.",
+      "Six days of northern safari highlights followed by four nights on Zanzibar’s beaches — bush then barefoot bliss.",
     highlights: [
       "Serengeti & Ngorongoro wildlife days",
       "Domestic flight to Zanzibar",

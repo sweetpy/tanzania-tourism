@@ -21,7 +21,7 @@ export function PartnershipStrip({ variant = "home" }: Props) {
               id="ecosystem-heading"
               className="mt-2 font-display text-2xl font-bold text-ink sm:text-3xl"
             >
-              Built for partnership with Tanzania's tourism institutions
+              Built for partnership with Tanzania’s tourism institutions
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink/60 sm:text-base">
               We frame collaboration with government and trade bodies

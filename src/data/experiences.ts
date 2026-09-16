@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     name: "Safari Adventures",
     tagline: "Game drives, fly-camps, and the thrill of the wild.",
     summary:
-      "Classic and custom safari itineraries across Tanzania's northern and southern circuits — from Great Migration drama to quiet Ruaha mornings.",
+      "Classic and custom safari itineraries across Tanzania’s northern and southern circuits — from Great Migration drama to quiet Ruaha mornings.",
     description: [
       "A Tanzania safari can mean dawn game drives in the Serengeti, crater floor exploration at Ngorongoro, or walking safaris in the south. We design private and small-group journeys around your pace, interests, and travel season.",
       "Expect professional guides, carefully chosen lodges and tented camps, and logistics that let you focus on wildlife — not schedules. Options include balloon safaris, night drives where permitted, and cultural visits with Maasai communities.",
@@ -37,10 +37,10 @@ export const experiences: Experience[] = [
     name: "Beach & Islands",
     tagline: "Spice coasts, coral reefs, and barefoot luxury.",
     summary:
-      "Unwind on Zanzibar's beaches, explore Stone Town, snorkel reefs, and sail traditional dhows after your safari.",
+      "Unwind on Zanzibar’s beaches, explore Stone Town, snorkel reefs, and sail traditional dhows after your safari.",
     description: [
-      "Pairing safari with Zanzibar is Tanzania's signature rhythm: bush days followed by ocean rest. Choose lively north-coast beaches or quieter east-coast villages, boutique resorts or simple beach bungalows.",
-      "Beyond the sand, dive or snorkel around Mnemba and Pemba, tour spice plantations, and wander Stone Town's historic lanes. We match beach stays to your safari dates and flight connections.",
+      "Pairing safari with Zanzibar is Tanzania’s signature rhythm: bush days followed by ocean rest. Choose lively north-coast beaches or quieter east-coast villages, boutique resorts or simple beach bungalows.",
+      "Beyond the sand, dive or snorkel around Mnemba and Pemba, tour spice plantations, and wander Stone Town’s historic lanes. We match beach stays to your safari dates and flight connections.",
     ],
     highlights: [
       "Unguja and Pemba beach stays",
@@ -81,8 +81,8 @@ export const experiences: Experience[] = [
     summary:
       "Maasai and Hadzabe encounters, Swahili coastal culture, village visits, and market days — woven thoughtfully into your itinerary.",
     description: [
-      "Tanzania's wildlife is only half the story. Thoughtfully arranged cultural experiences introduce Maasai pastoral life, Hadzabe hunter-gatherer traditions around Lake Eyasi, and Swahili coastal heritage in Stone Town and Bagamoyo.",
-      "We prioritise community-led visits that respect dignity and compensate hosts fairly — never staged spectacle. These moments often become travellers' most memorable days.",
+      "Tanzania’s wildlife is only half the story. Thoughtfully arranged cultural experiences introduce Maasai pastoral life, Hadzabe hunter-gatherer traditions around Lake Eyasi, and Swahili coastal heritage in Stone Town and Bagamoyo.",
+      "We prioritise community-led visits that respect dignity and compensate hosts fairly — never staged spectacle. These moments often become travellers’ most memorable days.",
     ],
     highlights: [
       "Maasai and Hadzabe community visits",
