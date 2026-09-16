@@ -10,8 +10,10 @@ export const siteConfig = {
     "Wazi opens Tanzania for travellers and tour operators — Serengeti safaris, Kilimanjaro, Ngorongoro, Ruaha, and Zanzibar. Plan a trip or partner through Wazi Trade.",
   url: "https://tanzania-tourism-production.up.railway.app",
   locale: "en_US",
-  contactEmail: "hello@wazi.example",
-  partnerEmail: "partners@wazi.example",
+  /** Public contact — MVP uses founder Gmail until a branded domain inbox exists. */
+  contactEmail: "agubouy@gmail.com",
+  partnerEmail: "agubouy@gmail.com",
+  founderEmail: "agubouy@gmail.com",
   social: {
     twitter: "@wazitz",
   },
