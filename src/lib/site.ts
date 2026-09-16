@@ -3,20 +3,21 @@
  * without hunting through pages.
  */
 export const siteConfig = {
-  name: "Tanzania Journeys",
-  shortName: "TJ",
-  tagline: "The digital gateway to Tanzania",
+  name: "Wazi",
+  shortName: "Wazi",
+  tagline: "Open Tanzania.",
   description:
-    "Plan Tanzania safaris, Kilimanjaro climbs, and Zanzibar stays — or partner as an outbound tour operator to resell packages. A platform-scale gateway for travellers and the trade.",
+    "Wazi is the open digital layer for Tanzania tourism — safaris, Kilimanjaro, and Zanzibar for travellers, plus Wazi Trade for outbound operators who resell packages, in partnership with TTB.",
   url: "https://tanzania-tourism-production.up.railway.app",
   locale: "en_US",
-  contactEmail: "hello@tanzaniajourneys.example",
-  partnerEmail: "partners@tanzaniajourneys.example",
+  contactEmail: "hello@wazi.example",
+  partnerEmail: "partners@wazi.example",
   social: {
-    twitter: "@tanzaniajourneys",
+    twitter: "@wazitz",
   },
   ambition:
-    "Building toward a dominant digital gateway for Tanzania visits — travellers discover and enquire; outbound operators browse, white-label, and resell.",
+    "Become the default digital layer for Tanzania travel — travellers discover and enquire; outbound operators browse, white-label, and resell via Wazi Trade.",
+  tradeName: "Wazi Trade",
 };
 
 /** Primary traveler navigation */
@@ -25,7 +26,7 @@ export const navLinks = [
   { href: "/experiences", label: "Experiences" },
   { href: "/packages", label: "Packages" },
   { href: "/about", label: "About" },
-  { href: "/operators", label: "For operators" },
+  { href: "/operators", label: "Wazi Trade" },
 ];
 
 /** Trade / partner secondary links */
@@ -40,12 +41,12 @@ export const ecosystemPartners = [
   {
     name: "Tanzania Tourist Board (TTB)",
     role: "National destination marketing",
-    note: "We align messaging with official destination narratives and welcome collaboration on trade campaigns.",
+    note: "Wazi aligns with official destination narratives and welcomes collaboration on trade campaigns — with Tanzania, not instead of TTB.",
   },
   {
     name: "Ministry of Natural Resources & Tourism (MNRT)",
     role: "Sector policy & statistics",
-    note: "Trust signals on this site cite MNRT and Exit Survey publications — not private estimates.",
+    note: "Trust signals cite MNRT and Exit Survey publications — not private estimates.",
   },
   {
     name: "TATO / licensed inbound operators",
