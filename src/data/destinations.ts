@@ -17,7 +17,7 @@ export const destinations: Destination[] = [
     slug: "serengeti",
     name: "Serengeti National Park",
     region: "Northern Circuit",
-    tagline: "Endless plains, the Great Migration, and golden light at dusk.",
+    tagline: "Short-grass light. Herds on the move. Predators that wait.",
     summary:
       "Africa’s most iconic savannah — home to the Great Migration and some of the finest predator viewing on Earth.",
     description: [
@@ -42,7 +42,7 @@ export const destinations: Destination[] = [
     slug: "ngorongoro",
     name: "Ngorongoro Crater",
     region: "Northern Circuit",
-    tagline: "A natural amphitheatre packed with wildlife.",
+    tagline: "Dawn on the rim. One floor. Everything below you.",
     summary:
       "The world’s largest intact volcanic caldera — a dense wildlife haven with black rhinos, flamingos, and Big Five viewing.",
     description: [
@@ -67,7 +67,7 @@ export const destinations: Destination[] = [
     slug: "kilimanjaro",
     name: "Mount Kilimanjaro",
     region: "Northern Tanzania",
-    tagline: "Africa’s highest peak — and a bucket-list summit.",
+    tagline: "Rainforest to ice. Pole pole to Uhuru.",
     summary:
       "Climb Uhuru Peak through rainforest, moorland, alpine desert, and glacier-capped summit zones.",
     description: [
@@ -92,7 +92,7 @@ export const destinations: Destination[] = [
     slug: "zanzibar",
     name: "Zanzibar Archipelago",
     region: "Indian Ocean Coast",
-    tagline: "Spice islands, Stone Town, and turquoise beaches.",
+    tagline: "Stone Town alleys. Then bare feet in turquoise.",
     summary:
       "Historic Stone Town, spice farms, and powder-white beaches on Unguja and Pemba — the perfect safari add-on.",
     description: [
@@ -117,7 +117,7 @@ export const destinations: Destination[] = [
     slug: "ruaha",
     name: "Ruaha National Park",
     region: "Southern Circuit",
-    tagline: "Wild Tanzania — fewer vehicles, bigger landscapes.",
+    tagline: "Baobabs. River light. Space enough to hear yourself.",
     summary:
       "Tanzania’s largest national park: baobabs, the Great Ruaha River, and outstanding elephant and predator densities.",
     description: [
