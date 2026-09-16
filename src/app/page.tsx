@@ -43,8 +43,8 @@ export default function HomePage() {
       <section className="relative isolate min-h-[100svh] overflow-hidden grain">
         <div className="absolute inset-0 -z-10">
           <Image
-            src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=2400&q=85"
-            alt="Golden light over open Tanzania plains at dusk"
+            src="https://images.unsplash.com/photo-1547970810-dc1eac37d174?w=2400&q=85"
+            alt="Golden hour light across African savannah and acacia silhouettes"
             fill
             priority
             sizes="100vw"
@@ -177,20 +177,20 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <ExperiencesShowcase />
 
-      <section className="bg-cream-deep/40 py-20 lg:py-28">
+      <section className="bg-night py-20 text-cream lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <SectionHeading
               eyebrow="Packages"
               title="Ready-to-adapt journeys"
               description="From-prices in USD are starting points. Lodge level, season, and pacing lock after you enquire — or after your operator does via Wazi Trade."
+              light
             />
             <Link
               href="/packages"
-              className="shrink-0 text-sm font-semibold text-teal hover:underline"
+              className="shrink-0 text-sm font-semibold text-teal-bright hover:underline"
             >
               All packages →
             </Link>
@@ -199,7 +199,7 @@ export default function HomePage() {
             <div className="mt-12 lg:mt-16">
               <FeaturedPackage
                 featured={featuredPkg}
-                secondary={secondaryPkgs.slice(0, 3)}
+                secondary={secondaryPkgs.slice(0, 2)}
               />
             </div>
           )}
