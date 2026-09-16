@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Safaris, summits & spice-island beaches",
   description:
     "Plan unforgettable Tanzania trips — Serengeti safaris, Kilimanjaro climbs, Ngorongoro, Ruaha, and Zanzibar beaches. Enquire for a tailored itinerary.",
-  url: "https://tanzania-tourism.up.railway.app",
+  url: "https://tanzania-tourism-production.up.railway.app",
   locale: "en_US",
   contactEmail: "hello@tanzaniajourneys.example",
   social: {
