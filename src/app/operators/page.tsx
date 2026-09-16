@@ -62,7 +62,7 @@ export default function OperatorsPage() {
         />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-bright">
-            Trade &amp; outbound TOs
+            Wazi Trade
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             Resell Tanzania with a{" "}
@@ -190,7 +190,7 @@ export default function OperatorsPage() {
         <CTABand
           variant="operator"
           title="Ready to add Tanzania to your shelf?"
-          description="Apply for partner access. We’ll follow up on markets, margins, and ground-handler coordination."
+          description="Apply for partner access. We'll follow up on markets, margins, and ground-handler coordination."
           href="/operators/apply"
           label="Apply now"
           secondaryHref="/operators/catalog"
