@@ -1,5 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="6" fill="#0B1020"/>
-  <path d="M6.5 24 L11.2 8 h2.2 L16 18.5 L18.6 8 h2.2 L25.5 24 h-2.4 L19.7 12.2 L17.2 24 h-2.4 L12.3 12.2 L9 24 Z" fill="#F4F0E6"/>
-  <circle cx="25.2" cy="7.2" r="1.6" fill="#E8A317"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-label="Wazi">
+  <rect width="512" height="512" rx="96" fill="#0B1020"/>
+  <path d="M96 128 L176 384 L256 200 L336 384 L416 128"
+        fill="none"
+        stroke="#F4F0E6"
+        stroke-width="36"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <circle cx="400" cy="112" r="18" fill="#E8A317"/>
 </svg>
