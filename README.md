@@ -3,7 +3,7 @@
 **Wazi** is a dual-audience digital platform for Tanzania tourism:
 
 1. **Travellers** discover destinations, experiences, and packages — then enquire.
-2. **Outbound tour operators** (Wazi Trade) browse a live partner catalog, apply to partner, and resell packages under their own brand.
+2. **Outbound tour operators** (**Wazi Trade**) browse a live partner catalog, apply to partner, and resell packages under their own brand.
 
 Ambition: become the default digital layer for Tanzania visits — platform-scale IA and trust UX, not a ThemeForest safari brochure. Partnership-ready with government tourism institutions (TTB, MNRT) and licensed inbound DMCs — **tasteful framing only; no fake logos or endorsements**.
 
@@ -21,14 +21,14 @@ Rename / rebrand from one place:
 | Master | **Wazi** |
 | Tagline | **Open Tanzania.** |
 | Trade surface | **Wazi Trade** |
-| Night | `#0B1220` |
-| Ink | `#141C2E` |
+| Night | `#0B1020` |
+| Ink | `#141B2D` |
 | Ivory | `#F4F0E6` |
-| Gold | `#D4A017` |
-| Reef (teal) | `#1F6F78` |
+| Gold | `#E8A317` |
+| Reef (teal) | `#1F8A8A` |
 | Ember | `#C45C26` |
 
-Typography: **Syne** (display) + **DM Sans** (body). Cinematic heroes (`PageHero`), bold type, grain overlays, accessible focus rings, `prefers-reduced-motion` respected.
+Typography: **Syne** (display) + **DM Sans** (body). Cinematic full-viewport heroes, asymmetric destination mosaic, horizontal experience rail, featured-package layouts, grain overlays, accessible focus rings, `prefers-reduced-motion` respected.
 
 ## Routes
 
@@ -36,7 +36,7 @@ Typography: **Syne** (display) + **DM Sans** (body). Cinematic heroes (`PageHero
 
 | Path | Purpose |
 |------|---------|
-| `/` | Cinematic home, trust strip, destinations / packages, dual CTAs |
+| `/` | Cinematic home, dual-path chooser, mosaic destinations, trust + partnership strips |
 | `/destinations`, `/destinations/[slug]` | Destination guides |
 | `/experiences`, `/experiences/[slug]` | Safari / beach / mountain / culture |
 | `/packages`, `/packages/[slug]` | Packages with traveller **and** operator CTAs |
