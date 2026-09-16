@@ -31,14 +31,6 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [
-      {
-        url: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80",
-        width: 1200,
-        height: 630,
-        alt: "Tanzania savannah safari landscape at golden hour",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",

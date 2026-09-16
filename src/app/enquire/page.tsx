@@ -38,7 +38,7 @@ export default async function EnquirePage({ searchParams }: Props) {
             <span className="text-gold-bright">Tanzania trip</span>
           </>
         }
-        description="Share a few details and we’ll follow up with a thoughtful outline. No payment to enquire — demo stub stores the request for follow-up."
+        description="Share your dates, party size, and how you want to move. We'll reply with a clear outline — safari, summit, shore, or a blend. No payment to enquire."
         image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=2400&q=85"
         imageAlt="Soft dawn light over distant African hills"
       />
