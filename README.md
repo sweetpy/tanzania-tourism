@@ -1,31 +1,42 @@
-# Tanzania Journeys
+# Tanzania Journeys — tourism platform
 
-Worldwide Tanzania tourism marketing and lead-generation site built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
+**Dual-audience digital gateway** for Tanzania: travellers discover destinations, experiences, and packages; outbound tour operators browse a partner catalog and apply to resell. Built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
-Plan safaris, Kilimanjaro climbs, and Zanzibar beach stays — then enquire via a validated form (stub persistence; no external email keys required).
+> Brand is centralised in `src/lib/site.ts` — rename there when you graduate from the interim "Tanzania Journeys" label.
+
+## Vision
+
+- **Web only** (no PDF brochure path).
+- Distinctive, cinematic UI — not a generic safari ThemeForest look.
+- Ambition framing: dominant digital gateway for Tanzania visits (~60% of product story), with trade mediation as a first-class surface.
+- Partnership-ready with government tourism institutions (TTB, MNRT) and licensed inbound DMCs — tasteful framing, **no fake logos or endorsements**.
+- Trust signals grounded in research (Exit Survey 2025 / MNRT Maliasili 2024) — package share, top markets, spend, arrivals, earnings.
 
 ## Features
 
-- Home, Destinations (6 detail pages), Experiences (4), Packages (5+), About Tanzania, Enquire
-- Responsive navigation and footer, SEO metadata, Open Graph basics, accessibility basics
-- Unsplash placeholder imagery with descriptive alt text
-- `POST /api/enquire` validation API with stub logging
-- Railway-ready: `output: "standalone"` plus optional `Dockerfile`
+- Traveller routes: Home, Destinations, Experiences, Packages, About, Enquire
+- Operator / trade surface: marketing page, partner catalog (live package data), apply form + `POST /api/partner` stub
+- Package detail pages with dual CTAs (traveller enquire + operator resell)
+- Ecosystem partnership strip on home + operators
+- Research-cited trust strip (year + source labels)
+- Railway-ready: `output: "standalone"`, `Dockerfile`, `railway.toml`
+- No PDF features
 
 ## Routes
 
 | Path | Description |
 |------|-------------|
-| `/` | Home — hero, value props, featured destinations & packages, trust strip, CTA |
-| `/destinations` | Destination index |
-| `/destinations/[slug]` | Serengeti, Ngorongoro, Kilimanjaro, Zanzibar, Ruaha, Lake Manyara |
-| `/experiences` | Experience index |
-| `/experiences/[slug]` | Safari, beach & islands, mountain climbing, cultural |
-| `/packages` | Package index with from-price USD placeholders |
-| `/packages/[slug]` | Package detail + enquire CTA with package prefill |
-| `/about` | Why Tanzania, seasons, responsible travel |
-| `/enquire` | Lead form (`?package=` / `?interest=` prefills) |
-| `/api/enquire` | Enquiry API |
+| `/` | Cinematic home — dual audience, trust strip, destinations, packages, partnership strip |
+| `/destinations` / `[slug]` | Destination index and detail |
+| `/experiences` / `[slug]` | Experience index and detail |
+| `/packages` / `[slug]` | Packages + dual CTAs |
+| `/about` | Why Tanzania, seasons, responsible travel + trust |
+| `/enquire` | Traveller lead form |
+| `/operators` | Outbound TO marketing — how resell works |
+| `/operators/catalog` | Partner catalog (real packages) |
+| `/operators/apply` | Partner application |
+| `/api/enquire` | Enquiry API stub |
+| `/api/partner` | Partner application API stub |
 
 ## Local development
 
@@ -34,38 +45,29 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
 ```bash
 npm run build
 npm start
 ```
 
-`npm start` binds to `0.0.0.0` and uses `process.env.PORT` (default `3000`) for Railway compatibility.
+`npm start` binds to `0.0.0.0` and uses `PORT` for Railway.
 
 ## Railway deploy
 
-1. Connect the GitHub repo `sweetpy/tanzania-tourism` to Railway.
-2. Create a new project/service from that repo (branch `main`).
-3. Railway will detect Next.js. This app sets `output: "standalone"` in `next.config.ts`.
-4. Ensure the service listens via `PORT` (Railway injects this). Start command can be the default Nixpacks Next.js start, or:
+1. Connect `sweetpy/tanzania-tourism` to Railway (branch `main`).
+2. App sets `output: "standalone"` in `next.config.ts`.
+3. Use `npm run start` or the included Dockerfile.
+4. Generate a public domain in Railway.
 
-   ```bash
-   npm run start
-   ```
-
-5. Optional: deploy with the included `Dockerfile` (multi-stage standalone image).
-6. Generate a public domain in the Railway dashboard (or via Railway MCP `generate-domain`).
-
-No secrets are required for the first release. Add email/CRM keys later when replacing stub enquiry persistence.
+No secrets required for MVP.
 
 ## Project structure
 
 ```
-src/app/           App Router pages + API
-src/components/    Header, Footer, cards, enquire form
-src/data/          Destinations, experiences, packages
-src/lib/           Site config
+src/app/           App Router pages + API routes
+src/components/    Header, Footer, cards, forms, trust and partnership strips
+src/data/          Destinations, experiences, packages, insights (cited stats)
+src/lib/           Site / brand config (easy rename)
 ```
 
 ## Licence
