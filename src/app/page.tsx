@@ -1,240 +1,337 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Card } from "@/components/Card";
 import { CTABand } from "@/components/CTABand";
+import { DestinationMosaic } from "@/components/DestinationMosaic";
+import { FeaturedPackage } from "@/components/FeaturedPackage";
+import { MarketOffers } from "@/components/MarketOffers";
 import { PartnershipStrip } from "@/components/PartnershipStrip";
 import { SectionHeading } from "@/components/SectionHeading";
 import { TrustStrip } from "@/components/TrustStrip";
-import { getFeaturedDestinations } from "@/data/destinations";
+import { destinations, getFeaturedDestinations } from "@/data/destinations";
 import { experiences } from "@/data/experiences";
 import { packageInsights } from "@/data/insights";
 import { getFeaturedPackages } from "@/data/packages";
 import { siteConfig } from "@/lib/site";
 
-const pillars = [
+const whyWazi = [
   {
-    title: "Immersive discovery",
-    body: "Cinematic destination storytelling — plains, crater, summit, and Swahili coast — designed as a platform, not a brochure template.",
+    title: "Wildlife on Tanzania’s clock",
+    body: "Calving plains, river crossings, dry-season waterholes — we route by season, not by brochure defaults.",
   },
   {
-    title: "Trade-ready packages",
-    body: `Over ${packageInsights.urtPackageShare2025}% of surveyed URT visitors travelled on a package in ${packageInsights.sourceLabel.includes("2025") ? "2025" : "recent data"}. We serve travellers and the outbound operators who sell them.`,
+    title: "Bush, peak, then shore",
+    body: "Northern circuit drama, Kilimanjaro’s zones, southern quiet in Ruaha, then Zanzibar’s turquoise finish — one country, sequenced.",
   },
   {
-    title: "Institution-aligned trust",
-    body: "Stats cite Exit Survey and MNRT publications. Partnership framing with TTB and licensed inbound DMCs — no fake endorsements.",
+    title: "Grounded, not generic",
+    body: "Fair guiding standards, clear from-price starting points, and follow-up that treats your dates and party as real constraints.",
   },
 ];
 
 export default function HomePage() {
-  const destinations = getFeaturedDestinations();
+  const featured = getFeaturedDestinations();
+  const featuredSlugs = new Set(featured.map((d) => d.slug));
+  const mosaicDestinations = [
+    ...featured,
+    ...destinations.filter((d) => !featuredSlugs.has(d.slug)),
+  ].slice(0, 5);
   const packages = getFeaturedPackages();
+  const [featuredPkg, ...secondaryPkgs] = packages;
 
   return (
     <>
-      {/* Cinematic hero */}
-      <section className="relative isolate min-h-[88vh] overflow-hidden grain">
+      {/* Full-viewport dark cinematic hero */}
+      <section className="relative isolate min-h-[100svh] overflow-hidden grain">
         <div className="absolute inset-0 -z-10">
           <Image
             src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=2400&q=85"
-            alt="Golden light over Tanzania savannah with acacia silhouettes"
+            alt="Golden light over open Tanzania plains at dusk"
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className="object-cover ken-burns"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/75 to-ink/25" />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/40" />
+          <div className="absolute inset-0 bg-night/55" />
+          <div className="absolute inset-0 bg-gradient-to-r from-night via-night/70 to-night/25" />
+          <div className="absolute inset-0 bg-gradient-to-t from-night via-transparent to-night/45" />
         </div>
-        <div className="mx-auto flex min-h-[88vh] max-w-7xl flex-col justify-end px-4 pb-16 pt-32 sm:px-6 lg:px-8 lg:pb-24">
-          <p className="animate-fade-up text-xs font-semibold uppercase tracking-[0.3em] text-gold-bright">
-            {siteConfig.tagline}
+
+        <div className="mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-4 pb-20 pt-28 sm:px-6 lg:px-8 lg:pb-28">
+          <p className="animate-fade-up type-eyebrow text-gold">
+            {siteConfig.name} · {siteConfig.tagline}
           </p>
-          <h1 className="animate-fade-up-delay mt-4 max-w-4xl font-display text-5xl font-extrabold leading-[1.05] tracking-tight text-cream sm:text-6xl lg:text-7xl">
-            Serengeti dawn to{" "}
-            <span className="text-gold-bright">Zanzibar dusk.</span>
+          <h1 className="animate-fade-up-delay type-hero mt-5 max-w-5xl font-display font-extrabold text-cream">
+            The migration on open plains. The crater at dawn. The island after
+            the bush.
           </h1>
-          <p className="animate-fade-up-delay-2 mt-6 max-w-2xl text-lg leading-relaxed text-cream/75 sm:text-xl">
-            Safaris, Kilimanjaro, and spice-island shores for travellers — plus
-            Wazi Trade for outbound operators to browse, white-label, and
-            resell. One country. Two audiences. Open by design.
+          <p className="animate-fade-up-delay-2 type-body mt-7 max-w-2xl text-cream/72">
+            Wazi is how curious travellers step into Tanzania — Serengeti and
+            Ngorongoro, Uhuru Peak, Ruaha’s quiet wild, and Zanzibar’s spice
+            coast — with clear seasons, honest from-prices, and a plan built
+            around how you actually want to move.
           </p>
-          <div className="animate-fade-up-delay-2 mt-10 flex flex-wrap gap-3">
+          <div className="animate-fade-up-delay-2 mt-10 flex flex-wrap items-center gap-3">
             <Link
               href="/enquire"
-              className="rounded-full bg-gold px-7 py-3.5 text-sm font-bold text-ink shadow-lg transition hover:bg-gold-bright"
+              className="rounded-full bg-gold px-8 py-3.5 text-sm font-bold text-ink shadow-lg shadow-night/40 transition hover:bg-gold-bright"
             >
               Plan a trip
             </Link>
             <Link
-              href="/packages"
-              className="rounded-full border border-cream/35 bg-cream/10 px-7 py-3.5 text-sm font-semibold text-cream backdrop-blur transition hover:bg-cream/20"
+              href="/operators"
+              className="rounded-full border border-cream/30 bg-cream/5 px-8 py-3.5 text-sm font-semibold text-cream backdrop-blur-sm transition hover:border-cream/50 hover:bg-cream/10"
             >
-              Browse packages
+              {siteConfig.tradeName}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <MarketOffers />
+
+      {/* Dual-path chooser — editorial split, traveler primary / Trade secondary */}
+      <section className="border-b border-ink/8 bg-cream py-16 sm:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <p className="type-eyebrow text-terracotta">Who are you planning for?</p>
+          <div className="mt-8 grid gap-0 overflow-hidden rounded-3xl border border-ink/10 lg:grid-cols-2">
+            <Link
+              href="/enquire"
+              className="group relative bg-cream p-8 transition hover:bg-white sm:p-10"
+            >
+              <p className="type-eyebrow text-gold">Traveller</p>
+              <h2 className="type-card mt-3 font-display font-bold text-ink">
+                I’m planning my own journey
+              </h2>
+              <p className="type-body mt-3 max-w-md text-ink/60">
+                Safari, summit, beach, or a thread of all three. Tell us your
+                window — we’ll sketch a concrete outline.
+              </p>
+              <span className="mt-6 inline-flex text-sm font-semibold text-ink transition group-hover:text-gold">
+                Plan a trip →
+              </span>
             </Link>
             <Link
               href="/operators"
-              className="rounded-full border border-teal-bright/50 bg-teal/40 px-7 py-3.5 text-sm font-semibold text-cream backdrop-blur transition hover:bg-teal"
+              className="group relative border-t border-ink/10 bg-night p-8 transition hover:bg-ink sm:p-10 lg:border-l lg:border-t-0"
             >
-              For tour operators
+              <p className="type-eyebrow text-teal-bright">
+                {siteConfig.tradeName}
+              </p>
+              <h2 className="type-card mt-3 font-display font-bold text-cream">
+                I sell Tanzania to my clients
+              </h2>
+              <p className="type-body mt-3 max-w-md text-cream/55">
+                Outbound operators and advisors: ready-to-adapt itineraries,
+                season guidance, and a trade enquiry path built for resale — not
+                a consumer brochure.
+              </p>
+              <span className="mt-6 inline-flex text-sm font-semibold text-teal-bright transition group-hover:text-gold">
+                Enter {siteConfig.tradeName} →
+              </span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Dual audience band */}
-      <section className="border-b border-ink/10 bg-cream py-6">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-4 text-sm sm:px-6 lg:px-8">
-          <span className="font-semibold text-ink">Who we serve</span>
-          <span className="text-ink/50">·</span>
-          <Link href="/enquire" className="text-ink/70 hover:text-terracotta">
-            Travellers &amp; FIT planners
-          </Link>
-          <span className="text-ink/50">·</span>
-          <Link href="/operators" className="text-ink/70 hover:text-teal">
-            Outbound tour operators &amp; wholesalers
-          </Link>
-          <span className="text-ink/50">·</span>
-          <Link href="/about" className="text-ink/70 hover:text-ink">
-            Destination curious
-          </Link>
-        </div>
-      </section>
-
-      <TrustStrip />
-
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <SectionHeading
-          eyebrow="Why this platform"
-          title="Not another safari template"
-          description="Bold type, immersive layouts, and dual-path IA — travellers enquire; operators apply to resell. Ambition: the digital doorway for Tanzania visits."
-        />
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {pillars.map((item, i) => (
-            <div
-              key={item.title}
-              className="relative overflow-hidden rounded-2xl border border-ink/10 bg-white/80 p-7"
-            >
-              <span
-                className="font-display text-5xl font-bold text-cream-deep"
-                aria-hidden
+      {/* Why Wazi — editorial numbered list */}
+      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-5">
+            <SectionHeading
+              eyebrow="Why Wazi"
+              title="Tanzania, opened with precision"
+              description="Long-haul leisure to Tanzania is often package-mediated. Wazi gives travellers a clear front door — and gives operators a serious trade path — without replacing official destination marketing."
+            />
+          </div>
+          <ol className="space-y-10 lg:col-span-7">
+            {whyWazi.map((item, i) => (
+              <li
+                key={item.title}
+                className="flex gap-5 border-t border-ink/10 pt-8 first:border-t-0 first:pt-0"
               >
-                0{i + 1}
-              </span>
-              <h3 className="-mt-2 font-display text-xl font-bold text-ink">
-                {item.title}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink/65">
-                {item.body}
-              </p>
-            </div>
-          ))}
+                <span
+                  className="font-display text-4xl font-bold text-cream-deep tabular-nums"
+                  aria-hidden
+                >
+                  0{i + 1}
+                </span>
+                <div>
+                  <h3 className="type-card font-display font-bold text-ink">
+                    {item.title}
+                  </h3>
+                  <p className="type-body mt-2 text-ink/65">{item.body}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 
-      <section className="bg-ink py-20 text-cream">
+      {/* Asymmetric destination mosaic */}
+      <section className="bg-night py-20 text-cream lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Destinations"
-            title="Places that define the map"
-            description="Northern icons, southern wild, and Indian Ocean islands — each with its own rhythm."
+            title="Where the country opens"
+            description="Migration plains and crater floors. Summit trails. Southern wild. Spice-island shores."
             light
           />
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {destinations.map((d) => (
-              <Card
-                key={d.slug}
-                href={`/destinations/${d.slug}`}
-                title={d.name}
-                subtitle={d.region}
-                description={d.summary}
-                image={d.image}
-                imageAlt={d.imageAlt}
-              />
+          <div className="mt-12 lg:mt-16">
+            <DestinationMosaic destinations={mosaicDestinations} />
+          </div>
+        </div>
+      </section>
+
+      {/* Experiences — editorial L/R on desktop; scroll-snap on mobile */}
+      <section className="overflow-hidden py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <SectionHeading
+              eyebrow="Experiences"
+              title="How you move through Tanzania"
+              description="Safari. Beach. Mountain. Culture. Choose one thread — or braid them."
+            />
+            <Link
+              href="/experiences"
+              className="shrink-0 text-sm font-semibold text-teal hover:underline"
+            >
+              All experiences →
+            </Link>
+          </div>
+
+          {/* Mobile: horizontal snap */}
+          <div className="mt-12 snap-rail md:hidden">
+            {experiences.map((exp) => (
+              <Link
+                key={exp.slug}
+                href={`/experiences/${exp.slug}`}
+                className="group relative isolate flex flex-col overflow-hidden rounded-3xl"
+              >
+                <div className="relative aspect-[4/5] overflow-hidden">
+                  <Image
+                    src={exp.image}
+                    alt={exp.imageAlt}
+                    fill
+                    sizes="85vw"
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-transparent" />
+                </div>
+                <div className="absolute inset-x-0 bottom-0 p-6">
+                  <h3 className="type-card font-display font-bold text-cream">
+                    {exp.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-cream/65">{exp.tagline}</p>
+                </div>
+              </Link>
             ))}
           </div>
-          <div className="mt-10 text-center">
-            <Link
-              href="/destinations"
-              className="text-sm font-semibold text-gold hover:underline"
-            >
-              View all destinations →
-            </Link>
+
+          {/* Desktop/tablet: alternating editorial splits */}
+          <div className="mt-12 hidden space-y-16 md:block lg:mt-16 lg:space-y-24">
+            {experiences.map((exp, i) => {
+              const imageRight = i % 2 === 0;
+              return (
+                <Link
+                  key={exp.slug}
+                  href={`/experiences/${exp.slug}`}
+                  className={`group grid items-center gap-8 lg:grid-cols-12 lg:gap-12 ${
+                    imageRight ? "" : ""
+                  }`}
+                >
+                  <div
+                    className={`lg:col-span-5 ${
+                      imageRight ? "lg:order-1" : "lg:order-2"
+                    }`}
+                  >
+                    <p className="type-eyebrow text-terracotta">
+                      Experience 0{i + 1}
+                    </p>
+                    <h3 className="type-h2 mt-3 font-display font-extrabold text-ink">
+                      {exp.name}
+                    </h3>
+                    <p className="type-body mt-4 text-ink/60">{exp.tagline}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-ink/50 line-clamp-3">
+                      {exp.summary}
+                    </p>
+                    <span className="mt-6 inline-flex text-sm font-semibold text-teal transition group-hover:text-gold">
+                      Explore →
+                    </span>
+                  </div>
+                  <div
+                    className={`relative aspect-[16/11] overflow-hidden rounded-3xl lg:col-span-7 ${
+                      imageRight
+                        ? "lg:order-2 lg:translate-x-2"
+                        : "lg:order-1 lg:-translate-x-2"
+                    }`}
+                  >
+                    <Image
+                      src={exp.image}
+                      alt={exp.imageAlt}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 58vw"
+                      className="object-cover transition duration-[1.2s] ease-out group-hover:scale-[1.04]"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-night/30 to-transparent" />
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <SectionHeading
-          eyebrow="Experiences"
-          title="How you want to travel"
-          description="Safari, beach, mountain, or culture — pick a thread, or weave several into one journey."
-        />
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {experiences.map((exp) => (
-            <Link
-              key={exp.slug}
-              href={`/experiences/${exp.slug}`}
-              className="group rounded-2xl border border-ink/10 bg-white/70 p-6 transition hover:border-terracotta/40 hover:shadow-lg"
-            >
-              <h3 className="font-display text-xl font-bold text-ink group-hover:text-terracotta">
-                {exp.name}
-              </h3>
-              <p className="mt-2 text-sm text-ink/60">{exp.tagline}</p>
-              <span className="mt-4 inline-block text-sm font-semibold text-teal opacity-0 transition group-hover:opacity-100">
-                Explore →
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-cream-deep/50 py-20">
+      {/* Packages — featured + secondary only */}
+      <section className="bg-cream-deep/40 py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <SectionHeading
               eyebrow="Packages"
               title="Ready-to-adapt journeys"
-              description="From-prices in USD are starting points. Travellers enquire; operators can request resell rights."
+              description="From-prices in USD are starting points. Lodge level, season, and pacing lock after you enquire — or after your operator does via Wazi Trade."
             />
             <Link
-              href="/operators/catalog"
+              href="/packages"
               className="shrink-0 text-sm font-semibold text-teal hover:underline"
             >
-              Partner catalog →
+              All packages →
             </Link>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {packages.map((pkg) => (
-              <Card
-                key={pkg.slug}
-                href={`/packages/${pkg.slug}`}
-                title={pkg.name}
-                meta={`${pkg.duration} · from $${pkg.fromPriceUsd.toLocaleString("en-US")}`}
-                description={pkg.summary}
-                image={pkg.image}
-                imageAlt={pkg.imageAlt}
-                cta="View package"
+          {featuredPkg && (
+            <div className="mt-12 lg:mt-16">
+              <FeaturedPackage
+                featured={featuredPkg}
+                secondary={secondaryPkgs.slice(0, 3)}
               />
-            ))}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
+      <TrustStrip />
       <PartnershipStrip variant="home" />
 
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div className="grid gap-6 lg:grid-cols-2">
-          <CTABand />
-          <CTABand
-            variant="operator"
-            title="Sell Tanzania to your clients"
-            description={`Package travellers drove ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings in 2025. Browse the catalog and apply to partner.`}
-            href="/operators/apply"
-            label="Apply to partner"
-            secondaryHref="/operators"
-            secondaryLabel="How resell works"
-          />
+      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-24">
+        <div className="grid gap-6 lg:grid-cols-5">
+          <div className="lg:col-span-3">
+            <CTABand
+              title="Ready when your dates are."
+              description="Share your travel window and interests. We’ll reply with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend."
+              href="/enquire"
+              label="Plan a trip"
+            />
+          </div>
+          <div className="lg:col-span-2">
+            <CTABand
+              variant="operator"
+              title="Selling Tanzania this season?"
+              description={`Wazi Trade is for outbound operators who need adaptable itineraries — ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings were package-driven in 2025.`}
+              href="/operators"
+              label="Enter Wazi Trade"
+              secondaryHref="/operators/apply"
+              secondaryLabel="Apply to partner"
+            />
+          </div>
         </div>
       </section>
     </>
