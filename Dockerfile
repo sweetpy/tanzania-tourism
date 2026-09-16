@@ -3,7 +3,8 @@
 FROM node:20-alpine AS deps
 WORKDIR /app
 COPY package.json package-lock.json* ./
-RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
+# Prefer install over ci so new deps in package.json (e.g. pg) land even if lock lags.
+RUN npm install
 
 FROM node:20-alpine AS builder
 WORKDIR /app
