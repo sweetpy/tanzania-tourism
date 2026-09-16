@@ -49,11 +49,11 @@ export function MosaicCard({
       <div className="absolute inset-0 bg-night/20 mix-blend-multiply" />
       <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
         {subtitle && (
-          <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-gold">
+          <p className="type-eyebrow text-gold">
             {subtitle}
           </p>
         )}
-        <h3 className="mt-1.5 font-display text-2xl font-bold leading-tight tracking-tight text-cream sm:text-3xl">
+        <h3 className="type-card mt-1.5 font-display font-bold text-cream">
           {title}
         </h3>
         {tagline && (
