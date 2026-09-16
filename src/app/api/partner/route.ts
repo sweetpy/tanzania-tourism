@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { packages } from "@/data/packages";
+import { appendLead } from "@/lib/leads";
+import { notifyFounder } from "@/lib/notify";
 
 type PartnerBody = {
   companyName?: string;
@@ -94,11 +96,35 @@ export async function POST(request: Request) {
     message,
   };
 
-  console.info("[partner]", JSON.stringify(application));
+  const stored = await appendLead("partner", application.id, application);
+  if (!stored.ok) {
+    console.error("[partner] lead log failed:", stored.error);
+    return NextResponse.json(
+      {
+        error:
+          "We could not save your application right now. Please try again shortly, or email us directly.",
+      },
+      { status: 503 },
+    );
+  }
+
+  const notified = await notifyFounder("partner", application.id, application);
+  console.info(
+    "[partner]",
+    application.id,
+    "stored:",
+    stored.path,
+    "notify:",
+    notified.sent ? notified.channel : notified.reason,
+  );
 
   return NextResponse.json({
     success: true,
     id: application.id,
-    message: "Partner application received successfully.",
+    stored: true,
+    emailed: notified.sent,
+    message: notified.sent
+      ? "Application received — our partnerships team has been notified and will follow up within a few business days."
+      : "Application received and saved. We review partner applications regularly and will follow up within a few business days.",
   });
 }
