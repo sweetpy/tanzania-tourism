@@ -31,7 +31,7 @@ export function TrustStrip({ showMarkets = true, compact = false }: Props) {
             </h2>
           </div>
           <p className="max-w-md text-sm text-cream/50">
-            Not marketing guesses - cited Exit Survey and MNRT figures with year.
+            Not marketing guesses — cited Exit Survey & MNRT figures with year.
           </p>
         </div>
 

@@ -10,7 +10,7 @@ export default function NotFound() {
         Trail not found
       </h1>
       <p className="mt-3 text-ink/60">
-        That path does not lead anywhere — try the gateway home, packages, or
+        That path doesn't lead anywhere — try the gateway home, packages, or
         enquire for a custom route.
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">
