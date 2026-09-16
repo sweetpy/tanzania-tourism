@@ -48,7 +48,7 @@ export default function PackagesPage() {
       <div className="mt-16 grid gap-6 lg:grid-cols-2">
         <CTABand
           title="Want a fully custom itinerary?"
-          description="Mix parks, climb days, and beach nights — enquire with your preferences and we’ll sketch options."
+          description="Mix parks, climb days, and beach nights — enquire with your preferences and we'll sketch options."
         />
         <CTABand
           variant="operator"
