@@ -24,10 +24,10 @@ export function FeaturedPackage({ featured, secondary }: Props) {
             <div className="absolute inset-0 bg-gradient-to-t from-night via-night/50 to-night/10" />
           </div>
           <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-gold">
+            <p className="type-eyebrow text-gold">
               Featured journey
             </p>
-            <h3 className="mt-2 font-display text-3xl font-bold tracking-tight text-cream sm:text-4xl">
+            <h3 className="type-h2 mt-2 font-display font-bold text-cream">
               {featured.name}
             </h3>
             <p className="mt-2 text-sm font-medium text-cream/70">
