@@ -1,28 +1,57 @@
 import Link from "next/link";
-import { navLinks, siteConfig } from "@/lib/site";
+import { citationsFooter } from "@/data/insights";
+import { navLinks, operatorNavLinks, siteConfig } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="border-t border-stone-200 bg-stone-900 text-stone-200">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
-        <div>
-          <p className="font-serif text-xl text-amber-100">{siteConfig.name}</p>
-          <p className="mt-2 text-sm text-stone-400">{siteConfig.tagline}</p>
-          <p className="mt-4 text-sm text-stone-400">
-            Tailored Tanzania travel for explorers worldwide — safaris,
-            Kilimanjaro, and Zanzibar escapes.
+    <footer className="border-t border-white/10 bg-ink text-cream">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div className="lg:col-span-1">
+          <p className="font-display text-xl font-bold text-gold">
+            {siteConfig.name}
+          </p>
+          <p className="mt-2 text-sm text-cream/60">{siteConfig.tagline}</p>
+          <p className="mt-4 text-sm leading-relaxed text-cream/50">
+            {siteConfig.ambition}
           </p>
         </div>
         <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-amber-200">
-            Explore
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+            Travellers
           </p>
           <ul className="mt-3 space-y-2">
-            {navLinks.map((link) => (
+            {navLinks
+              .filter((l) => l.href !== "/operators")
+              .map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-cream/70 transition hover:text-cream"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            <li>
+              <Link
+                href="/enquire"
+                className="text-sm text-cream/70 transition hover:text-cream"
+              >
+                Enquire
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+            Trade & partners
+          </p>
+          <ul className="mt-3 space-y-2">
+            {operatorNavLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-sm text-stone-300 hover:text-white"
+                  className="text-sm text-cream/70 transition hover:text-cream"
                 >
                   {link.label}
                 </Link>
@@ -31,24 +60,27 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-amber-200">
-            Enquire
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+            Dual audience
           </p>
-          <p className="mt-3 text-sm text-stone-400">
-            Tell us your dates, party size, and dream experiences. We reply with
-            a thoughtful itinerary outline — no pressure.
+          <p className="mt-3 text-sm leading-relaxed text-cream/50">
+            Travellers plan trips. Outbound tour operators browse the catalog
+            and apply to resell. Both paths lead to Tanzania — with research-
+            grounded trust, not brochure fluff.
           </p>
           <Link
             href="/enquire"
-            className="mt-4 inline-flex rounded-full bg-amber-700 px-4 py-2 text-sm font-semibold text-white hover:bg-amber-600"
+            className="mt-4 inline-flex rounded-full bg-gold px-4 py-2 text-sm font-semibold text-ink hover:bg-gold-bright"
           >
             Start an enquiry
           </Link>
         </div>
       </div>
-      <div className="border-t border-stone-800 px-4 py-4 text-center text-xs text-stone-500 sm:px-6">
-        © {new Date().getFullYear()} {siteConfig.name}. Prices shown are
-        indicative from-prices in USD and vary by season and lodge category.
+      <div className="border-t border-white/10 px-4 py-5 sm:px-6 lg:px-8">
+        <p className="mx-auto max-w-7xl text-center text-xs leading-relaxed text-cream/40">
+          © {new Date().getFullYear()} {siteConfig.name}. Indicative from-prices
+          in USD vary by season and lodge. {citationsFooter}
+        </p>
       </div>
     </footer>
   );
