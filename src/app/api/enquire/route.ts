@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { packages } from "@/data/packages";
 import { experiences } from "@/data/experiences";
+import { appendLead } from "@/lib/leads";
+import { notifyFounder } from "@/lib/notify";
 
 type EnquireBody = {
   name?: string;
@@ -11,6 +13,13 @@ type EnquireBody = {
   interests?: string[];
   packageSlug?: string;
   message?: string;
+  market?: string;
+  interest?: string;
+  utm_source?: string;
+  utm_medium?: string;
+  utm_campaign?: string;
+  utm_term?: string;
+  utm_content?: string;
 };
 
 const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -83,6 +92,14 @@ export async function POST(request: Request) {
     }
   }
 
+  const market = (body.market || "").trim().slice(0, 64);
+  const interestAttr = (body.interest || "").trim().slice(0, 64);
+  const utm_source = (body.utm_source || "").trim().slice(0, 120);
+  const utm_medium = (body.utm_medium || "").trim().slice(0, 120);
+  const utm_campaign = (body.utm_campaign || "").trim().slice(0, 120);
+  const utm_term = (body.utm_term || "").trim().slice(0, 120);
+  const utm_content = (body.utm_content || "").trim().slice(0, 120);
+
   const enquiry = {
     id: `enq_${Date.now()}`,
     receivedAt: new Date().toISOString(),
@@ -94,13 +111,44 @@ export async function POST(request: Request) {
     interests,
     packageSlug: packageSlug || null,
     message,
+    market: market || null,
+    interest: interestAttr || null,
+    utm_source: utm_source || null,
+    utm_medium: utm_medium || null,
+    utm_campaign: utm_campaign || null,
+    utm_term: utm_term || null,
+    utm_content: utm_content || null,
   };
 
-  console.info("[enquire]", JSON.stringify(enquiry));
+  const stored = await appendLead("enquire", enquiry.id, enquiry);
+  if (!stored.ok) {
+    console.error("[enquire] lead log failed:", stored.error);
+    return NextResponse.json(
+      {
+        error:
+          "We could not save your enquiry right now. Please try again shortly, or email us directly.",
+      },
+      { status: 503 },
+    );
+  }
+
+  const notified = await notifyFounder("enquire", enquiry.id, enquiry);
+  console.info(
+    "[enquire]",
+    enquiry.id,
+    "stored:",
+    stored.path,
+    "notify:",
+    notified.sent ? notified.channel : notified.reason,
+  );
 
   return NextResponse.json({
     success: true,
     id: enquiry.id,
-    message: "Enquiry received successfully.",
+    stored: true,
+    emailed: notified.sent,
+    message: notified.sent
+      ? "Enquiry received — our team has been notified and will reply within 1–2 business days."
+      : "Enquiry received and saved. Our team reviews submissions regularly and will reply within 1–2 business days.",
   });
 }
