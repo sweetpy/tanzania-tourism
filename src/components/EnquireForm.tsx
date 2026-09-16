@@ -84,22 +84,25 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
     }
   }
 
+  const field =
+    "mt-1 w-full rounded-xl border border-ink/15 bg-white px-3 py-2.5 text-ink outline-none ring-gold/40 focus:ring-2";
+
   if (status === "success") {
     return (
       <div
-        className="rounded-2xl border border-emerald-200 bg-emerald-50 p-8 text-center"
+        className="rounded-2xl border border-teal/30 bg-teal/5 p-8 text-center"
         role="status"
       >
-        <h3 className="font-serif text-2xl text-emerald-950">
+        <h3 className="font-display text-2xl font-bold text-ink">
           Asante — enquiry received
         </h3>
-        <p className="mt-3 text-emerald-900">
+        <p className="mt-3 text-ink/70">
           Thank you for your interest in Tanzania. Our travel team will review
           your details and reply with next steps. Karibu!
         </p>
         <button
           type="button"
-          className="mt-6 rounded-full bg-emerald-800 px-5 py-2 text-sm font-semibold text-white"
+          className="mt-6 rounded-full bg-ink px-5 py-2 text-sm font-semibold text-cream"
           onClick={() => setStatus("idle")}
         >
           Send another enquiry
@@ -112,18 +115,18 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
     <form onSubmit={onSubmit} className="space-y-5" noValidate>
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="block text-sm">
-          <span className="font-medium text-stone-800">Full name *</span>
+          <span className="font-medium text-ink">Full name *</span>
           <input
             required
             name="name"
             autoComplete="name"
             value={form.name}
             onChange={(e) => update("name", e.target.value)}
-            className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+            className={field}
           />
         </label>
         <label className="block text-sm">
-          <span className="font-medium text-stone-800">Email *</span>
+          <span className="font-medium text-ink">Email *</span>
           <input
             required
             type="email"
@@ -131,25 +134,25 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
             autoComplete="email"
             value={form.email}
             onChange={(e) => update("email", e.target.value)}
-            className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+            className={field}
           />
         </label>
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="block text-sm">
-          <span className="font-medium text-stone-800">Phone (optional)</span>
+          <span className="font-medium text-ink">Phone (optional)</span>
           <input
             type="tel"
             name="phone"
             autoComplete="tel"
             value={form.phone}
             onChange={(e) => update("phone", e.target.value)}
-            className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+            className={field}
           />
         </label>
         <label className="block text-sm">
-          <span className="font-medium text-stone-800">Party size *</span>
+          <span className="font-medium text-ink">Party size *</span>
           <input
             required
             type="number"
@@ -158,25 +161,25 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
             max={30}
             value={form.partySize}
             onChange={(e) => update("partySize", e.target.value)}
-            className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+            className={field}
           />
         </label>
       </div>
 
       <label className="block text-sm">
-        <span className="font-medium text-stone-800">Travel dates *</span>
+        <span className="font-medium text-ink">Travel dates *</span>
         <input
           required
           name="travelDates"
           placeholder="e.g. mid-July 2027, or 12–22 Sep 2027"
           value={form.travelDates}
           onChange={(e) => update("travelDates", e.target.value)}
-          className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+          className={field}
         />
       </label>
 
       <fieldset>
-        <legend className="text-sm font-medium text-stone-800">Interests</legend>
+        <legend className="text-sm font-medium text-ink">Interests</legend>
         <div className="mt-2 flex flex-wrap gap-2">
           {interestOptions.map((opt) => {
             const checked = form.interests.includes(opt.value);
@@ -185,8 +188,8 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
                 key={opt.value}
                 className={`cursor-pointer rounded-full border px-3 py-1.5 text-sm ${
                   checked
-                    ? "border-amber-800 bg-amber-100 text-amber-950"
-                    : "border-stone-300 bg-white text-stone-700"
+                    ? "border-ink bg-ink text-cream"
+                    : "border-ink/20 bg-white text-ink/80"
                 }`}
               >
                 <input
@@ -203,12 +206,12 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
       </fieldset>
 
       <label className="block text-sm">
-        <span className="font-medium text-stone-800">Package preference</span>
+        <span className="font-medium text-ink">Package preference</span>
         <select
           name="packageSlug"
           value={form.packageSlug}
           onChange={(e) => update("packageSlug", e.target.value)}
-          className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+          className={field}
         >
           <option value="">Not sure yet — help me choose</option>
           {packages.map((pkg) => (
@@ -220,7 +223,7 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
       </label>
 
       <label className="block text-sm">
-        <span className="font-medium text-stone-800">Message *</span>
+        <span className="font-medium text-ink">Message *</span>
         <textarea
           required
           name="message"
@@ -228,7 +231,7 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
           placeholder="Tell us about your dream trip, budget range, or special occasions…"
           value={form.message}
           onChange={(e) => update("message", e.target.value)}
-          className="mt-1 w-full rounded-xl border border-stone-300 bg-white px-3 py-2.5 text-stone-900 outline-none ring-amber-700/30 focus:ring-2"
+          className={field}
         />
       </label>
 
@@ -241,7 +244,7 @@ export function EnquireForm({ defaultPackage = "", defaultInterests = [] }: Prop
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-amber-800 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-amber-900 disabled:opacity-60 sm:w-auto"
+        className="w-full rounded-full bg-ink px-6 py-3 text-sm font-semibold text-cream shadow hover:bg-ink-soft disabled:opacity-60 sm:w-auto"
       >
         {status === "loading" ? "Sending…" : "Submit enquiry"}
       </button>
