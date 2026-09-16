@@ -118,7 +118,7 @@ export default async function PackageDetailPage({ params }: Props) {
             </p>
             <p className="mt-2 text-sm text-ink/70">
               Prefill this package on the enquiry form and tell us your dates —
-              we’ll confirm availability and refine the price.
+              we'll confirm availability and refine the price.
             </p>
             <Link
               href={`/enquire?package=${pkg.slug}`}
