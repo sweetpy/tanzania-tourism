@@ -7,7 +7,7 @@ export const siteConfig = {
   shortName: "Wazi",
   tagline: "Open Tanzania.",
   description:
-    "Wazi is the open digital layer for Tanzania tourism — safaris, Kilimanjaro, and Zanzibar for travellers, plus Wazi Trade for outbound operators who resell packages, in partnership with TTB.",
+    "Wazi opens Tanzania for travellers and tour operators — Serengeti safaris, Kilimanjaro, Ngorongoro, Ruaha, and Zanzibar. Plan a trip or partner through Wazi Trade.",
   url: "https://tanzania-tourism-production.up.railway.app",
   locale: "en_US",
   contactEmail: "hello@wazi.example",
@@ -26,6 +26,7 @@ export const navLinks = [
   { href: "/experiences", label: "Experiences" },
   { href: "/packages", label: "Packages" },
   { href: "/about", label: "About" },
+  { href: "/partners", label: "Partners" },
   { href: "/operators", label: "Wazi Trade" },
 ];
 
