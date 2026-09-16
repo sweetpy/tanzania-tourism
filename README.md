@@ -28,7 +28,7 @@ Rename / rebrand from one place:
 | Reef (teal) | `#1F6F78` |
 | Ember | `#C45C26` |
 
-Typography: **Syne** (display) + **DM Sans** (body). Cinematic heroes, bold type, grain overlays, accessible focus rings, `prefers-reduced-motion` respected.
+Typography: **Syne** (display) + **DM Sans** (body). Cinematic heroes (`PageHero`), bold type, grain overlays, accessible focus rings, `prefers-reduced-motion` respected.
 
 ## Routes
 
@@ -42,6 +42,8 @@ Typography: **Syne** (display) + **DM Sans** (body). Cinematic heroes, bold type
 | `/packages`, `/packages/[slug]` | Packages with traveller **and** operator CTAs |
 | `/about` | Why Tanzania, seasons, responsible travel + research context |
 | `/enquire` | Traveller enquiry form → `POST /api/enquire` |
+| `/partners` | Institutional partnership framing (TTB / MNRT / TATO) |
+| `/privacy`, `/terms` | Plain-language legal notes |
 
 ### Trade (outbound operators)
 
