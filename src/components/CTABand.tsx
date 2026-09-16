@@ -12,7 +12,7 @@ type Props = {
 
 export function CTABand({
   title = "Ready to plan your Tanzania journey?",
-  description = "Share your travel window and interests. We'll reply with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend of all three.",
+  description = "Share your travel window and interests. A person will reply within 24 hours with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend of all three.",
   href = "/enquire",
   label = "Enquire now",
   secondaryHref,
