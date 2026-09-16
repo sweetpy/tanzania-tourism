@@ -3,6 +3,7 @@ import Link from "next/link";
 import { EnquireForm } from "@/components/EnquireForm";
 import { PageHero } from "@/components/PageHero";
 import { packages } from "@/data/packages";
+import { pickUtms } from "@/lib/attribution";
 
 export const metadata: Metadata = {
   title: "Enquire",
@@ -11,7 +12,16 @@ export const metadata: Metadata = {
 };
 
 type Props = {
-  searchParams: Promise<{ package?: string; interest?: string }>;
+  searchParams: Promise<{
+    package?: string;
+    interest?: string;
+    market?: string;
+    utm_source?: string;
+    utm_medium?: string;
+    utm_campaign?: string;
+    utm_term?: string;
+    utm_content?: string;
+  }>;
 };
 
 export default async function EnquirePage({ searchParams }: Props) {
@@ -24,8 +34,13 @@ export default async function EnquirePage({ searchParams }: Props) {
     "mountain-climbing",
     "cultural",
   ]);
+  const interestParam =
+    typeof sp.interest === "string" ? sp.interest.trim() : "";
   const defaultInterests =
-    sp.interest && validInterests.has(sp.interest) ? [sp.interest] : [];
+    interestParam && validInterests.has(interestParam) ? [interestParam] : [];
+  const defaultMarket =
+    typeof sp.market === "string" ? sp.market.trim().slice(0, 64) : "";
+  const utms = pickUtms(sp);
 
   return (
     <>
@@ -38,7 +53,7 @@ export default async function EnquirePage({ searchParams }: Props) {
             <span className="text-gold-bright">Tanzania trip</span>
           </>
         }
-        description="Share your dates, party size, and how you want to move. We'll reply with a clear outline — safari, summit, shore, or a blend. No payment to enquire."
+        description="Share your dates, party size, and how you want to move. A person on the Wazi team reads every enquiry and replies with a clear outline — usually within 1–2 business days. No payment to enquire."
         image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=2400&q=85"
         imageAlt="Soft dawn light over distant African hills"
       />
@@ -57,11 +72,15 @@ export default async function EnquirePage({ searchParams }: Props) {
           <EnquireForm
             defaultPackage={packageSlug}
             defaultInterests={defaultInterests}
+            defaultMarket={defaultMarket}
+            defaultInterestParam={interestParam}
+            utms={utms}
           />
         </div>
         <p className="mt-6 text-center text-xs text-ink/45">
           By submitting, you agree we may contact you about this enquiry. We
-          never sell your details.
+          never sell your details. Enquire only — no live inventory or instant
+          booking.
         </p>
       </div>
     </>

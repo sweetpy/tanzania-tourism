@@ -1,14 +1,20 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
+import {
+  buildEnquireHref,
+  MARKET_OFFER_PARAMS,
+  pickUtms,
+  type MarketOfferId,
+} from "@/lib/attribution";
 
 type Offer = {
-  id: string;
+  id: MarketOfferId;
   markets: string;
   title: string;
   body: string;
-  href: string;
 };
 
 const OFFERS: Offer[] = [
@@ -17,34 +23,39 @@ const OFFERS: Offer[] = [
     markets: "US · Israel",
     title: "Northern Circuit, timed to the herds",
     body: "Serengeti plains and Ngorongoro density — migration windows and crater-floor wildlife for long-haul calendars.",
-    href: "/enquire",
   },
   {
     id: "eu-beach",
     markets: "Italy · France · Netherlands",
     title: "Zanzibar first — then bush if you want",
     body: "Stone Town and turquoise rest first — then add a shorter safari when you’re ready for dust and dawn.",
-    href: "/enquire",
   },
   {
     id: "uk",
     markets: "United Kingdom",
     title: "Uhuru Peak, then Serengeti",
     body: "Climb and savannah in one thread — summit attempt, then plains time with clear from-prices.",
-    href: "/enquire",
   },
 ];
 
 /** Exact featured lines from UX+Copy lock */
-const FEATURED_LINES: Record<string, string> = {
+const FEATURED_LINES: Record<MarketOfferId, string> = {
   us: "Northern Circuit, timed to the herds — Serengeti plains and Ngorongoro density.",
   "eu-beach":
     "Zanzibar first — Stone Town and turquoise rest — then add bush if you want.",
   uk: "Uhuru Peak, then Serengeti — climb and savannah in one thread.",
 };
 
+function offerEnquireHref(id: MarketOfferId, utms: ReturnType<typeof pickUtms>) {
+  const { market, interest } = MARKET_OFFER_PARAMS[id];
+  return buildEnquireHref({ market, interest, utms });
+}
+
 export function MarketOffers() {
-  const [featuredId, setFeaturedId] = useState("us");
+  // Default featured: US
+  const [featuredId, setFeaturedId] = useState<MarketOfferId>("us");
+  const searchParams = useSearchParams();
+  const utms = useMemo(() => pickUtms(searchParams), [searchParams]);
 
   const ordered = useMemo(() => {
     const featured = OFFERS.find((o) => o.id === featuredId) ?? OFFERS[0];
@@ -60,6 +71,7 @@ export function MarketOffers() {
 
   const { featured, secondary } = ordered;
   const featuredLine = FEATURED_LINES[featured.id] ?? featured.body;
+  const featuredHref = offerEnquireHref(featured.id, utms);
 
   return (
     <section className="border-b border-ink/8 bg-night py-14 text-cream lg:py-16">
@@ -89,7 +101,7 @@ export function MarketOffers() {
             </h3>
             <p className="type-body mt-4 max-w-lg text-cream/65">{featuredLine}</p>
             <Link
-              href={featured.href}
+              href={featuredHref}
               className="mt-8 inline-flex rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink transition hover:bg-gold-bright"
             >
               Plan a trip
@@ -116,7 +128,7 @@ export function MarketOffers() {
                   </p>
                 </button>
                 <Link
-                  href="/enquire"
+                  href={offerEnquireHref(offer.id, utms)}
                   className="mt-4 inline-flex text-sm font-semibold text-gold hover:underline"
                 >
                   Plan a trip →
