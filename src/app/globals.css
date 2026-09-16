@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  /* Wazi brand tokens — Brand Studio lock */
+  /* Wazi brand tokens */
   --background: #F4F0E6; /* ivory */
   --foreground: #141C2E; /* ink */
   --night: #0B1220;
@@ -75,12 +75,13 @@ body {
   }
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: 200% 0;
-  }
+@keyframes soft-pulse {
+  0%,
   100% {
-    background-position: -200% 0;
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.75;
   }
 }
 
@@ -96,13 +97,18 @@ body {
   animation: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both;
 }
 
+.animate-soft-pulse {
+  animation: soft-pulse 6s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
   .animate-fade-up,
   .animate-fade-up-delay,
-  .animate-fade-up-delay-2 {
+  .animate-fade-up-delay-2,
+  .animate-soft-pulse {
     animation: none;
   }
 }

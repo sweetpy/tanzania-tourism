@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PartnerForm } from "@/components/PartnerForm";
-import { SectionHeading } from "@/components/SectionHeading";
+import { PageHero } from "@/components/PageHero";
 import { packages } from "@/data/packages";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Partner application",
@@ -19,20 +21,43 @@ export default async function PartnerApplyPage({ searchParams }: Props) {
     sp.package && packages.some((p) => p.slug === sp.package) ? sp.package : "";
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <SectionHeading
-        eyebrow="Partner apply"
-        title="Outbound operator application"
-        description="For tour operators, wholesalers, and agencies who want to resell Tanzania packages. Stub API persistence for demo — replace with CRM later."
+    <>
+      <PageHero
+        compact
+        eyebrow={siteConfig.tradeName}
+        title={
+          <>
+            Outbound operator{" "}
+            <span className="text-teal-bright">application</span>
+          </>
+        }
+        description="For tour operators, wholesalers, and agencies who want to resell Tanzania packages. Stub API for demo — wire to CRM later."
+        image="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=2000&q=80"
+        imageAlt="Open African landscape under a wide sky"
       />
-      <div className="mt-10 rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-sm sm:p-8">
-        <PartnerForm defaultPackage={packageSlug} />
+      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <p className="text-sm text-ink/55">
+          New here?{" "}
+          <Link href="/operators" className="font-semibold text-teal hover:underline">
+            How resell works
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/operators/catalog"
+            className="font-semibold text-teal hover:underline"
+          >
+            Partner catalog
+          </Link>
+        </p>
+        <div className="mt-8 rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-sm sm:p-8">
+          <PartnerForm defaultPackage={packageSlug} />
+        </div>
+        <p className="mt-6 text-center text-xs text-ink/45">
+          By submitting, you agree we may contact you about partnership. We never
+          sell your details. No fabricated institutional endorsements are implied
+          by applying.
+        </p>
       </div>
-      <p className="mt-6 text-center text-xs text-ink/45">
-        By submitting, you agree we may contact you about partnership. We never
-        sell your details. No fabricated institutional endorsements are implied
-        by applying.
-      </p>
-    </div>
+    </>
   );
 }
