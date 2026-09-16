@@ -16,7 +16,9 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
+ENV LEADS_LOG_PATH=/data/leads.jsonl
+RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs \
+  && mkdir -p /data /app/data && chown -R nextjs:nodejs /data /app/data
 COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
