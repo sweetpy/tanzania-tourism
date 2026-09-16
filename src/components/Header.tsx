@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { navLinks, siteConfig } from "@/lib/site";
+import { navLinks, operatorNavLinks, siteConfig } from "@/lib/site";
 
 export function Header() {
   const pathname = usePathname();
@@ -15,13 +15,18 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="group flex items-center gap-2.5">
           <span
-            className="flex h-9 w-9 items-center justify-center rounded-md bg-ink text-[10px] font-bold tracking-wider text-gold"
+            className="flex h-9 w-9 items-center justify-center rounded-md bg-ink font-display text-[11px] font-extrabold tracking-wider text-gold"
             aria-hidden
           >
-            {siteConfig.shortName}
+            W
           </span>
-          <span className="font-display text-lg font-bold tracking-tight text-ink sm:text-xl">
-            {siteConfig.name}
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-lg font-bold tracking-tight text-ink sm:text-xl">
+              {siteConfig.name}
+            </span>
+            <span className="hidden text-[10px] font-medium uppercase tracking-[0.18em] text-ink/45 sm:block">
+              {siteConfig.tagline}
+            </span>
           </span>
         </Link>
 
@@ -97,6 +102,35 @@ export function Header() {
         </button>
       </div>
 
+      {isOperator && (
+        <div className="hidden border-t border-ink/5 bg-teal/[0.06] lg:block">
+          <nav
+            className="mx-auto flex max-w-7xl gap-1 px-4 py-2 sm:px-6 lg:px-8"
+            aria-label="Trade"
+          >
+            {operatorNavLinks.map((link) => {
+              const active =
+                pathname === link.href ||
+                (link.href !== "/operators" &&
+                  pathname.startsWith(`${link.href}`));
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
+                    active
+                      ? "bg-teal text-cream"
+                      : "text-teal hover:bg-teal/10"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
+      )}
+
       {open && (
         <nav
           id="mobile-nav"
@@ -115,13 +149,25 @@ export function Header() {
                 </Link>
               </li>
             ))}
+            {isOperator &&
+              operatorNavLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="block rounded-lg px-3 py-2.5 text-base font-medium text-teal hover:bg-teal/10"
+                    onClick={() => setOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             <li>
               <Link
-                href="/enquire"
+                href={isOperator ? "/operators/apply" : "/enquire"}
                 className="mt-2 block rounded-lg bg-ink px-3 py-2.5 text-center text-base font-semibold text-cream"
                 onClick={() => setOpen(false)}
               >
-                Plan your trip
+                {isOperator ? "Apply to partner" : "Plan your trip"}
               </Link>
             </li>
           </ul>
