@@ -57,6 +57,14 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/partners"
+                className="text-sm text-cream/70 transition hover:text-cream"
+              >
+                Institutional partners
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -77,10 +85,20 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-5 sm:px-6 lg:px-8">
-        <p className="mx-auto max-w-7xl text-center text-xs leading-relaxed text-cream/40">
-          © {new Date().getFullYear()} {siteConfig.name}. Indicative from-prices
-          in USD vary by season and lodge. {citationsFooter}
-        </p>
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 sm:flex-row sm:justify-between">
+          <p className="text-center text-xs leading-relaxed text-cream/40 sm:text-left">
+            © {new Date().getFullYear()} {siteConfig.name}. Indicative
+            from-prices in USD vary by season and lodge. {citationsFooter}
+          </p>
+          <p className="flex shrink-0 gap-4 text-xs text-cream/50">
+            <Link href="/privacy" className="hover:text-cream">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-cream">
+              Terms
+            </Link>
+          </p>
+        </div>
       </div>
     </footer>
   );
