@@ -107,7 +107,7 @@ export default async function PackageDetailPage({ params }: Props) {
           )}
           <p className="text-sm text-ink/50">
             Ideal for: {pkg.idealFor}. Final quotes depend on travel dates,
-            availability, and lodge category.
+            season timing, and lodge category.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ export default async function PackageDetailPage({ params }: Props) {
             </p>
             <p className="mt-2 text-sm text-ink/70">
               Prefill this package on the enquiry form and tell us your dates —
-              we'll confirm availability and refine the price.
+              we’ll reply with a clear outline and a refined from-price band for your dates and lodge level.
             </p>
             <Link
               href={`/enquire?package=${pkg.slug}`}

@@ -31,7 +31,7 @@ export default async function PartnerApplyPage({ searchParams }: Props) {
             <span className="text-teal-bright">application</span>
           </>
         }
-        description="For tour operators, wholesalers, and agencies who want to resell Tanzania packages. Stub API for demo — wire to CRM later."
+        description="Share your markets, product mix, and volume. We review fit for catalog access — rates on request."
         image="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=2000&q=80"
         imageAlt="Open African landscape under a wide sky"
       />

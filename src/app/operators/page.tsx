@@ -23,7 +23,7 @@ const steps = [
   {
     n: "02",
     title: "Browse & select",
-    body: "Approved partners access live package templates — northern safari, migration, Kilimanjaro, bush-and-beach, southern wild.",
+    body: "Approved partners access adaptable package templates — northern safari, migration, Kilimanjaro, bush-and-beach, southern wild. Rates and lodge bands on request.",
   },
   {
     n: "03",
@@ -146,7 +146,7 @@ export default function OperatorsPage() {
           <SectionHeading
             eyebrow="Catalog preview"
             title={`${packages.length} package templates ready to discuss`}
-            description="Full partner catalog uses the same live package data travellers see — with trade CTAs."
+            description="Full partner catalog mirrors the traveller packages — with trade CTAs. Rates on request, not a live allotment portal."
           />
           <Link
             href="/operators/catalog"
@@ -190,7 +190,7 @@ export default function OperatorsPage() {
         <CTABand
           variant="operator"
           title="Ready to add Tanzania to your shelf?"
-          description="Apply for partner access. We'll follow up on markets, margins, and ground-handler coordination."
+          description="Apply for partner access. We’ll follow up on markets, margins, and ground-handler coordination."
           href="/operators/apply"
           label="Apply now"
           secondaryHref="/operators/catalog"

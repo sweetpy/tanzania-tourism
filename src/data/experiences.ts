@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
   {
     slug: "safari",
     name: "Safari Adventures",
-    tagline: "Game drives, fly-camps, and the thrill of the wild.",
+    tagline: "Migration plains, crater floors, quiet Ruaha mornings — timed to season.",
     summary:
       "Classic and custom safari itineraries across Tanzania’s northern and southern circuits — from Great Migration drama to quiet Ruaha mornings.",
     description: [
@@ -35,7 +35,7 @@ export const experiences: Experience[] = [
   {
     slug: "beach-islands",
     name: "Beach & Islands",
-    tagline: "Spice coasts, coral reefs, and barefoot luxury.",
+    tagline: "Stone Town alleys, Nungwi light, reef days after the bush.",
     summary:
       "Unwind on Zanzibar’s beaches, explore Stone Town, snorkel reefs, and sail traditional dhows after your safari.",
     description: [
@@ -56,7 +56,7 @@ export const experiences: Experience[] = [
   {
     slug: "mountain-climbing",
     name: "Mountain Climbing",
-    tagline: "Kilimanjaro — pole pole to the Roof of Africa.",
+    tagline: "Uhuru Peak at 5,895 m — rainforest to alpine desert on Lemosho or Machame.",
     summary:
       "Guided Kilimanjaro climbs with strong acclimatisation profiles, ethical porter treatment, and post-summit safari options.",
     description: [
@@ -77,7 +77,7 @@ export const experiences: Experience[] = [
   {
     slug: "cultural",
     name: "Cultural Experiences",
-    tagline: "Meet people, hear stories, travel with respect.",
+    tagline: "Maasai highlands and Swahili coast — woven in with fair, consented visits.",
     summary:
       "Maasai and Hadzabe encounters, Swahili coastal culture, village visits, and market days — woven thoughtfully into your itinerary.",
     description: [
