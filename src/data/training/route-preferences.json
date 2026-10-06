@@ -1,0 +1,6015 @@
+[
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-NATRON-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-NATRON-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-NATRON-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.8,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-NATRON-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.75,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-4D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 4,
+      "placeIds": [
+        "tarangire"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-CLASSIC",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-manyara",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-NGOR-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-5D-NGOR-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-5D-NGOR-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-5D-NGOR-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.6666666666666667,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-5D-NGOR-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-SERENGETI-FLY",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.75,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-6D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-5D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 5,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-EYASI",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "lake-eyasi"
+      ],
+      "style": "Culture & landscapes",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-NATRON-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "lake-natron"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-NATRON-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "lake-natron"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-NATRON-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "lake-natron"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-NATRON-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "lake-natron"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-SERENGETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0.5,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-4D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-5D-TAR-NIGHT",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-EYASI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-NATRON",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.6666666666666667,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-6D-TAR-NIGHT",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 6,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro"
+      ],
+      "style": "Night safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0.5,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-CLASSIC",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Classic safari",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "NDUTU-CALVING",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-8D-GRUMETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-8D-MARA",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      -1
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "positive": "BA-7D-SERENGETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-11-10",
+      "days": 7,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Fly-in & fly-back",
+      "childAges": []
+    },
+    "difference": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-05-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-05-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-05-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-06-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-GRUMETI",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-07-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-08-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-09-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-09-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-09-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-10-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-10-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "BA-8D-MARA",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-10-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "ngorongoro",
+        "serengeti"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-01-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-01-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-01-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-02-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-6D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-03-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.6666666666666667,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-CLASSIC",
+    "query": {
+      "arrivalDate": "2027-03-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "positive": "NDUTU-CALVING",
+    "negative": "BA-7D-SERENGETI",
+    "query": {
+      "arrivalDate": "2027-03-10",
+      "days": 8,
+      "placeIds": [
+        "tarangire",
+        "serengeti",
+        "ngorongoro"
+      ],
+      "style": "Seasonal migration",
+      "childAges": []
+    },
+    "difference": [
+      0.5,
+      0,
+      1,
+      1
+    ]
+  }
+]

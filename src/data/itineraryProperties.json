@@ -1,0 +1,476 @@
+[
+  {
+    "id": "kahawa",
+    "name": "Kahawa House",
+    "location": "Arusha",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/arusha/kahawa-house/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/AMP_7196.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/11/AND_6530.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/AND_6797.jpg"
+    ],
+    "facts": [
+      "Arusha base before your safari",
+      "Pool and terrace overlooking the gardens"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "coffee",
+    "name": "Elewana Arusha Coffee Lodge",
+    "location": "Arusha",
+    "tier": "luxury",
+    "url": "https://www.elewanacollection.com/arusha-coffee-lodge/photo-gallery",
+    "images": [
+      "https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Plantation-Room.jpg",
+      "https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Plantation-Suite-Interior.jpg",
+      "https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Plantation-Suite-Exterior.jpg"
+    ],
+    "facts": ["Stay among a coffee plantation", "Plantation rooms and suites"],
+    "credit": "Elewana Collection",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "farmhouse",
+    "name": "Ngorongoro Farm House",
+    "location": "Karatu",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/ngorongoro-highlands/ngorongoro-farm-house/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/DJI_0223-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/AMP_6168.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/AMP_6049.jpg"
+    ],
+    "facts": [
+      "A Karatu base for the crater programme",
+      "Farm and garden setting"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "tloma",
+    "name": "Tloma Lodge",
+    "location": "Karatu",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/ngorongoro-highlands/tloma-lodge/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/Tloma-Lodge-Karatu-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/TWC_0845-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Tloma-Lodge-Karatu_2-scaled.jpg"
+    ],
+    "facts": [
+      "Stay in the Ngorongoro highlands",
+      "A comfortable base near Karatu"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "kitela",
+    "name": "Kitela Lodge",
+    "location": "Karatu",
+    "tier": "luxury",
+    "url": "https://twctanzania.com/ngorongoro-highlands/kitela-lodge/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/kitela-lodge-facilities-02.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/AMP_5872.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/AMP_5556.jpg"
+    ],
+    "facts": [
+      "Cottages above the coffee plantation",
+      "Pool and gardens; connecting rooms on request"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "tarangire-safari",
+    "name": "Tarangire Safari Lodge — tent or bungalow",
+    "location": "Tarangire National Park",
+    "tier": "midrange",
+    "url": "https://www.tarangiresafarilodge.com/accommodation",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/54929084e4b074c56b326d39/1682180511110-ZV258W821AZD7OQZ466A/_DSC9029_-Edit.jpg",
+      "https://images.squarespace-cdn.com/content/v1/54929084e4b074c56b326d39/1682180531328-39CHG17SV3BCRSCC6C6A/DSC_7991_-Edit.jpg",
+      "https://images.squarespace-cdn.com/content/v1/54929084e4b074c56b326d39/1682180666816-69YHGSLBRFUZ787UJ51O/_DSC9556_-Edit.jpg"
+    ],
+    "facts": [
+      "En-suite tents with private verandahs",
+      "Bungalows offer another family room option"
+    ],
+    "credit": "Tarangire Safari Lodge",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "olivers",
+    "name": "Oliver's Camp",
+    "location": "Tarangire National Park",
+    "tier": "luxury",
+    "url": "https://www.asiliaafrica.com/camps-lodges/olivers-camp/",
+    "images": [
+      "https://www.asiliaafrica.com/wp-content/uploads/2024/04/Asilia-Africa-Olivers-Camp-Outside-Area.jpg",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Olivers-Camp-Room-Exterior.jpg.webp",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Olivers-Camp-CampFire.jpg.webp"
+    ],
+    "facts": [
+      "Tented camp in southern Tarangire",
+      "En-suite tents, pool and a remote safari setting"
+    ],
+    "credit": "Asilia Africa",
+    "checkedAt": "2026-10-06",
+    "closedMonths": [3, 4, 5],
+    "minAge": 6,
+    "operationNote": "Seasonal opening and children’s eligibility need confirmation; not shown March–May or for children under 6."
+  },
+  {
+    "id": "eyasi-lodge",
+    "name": "Lake Eyasi Safari Lodge",
+    "location": "Lake Eyasi",
+    "tier": "midrange",
+    "url": "https://lakeeyasi.com/",
+    "images": [
+      "https://lakeeyasi.com/wp-content/uploads/2024/08/GGM07700-HDR-1500x630.jpg",
+      "https://lakeeyasi.com/wp-content/uploads/2024/08/GGM07666-HDR-1500x630.jpg",
+      "https://lakeeyasi.com/wp-content/uploads/2024/08/GGM07642-HDR-1500x630.jpg"
+    ],
+    "facts": [
+      "En-suite cottages with lake views",
+      "Pool and private verandahs"
+    ],
+    "credit": "Lake Eyasi Safari Lodge",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "kisima",
+    "name": "Kisima Ngeda",
+    "location": "Lake Eyasi",
+    "tier": "luxury",
+    "url": "https://entara.co.tz/camps-lodges/kisima-ngeda-camp/",
+    "images": [
+      "https://wsrv.nl/?url=https://cms.entara.co.tz/wp-content/uploads/2024/07/P1044569.jpg&w=2000&h=1000&output=webp&dpr=2&q=100"
+    ],
+    "facts": [
+      "Palm-roofed tented chalets",
+      "Lake Eyasi base for locally hosted visits"
+    ],
+    "credit": "Entara",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "africa-natron",
+    "name": "Africa Safari Lake Natron — Comfort Bungalow",
+    "location": "Lake Natron",
+    "tier": "midrange",
+    "url": "https://www.beachsafarihotels.com/africa-safari-lake-natron",
+    "images": [
+      "https://r.profitroom.pl/africasafarilakenatron/images/202404101530270.as_lake_natron.jpg"
+    ],
+    "facts": [
+      "Bungalow accommodation near Lake Natron",
+      "Private bathroom; family arrangement on request"
+    ],
+    "credit": "Paradise & Wilderness",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "natron-camp",
+    "name": "Lake Natron Camp",
+    "location": "Lake Natron",
+    "tier": "luxury",
+    "url": "https://www.lake-natron-camp.com/",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/5cadc10b348cd949ea83c056/1555596706380-HPYI3ZYAZ32FAFFLL7C7/image-asset.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5cadc10b348cd949ea83c056/1555596774353-WQ7BRNYB48QDV1FPMN63/image-asset.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/5cadc10b348cd949ea83c056/1556130364786-5FDVYKHTQ7643O5Q8GCL/image-asset.jpeg"
+    ],
+    "facts": [
+      "An ecological camp at Ngare Sero",
+      "A base for guided Rift Valley adventures"
+    ],
+    "credit": "Lake Natron Camp",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "manyara-serena",
+    "name": "Lake Manyara Serena Safari Lodge",
+    "location": "Mto wa Mbu / Manyara",
+    "tier": "luxury",
+    "url": "https://www.serenahotels.com/lake-manyara",
+    "images": [
+      "https://image-tc.galaxy.tf/wijpeg-1qa6o4pk0n2vfbheo3uujj5qd/lodge-aerial-view-2.jpg?rotate=0&crop=6%2C336%2C1600%2C867&width=2560",
+      "https://image-tc.galaxy.tf/wijpeg-e8cxpddcyrawrgy9yhct7ldzr/lodge-exterior-2.jpg?rotate=0&crop=397%2C405%2C1600%2C816&width=2560",
+      "https://image-tc.galaxy.tf/wijpeg-do0lsqhs57yrl15le3xdpl2c4/serenamanyara-37_square.jpg?crop=335%2C0%2C1331%2C1331&width=1000"
+    ],
+    "facts": [
+      "Overnight on the Manyara escarpment",
+      "Pool and lodge room options"
+    ],
+    "credit": "Serena Hotels",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "africa-manyara",
+    "name": "Africa Safari Manyara Escarpment",
+    "location": "Mto wa Mbu / Manyara",
+    "tier": "luxury",
+    "url": "https://www.beachsafarihotels.com/africa-safari-lake-manyara-escarpment",
+    "images": [
+      "https://wa-uploads.profitroom.com/paradisewildernessgroup/1100x805/17751254745403_549802961773ac05ce7d0k1.jpg",
+      "https://r.profitroom.com/africasafarimanyaraescarpment/images/rooms/thumbs/430x540/5667b72c-a452-44c7-a07b-d0527c4aa2ee.jpg?updated=2026-06-29_13-49"
+    ],
+    "facts": [
+      "Canvas accommodation on the Manyara escarpment",
+      "Pool and a choice of glamping room types"
+    ],
+    "credit": "Paradise & Wilderness",
+    "checkedAt": "2026-10-06",
+    "operationNote": "An alternative to the brochure-listed Manyara stay; quoted separately."
+  },
+  {
+    "id": "kati-kati",
+    "name": "Serengeti Kati Kati Tented Camp",
+    "location": "Central Serengeti",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/serengeti-national-park/serengeti-kati-kati-tented-camp/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/Serengeti-Kati-Kati_6-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Serengeti-Ndutu-Kati-Kati-Tented-Camp_5.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/family_tent-4.jpg"
+    ],
+    "facts": [
+      "A tented stay in the central Serengeti",
+      "Private porch; en-suite bucket shower"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "kubu-kubu",
+    "name": "Kubu Kubu Tented Lodge",
+    "location": "Central Serengeti",
+    "tier": "luxury",
+    "url": "https://twctanzania.com/serengeti-national-park/kubu-kubu-tented-lodge/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/TWC2018-724-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Kubu-Kubu-View-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/kubukubu-172-scaled.jpg"
+    ],
+    "facts": [
+      "Raised tents with Serengeti views",
+      "Pool and en-suite rooms; family options on request"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "mbalageti",
+    "name": "Mbalageti Serengeti — Lodge Room",
+    "location": "Western Serengeti",
+    "tier": "midrange",
+    "url": "https://www.mbalageti.com/",
+    "images": [
+      "https://mbalageti.com/wp-content/uploads/2021/11/ladge_03-1024x576.jpg"
+    ],
+    "facts": [
+      "Western corridor base",
+      "Lodge room preference; chalet upgrades quoted separately"
+    ],
+    "credit": "Mbalageti Serengeti",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "kirawira",
+    "name": "Kirawira Serena Camp",
+    "location": "Western Serengeti",
+    "tier": "luxury",
+    "url": "https://www.serenahotels.com/kirawira",
+    "images": [
+      "https://image-tc.galaxy.tf/wijpeg-9ggzpzp4h653g50ysq7dqvzxd/kcam-accommodation-1.jpg?width=2560",
+      "https://image-tc.galaxy.tf/wijpeg-93k3isx3511qza3ecqgq8debx/kcam-double-tent_square.jpg?crop=250%2C0%2C1500%2C1500&width=1000",
+      "https://image-tc.galaxy.tf/wijpeg-3hte0fcuc4m5t28h23va71ykv/kcam-twin-tent_square.jpg?crop=333%2C0%2C1334%2C1334&width=1000"
+    ],
+    "facts": [
+      "Tented accommodation in western Serengeti",
+      "Double or twin tent preferences"
+    ],
+    "credit": "Serena Hotels",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "mara-kati",
+    "name": "Mara Kati Kati Tented Camp",
+    "location": "Northern Serengeti",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/serengeti-national-park/mara-kati-kati-tented-camp/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/08/AND_7345.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/08/AMP_8121.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/08/AND_6902.jpg"
+    ],
+    "facts": [
+      "A tented base in northern Serengeti",
+      "Private porch and en-suite bucket shower"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "sayari",
+    "minAge": 5,
+    "name": "Sayari Camp — separately quoted upgrade",
+    "location": "Northern Serengeti",
+    "tier": "luxury",
+    "url": "https://www.asiliaafrica.com/camps-lodges/sayari-camp/",
+    "images": [
+      "https://www.asiliaafrica.com/wp-content/uploads/2024/04/Asilia-Africa-Sayari-Camp-Aerial-View.jpg",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Sayari-Camp-Bar.jpg.webp",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Sayari-Camp-Pool-Area.jpg.webp"
+    ],
+    "facts": [
+      "Northern Serengeti near the Mara River",
+      "Welcomes children aged five and older",
+      "Tented suites and pool; upgrade priced separately"
+    ],
+    "credit": "Asilia Africa",
+    "checkedAt": "2026-10-06",
+    "closedMonths": [4, 5]
+  },
+  {
+    "id": "ndutu-kati",
+    "name": "Ndutu Kati Kati Tented Camp",
+    "location": "Ndutu area",
+    "tier": "midrange",
+    "url": "https://twctanzania.com/serengeti-national-park/ndutu-kati-kati-tented-camp/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/Serengeti-Ndutu-Kati-Kati-Tented-Camp-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Serengeti-Ndutu-Kati-Kati-Tented-Camp_3.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/TWC-109.jpg"
+    ],
+    "facts": [
+      "A seasonal tented base in the Ndutu area",
+      "Private porch and en-suite bucket shower"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06",
+    "closedMonths": [4, 5, 6, 7, 8, 9, 10, 11],
+    "operationNote": "Seasonal camp location and opening dates must be confirmed."
+  },
+  {
+    "id": "masek",
+    "name": "Masek Tented Lodge",
+    "location": "Ndutu area",
+    "tier": "luxury",
+    "url": "https://twctanzania.com/ngorongoro-conservation-area/masek-tented-lodge/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/10/Masek-Tented-Lodge_9.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Masek-Tented-Lodge-scaled.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/10/Masek-Tented-Lodge_3-scaled.jpg"
+    ],
+    "facts": [
+      "Tented lodge in the Ndutu / Masek area",
+      "Private terraces; connecting family tents on request"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "jabali",
+    "name": "Jabali Ridge",
+    "location": "Ruaha",
+    "tier": "luxury",
+    "url": "https://www.asiliaafrica.com/camps-lodges/jabali-ridge/",
+    "images": [
+      "https://www.asiliaafrica.com/wp-content/uploads/2024/04/Asilia_Camp-Lodges_Jabali-Ridge_Header-Images.jpg",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Jabali-Ridge-Decking-View.jpg.webp",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Jabali-Ridge-Suite.jpg.webp"
+    ],
+    "facts": [
+      "A lodge in Ruaha National Park",
+      "A separately quoted alternative for a bespoke southern safari"
+    ],
+    "credit": "Asilia Africa",
+    "checkedAt": "2026-10-06",
+    "minAge": 6,
+    "closedMonths": [4, 5],
+    "operationNote": "Family suitability and seasonal operation need confirmation."
+  },
+  {
+    "id": "roho",
+    "name": "Roho ya Selous",
+    "location": "Nyerere",
+    "tier": "luxury",
+    "url": "https://www.asiliaafrica.com/camps-lodges/roho-ya-selous/",
+    "images": [
+      "https://www.asiliaafrica.com/wp-content/uploads/2024/04/Asilia_Camp-Lodges_Roho_Header-Images.jpg",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Roho-ya-Selous-Lounge-Area-Views.jpg.webp",
+      "https://www.asiliaafrica.com/wp-content/smush-webp/2024/04/Asilia-Africa-Roho-ya-Selous-Lounge-and-Dining-Area.jpg.webp"
+    ],
+    "facts": [
+      "A tented base in Nyerere National Park",
+      "A separately quoted southern safari alternative"
+    ],
+    "credit": "Asilia Africa",
+    "checkedAt": "2026-10-06",
+    "minAge": 6,
+    "closedMonths": [4, 5],
+    "operationNote": "Family suitability and seasonal operation need confirmation."
+  },
+  {
+    "id": "mara-mara",
+    "name": "Mara Mara Tented Lodge",
+    "location": "Northern Serengeti",
+    "tier": "luxury",
+    "url": "https://twctanzania.com/serengeti-national-park/mara-mara-tented-lodge/",
+    "images": [
+      "https://twctanzania.com/wp-content/uploads/2023/08/AMP_9430.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/08/AMP_9209.jpg",
+      "https://twctanzania.com/wp-content/uploads/2023/08/AMP_9305.jpg"
+    ],
+    "facts": [
+      "Northern Serengeti base for the migration programme",
+      "Tented lodge; room arrangement confirmed for your party"
+    ],
+    "credit": "Tanganyika Wilderness Camps",
+    "checkedAt": "2026-10-06"
+  },
+  {
+    "id": "stanleys",
+    "name": "Stanley’s Kopje",
+    "location": "Mikumi",
+    "tier": "midrange",
+    "url": "https://www.stanleyskopje.com/",
+    "images": [
+      "https://b-cdn.springnest.com/media/img/xd/whatsapp_image_2025-08-19_at_182102944eb25.jpeg",
+      "https://b-cdn.springnest.com/media/img/xd/whatsapp_image_2025-08-19_at_182104_16a919a0.jpeg",
+      "https://b-cdn.springnest.com/media/img/xd/whatsapp_image_2025-08-19_at_18210353d0a40.jpeg"
+    ],
+    "facts": [
+      "Raised tents on a rocky kopje in Mikumi",
+      "Thatched roofs and verandahs facing the plains"
+    ],
+    "credit": "Foxes Safari Camps",
+    "checkedAt": "2026-10-06",
+    "closedMonths": [3, 4, 5]
+  },
+  {
+    "id": "mwagusi",
+    "name": "Mwagusi Safari Camp",
+    "location": "Ruaha",
+    "tier": "midrange",
+    "url": "https://www.mwagusicamp.com/the-camp/",
+    "images": [
+      "https://www.mwagusicamp.com/wp-content/uploads/2020/06/1500px-Banda-01.jpg",
+      "https://www.mwagusicamp.com/wp-content/uploads/2020/04/4909252178.jpg",
+      "https://www.mwagusicamp.com/wp-content/uploads/2019/11/DSCN1808_small.jpg"
+    ],
+    "facts": [
+      "Thatched bandas beside the Mwagusi sand river",
+      "Private verandahs and en-suite facilities"
+    ],
+    "credit": "Mwagusi Safari Camp",
+    "checkedAt": "2026-10-06"
+  }
+]

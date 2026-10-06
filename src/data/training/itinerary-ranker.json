@@ -1,0 +1,34 @@
+{
+  "version": "brochure-ranker-v1",
+  "featureNames": [
+    "durationFit",
+    "routeFocus",
+    "styleFit",
+    "seasonalFit"
+  ],
+  "weights": [
+    3.4356700700009215,
+    2.306974596478937,
+    2.4486553563290947,
+    0.16875755802652195
+  ],
+  "corpusSha256": "b1e00c363b57294b8924f6bd869808b7f3b6e5cc85964ca7b0b7d13a54614263",
+  "training": {
+    "documents": 20,
+    "pairs": 301,
+    "method": "Pairwise logistic learning from document-derived route preferences; L2 regularization"
+  },
+  "evaluation": {
+    "heldOutBrochures": [
+      "BA-4D-CLASSIC",
+      "BA-5D-EYASI",
+      "BA-6D-EYASI",
+      "BA-7D-CLASSIC",
+      "BA-7D-SERENGETI"
+    ],
+    "pairs": 73,
+    "correct": 73,
+    "pairwiseAccuracy": 1,
+    "limitation": "Document-derived validation, not a measure of real customer satisfaction. No LLM fine-tuning or pricing learning."
+  }
+}

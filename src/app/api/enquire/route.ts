@@ -3,8 +3,16 @@ import { packages, getPackage } from "@/data/packages";
 import { experiences } from "@/data/experiences";
 import { appendLead } from "@/lib/leads";
 import { notifyFounder } from "@/lib/notify";
+import { resolveCraft } from "@/lib/resolveCraft";
+import { resolveCustomCraft } from "@/lib/customCraft";
+import {
+  brochureCatalogue,
+  itineraryModel,
+  itineraryProperties,
+} from "@/lib/itineraryCatalogue";
 
 type EnquireBody = {
+  craft?: unknown;
   name?: string;
   email?: string;
   phone?: string;
@@ -27,7 +35,33 @@ const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 export async function POST(request: Request) {
   let body: EnquireBody;
   try {
-    body = await request.json();
+    const raw = await request.text();
+    if (raw.length > 65_536)
+      return NextResponse.json(
+        { error: "Your enquiry is too large." },
+        { status: 413 },
+      );
+    body = JSON.parse(raw);
+    if (!body || typeof body !== "object" || Array.isArray(body))
+      throw new Error("Invalid body");
+    for (const key of [
+      "name",
+      "email",
+      "phone",
+      "travelDates",
+      "message",
+      "packageSlug",
+      "market",
+      "interest",
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+    ] as const) {
+      if (body[key] !== undefined && typeof body[key] !== "string")
+        throw new Error("Invalid field");
+    }
   } catch {
     return NextResponse.json({ error: "Invalid JSON body." }, { status: 400 });
   }
@@ -35,13 +69,47 @@ export async function POST(request: Request) {
   const name = (body.name || "").trim();
   const email = (body.email || "").trim().toLowerCase();
   const phone = (body.phone || "").trim();
-  const travelDates = (body.travelDates || "").trim();
+  let travelDates = (body.travelDates || "").trim();
   const message = (body.message || "").trim();
-  const packageSlug = (body.packageSlug || "").trim();
+  let packageSlug = (body.packageSlug || "").trim();
   const interests = Array.isArray(body.interests) ? body.interests : [];
-  const partySizeNum = Number(body.partySize);
+  let partySizeNum = Number(body.partySize);
+  let craftedItinerary: Awaited<ReturnType<typeof resolveCraft>> | null = null;
+  if (body.craft !== undefined) {
+    try {
+      craftedItinerary = await resolveCraft(
+        body.craft,
+        brochureCatalogue,
+        itineraryModel,
+        itineraryProperties,
+        resolveCustomCraft,
+      );
+      travelDates = `${craftedItinerary.trip.arrivalDate} to ${craftedItinerary.days.at(-1)?.date}`;
+      partySizeNum =
+        craftedItinerary.trip.adults + craftedItinerary.trip.childAges.length;
+      packageSlug = craftedItinerary.routeId.startsWith("brochure:")
+        ? craftedItinerary.routeId.slice(9)
+        : "";
+    } catch (error) {
+      return NextResponse.json(
+        {
+          error:
+            error instanceof Error
+              ? error.message
+              : "Please check your itinerary choices.",
+        },
+        { status: 400 },
+      );
+    }
+  }
 
-  if (name.length < 2) {
+  if (
+    name.length < 2 ||
+    name.length > 150 ||
+    email.length > 254 ||
+    phone.length > 80 ||
+    message.length > 5000
+  ) {
     return NextResponse.json(
       { error: "Please enter your full name." },
       { status: 400 },
@@ -113,6 +181,7 @@ export async function POST(request: Request) {
     packageCode: getPackage(packageSlug)?.code || null,
     packagePricingStatus: getPackage(packageSlug)?.pricing.status || null,
     message,
+    craftedItinerary,
     market: market || null,
     interest: interestAttr || null,
     utm_source: utm_source || null,

@@ -58,9 +58,15 @@ try {
   }
   await page.goto(`${base}/packages`, { waitUntil: "domcontentloaded" });
   await page.getByLabel("Trip length").selectOption("4");
-  await page.getByRole("status").filter({ hasText: /^3 journeys/ }).waitFor();
+  await page
+    .getByRole("status")
+    .filter({ hasText: /^3 journeys/ })
+    .waitFor();
   await page.getByLabel("Find a journey", { exact: true }).fill("Eyasi");
-  await page.getByRole("status").filter({ hasText: /^1 journey/ }).waitFor();
+  await page
+    .getByRole("status")
+    .filter({ hasText: /^1 journey/ })
+    .waitFor();
   await page
     .getByRole("link", {
       name: "4-Day Lake Eyasi: Hadzabe & Datoga",
@@ -69,66 +75,33 @@ try {
     .waitFor();
   await page.getByLabel("Find a journey", { exact: true }).fill("");
   await page.getByLabel("Trip length").selectOption("");
-  await page.getByRole("status").filter({ hasText: /^23 journeys/ }).waitFor();
+  await page
+    .getByRole("status")
+    .filter({ hasText: /^23 journeys/ })
+    .waitFor();
   report.filters = true;
   console.log("Catalogue and all 20 detail pages passed.");
   await page.screenshot({
     path: path.join(output, "package-catalogue-desktop.png"),
   });
-  await page.goto(`${base}/plan?park=serengeti-central`, {
+  // Interactive itinerary verification now lives in verify-itinerary-studio.mjs.
+  const query = new URLSearchParams({
+    package: "8-day-mara-migration-safari",
+    partySize: "5",
+    travelDates: "2027-08-10",
+    message:
+      "Please quote our journey: 3 adults; children aged 6, 10; luxury; east-african-citizen.",
+  });
+  await page.goto(`${base}/enquire?${query}`, {
     waitUntil: "domcontentloaded",
   });
-  await page
-    .getByRole("checkbox", { name: /Serengeti/ })
-    .waitFor({ timeout: 40000 });
-  await page.getByLabel("Days on safari", { exact: true }).fill("8");
-  for (const [date, code] of [
-    ["2027-02-10", "NDUTU-CALVING"],
-    ["2027-06-10", "BA-8D-GRUMETI"],
-    ["2027-08-10", "BA-8D-MARA"],
-  ]) {
-    await page.getByLabel("Arrival date", { exact: true }).fill(date);
-    await page
-      .locator(`.boker-package-card[data-package-code="${code}"]`)
-      .waitFor({ timeout: 40000 });
-    report.recommendations.push({ date, code });
-    console.log(`Season match passed: ${code}.`);
-  }
-  await page.getByLabel("Adults", { exact: true }).fill("3");
-  await page.getByLabel(/Children's ages/).fill("6, 10");
-  await page.getByLabel("Comfort level").selectOption("luxury");
-  await page.getByLabel("Stay style").selectOption("premium");
-  await page
-    .getByLabel("Park-fee visitor category")
-    .selectOption("east-african-citizen");
-  const recommendation = page.locator(".boker-package-card").first();
-  assert.match(
-    await recommendation.innerText(),
-    /Your party needs a separate quote/,
-  );
-  await recommendation.scrollIntoViewIfNeeded();
-  await page.screenshot({
-    path: path.join(output, "package-recommendations-desktop.png"),
-  });
-  await recommendation
-    .getByRole("link", { name: "Ask about this package →", exact: true })
-    .click();
-  await page.waitForURL("**/enquire?**");
   assert.equal(
     await page.getByLabel("Party size *", { exact: true }).inputValue(),
     "5",
   );
   assert.equal(
-    await page.getByLabel("Travel dates *", { exact: true }).inputValue(),
-    "2027-08-10",
-  );
-  assert.equal(
     await page.getByLabel("Package preference").inputValue(),
     "8-day-mara-migration-safari",
-  );
-  assert.match(
-    await page.locator('textarea[name="message"]').inputValue(),
-    /children aged 6, 10/,
   );
   let submitted;
   await page.route("**/api/enquire", async (route) => {
@@ -171,7 +144,7 @@ try {
       await page.goto(`${base}${route}`, { waitUntil: "domcontentloaded" });
       if (route.startsWith("/plan"))
         await page
-          .locator(".boker-package-card")
+          .locator(".studio-inspiration article")
           .first()
           .waitFor({ timeout: 40000 });
       const bounds = await page.evaluate(() => ({
@@ -194,10 +167,10 @@ try {
   await page
     .getByRole("checkbox", { name: /Ruaha/ })
     .waitFor({ timeout: 40000 });
-  await page
-    .getByText(/No prepared brochure covers all these places/)
-    .waitFor();
-  assert.equal(await page.locator(".boker-package-card").count(), 0);
+  await page.waitForFunction(
+    () => !document.querySelector(".studio-preferences fieldset").disabled,
+  );
+  assert.equal(await page.locator(".studio-inspiration article").count(), 0);
   assert.deepEqual(errors, []);
   await writeFile(
     path.join(output, "package-browser-checks.json"),

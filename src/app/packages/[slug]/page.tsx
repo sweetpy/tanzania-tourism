@@ -322,12 +322,16 @@ export default async function PackageDetailPage({ params }: Props) {
             >
               Request a confirmed quote
             </Link>
-            {plannerPark && (
+            {(pkg.source || plannerPark) && (
               <Link
-                href={`/plan?park=${plannerPark}`}
+                href={
+                  pkg.source
+                    ? `/plan?package=${pkg.slug}`
+                    : `/plan?park=${plannerPark}`
+                }
                 className="mt-3 inline-flex w-full justify-center rounded-full border border-ink/20 px-4 py-3 text-sm font-semibold text-ink hover:bg-gold/20"
               >
-                Build a safari of your own
+                Craft this journey your way
               </Link>
             )}
             <p className="mt-4 text-xs leading-relaxed text-ink/55">
