@@ -1,0 +1,3 @@
+# Keep the brochure corpus and reproducible model artifacts identical across hosts.
+src/data/curatedPackages.json text eol=lf
+src/data/training/*.json text eol=lf

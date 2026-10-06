@@ -6,7 +6,11 @@ import {
   eligibleExample,
 } from "../src/lib/itineraryLearning.ts";
 
-const raw = await readFile("src/data/curatedPackages.json", "utf8");
+// Git checkouts on Windows may use CRLF; fingerprint the same LF source everywhere.
+const raw = (await readFile("src/data/curatedPackages.json", "utf8")).replace(
+  /\r\n/g,
+  "\n",
+);
 const corpus = JSON.parse(raw);
 // Labels come from each brochure's stated route, duration and journey style.
 // They are document-derived examples, not customer behaviour or supplier rates.

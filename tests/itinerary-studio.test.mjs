@@ -46,7 +46,8 @@ test("trained model and labels are reproducible and tied to the exact public bro
       .update(
         readFileSync(
           new URL("../src/data/curatedPackages.json", import.meta.url),
-        ),
+          "utf8",
+        ).replace(/\r\n/g, "\n"),
       )
       .digest("hex"),
   );
