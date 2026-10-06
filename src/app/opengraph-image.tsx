@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { BokerCompass } from "@/components/BokerLogo";
 
-export const alt = "Boker — Open Tanzania.";
+export const alt = "Boker Adventures — Tanzania travel";
 export const size = {
   width: 1200,
   height: 630,
@@ -22,32 +22,6 @@ export default function OpenGraphImage() {
           padding: "72px 80px",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 14,
-            marginBottom: 28,
-          }}
-        >
-          <div
-            style={{
-              width: 10,
-              height: 10,
-              borderRadius: 999,
-              background: "#E8A317",
-            }}
-          />
-          <div
-            style={{
-              fontSize: 28,
-              color: "#8B93A7",
-              letterSpacing: "0.04em",
-            }}
-          >
-            Open Tanzania.
-          </div>
-        </div>
         <div style={{ display: "flex", alignItems: "center", gap: 32, color: "#F4F0E6" }}>
           <BokerCompass size={132} />
           <div style={{ display: "flex", flexDirection: "column" }}>

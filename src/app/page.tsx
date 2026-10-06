@@ -137,7 +137,7 @@ export default function HomePage() {
           <div className="lg:col-span-5">
             <SectionHeading
               eyebrow="Why Boker"
-              title="Tanzania, opened with precision"
+              title="Tanzania, shaped around you"
               description="Explore the places that draw you here, then shape the safari yourself. Boker brings destination guides, an interactive itinerary builder, and a dedicated trade desk together."
             />
           </div>

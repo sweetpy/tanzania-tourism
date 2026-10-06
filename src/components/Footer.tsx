@@ -11,7 +11,6 @@ export function Footer() {
           <Link href="/" className="inline-flex text-cream" aria-label="Boker Adventures home">
             <BokerLogo />
           </Link>
-          <p className="mt-2 text-sm text-cream/60">{siteConfig.tagline}</p>
           <p className="mt-4 text-sm leading-relaxed text-cream/50">
             {siteConfig.ambition}
           </p>

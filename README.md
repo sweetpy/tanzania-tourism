@@ -1,4 +1,4 @@
-# Boker — Open Tanzania.
+# Boker Adventures
 
 Boker combines the Tanzania Tourism (Wazi) traveller and trade website with the
 existing Boker itinerary builder. Browse destinations, experiences and packages,
@@ -47,7 +47,7 @@ Rename / rebrand from one place:
 | Token | Role |
 |-------|------|
 | Master | **Boker** |
-| Tagline | **Open Tanzania.** |
+| Tagline | **Adventures** |
 | Trade surface | **Boker Trade** |
 | Night | `#0B1020` |
 | Ink | `#141B2D` |

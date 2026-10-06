@@ -5,7 +5,7 @@
 export const siteConfig = {
   name: "Boker",
   shortName: "Boker",
-  tagline: "Open Tanzania.",
+  tagline: "Adventures",
   description:
     "Discover Tanzania with Boker. Build your safari itinerary, explore Serengeti, Kilimanjaro and Zanzibar, or partner through Boker Trade.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.bokeradventure.com",
