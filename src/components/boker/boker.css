@@ -219,3 +219,15 @@
   .boker-section-heading h2 { font-size: 26px; }
   .boker-days h3 { font-size: 25px; }
 }
+
+.boker-site .boker-recommendation-note { max-width: 850px; color: #5e685e; line-height: 1.7; margin: 18px 0 24px; }
+.boker-package-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.boker-package-card { display: flex; flex-direction: column; padding: 25px; border: 1px solid #dddccc; border-radius: 20px; background: #fffdf8; min-width: 0; }
+.boker-package-card h3 { font-family: var(--font-syne), sans-serif; font-size: 23px; line-height: 1.25; font-weight: 700; margin: 14px 0; }
+.boker-package-card p { line-height: 1.65; color: #5e685e; margin: 0 0 12px; }
+.boker-package-card .boker-package-fit { font-size: 13px; }
+.boker-package-card .boker-package-budget { font-weight: 700; color: #164e48; margin-top: auto; padding-top: 12px; }
+.boker-package-card .boker-package-basis { font-size: 12px; }
+.boker-package-actions { display: flex; flex-wrap: wrap; gap: 15px; border-top: 1px solid #dddccc; padding-top: 18px; font-size: 13px; font-weight: 700; color: #164e48; }
+.boker-package-actions a:hover, .boker-package-card h3 a:hover { text-decoration: underline; }
+@media (max-width: 1050px) { .boker-package-grid { grid-template-columns: 1fr; } }

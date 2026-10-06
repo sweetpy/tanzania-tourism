@@ -9,6 +9,9 @@ import { UTM_KEYS, type UtmParams } from "@/lib/attribution";
 
 type Props = {
   defaultPackage?: string;
+  defaultTravelDates?: string;
+  defaultPartySize?: string;
+  defaultMessage?: string;
   defaultInterests?: string[];
   defaultMarket?: string;
   /** Single interest attribution from ?interest= (also pre-checks when valid). */
@@ -43,11 +46,11 @@ function buildInitial(props: Props): FormState {
     name: "",
     email: "",
     phone: "",
-    travelDates: "",
-    partySize: "2",
+    travelDates: props.defaultTravelDates ?? "",
+    partySize: props.defaultPartySize ?? "2",
     interests: props.defaultInterests ?? [],
     packageSlug: props.defaultPackage ?? "",
-    message: "",
+    message: props.defaultMessage ?? "",
     market: props.defaultMarket ?? "",
     interest: props.defaultInterestParam ?? "",
     utm_source: utms.utm_source ?? "",

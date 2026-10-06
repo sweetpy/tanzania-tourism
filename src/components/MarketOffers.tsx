@@ -34,7 +34,7 @@ const OFFERS: Offer[] = [
     id: "uk",
     markets: "United Kingdom",
     title: "Uhuru Peak, then Serengeti",
-    body: "Climb and savannah in one thread — summit attempt, then plains time with clear from-prices.",
+    body: "Climb and savannah in one thread — summit attempt, then plains time with a tailored quote.",
   },
 ];
 

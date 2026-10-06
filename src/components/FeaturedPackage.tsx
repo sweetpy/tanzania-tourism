@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { Package } from "@/data/packages";
+import { packagePriceLabel, type Package } from "@/data/packages";
 
 type Props = {
   featured: Package;
@@ -33,8 +33,7 @@ export function FeaturedPackage({ featured, secondary }: Props) {
                 className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-gold"
                 aria-hidden
               />
-              {featured.duration} · from $
-              {featured.fromPriceUsd.toLocaleString("en-US")}
+              {featured.duration} · {packagePriceLabel(featured)}
             </p>
             <p className="mt-3 max-w-lg text-sm leading-relaxed text-cream/60 line-clamp-2">
               {featured.summary}
@@ -71,8 +70,7 @@ export function FeaturedPackage({ featured, secondary }: Props) {
                   className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-gold"
                   aria-hidden
                 />
-                {pkg.duration} · from $
-                {pkg.fromPriceUsd.toLocaleString("en-US")}
+                {pkg.duration} · {packagePriceLabel(pkg)}
               </p>
               <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-cream/55">
                 {pkg.summary}

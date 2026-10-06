@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { packages } from "@/data/packages";
+import { packages, getPackage } from "@/data/packages";
 import { experiences } from "@/data/experiences";
 import { appendLead } from "@/lib/leads";
 import { notifyFounder } from "@/lib/notify";
@@ -110,6 +110,8 @@ export async function POST(request: Request) {
     partySize: partySizeNum,
     interests,
     packageSlug: packageSlug || null,
+    packageCode: getPackage(packageSlug)?.code || null,
+    packagePricingStatus: getPackage(packageSlug)?.pricing.status || null,
     message,
     market: market || null,
     interest: interestAttr || null,

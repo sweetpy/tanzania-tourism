@@ -66,7 +66,7 @@ export default function HomePage() {
           <p className="animate-fade-up-delay-2 type-body mt-7 max-w-2xl text-cream/72">
             Boker is how curious travellers step into Tanzania — Serengeti and
             Ngorongoro, Uhuru Peak, Ruaha’s quiet wild, and Zanzibar’s spice
-            coast — with clear seasons, honest from-prices, and a plan built
+            coast — with clear seasons, clear planning budgets, and a plan built
             around how you actually want to move.
           </p>
           <div className="animate-fade-up-delay-2 mt-10 flex flex-wrap items-center gap-3">
@@ -186,7 +186,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Packages"
               title="Ready-to-adapt journeys"
-              description="From-prices in USD are starting points. Lodge level, season, and pacing lock after you enquire — or after your operator does via Boker Trade."
+              description="Twenty prepared safaris, from short park escapes to seasonal migration journeys. Explore the daily plan and midrange or luxury planning budget, then request a quote for your dates."
               light
             />
             <Link

@@ -90,8 +90,7 @@ export function Footer() {
         </p>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-center text-xs leading-relaxed text-cream/40 sm:text-left">
-            © {new Date().getFullYear()} {siteConfig.name}. Indicative
-            from-prices in USD vary by season and lodge. {citationsFooter}
+            © {new Date().getFullYear()} {siteConfig.name}. USD planning ranges require a confirmed quote for your dates and party. {citationsFooter}
           </p>
           <p className="flex shrink-0 gap-4 text-xs text-cream/50">
             <Link href="/privacy" className="hover:text-cream">

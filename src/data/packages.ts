@@ -1,82 +1,50 @@
-export type Package = {
-  slug: string;
-  name: string;
-  duration: string;
-  fromPriceUsd: number;
-  summary: string;
-  highlights: string[];
-  includes: string[];
-  idealFor: string;
-  destinations: string[];
-  image: string;
-  imageAlt: string;
-  featured?: boolean;
+import curated from "./curatedPackages.json";
+import type { Package, PackagePrice } from "@/lib/packageTypes";
+export type { Package } from "@/lib/packageTypes";
+export { packagePriceLabel } from "@/lib/packageTypes";
+
+const landscape =
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serengeti-Landscape-2012.JPG/1280px-Serengeti-Landscape-2012.JPG";
+const rift =
+  "https://upload.wikimedia.org/wikipedia/commons/2/21/Lake_Manyara.jpg";
+const onRequest: PackagePrice = {
+  status: "on-request",
+  currency: "USD",
+  basis: "Quoted for your dates and party.",
+  ranges: [],
+  note: "A bespoke journey: route, services and price are confirmed in your quotation.",
 };
 
-export const packages: Package[] = [
-  {
-    slug: "classic-northern-safari",
-    name: "Classic Northern Safari",
-    duration: "7 days / 6 nights",
-    fromPriceUsd: 2890,
-    summary:
-      "Tarangire or Manyara, Ngorongoro Crater, and the Serengeti — Tanzania’s most loved wildlife circuit in one seamless week.",
-    highlights: [
-      "Ngorongoro Crater full-day game drive",
-      "Serengeti plains and predator viewing",
-      "Comfortable mid-range lodges & tented camps",
-      "Private safari vehicle and driver-guide",
-    ],
-    includes: [
-      "Park fees and crater service fees",
-      "Full-board safari accommodation",
-      "Airport transfers (Kilimanjaro / Arusha)",
-      "Bottled water on game drives",
-    ],
-    idealFor: "First-time safari travellers and families",
-    destinations: ["lake-manyara", "ngorongoro", "serengeti"],
-    image:
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600&q=80",
-    imageAlt: "Open savannah landscape with acacia trees during a northern Tanzania safari",
-    featured: true,
-  },
-  {
-    slug: "migration-and-crater",
-    name: "Migration & Crater Explorer",
-    duration: "9 days / 8 nights",
-    fromPriceUsd: 4250,
-    summary:
-      "Follow migration herds in the Serengeti, then descend into Ngorongoro for dense Big Five viewing — timed to the season you travel.",
-    highlights: [
-      "Season-optimised Serengeti positioning",
-      "Optional hot-air balloon safari",
-      "Ngorongoro Crater rim stay",
-      "Flexible private itinerary pacing",
-    ],
-    includes: [
-      "All park and conservation fees",
-      "Full-board lodges / tented camps",
-      "Private 4x4 with pop-up roof",
-      "Arusha briefings and transfers",
-    ],
-    idealFor: "Wildlife enthusiasts and photographers",
-    destinations: ["serengeti", "ngorongoro"],
-    image:
-      "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1600&q=80",
-    imageAlt: "Dramatic crater and highland landscape suited to migration safari itineraries",
-    featured: true,
-  },
+const crafted: Package[] = curated.map((pkg) => ({
+  ...pkg,
+  image: pkg.imageKey === "serengeti" ? landscape : rift,
+  imageAlt:
+    pkg.imageKey === "serengeti"
+      ? "Savannah and acacia trees in Serengeti National Park"
+      : "Lake Manyara and the Rift Valley landscape in northern Tanzania",
+  imageCredit:
+    pkg.imageKey === "serengeti"
+      ? "https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG"
+      : "https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg",
+  pricing: { ...pkg.pricing, status: "planning" },
+}));
+
+const customJourneys: Package[] = [
   {
     slug: "kilimanjaro-lemosho",
+    days: 8,
+    category: "Custom journey",
+    plannerParkIds: [],
+    seasonMonths: [],
+    pricing: onRequest,
     name: "Kilimanjaro Lemosho Trek",
     duration: "8 days on the mountain",
-    fromPriceUsd: 2680,
     summary:
       "A scenic western approach with strong acclimatisation — rainforest, Shira Plateau, and a midnight push for Uhuru Peak.",
     highlights: [
       "8-day Lemosho itinerary",
       "Experienced mountain guides & porters",
-      "High summit-success pacing",
+      "Time for acclimatisation",
       "Optional safari add-on after descent",
     ],
     includes: [
@@ -90,15 +58,20 @@ export const packages: Package[] = [
     image:
       "https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=1600&q=80",
     imageAlt: "Mount Kilimanjaro peak above clouds for Lemosho trek climbers",
-    featured: true,
+    featured: false,
   },
   {
     slug: "safari-and-zanzibar",
+    days: 10,
+    nights: 9,
+    category: "Custom journey",
+    plannerParkIds: [],
+    seasonMonths: [],
+    pricing: onRequest,
     name: "Safari & Zanzibar Escape",
     duration: "10 days / 9 nights",
-    fromPriceUsd: 3890,
     summary:
-      "Six days of northern safari highlights followed by four nights on Zanzibar’s beaches — bush then barefoot bliss.",
+      "A northern safari followed by Zanzibar’s beaches, with the balance of safari days, transfers and beach nights tailored to you.",
     highlights: [
       "Serengeti & Ngorongoro wildlife days",
       "Domestic flight to Zanzibar",
@@ -116,13 +89,18 @@ export const packages: Package[] = [
     image:
       "https://images.unsplash.com/photo-1586500036706-41963de24d8b?w=1600&q=80",
     imageAlt: "Zanzibar beach retreat after a Tanzania safari adventure",
-    featured: true,
+    featured: false,
   },
   {
     slug: "southern-wild-ruaha",
+    days: 6,
+    nights: 5,
+    category: "Custom journey",
+    plannerParkIds: ["ruaha"],
+    seasonMonths: [],
+    pricing: onRequest,
     name: "Southern Wild: Ruaha",
     duration: "6 days / 5 nights",
-    fromPriceUsd: 3450,
     summary:
       "Fly into Ruaha for intimate game viewing among baobabs and riverine woodland — fewer vehicles, bigger wilderness.",
     highlights: [
@@ -146,10 +124,10 @@ export const packages: Package[] = [
   },
 ];
 
+export const packages = [...crafted, ...customJourneys];
 export function getPackage(slug: string) {
-  return packages.find((p) => p.slug === slug);
+  return packages.find((pkg) => pkg.slug === slug);
 }
-
 export function getFeaturedPackages() {
-  return packages.filter((p) => p.featured);
+  return packages.filter((pkg) => pkg.featured);
 }

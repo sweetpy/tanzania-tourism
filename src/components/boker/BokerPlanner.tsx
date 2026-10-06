@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { ArrowRight, Check, Compass, Moon, Printer, RefreshCw, ShieldCheck, TentTree } from "lucide-react";
 import type { BokerCircuit, BokerConfig, BokerEnquiryReceipt, BokerOption, BokerPreview, BokerTripRequest } from "@/lib/bokerTypes";
+import { PackageRecommendations } from "./PackageRecommendations";
 import "./boker.css";
 
 const landscape = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serengeti-Landscape-2012.JPG/1280px-Serengeti-Landscape-2012.JPG";
@@ -120,6 +121,7 @@ export default function BokerPlanner({ initialParkId = "", initialArrivalDate, m
           <p className="boker-form-note"><ShieldCheck size={15} /> No sign-up needed. No booking commitment.</p>
         </form>
       </section>
+      <PackageRecommendations request={request} config={config} childrenText={children} />
       <section id="boker-journey" ref={resultsRef} className="boker-journey" aria-labelledby="boker-journey-title" aria-busy={busy}>
         <div className="boker-section-heading"><div><span className="boker-eyebrow">THE JOURNEY TAKES SHAPE</span><h2 id="boker-journey-title">{preview ? "A safari, made around you." : "From a wish list to a day-by-day plan."}</h2></div>{selected && <button className="boker-secondary boker-no-print" onClick={() => window.print()}><Printer size={17} /> Print itinerary</button>}</div>
         {!preview && <div className="boker-empty"><TentTree size={36} strokeWidth={1.2} /><p>{busy ? "Finding routes that connect your chosen places…" : "Choose your dates and destinations above. Your route, overnight stops and proposed stays will appear here."}</p></div>}

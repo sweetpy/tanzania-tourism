@@ -3,8 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CTABand } from "@/components/CTABand";
 import { SectionHeading } from "@/components/SectionHeading";
-import { packageInsights } from "@/data/insights";
-import { packages } from "@/data/packages";
+import { packages, packagePriceLabel } from "@/data/packages";
 
 export const metadata: Metadata = {
   title: "Partner catalog",
@@ -18,7 +17,7 @@ export default function PartnerCatalogPage() {
       <SectionHeading
         eyebrow="Partner catalog"
         title="Packages you can discuss for resale"
-        description={`Live inventory from the same catalog travellers see (${packages.length} templates). Indicative from-prices; partner net rates shared after approval. Context: ${packageInsights.urtPackageShare2025}% URT package share (Exit Survey 2025).`}
+        description={`Prepared routes and bespoke journeys from the traveller catalog (${packages.length} journeys). Brochure ranges are planning budgets for two non-resident adults sharing; availability and partner net rates require a quotation.`}
       />
 
       <div className="mt-4 flex flex-wrap gap-3 text-sm">
@@ -62,8 +61,7 @@ export default function PartnerCatalogPage() {
                   </Link>
                 </h2>
                 <p className="mt-1 text-sm font-medium text-ink/50">
-                  From ${pkg.fromPriceUsd.toLocaleString("en-US")} USD pp
-                  (indicative retail start)
+                  {packagePriceLabel(pkg)}
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-ink/65">
                   {pkg.summary}

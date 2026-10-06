@@ -5,7 +5,7 @@ import { PartnershipStrip } from "@/components/PartnershipStrip";
 import { SectionHeading } from "@/components/SectionHeading";
 import { TrustStrip } from "@/components/TrustStrip";
 import { packageInsights } from "@/data/insights";
-import { packages } from "@/data/packages";
+import { packages, packagePriceLabel } from "@/data/packages";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -169,8 +169,7 @@ export default function OperatorsPage() {
                   {pkg.name}
                 </Link>
                 <p className="text-sm text-ink/55">
-                  {pkg.duration} · from $
-                  {pkg.fromPriceUsd.toLocaleString("en-US")} USD pp
+                  {pkg.duration} · {packagePriceLabel(pkg)}
                 </p>
               </div>
               <Link

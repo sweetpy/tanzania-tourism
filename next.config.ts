@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ["pg"],
   async redirects() {
     return [
+      { source: "/packages/migration-and-crater", destination: "/packages/8-day-mara-migration-safari", permanent: true },
       // Preserve links from the original Boker public website.
       { source: "/boker", destination: "/plan", permanent: true },
       { source: "/boker/destinations", destination: "/destinations", permanent: true },

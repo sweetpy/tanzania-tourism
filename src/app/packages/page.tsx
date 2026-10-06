@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Card } from "@/components/Card";
+import { PackageCatalogue } from "@/components/PackageCatalogue";
 import { CTABand } from "@/components/CTABand";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { packageInsights } from "@/data/insights";
-import { packages } from "@/data/packages";
 
 export const metadata: Metadata = {
   title: "Packages",
   description:
-    "Tanzania travel packages with from-prices in USD: northern safari, migration explorer, Kilimanjaro Lemosho, safari & Zanzibar, and Ruaha. Travellers enquire; operators can resell.",
+    "Twenty prepared Tanzania safaris with day-by-day itineraries, lodge choices and USD planning ranges, plus bespoke climbs, beach extensions and southern safaris.",
 };
 
 export default function PackagesPage() {
@@ -24,9 +23,9 @@ export default function PackagesPage() {
             <span className="text-gold-bright">clear starting points</span>
           </>
         }
-        description={`Flexible templates — not rigid brochures. From-prices are indicative USD. Context: ${packageInsights.urtPackageShare2025}% of surveyed URT visitors travelled on a package in 2025 (${packageInsights.sourceLabel}).`}
+        description={`Twenty thoughtfully paced safaris, from four-day escapes to eight-day migration journeys. Compare the route, daily plan and lodge options, then make it yours.`}
         image="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=2400&q=85"
-        imageAlt="Safari vehicles on dusty track through African bush"
+        imageAlt="Giraffe beside acacia trees at sunset"
       >
         <div className="flex flex-wrap gap-3">
           <Link
@@ -67,20 +66,7 @@ export default function PackagesPage() {
           </Link>
           .
         </p>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {packages.map((pkg) => (
-            <Card
-              key={pkg.slug}
-              href={`/packages/${pkg.slug}`}
-              title={pkg.name}
-              meta={`${pkg.duration} · from $${pkg.fromPriceUsd.toLocaleString("en-US")} pp`}
-              description={pkg.summary}
-              image={pkg.image}
-              imageAlt={pkg.imageAlt}
-              cta="View details"
-            />
-          ))}
-        </div>
+        <PackageCatalogue />
         <div className="mt-16 grid gap-6 lg:grid-cols-2">
           <CTABand
             title="Want a fully custom itinerary?"

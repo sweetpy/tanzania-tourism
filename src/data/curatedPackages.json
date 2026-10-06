@@ -1,0 +1,3086 @@
+[
+  {
+    "slug": "4-day-tarangire-ngorongoro",
+    "code": "BA-4D-CLASSIC",
+    "name": "4-Day Tarangire & Ngorongoro",
+    "duration": "4 days / 3 nights",
+    "days": 4,
+    "nights": 3,
+    "summary": "Two contrasting parks, one comfortable Karatu base. This short safari gives Tarangire and the crater their own days, with arrival and departure kept separate.",
+    "highlights": [
+      "Tarangire game drive",
+      "Dedicated Ngorongoro Crater day",
+      "Two nights at the same Karatu lodge"
+    ],
+    "includes": [
+      "Three accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-3; breakfast and lunch on Day 4: three breakfasts, three lunches and three dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 4; briefing and applicable taxes on the quoted services."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "a first safari with two contrasting wildlife areas and no domestic flights.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Year-round subject to weather and lodge availability; June-October is a useful dry-season planning window.",
+    "seasonMonths": [],
+    "paceNote": "Day 1 arrival in Arusha; Day 2 Tarangire and travel to Karatu; Day 3 Ngorongoro Crater; Day 4 departure. Two consecutive Karatu nights avoid another hotel change.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2100,
+          "maxUsd": 3000
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 2700,
+          "maxUsd": 4100
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-4D-CLASSIC.pdf",
+      "sha256": "54845119f51050a6aecd76373e18737969ed45ff2b785a65b334988fea93b383",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "4-day-lake-eyasi-cultural-tour",
+    "code": "BA-4D-EYASI",
+    "name": "4-Day Lake Eyasi: Hadzabe & Datoga",
+    "duration": "4 days / 3 nights",
+    "days": 4,
+    "nights": 3,
+    "summary": "Spend two nights beside Lake Eyasi, with hosted Datoga and Hadzabe encounters arranged through local guides. There is time to listen, walk and rest; this is a cultural journey rather than a park safari.",
+    "highlights": [
+      "Two Lake Eyasi nights",
+      "Hosted Hadzabe cultural encounter",
+      "Datoga visit arranged with willing hosts"
+    ],
+    "includes": [
+      "Three accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Local guiding and agreed community/area fees for the listed cultural visits. No national-park entry or crater descent is included.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-3; breakfast and lunch on Day 4: three breakfasts, three lunches and three dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 4; briefing and applicable taxes on the quoted services.",
+      "One Hadzabe and one Datoga hosted visit with local liaison/guide and agreed community fees; hosts determine available activities."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. The extra Arusha hotel night and onward JRO transfer after the Day 4 drop-off are excluded."
+    ],
+    "idealFor": "travellers interested in people and landscapes. No national-park game drive, Serengeti visit or night safari is included.",
+    "destinations": [
+      "lake-eyasi"
+    ],
+    "plannerParkIds": [],
+    "category": "Culture & landscapes",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Subject to community availability, lodge operation and rural-road access. Drier conditions usually simplify travel and walking.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night and two Lake Eyasi nights. Days 2 and 4 involve longer road transfers. The Datoga visit is planned for Day 2, with Day 3 afternoon as a flexible alternative; the Hadzabe encounter is planned for Day 3 morning.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Travel to Lake Eyasi and settle in",
+        "description": "After breakfast, drive from Arusha towards Lake Eyasi with comfort stops and lunch. Reach your lodge and rest before an arranged afternoon visit with willing Datoga hosts, if their availability and arrival time permit. A local liaison introduces the hosts and the conversation. If the journey runs late, the visit can move to tomorrow afternoon by agreement.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow approximately 4.5-6 hours from Arusha, plus local driving to the visit. Roads can be rough. This is primarily a transfer day; no park game drive is included."
+      },
+      {
+        "day": 3,
+        "title": "Hadzabe cultural experience",
+        "description": "Start early for an arranged encounter with Hadzabe hosts, also called Hadza, accompanied by a local liaison. A walk may explore tracking, plants and gathering knowledge according to the hosts' wishes. Hunting or a successful hunt is never promised or required. Return for lunch and a relaxed afternoon at the lodge. Ask permission before taking photographs and respect a refusal.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Meeting locations can change. Agree the walking distance and confirm local driving time with the liaison. Remain at the same lodge tonight; there is no onward transfer after the visit."
+      },
+      {
+        "day": 4,
+        "title": "Lake Eyasi to Arusha",
+        "description": "After breakfast, drive to Arusha with comfort stops and lunch. Finish at an Arusha hotel; that night's room and any onward JRO transfer are extra. An additional Arusha night before an international departure is recommended. Boker must review any proposed same-day onward travel before you book it.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Allow approximately 4.5-6 hours to Arusha, and longer if tracks are poor. JRO is a further 1-1.5 hours away, plus airline check-in time. There is no cultural visit or game drive today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Eyasi",
+        "nights": 2,
+        "midrange": [
+          "Lake Eyasi Safari Lodge"
+        ],
+        "luxury": [
+          "Kisima Ngeda"
+        ],
+        "note": "Limited local inventory; alternative properties require an individual location and availability check."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 1700,
+          "maxUsd": 2500
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 2200,
+          "maxUsd": 3500
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-4D-EYASI.pdf",
+      "sha256": "608be731bc6b509732832a26238263e71bc02f3db6c635e146d79004831f9079",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "lake-manyara",
+    "featured": false
+  },
+  {
+    "slug": "4-day-tarangire-night-safari",
+    "code": "BA-4D-TAR-NIGHT",
+    "name": "4-Day Tarangire, Day & Night",
+    "duration": "4 days / 3 nights",
+    "days": 4,
+    "nights": 3,
+    "summary": "Stay inside Tarangire for two nights. Explore the baobab country by day, join one planned night drive, and enjoy a full day without changing lodges.",
+    "highlights": [
+      "Two nights inside Tarangire",
+      "One pre-booked night game drive",
+      "An unhurried day at the same lodge"
+    ],
+    "includes": [
+      "Three accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits. No crater descent is included.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-3; breakfast and lunch on Day 4: three breakfasts, three lunches and three dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 4; briefing and applicable taxes on the quoted services.",
+      "One pre-booked night drive inside Tarangire National Park on Day 2, including the approved operator, activity vehicle and guide, current permits and any required ranger arrangements. Activity seats may be shared."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "travellers who prefer more time in one park and an after-dark experience. No Ngorongoro, Manyara or Serengeti visit is included.",
+    "destinations": [
+      "tarangire"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Night safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "June-October is a useful dry-season starting point. All dates require confirmation of lodge and night-drive operation.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night and two Tarangire nights. Day 2 includes a rest before the night drive; Day 3 stays in Tarangire with a flexible start; Day 4 is the return/departure day.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire safari and a night game drive",
+        "description": "Leave Arusha after breakfast and drive to Tarangire. Enjoy selected wildlife stops on the way to Tarangire Safari Lodge, with lunch arranged before an afternoon rest. In the evening, join the pre-booked night game drive on a permitted route inside the national park. Look for nocturnal animals and birds with the approved guide, then return to your lodge room to sleep.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to the main gate: approximately 2-3 hours, then the lodge transfer and wildlife stops. Plan about 1.5-2 hours for the night activity, with the operator confirming timing. It is an evening outing followed by an overnight lodge stay, not an all-night drive. Seats in the activity vehicle may be shared."
+      },
+      {
+        "day": 3,
+        "title": "Tarangire at your own pace",
+        "description": "After last night's outing, choose a later breakfast or a morning drive with your guide. Explore the river habitats and baobab country, with a picnic or a lodge lunch according to your preference. Leave time for an afternoon break and return to the same lodge. No hotel transfer is scheduled today.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Game-drive distances depend on wildlife and your preferences. One night drive on Day 2 is included; a second outing tonight is an optional extra and requires separate availability and pricing."
+      },
+      {
+        "day": 4,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, leave Tarangire with any incidental wildlife viewing on the exit route, then return to Arusha for lunch. Continue to JRO for a flight whose timing Boker has approved, or finish at an Arusha hotel. No separate game drive is promised today. An early flight requires an extra night or a revised programme.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Allow approximately 3-4 hours from Tarangire Safari Lodge to Arusha including ordinary exit formalities, plus 1-1.5 hours to JRO and airline check-in. Road conditions and stops may extend the journey. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Tarangire National Park",
+        "nights": 2,
+        "midrange": [
+          "Tarangire Safari Lodge - ensuite tent or bungalow"
+        ],
+        "luxury": [
+          "Tarangire Safari Lodge - Patulivu River Suite"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2200,
+          "maxUsd": 3300
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 2600,
+          "maxUsd": 4100
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-4D-TAR-NIGHT.pdf",
+      "sha256": "490e7485052717342bc8100a660df65fb7ffbd8ecf1032b8489bb7018d8bb1b2",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "lake-manyara",
+    "featured": false
+  },
+  {
+    "slug": "5-day-classic-northern-safari",
+    "code": "BA-5D-CLASSIC",
+    "name": "5-Day Tarangire, Manyara & the Crater",
+    "duration": "5 days / 4 nights",
+    "days": 5,
+    "nights": 4,
+    "summary": "A compact circuit through three different wildlife habitats. Three nights at the same Karatu lodge make room for separate Tarangire, Lake Manyara and Ngorongoro visits.",
+    "highlights": [
+      "Three northern wildlife parks",
+      "Three nights at one Karatu lodge",
+      "No long Serengeti transfer"
+    ],
+    "includes": [
+      "Four accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-4; breakfast and lunch on Day 5: four breakfasts, four lunches and four dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 5; briefing and applicable taxes on the quoted services."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "first-time visitors who prefer a road safari and a steady lodge base. This route does not include Serengeti or a night game drive.",
+    "destinations": [
+      "tarangire",
+      "lake-manyara",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "manyara",
+      "ngorongoro"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Year-round in principle, subject to weather, park access and accommodation. Manyara water levels can change the available game-drive routes.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night, followed by three nights at one Karatu lodge. Days 2-4 cover the parks; Day 5 is departure. Lake Manyara and the crater are visited on separate days.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Lake Manyara National Park",
+        "description": "After breakfast, drive down the escarpment to Lake Manyara. Explore the accessible forest and lake-margin routes with a picnic lunch. Look for primates, birds and other wildlife; tree-climbing lions and large flamingo gatherings are not guaranteed. Return to the same Karatu lodge with time to relax before dinner.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the park gate: approximately 30-60 minutes each way, depending on the lodge. Water levels and track closures affect the viewing route. This is a dedicated daytime park visit, not a night safari."
+      },
+      {
+        "day": 4,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 5,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 3,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2500,
+          "maxUsd": 3700
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 3400,
+          "maxUsd": 5100
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-5D-CLASSIC.pdf",
+      "sha256": "bd9c3817c1f1caf58a720009494eec3b1975d0476e4d162b7aee879cfaacd59e",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "5-day-tarangire-lake-eyasi",
+    "code": "BA-5D-EYASI",
+    "name": "5-Day Tarangire & Lake Eyasi",
+    "duration": "5 days / 4 nights",
+    "days": 5,
+    "nights": 4,
+    "summary": "Begin among Tarangire's baobabs, then spend two nights near Lake Eyasi. Datoga and Hadzabe visits have separate days, with time to return to the lodge and relax.",
+    "highlights": [
+      "Tarangire wildlife day",
+      "Separate Datoga and Hadzabe visits",
+      "Two Lake Eyasi nights"
+    ],
+    "includes": [
+      "Four accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits. No crater descent is included.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-4; breakfast and lunch on Day 5: four breakfasts, four lunches and four dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 5; briefing and applicable taxes on the quoted services.",
+      "One Hadzabe and one Datoga hosted visit with local liaison/guide and agreed community fees; hosts determine available activities."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. The extra Arusha hotel night and onward JRO transfer after the Day 5 drop-off are excluded."
+    ],
+    "idealFor": "travellers interested in cultural learning, local landscapes and an introduction to safari. No Ngorongoro, Serengeti or night drive is included.",
+    "destinations": [
+      "tarangire",
+      "lake-eyasi"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Culture & landscapes",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Subject to rural-road access, lodge operation and community availability. Dry conditions make walking and transfers easier.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night, one Karatu night and two Lake Eyasi nights. Day 3 focuses on the Datoga visit; Day 4 on the Hadzabe encounter. Day 5 is the road return to Arusha.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Lake Eyasi and a Datoga visit",
+        "description": "After breakfast, travel from Karatu towards Lake Eyasi and settle into your lodge. Meet the local liaison for an afternoon visit with willing Datoga hosts. Discussion may include pastoral livelihoods, family life or metalworking, depending on what the hosts choose to share. Return to the lodge for dinner.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the lodge: approximately 1.5-2.5 hours, plus local driving to the visit. Host availability determines the encounter; a specific demonstration is not guaranteed."
+      },
+      {
+        "day": 4,
+        "title": "Hadzabe cultural experience",
+        "description": "Start early for an arranged encounter with Hadzabe hosts, also called Hadza, accompanied by a local liaison. A walk may explore tracking, plants and gathering knowledge according to the hosts' wishes. Hunting or a successful hunt is never promised or required. Return for lunch and a relaxed afternoon at the lodge. Ask permission before taking photographs and respect a refusal.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Meeting locations can change. Agree the walking distance and confirm local driving time with the liaison. Remain at the same lodge tonight; there is no onward transfer after the visit."
+      },
+      {
+        "day": 5,
+        "title": "Lake Eyasi to Arusha",
+        "description": "After breakfast, drive to Arusha with comfort stops and lunch. Finish at an Arusha hotel; that night's room and any onward JRO transfer are extra. An additional Arusha night before an international departure is recommended. Boker must review any proposed same-day onward travel before you book it.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Allow approximately 4.5-6 hours to Arusha, and longer if tracks are poor. JRO is a further 1-1.5 hours away, plus airline check-in time. There is no cultural visit or game drive today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 1,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Eyasi",
+        "nights": 2,
+        "midrange": [
+          "Lake Eyasi Safari Lodge"
+        ],
+        "luxury": [
+          "Kisima Ngeda"
+        ],
+        "note": "Limited local inventory; alternative properties require an individual location and availability check."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2200,
+          "maxUsd": 3300
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 2900,
+          "maxUsd": 4600
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-5D-EYASI.pdf",
+      "sha256": "0c06d883e653508127f9aea8cb52536f6e93f45c78fc5780b1ed24fecf7b923a",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "lake-manyara",
+    "featured": false
+  },
+  {
+    "slug": "5-day-ngorongoro-serengeti",
+    "code": "BA-5D-NGOR-SERENGETI",
+    "name": "5-Day Ngorongoro & Serengeti",
+    "duration": "5 days / 4 nights",
+    "days": 5,
+    "nights": 4,
+    "summary": "Keep the focus on the crater and Central Serengeti. Stay two nights in each area, allow a full Serengeti day, then fly back to Arusha instead of retracing the road.",
+    "highlights": [
+      "Dedicated crater day",
+      "Two Central Serengeti nights",
+      "Scheduled Serengeti-to-Arusha flight"
+    ],
+    "includes": [
+      "Four accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-4; breakfast and lunch on Day 5: four breakfasts, four lunches and four dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Karatu arrival transfer on Day 1 and the departure arrangement described on Day 5; briefing and applicable taxes on the quoted services.",
+      "Seronera-ARK scheduled economy flight with quoted taxes, airstrip transfer and ARK-to-Arusha-hotel transfer. Flight is shared, not a charter."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Other domestic flights, JRO onward transfer and an Arusha night after Day 5 are extra."
+    ],
+    "idealFor": "travellers prioritising these two wildlife destinations who can arrive early enough for the longer first-day hotel transfer.",
+    "destinations": [
+      "ngorongoro",
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "ngorongoro",
+      "serengeti-central"
+    ],
+    "category": "Fly-in & fly-back",
+    "travelStyle": "Private road safari with shared scheduled return flight",
+    "travelWindow": "Year-round subject to camp and flight operation. Central Serengeti is the base; no particular migration event is guaranteed.",
+    "seasonMonths": [],
+    "paceNote": "Two Karatu nights and two Serengeti nights. Day 1 is arrival and a longer transfer; Day 3 is the main safari-area road journey; Day 4 is a full Serengeti day. Day 5 is the return flight.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and transfer to Karatu",
+        "description": "Arrive at Kilimanjaro International Airport (JRO), meet your representative and travel directly to Karatu with comfort stops. Settle in, have dinner and receive your safari briefing, or finish the briefing before departure tomorrow if you need rest. No game drive is scheduled on arrival day. This route requires a flight arriving early enough for a comfortable transfer.",
+        "overnight": "Karatu",
+        "meals": "dinner",
+        "timing": "Planning time: Allow approximately 3.5-5 hours after airport formalities, depending on traffic and lodge location. Boker must approve your arrival flight before confirmation. A late arrival needs an extra Arusha night and a longer holiday, or a revised itinerary; do not shorten the next day to compensate."
+      },
+      {
+        "day": 2,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 3,
+        "title": "Journey to Central Serengeti",
+        "description": "Travel through the Ngorongoro highlands and onward to Central Serengeti with a packed lunch and comfort stops. There is no crater descent today. Once inside Serengeti, enjoy wildlife viewing along the permitted route to camp as time allows. Settle in before dinner; the priority is a comfortable arrival rather than a late extra game drive.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 5-7 hours from Karatu including normal stops and formalities; sightings, weather and tracks can extend this. This is a long transfer day."
+      },
+      {
+        "day": 4,
+        "title": "A full day in Central Serengeti",
+        "description": "Explore the Seronera region with your guide, pausing to watch animal behaviour around plains, kopjes and river corridors. Choose a picnic outing or morning and afternoon drives with a camp break when distances allow. A pre-booked sunrise balloon safari can replace the early game drive. Return to the same camp for dinner.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. Game-drive distance depends on wildlife, weather and your preferences. Balloon collection is before dawn."
+      },
+      {
+        "day": 5,
+        "title": "Fly from Serengeti to Arusha",
+        "description": "Transfer from camp to Seronera Airstrip for your confirmed scheduled flight to Arusha Airport (ARK). A morning game drive is not promised because check-in determines the departure from camp. On arrival, meet your driver for a transfer to an Arusha hotel, where this package ends. Lunch is provided as a packed meal or in Arusha according to the schedule.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Airstrip transfer depends on the camp. Flight routing may include stops. ARK is not JRO: a JRO transfer and any extra hotel night are separately quoted. Avoid a tight onward connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Serengeti Kati Kati",
+          "Embalakai Serengeti"
+        ],
+        "luxury": [
+          "Kubu Kubu",
+          "Serengeti Serena"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3500,
+          "maxUsd": 5100
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4600,
+          "maxUsd": 7000
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-5D-NGOR-SERENGETI.pdf",
+      "sha256": "11be0a44e419e2d459d875ae57b9ab23660fcb99052c49d92468f83c15ac3b75",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "serengeti",
+    "featured": true
+  },
+  {
+    "slug": "5-day-serengeti-fly-in",
+    "code": "BA-5D-SERENGETI-FLY",
+    "name": "5-Day Serengeti Fly-in Escape",
+    "duration": "5 days / 4 nights",
+    "days": 5,
+    "nights": 4,
+    "summary": "Fly from Arusha to Central Serengeti and settle into one camp for three nights. Two full exploration days put wildlife viewing ahead of road transfers and repeated packing.",
+    "highlights": [
+      "Scheduled return flights from Arusha",
+      "Three nights at one Serengeti camp",
+      "Two full Serengeti exploration days"
+    ],
+    "includes": [
+      "Four accommodation nights in the confirmed rooms; private Serengeti safari vehicle and English-speaking guide for the described game drives, plus the specified road transfers. The guide/vehicle can differ from the Arusha transfer team.",
+      "Listed park visits and relevant entry, overnight and vehicle permits. No crater descent is included.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-4; breakfast and lunch on Day 5: four breakfasts, four lunches and four dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 5; briefing and applicable taxes on the quoted services.",
+      "Scheduled economy flights ARK-Seronera on Day 2 and Seronera-ARK on Day 5, with quoted taxes, airport/airstrip transfers and Day 5 ARK-to-Arusha-hotel transfer. Flights are shared, not charters."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Other domestic flights, JRO onward transfer and an Arusha night after Day 5 are extra."
+    ],
+    "idealFor": "travellers who value more time in Serengeti and fewer long drives. No Ngorongoro, Tarangire or Manyara visit is included.",
+    "destinations": [
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "serengeti-central"
+    ],
+    "category": "Fly-in & fly-back",
+    "travelStyle": "Scheduled flights and privately arranged Serengeti game drives",
+    "travelWindow": "Year-round subject to lodge opening and scheduled flights. Suitable for Central Serengeti wildlife rather than chasing distant migration fronts.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night and three consecutive Serengeti nights. Days 3 and 4 are full game-drive days. Days 2 and 5 include flights and transfers, with viewing on Day 2 only as time permits.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Fly to Central Serengeti",
+        "description": "After breakfast or an arranged packed breakfast, transfer to Arusha Airport (ARK) for your confirmed scheduled flight to Seronera. Meet your safari guide and travel to camp with wildlife viewing where timing permits. Have lunch as arranged, settle in, and enjoy a gentle afternoon drive if the flight schedule allows. Keep this arrival day flexible.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Hotel to ARK transfer, check-in and flight timing depend on the booking. Aircraft may stop at other airstrips. This is not a full game-drive day. The package includes a shared scheduled flight and privately arranged Serengeti game drives, not a charter aircraft."
+      },
+      {
+        "day": 3,
+        "title": "A full day in Central Serengeti",
+        "description": "Explore the Seronera region with your guide, pausing to watch animal behaviour around plains, kopjes and river corridors. Choose a picnic outing or morning and afternoon drives with a camp break when distances allow. A pre-booked sunrise balloon safari can replace the early game drive. Return to the same camp for dinner.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. Game-drive distance depends on wildlife, weather and your preferences. Balloon collection is before dawn."
+      },
+      {
+        "day": 4,
+        "title": "Another full Serengeti day",
+        "description": "Explore from the same camp for a second full day, choosing different habitats or returning to a promising area with your guide. Take a picnic or plan a camp break according to the distances involved. Allow time to observe behaviour and enjoy the setting rather than trying to cover every corner of the park.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp change. A balloon safari is recommended for Day 3; Day 4 may be an alternative only if the operator has availability. No migration or predator sighting is promised."
+      },
+      {
+        "day": 5,
+        "title": "Fly from Serengeti to Arusha",
+        "description": "Transfer from camp to Seronera Airstrip for your confirmed scheduled flight to Arusha Airport (ARK). A morning game drive is not promised because check-in determines the departure from camp. On arrival, meet your driver for a transfer to an Arusha hotel, where this package ends. Lunch is provided as a packed meal or in Arusha according to the schedule.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Airstrip transfer depends on the camp. Flight routing may include stops. ARK is not JRO: a JRO transfer and any extra hotel night are separately quoted. Avoid a tight onward connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 3,
+        "midrange": [
+          "Serengeti Kati Kati",
+          "Embalakai Serengeti"
+        ],
+        "luxury": [
+          "Kubu Kubu",
+          "Serengeti Serena"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3700,
+          "maxUsd": 5800
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 5300,
+          "maxUsd": 8400
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-5D-SERENGETI-FLY.pdf",
+      "sha256": "e2b8d5ad5734fa5686482df3cfd3dc567d6bff8089f11ddbeb52fe5a9921aa6e",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "serengeti",
+    "featured": false
+  },
+  {
+    "slug": "5-day-tarangire-night-ngorongoro",
+    "code": "BA-5D-TAR-NIGHT",
+    "name": "5-Day Tarangire After Dark & the Crater",
+    "duration": "5 days / 4 nights",
+    "days": 5,
+    "nights": 4,
+    "summary": "Pair a Tarangire night drive with a dedicated Ngorongoro Crater day. Rest before the evening outing, then move to Karatu at a comfortable pace the following day.",
+    "highlights": [
+      "One Tarangire night drive",
+      "Two Karatu nights",
+      "Separate crater and transfer days"
+    ],
+    "includes": [
+      "Four accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-4; breakfast and lunch on Day 5: four breakfasts, four lunches and four dinners. Drinking water in the safari vehicle.",
+      "JRO-to-Arusha arrival transfer on Day 1 and the departure arrangement described on Day 5; briefing and applicable taxes on the quoted services.",
+      "One pre-booked night drive inside Tarangire National Park on Day 2, including the approved operator, activity vehicle and guide, current permits and any required ranger arrangements. Activity seats may be shared."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "travellers seeking a night game drive and two wildlife parks in a short visit. The night drive is an evening activity followed by a lodge stay.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "category": "Night safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "June-October is a useful dry-season planning window. Confirm lodge opening, permits and night-drive operation for all dates.",
+    "seasonMonths": [],
+    "paceNote": "One Arusha night, one Tarangire night and two Karatu nights. Day 2 includes the night drive; Day 3 is the onward transfer; Day 4 is the crater visit; Day 5 is departure.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire safari and a night game drive",
+        "description": "Leave Arusha after breakfast and drive to Tarangire. Enjoy selected wildlife stops on the way to Tarangire Safari Lodge, with lunch arranged before an afternoon rest. In the evening, join the pre-booked night game drive on a permitted route inside the national park. Look for nocturnal animals and birds with the approved guide, then return to your lodge room to sleep.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to the main gate: approximately 2-3 hours, then the lodge transfer and wildlife stops. Plan about 1.5-2 hours for the night activity, with the operator confirming timing. It is an evening outing followed by an overnight lodge stay, not an all-night drive. Seats in the activity vehicle may be shared."
+      },
+      {
+        "day": 3,
+        "title": "Relaxed morning and onward to Karatu",
+        "description": "Have breakfast after last night's outing and leave Tarangire with wildlife viewing on the exit route. Continue to Karatu with lunch en route or at your lodge. Rest in the afternoon; there is no crater descent or extra park visit today. Your guide can shorten the exit viewing if you prefer more time at the lodge.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow approximately 3-4 hours from Tarangire Safari Lodge to Karatu with ordinary stops and exit formalities; extended wildlife viewing adds time. Southern Tarangire camps are not like-for-like substitutions on this short itinerary."
+      },
+      {
+        "day": 4,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 5,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Tarangire National Park",
+        "nights": 1,
+        "midrange": [
+          "Tarangire Safari Lodge - ensuite tent or bungalow"
+        ],
+        "luxury": [
+          "Tarangire Safari Lodge - Patulivu River Suite"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2600,
+          "maxUsd": 4100
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 3500,
+          "maxUsd": 5500
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-5D-TAR-NIGHT.pdf",
+      "sha256": "d6c6d8ab649e9ff26fdc94b8587973135c7de02a5ac1e8703e65d860babf8f49",
+      "pricePage": 6,
+      "receivedDate": "2026-10-05"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "6-day-safari-lake-eyasi",
+    "code": "BA-6D-EYASI",
+    "name": "6-Day Wildlife & Lake Eyasi",
+    "duration": "6 days / 5 nights",
+    "days": 6,
+    "nights": 5,
+    "summary": "Combine Tarangire and Ngorongoro with two nights around Lake Eyasi. Locally arranged Datoga and Hadzabe visits leave space for conversation and a quieter afternoon.",
+    "highlights": [
+      "Tarangire and Ngorongoro visits",
+      "Two Lake Eyasi nights",
+      "Hosted cultural visits on separate days"
+    ],
+    "includes": [
+      "Five accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-5; breakfast and lunch on Day 6: five breakfasts, five lunches and five dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 6; briefing and applicable taxes on the quoted services.",
+      "One Hadzabe and one Datoga hosted visit with local liaison/guide and agreed community fees; hosts determine available activities."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. The hotel night and JRO transfer after the Day 6 Arusha drop-off are extra."
+    ],
+    "idealFor": "travellers interested in cultural learning as well as wildlife. This route includes neither Serengeti nor a Tarangire night drive.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "lake-eyasi"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "category": "Culture & landscapes",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Available in principle across the year, subject to community availability, lodge operation and rural-road access. Dry conditions simplify the walks and transfers.",
+    "seasonMonths": [],
+    "paceNote": "Two Karatu nights and two Eyasi nights. Datoga and Hadzabe visits are on separate days. Day 6 is the road return to Arusha, with an extra hotel night recommended before an international flight.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Lake Eyasi and Datoga hosts",
+        "description": "Travel from Karatu to Lake Eyasi after breakfast. Settle in, enjoy lunch and meet your local liaison for an arranged visit with willing Datoga hosts. Conversation may include pastoral livelihoods or metalworking, depending on what your hosts choose to share. Return for dinner and remain at the same lodge tomorrow.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the lodge: approximately 1.5-2.5 hours, with extra local driving to the visit. The encounter is subject to host availability and consent."
+      },
+      {
+        "day": 5,
+        "title": "Hadzabe cultural morning and time to relax",
+        "description": "Leave early with your liaison to meet Hadzabe hosts, also known as Hadza. An agreed walk may explore tracking, plants, gathering knowledge and the surrounding landscape. Let your hosts guide the encounter; hunting, a successful hunt or a demonstration is never guaranteed. Return for lunch and an afternoon at the lodge. Ask each person before taking photographs.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Meeting places can change; confirm local driving and walking distances the day before. Activities are arranged around community availability and guest fitness. No onward road transfer today."
+      },
+      {
+        "day": 6,
+        "title": "Lake Eyasi to Arusha",
+        "description": "After breakfast, return to Arusha with comfort stops and lunch. End at an Arusha hotel; the hotel night and any JRO transfer are not included. An additional Arusha night is recommended before an international departure. An onward airport transfer can be quoted only after Boker checks the proposed flight against this remote-road return.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Plan approximately 4.5-6 hours to Arusha, possibly longer after rain. JRO is a further 1-1.5 hours away, plus airline check-in. Do not book a tight same-day connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Eyasi",
+        "nights": 2,
+        "midrange": [
+          "Lake Eyasi Safari Lodge"
+        ],
+        "luxury": [
+          "Kisima Ngeda"
+        ],
+        "note": "Limited local inventory; alternative properties require an individual location and availability check."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 2900,
+          "maxUsd": 4400
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4100,
+          "maxUsd": 6300
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-6D-EYASI.pdf",
+      "sha256": "5e9ca91b61043853d5e7a84e8fa1b711f042f54ea46a6133f7f62221d045a33d",
+      "pricePage": 6,
+      "receivedDate": "2026-10-01"
+    },
+    "imageKey": "ngorongoro",
+    "featured": true
+  },
+  {
+    "slug": "6-day-tarangire-night-lake-natron",
+    "code": "BA-6D-NATRON-NIGHT",
+    "name": "6-Day Tarangire Nights & Lake Natron",
+    "duration": "6 days / 5 nights",
+    "days": 6,
+    "nights": 5,
+    "summary": "From baobab woodland to the Rift Valley lake, this route combines two nights inside Tarangire with two at Natron. A night safari and a full Natron day balance the substantial road journeys.",
+    "highlights": [
+      "Two Tarangire nights and one night drive",
+      "Two Lake Natron nights",
+      "Lake walk plus waterfall walk or village visit"
+    ],
+    "includes": [
+      "Five accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; the scheduled Tarangire daytime drives.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-5; breakfast and lunch on Day 6: five breakfasts, five lunches and five dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 6; briefing and applicable taxes on the quoted services.",
+      "Natron lake walk plus waterfall walk OR village visit, local guiding and quoted area/community fees. No Lengai ascent.",
+      "One pre-booked night drive inside Tarangire National Park, with approved activity vehicle/guide, required permits and any required ranger arrangements, as itemised in the quote. Seats may be shared."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. The hotel night and JRO transfer after the Day 6 Arusha drop-off are extra."
+    ],
+    "idealFor": "travellers who enjoy landscapes and local walks as well as wildlife and accept two longer road journeys. No Serengeti, Ngorongoro Crater or volcano ascent is included.",
+    "destinations": [
+      "tarangire",
+      "lake-natron"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Night safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Prefer drier dates, with advance checks on Natron road access and night-drive operation. Lake walks depend on heat, water levels and local access.",
+    "seasonMonths": [],
+    "paceNote": "Day 3 includes the night drive and an afternoon rest. Days 4 and 6 are long road transfers. Two nights at each safari base protect time for activities, but this is the most road-intensive choice in the collection.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire arrival and wildlife viewing",
+        "description": "After breakfast, drive to Tarangire and explore on the way to your lodge, with a picnic lunch or lunch at the lodge according to timing. Watch elephants, giraffes and birds among the baobabs and river habitats. Settle into your room and enjoy a relaxed evening. The night drive is planned for tomorrow, leaving today flexible after the road journey.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to the main gate: approximately 2-3 hours, followed by the shorter transfer to Tarangire Safari Lodge and wildlife stops. This itinerary retains this northern-park lodge in both comfort categories."
+      },
+      {
+        "day": 3,
+        "title": "Tarangire by day and after dark",
+        "description": "Enjoy a morning game drive, then return for lunch and a proper afternoon break. After the activity briefing and dinner arrangements, join your pre-booked night drive inside Tarangire National Park with the approved operator. Look for nocturnal life such as genets, bushbabies, porcupines or owls; no particular animal is guaranteed. Return to the same lodge to sleep.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No hotel change. Plan an approximately 1.5-2-hour night outing, with the actual departure, duration and route confirmed by the operator and park. It may use a shared lodge vehicle, separate from your private daytime vehicle."
+      },
+      {
+        "day": 4,
+        "title": "From Tarangire to Lake Natron",
+        "description": "Leave after breakfast and travel out through northern Tarangire towards Mto wa Mbu, then north through the Rift Valley to Natron. Take lunch and comfort stops on the way. Settle into camp and rest; no guided walk or climb is added to this long road day. Views towards Ol Doinyo Lengai depend on the weather.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow approximately 6-8 hours from Tarangire Safari Lodge including normal stops, and longer in adverse conditions. This route uses a northern Tarangire base; a southern camp would require a revised route and timing."
+      },
+      {
+        "day": 5,
+        "title": "Lake Natron and local perspectives",
+        "description": "Take a locally guided lake-edge walk in the cooler morning hours. Look for birds and enjoy the Rift Valley setting; flamingo numbers and access vary. Rest at camp around midday. In the afternoon, choose the included Ngare Sero waterfall walk if water levels and footing are safe, or a locally guided village conversation arranged with willing hosts. The two activities are alternatives, not an obligation to fit both in.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Walk length is agreed with your guide. Gorge routes can involve slippery rock and wading. A shorter dry-land walk can replace the gorge. Lake Natron itself is not a swimming lake."
+      },
+      {
+        "day": 6,
+        "title": "Return from Lake Natron to Arusha",
+        "description": "After breakfast, return to Arusha with lunch and comfort stops. Finish at an Arusha hotel. This package contains five nights only, so tonight's accommodation and any onward JRO transfer are extra. We recommend an additional Arusha night before flying internationally the next day.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Allow approximately 6-8 hours, possibly longer if road conditions deteriorate. No game drive or same-day international connection is promised."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Tarangire National Park",
+        "nights": 2,
+        "midrange": [
+          "Tarangire Safari Lodge - ensuite tent or bungalow"
+        ],
+        "luxury": [
+          "Tarangire Safari Lodge - Patulivu River Suite"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Natron",
+        "nights": 2,
+        "midrange": [
+          "Africa Safari Lake Natron - Comfort Bungalow"
+        ],
+        "luxury": [
+          "Lake Natron Camp",
+          "Africa Safari Lake Natron - Luxury Glamping"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3100,
+          "maxUsd": 4800
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 3800,
+          "maxUsd": 5800
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-6D-NATRON-NIGHT.pdf",
+      "sha256": "e6a49b6690f293b3911470ec3cbe888d3d588fd62d7e8eb1b65a909d7c7288f8",
+      "pricePage": 6,
+      "receivedDate": "2026-10-01"
+    },
+    "imageKey": "lake-manyara",
+    "featured": false
+  },
+  {
+    "slug": "6-day-northern-safari-fly-back",
+    "code": "BA-6D-SERENGETI",
+    "name": "6-Day Classic Parks, Serengeti Fly-back",
+    "duration": "6 days / 5 nights",
+    "days": 6,
+    "nights": 5,
+    "summary": "See Tarangire and the crater before settling into Central Serengeti for two nights. A full wildlife day and a scheduled flight back to Arusha make a focused six-day circuit.",
+    "highlights": [
+      "Tarangire and Ngorongoro",
+      "One full Serengeti day",
+      "Scheduled return flight to Arusha"
+    ],
+    "includes": [
+      "Five accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-5; breakfast and lunch on Day 6: five breakfasts, five lunches and five dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 6; briefing and applicable taxes on the quoted services.",
+      "Seronera-ARK scheduled economy flight with quoted taxes, airstrip transfer and ARK-to-Arusha-hotel transfer. Flight is shared, not a charter."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Other domestic flights, JRO onward transfer and an Arusha night after Day 6 are extra."
+    ],
+    "idealFor": "a first safari covering three major wildlife areas, with a return flight and one full Serengeti day.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti-central"
+    ],
+    "category": "Fly-in & fly-back",
+    "travelStyle": "Private road safari with shared scheduled return flight",
+    "travelWindow": "Year-round subject to camp and flight operation. Central Serengeti wildlife is the focus; seasonal migration sightings are not promised.",
+    "seasonMonths": [],
+    "paceNote": "Two Karatu nights, followed by two nights at one Serengeti camp. Day 4 is a long scenic transfer; Day 5 is a full Serengeti day. Day 6 is the flight/transfer day. A Tarangire night drive is not included in this route.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Journey to Central Serengeti",
+        "description": "Travel through the Ngorongoro highlands and onward to Central Serengeti with a packed lunch and comfort stops. There is no crater descent today. Once inside Serengeti, enjoy wildlife viewing along the permitted route to camp as time allows. Settle in before dinner; the priority is a comfortable arrival rather than a late extra game drive.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 5-7 hours from Karatu including normal stops and formalities; sightings, weather and tracks can extend this. This is a long transfer day."
+      },
+      {
+        "day": 5,
+        "title": "A full day in Central Serengeti",
+        "description": "Explore the Seronera region with your guide, pausing to watch animal behaviour around plains, kopjes and river corridors. Choose a picnic outing or morning and afternoon drives with a camp break when distances allow. A pre-booked sunrise balloon safari can replace the early game drive. Return to the same camp for dinner.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. Game-drive distance depends on wildlife, weather and your preferences. Balloon collection is before dawn."
+      },
+      {
+        "day": 6,
+        "title": "Fly from Serengeti to Arusha",
+        "description": "Transfer from camp to Seronera Airstrip for your confirmed scheduled flight to Arusha Airport (ARK). A morning game drive is not promised because check-in determines the departure from camp. On arrival, meet your driver for a transfer to an Arusha hotel, where this package ends. Lunch is provided as a packed meal or in Arusha according to the schedule.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Airstrip transfer depends on the camp. Flight routing may include stops. ARK is not JRO: a JRO transfer and any extra hotel night are separately quoted. Avoid a tight onward connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Serengeti Kati Kati",
+          "Embalakai Serengeti"
+        ],
+        "luxury": [
+          "Kubu Kubu",
+          "Serengeti Serena"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3900,
+          "maxUsd": 5600
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 5300,
+          "maxUsd": 7900
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-6D-SERENGETI.pdf",
+      "sha256": "4e540e16a301f1700b6524c65706a95ff64fa064863f9431a8922f1246cc374a",
+      "pricePage": 6,
+      "receivedDate": "2026-10-01"
+    },
+    "imageKey": "serengeti",
+    "featured": false
+  },
+  {
+    "slug": "6-day-tarangire-night-ngorongoro",
+    "code": "BA-6D-TAR-NIGHT",
+    "name": "6-Day Tarangire & Ngorongoro at Ease",
+    "duration": "6 days / 5 nights",
+    "days": 6,
+    "nights": 5,
+    "summary": "Two nights inside Tarangire and two in Karatu mean fewer hotel changes. Enjoy a night drive after an afternoon break, then give the crater a day of its own.",
+    "highlights": [
+      "Two consecutive Tarangire nights",
+      "One planned night game drive",
+      "Two Karatu nights with a dedicated crater day"
+    ],
+    "includes": [
+      "Five accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-5; breakfast and lunch on Day 6: five breakfasts, five lunches and five dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 6; briefing and applicable taxes on the quoted services.",
+      "One pre-booked night drive inside Tarangire National Park, with approved activity vehicle/guide, required permits and any required ranger arrangements, as itemised in the quote. Seats may be shared."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "travellers who prefer time in two wildlife areas and a special night-drive experience over a longer list of parks.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "category": "Night safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "June-October is a useful dry-season starting point. Other dates depend on lodge opening, road conditions and night-drive operation.",
+    "seasonMonths": [],
+    "paceNote": "Day 1 arrival; Days 2-5 activities and transfers; Day 6 departure. Two consecutive Tarangire nights and two Karatu nights reduce packing. Oliver's Camp adds longer internal park drives.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire arrival and wildlife viewing",
+        "description": "After breakfast, drive to Tarangire and explore on the way to your lodge, with a picnic lunch or lunch at the lodge according to timing. Watch elephants, giraffes and birds among the baobabs and river habitats. Settle into your room and enjoy a relaxed evening. The night drive is planned for tomorrow, leaving today flexible after the road journey.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to the main gate: approximately 2-3 hours, followed by the lodge transfer and wildlife stops. Oliver's Camp is about three hours south of the entrance, so its arrival day is substantially longer than the Tarangire Safari Lodge version."
+      },
+      {
+        "day": 3,
+        "title": "Tarangire by day and after dark",
+        "description": "Enjoy a morning game drive, then return for lunch and a proper afternoon break. After the activity briefing and dinner arrangements, join your pre-booked night drive inside Tarangire National Park with the approved operator. Look for nocturnal life such as genets, bushbabies, porcupines or owls; no particular animal is guaranteed. Return to the same lodge to sleep.",
+        "overnight": "Tarangire National Park",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No hotel change. Plan an approximately 1.5-2-hour night outing, with the actual departure, duration and route confirmed by the operator and park. It may use a shared lodge vehicle, separate from your private daytime vehicle."
+      },
+      {
+        "day": 4,
+        "title": "Easy morning and journey to Karatu",
+        "description": "Enjoy breakfast after last night's outing, then leave the park with selected wildlife stops. Continue to Karatu for lunch en route or at the lodge and a restful afternoon. This day has no crater descent or additional park visit. If desired, ask about a separately quoted short farm or coffee activity only if arrival time allows.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Approximately 3-4 hours from Tarangire Safari Lodge to Karatu with normal exit formalities; allow around 5-6 hours from Oliver's Camp, excluding lengthy sightings. Exact times depend on roads and lodge location."
+      },
+      {
+        "day": 5,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 6,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Tarangire National Park",
+        "nights": 2,
+        "midrange": [
+          "Tarangire Safari Lodge - ensuite tent or bungalow"
+        ],
+        "luxury": [
+          "Oliver's Camp",
+          "Tarangire Safari Lodge - Patulivu River Suite"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3300,
+          "maxUsd": 4900
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4700,
+          "maxUsd": 7300
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-6D-TAR-NIGHT.pdf",
+      "sha256": "38dcf20f68cc7b748bc5b9a00322a9f1af348026682294fd36789804f691203b",
+      "pricePage": 6,
+      "receivedDate": "2026-10-01"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "classic-northern-safari",
+    "code": "BA-7D-CLASSIC",
+    "name": "7-Day Classic Northern Safari",
+    "duration": "7 days / 6 nights",
+    "days": 7,
+    "nights": 6,
+    "summary": "Tarangire, Central Serengeti and Ngorongoro in a considered road circuit. Two Serengeti nights give you a full wildlife day, while the crater visit stays separate from the long return transfer.",
+    "highlights": [
+      "Tarangire, Serengeti and Ngorongoro",
+      "Two Central Serengeti nights",
+      "Crater visit on a separate day"
+    ],
+    "includes": [
+      "Six accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-6; breakfast and lunch on Day 7: six breakfasts, six lunches and six dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 7; briefing and applicable taxes on the quoted services."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "first-time safari travellers who accept two longer road days in exchange for a road-based circuit.",
+    "destinations": [
+      "tarangire",
+      "serengeti",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "serengeti-central",
+      "ngorongoro"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Year-round subject to road and lodge conditions; June-October is a useful dry-season planning window.",
+    "seasonMonths": [],
+    "paceNote": "One full Serengeti day; two long transfers on Days 3 and 5. Karatu nights are split: Day 2, then Days 5-6. Day 1 is arrival and Day 7 is departure, leaving five days of activities and transfers.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Journey to Central Serengeti",
+        "description": "Travel through the Ngorongoro highlands and onward to Central Serengeti with a packed lunch and comfort stops. There is no crater descent today. Once inside Serengeti, enjoy wildlife viewing along the permitted route to camp as time allows. Settle in before dinner; the priority is a comfortable arrival rather than a late extra game drive.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 5-7 hours from Karatu including normal stops and formalities; sightings, weather and tracks can extend this. This is a long transfer day."
+      },
+      {
+        "day": 4,
+        "title": "A full day in Central Serengeti",
+        "description": "Explore the Seronera region with your guide, pausing to watch animal behaviour around plains, kopjes and river corridors. Choose a picnic outing or morning and afternoon drives with a camp break when distances allow. A pre-booked sunrise balloon safari can replace the early game drive. Return to the same camp for dinner.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. Game-drive distance depends on wildlife, weather and your preferences. Balloon collection is before dawn."
+      },
+      {
+        "day": 5,
+        "title": "Serengeti to the Karatu highlands",
+        "description": "After breakfast, leave Central Serengeti with selected wildlife stops along the exit route. Continue through the conservation area with a packed lunch and reach Karatu for a relaxed evening. No crater descent is added to this transfer day. Keep the afternoon flexible if rough roads or gate formalities slow the journey.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Approximately 5-7 hours with ordinary stops, and longer with extended sightings. This is a substantial road journey."
+      },
+      {
+        "day": 6,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 7,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 3,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Serengeti Kati Kati",
+          "Embalakai Serengeti"
+        ],
+        "luxury": [
+          "Kubu Kubu",
+          "Serengeti Serena"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3600,
+          "maxUsd": 5100
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 5200,
+          "maxUsd": 7500
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-7D-CLASSIC.pdf",
+      "sha256": "a8f588de754c1dea5471e1ea29e7813a5dcd3514243447ad8eaf688e2200643c",
+      "pricePage": 6,
+      "receivedDate": "2026-09-30"
+    },
+    "imageKey": "serengeti",
+    "featured": true
+  },
+  {
+    "slug": "7-day-northern-safari-lake-eyasi",
+    "code": "BA-7D-EYASI",
+    "name": "7-Day Northern Parks & Lake Eyasi",
+    "duration": "7 days / 6 nights",
+    "days": 7,
+    "nights": 6,
+    "summary": "Blend three northern wildlife parks with two nights near Lake Eyasi. Separate Hadzabe and Datoga encounters add local perspectives without the long drive to Serengeti.",
+    "highlights": [
+      "Tarangire, Ngorongoro and Manyara",
+      "Two Lake Eyasi nights",
+      "Hadzabe and Datoga hosted encounters"
+    ],
+    "includes": [
+      "Six accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-6; breakfast and lunch on Day 7: six breakfasts, six lunches and six dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 7; briefing and applicable taxes on the quoted services.",
+      "One Hadzabe and one Datoga hosted visit with local liaison/guide and agreed community fees; hosts determine available activities."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded."
+    ],
+    "idealFor": "travellers interested in people, landscapes and wildlife, with willingness to adapt respectfully to hosts' plans.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "lake-manyara",
+      "lake-eyasi"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "manyara"
+    ],
+    "category": "Culture & landscapes",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Year-round in principle; dry conditions make rural tracks and walks easier. Confirm community availability and road access for your dates.",
+    "seasonMonths": [],
+    "paceNote": "Karatu on Days 2-3 and 6; Lake Eyasi on Days 4-5. There is no Serengeti visit. Early cultural visits are balanced with time at the lodge.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Lake Eyasi and a Datoga visit",
+        "description": "After a relaxed breakfast, drive towards Lake Eyasi and settle into your lodge. A local liaison arranges an afternoon visit with willing Datoga hosts. Depending on their interests and availability, the conversation may include pastoral livelihoods or metalworking. It is a hosted encounter, not a scheduled performance; the programme can change to suit the community.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the lodge: about 1.5-2.5 hours; the visit involves additional local driving. Lunch and dinner are included."
+      },
+      {
+        "day": 5,
+        "title": "A morning with Hadzabe hosts",
+        "description": "Start early with a community liaison and Hadzabe hosts who have agreed to the visit. A guided walk may explore tracking, plants, gathering knowledge and the surrounding landscape according to what your hosts choose to share. Hunting or a successful hunt is never guaranteed or required. Discuss comfort with any proposed activity before setting out. Return to the lodge for lunch and a restful afternoon.",
+        "overnight": "Lake Eyasi",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Meeting locations change, so allow flexible driving time and agree the walking distance. Keep the same lodge tonight. Photography requires individual permission."
+      },
+      {
+        "day": 6,
+        "title": "Lake Manyara National Park",
+        "description": "Leave Lake Eyasi after breakfast and travel to Lake Manyara for a game drive and picnic lunch. Explore the accessible forest and lake-margin routes before continuing to Karatu. Birds, primates and other wildlife give the day a different feel from the open plains. Tree-climbing lions and large flamingo gatherings are not guaranteed.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Eyasi lodge to Manyara gate: roughly 2.5-3.5 hours; gate to Karatu lodge: 30-60 minutes. Water levels and track closures can reduce the viewing route."
+      },
+      {
+        "day": 7,
+        "title": "Return to Arusha and departure",
+        "description": "After breakfast, return to Arusha with lunch arranged en route or in town. Continue to JRO for a flight whose timing Boker has checked before booking, or finish at an Arusha hotel. No game drive is scheduled. An early flight requires a separately quoted additional night or a revised itinerary.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Karatu to Arusha: about 3-4 hours; onward to JRO: a further 1-1.5 hours, plus stops and airline check-in time. No hotel night is included today."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 3,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Eyasi",
+        "nights": 2,
+        "midrange": [
+          "Lake Eyasi Safari Lodge"
+        ],
+        "luxury": [
+          "Kisima Ngeda"
+        ],
+        "note": "Limited local inventory; alternative properties require an individual location and availability check."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3500,
+          "maxUsd": 5000
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4700,
+          "maxUsd": 7000
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-7D-EYASI.pdf",
+      "sha256": "deb192ed98868c580ed0079c0ce8a58e282b589507d70adfcd987c4be645b34f",
+      "pricePage": 6,
+      "receivedDate": "2026-09-30"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "7-day-ol-doinyo-lengai-lake-natron",
+    "code": "BA-7D-LENGAI",
+    "name": "7-Day Ol Doinyo Lengai & Lake Natron",
+    "duration": "7 days / 6 nights",
+    "days": 7,
+    "nights": 6,
+    "summary": "A Tarangire safari leads into three nights at Lake Natron and a demanding guided volcano ascent attempt. Preparation, recovery time and a final Arusha night are built into the route.",
+    "highlights": [
+      "Tarangire wildlife day",
+      "Three Lake Natron nights",
+      "Guided ascent attempt with preparation and recovery"
+    ],
+    "includes": [
+      "Six accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Tarangire game-drive day.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-6; breakfast and lunch on Day 7: six breakfasts, six lunches and six dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 7; briefing and applicable taxes on the quoted services.",
+      "Local easy walk, one attempted Lengai ascent with specialist guide, trailhead transfers, current climb/area fees, helmet, agreed walking aid, food and drinking water; retained Natron room for recovery."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. Personal trekking boots, clothing, headlamp and poles if not provided are excluded."
+    ],
+    "idealFor": "For fit adults with recent experience of long, steep hikes and descents. This is a strenuous volcano trek, not a gentle safari add-on.",
+    "destinations": [
+      "tarangire",
+      "lake-natron",
+      "ol-doinyo-lengai"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Active adventure",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Dates require a current climb-access and weather check. Drier conditions are preferable, but no season guarantees safe ascent.",
+    "seasonMonths": [],
+    "paceNote": "One Tarangire safari day; Natron arrival, preparation and climb days; return to Arusha on Day 6; departure on Day 7. No Serengeti or Ngorongoro Crater visit. Three Natron room nights are retained even during the overnight climb.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire safari and the Rift Valley",
+        "description": "Depart Arusha for Tarangire, enjoy a game drive and picnic lunch, then continue to your lodge around Mto wa Mbu or the Manyara escarpment. Look for elephants, plains wildlife and birds. Enjoy an early evening before tomorrow's drive to Lake Natron.",
+        "overnight": "Mto wa Mbu / Manyara",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to the Manyara area: roughly 1-2 hours, longer for some lodges."
+      },
+      {
+        "day": 3,
+        "title": "Into the Lake Natron landscape",
+        "description": "Drive north through the Rift Valley to Lake Natron, stopping for views and lunch. The final approach can be rough and dusty. Reach your lodge, meet the local activity guide and rest during the heat. Enjoy views towards Ol Doinyo Lengai, also written Ol Doinyo Lengai, when conditions are clear.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 3.5-5 hours from the Mto wa Mbu area, with longer travel possible after rain or from an escarpment lodge. No summit climb today."
+      },
+      {
+        "day": 4,
+        "title": "Local landscape, briefing and rest",
+        "description": "Take a short, easy guided walk in the cooler morning, then rest. Meet the specialist climb guide to review current volcanic and weather conditions, fitness, route access, equipment, drinking water, communications, evacuation arrangements and a turnaround plan. Eat early and sleep before the late-night wake-up. The climb begins only if the local team clears it to proceed.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No long gorge walk or strenuous extra activity today. A wake-up around 23:30 may start the climb sequence leading into Day 5; exact timing comes from the guide."
+      },
+      {
+        "day": 5,
+        "title": "Attempt Ol Doinyo Lengai; recover at camp",
+        "description": "Transfer to the trailhead and attempt the guided night ascent, with steep, loose terrain and a long descent. Sunrise views are possible in clear conditions, but access to the summit depends on safety and the guide's decision. Turn back if conditions or fitness require it. Return to camp for food, washing and recovery; there is no onward drive or afternoon tour.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Plan around 12-14 hours for the complete overnight outing, sometimes longer. The retained camp room is available on return. Access or weather can cancel the climb; a gentle local activity replaces it where feasible."
+      },
+      {
+        "day": 6,
+        "title": "Return to Arusha and rest",
+        "description": "After breakfast, drive back to Arusha with lunch and comfort stops. Check into your hotel and enjoy a quiet evening. Keeping the final night in town separates the remote-road return from your flight and gives you another chance to recover after the climb.",
+        "overnight": "Arusha",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow roughly 6-8 hours from Natron, and longer in adverse conditions. No other major activity is scheduled."
+      },
+      {
+        "day": 7,
+        "title": "Departure transfer",
+        "description": "Enjoy breakfast and transfer to JRO according to your confirmed flight. Lunch is included or packed if timing permits; an early departure requires prior meal arrangements. No sightseeing is scheduled. Your six-night programme ends at the airport.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Arusha to JRO: about 1-1.5 hours plus airline check-in time. Hotel checkout applies; late checkout or a day room costs extra."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 2,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Mto wa Mbu / Manyara",
+        "nights": 1,
+        "midrange": [
+          "Africa Safari Lake Manyara"
+        ],
+        "luxury": [
+          "Lake Manyara Serena",
+          "Escarpment Luxury Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Natron",
+        "nights": 3,
+        "midrange": [
+          "Africa Safari Lake Natron - Comfort Bungalow"
+        ],
+        "luxury": [
+          "Lake Natron Camp",
+          "Africa Safari Lake Natron - Luxury Glamping"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3100,
+          "maxUsd": 4600
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4000,
+          "maxUsd": 6100
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-7D-LENGAI.pdf",
+      "sha256": "602d39c7af5d42078f06f607562ce8fbf94a6e1544dc5110dc48acbc2c01ec85",
+      "pricePage": 6,
+      "receivedDate": "2026-09-30"
+    },
+    "imageKey": "lake-manyara",
+    "featured": false
+  },
+  {
+    "slug": "7-day-northern-parks-lake-natron",
+    "code": "BA-7D-NATRON",
+    "name": "7-Day Northern Parks & Lake Natron",
+    "duration": "7 days / 6 nights",
+    "days": 7,
+    "nights": 6,
+    "summary": "Travel from Tarangire, the crater and Lake Manyara into Natron's striking Rift Valley landscape. Two lake nights allow cooler-hour walks and local guiding; a volcano climb is not part of this journey.",
+    "highlights": [
+      "Three northern wildlife parks",
+      "Two Lake Natron nights",
+      "Locally guided lake and landscape walks"
+    ],
+    "includes": [
+      "Six accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-6; breakfast and lunch on Day 7: six breakfasts, six lunches and six dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 7; briefing and applicable taxes on the quoted services.",
+      "Natron lake walk plus waterfall walk OR village visit, local guiding and quoted area/community fees. No Lengai ascent."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Domestic flights are excluded. The hotel night and JRO transfer after the Day 7 Arusha drop-off are extra."
+    ],
+    "idealFor": "travellers who enjoy contrasting scenery and guided walks as well as game drives.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "lake-manyara",
+      "lake-natron"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "manyara"
+    ],
+    "category": "Culture & landscapes",
+    "travelStyle": "Private road safari with locally guided activities where listed",
+    "travelWindow": "Prefer drier travel periods after local access checks. Natron is hot; rain can make remote roads and gorge walks unsuitable.",
+    "seasonMonths": [],
+    "paceNote": "Two nights in Karatu, one around Mto wa Mbu and two at Natron. Day 7 is a long return to Arusha, with no international flight connection promised.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Lake Manyara and Mto wa Mbu",
+        "description": "Drive down from Karatu for a Lake Manyara game drive with picnic lunch. Follow the accessible tracks through forest and lakeside habitats, then settle into your lodge in the Mto wa Mbu or Manyara escarpment area. Keep the late afternoon free; a market visit would be an optional replacement for some viewing, not another compulsory stop.",
+        "overnight": "Mto wa Mbu / Manyara",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to gate: about 30-60 minutes; the lodge transfer varies by property. Flooded tracks can change the park route."
+      },
+      {
+        "day": 5,
+        "title": "Into the Lake Natron landscape",
+        "description": "Drive north through the Rift Valley to Lake Natron, stopping for views and lunch. The final approach can be rough and dusty. Reach your lodge, meet the local activity guide and rest during the heat. Enjoy views towards Ol Doinyo Lengai, also written Ol Doinyo Lengai, when conditions are clear.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 3.5-5 hours from the Mto wa Mbu area, with longer travel possible after rain or from an escarpment lodge. No summit climb today."
+      },
+      {
+        "day": 6,
+        "title": "Lake Natron and local perspectives",
+        "description": "Take a locally guided lake-edge walk in the cooler morning hours. Look for birds and enjoy the Rift Valley setting; flamingo numbers and access vary. Rest at camp around midday. In the afternoon, choose the included Ngare Sero waterfall walk if water levels and footing are safe, or a locally guided village conversation arranged with willing hosts. The two activities are alternatives, not an obligation to fit both in.",
+        "overnight": "Lake Natron",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Walk length is agreed with your guide. Gorge routes can involve slippery rock and wading. A shorter dry-land walk can replace the gorge. Lake Natron itself is not a swimming lake."
+      },
+      {
+        "day": 7,
+        "title": "Return from Natron to Arusha",
+        "description": "After breakfast, leave for Arusha with comfort stops and lunch along the route. Finish at an Arusha hotel. This package includes six nights only: tonight's hotel, an onward JRO transfer and any extra services must be quoted separately. A seventh night in Arusha is recommended before an international flight the following day.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Plan approximately 6-8 hours, possibly longer in poor conditions. Do not sell this day as a guaranteed same-day international connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Mto wa Mbu / Manyara",
+        "nights": 1,
+        "midrange": [
+          "Africa Safari Lake Manyara"
+        ],
+        "luxury": [
+          "Lake Manyara Serena",
+          "Escarpment Luxury Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Lake Natron",
+        "nights": 2,
+        "midrange": [
+          "Africa Safari Lake Natron - Comfort Bungalow"
+        ],
+        "luxury": [
+          "Lake Natron Camp",
+          "Africa Safari Lake Natron - Luxury Glamping"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 3600,
+          "maxUsd": 5300
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 4800,
+          "maxUsd": 7200
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-7D-NATRON.pdf",
+      "sha256": "1a4d7d80e66fe1692cfaf0dccfab5cbaa1772cf4933e4b7d8bfa24125bc97b17",
+      "pricePage": 6,
+      "receivedDate": "2026-09-30"
+    },
+    "imageKey": "ngorongoro",
+    "featured": false
+  },
+  {
+    "slug": "7-day-serengeti-focus-fly-back",
+    "code": "BA-7D-SERENGETI",
+    "name": "7-Day More Time in Serengeti",
+    "duration": "7 days / 6 nights",
+    "days": 7,
+    "nights": 6,
+    "summary": "After Tarangire and Ngorongoro, settle into one Central Serengeti camp for three nights. Two full exploration days and a flight back to Arusha give the plains the time they deserve.",
+    "highlights": [
+      "Three nights at one Serengeti camp",
+      "Two full Serengeti days",
+      "Scheduled flight back to Arusha"
+    ],
+    "includes": [
+      "Six accommodation nights in the confirmed rooms; private 4x4 with English-speaking driver-guide for the stated road programme.",
+      "Listed park visits and relevant entry, overnight and vehicle permits; one Ngorongoro Crater descent.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-6; breakfast and lunch on Day 7: six breakfasts, six lunches and six dinners. Drinking water in the safari vehicle.",
+      "JRO arrival transfer and the departure arrangement described on Day 7; briefing and applicable taxes on the quoted services.",
+      "Seronera-ARK scheduled economy flight with quoted taxes, airstrip transfer and ARK-to-Arusha-hotel transfer. Flight is shared, not a charter."
+    ],
+    "excludes": [
+      "International flights, visas, travel/medical insurance, tips, personal purchases, laundry and drinks other than those specified. Optional activities, single-room supplements, additional nights and Zanzibar extensions cost extra. Other domestic flights, JRO onward transfer and an Arusha night after Day 7 are extra."
+    ],
+    "idealFor": "wildlife enthusiasts and photographers who prefer fewer camp changes and a flight back.",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti-central"
+    ],
+    "category": "Fly-in & fly-back",
+    "travelStyle": "Private road safari with shared scheduled return flight",
+    "travelWindow": "Year-round subject to availability and flight operation. This is a resident-wildlife itinerary, not a seasonal migration-chasing route.",
+    "seasonMonths": [],
+    "paceNote": "Two nights at the same Karatu lodge and three at one Serengeti camp. Day 4 is the main long road transfer. Days 5 and 6 are full Serengeti days; Day 7 is a flight and transfer day.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your hotel. Rest after your flight; no safari or cultural visit is scheduled today. Your briefing covers the route, daily timings, meals, medical or mobility needs, wildlife etiquette and any booked extras. Late arrivals receive their briefing the following morning.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Planning time: JRO to hotel: approximately 1-1.5 hours, depending on traffic and hotel location. Late dinner must be arranged in advance."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, travel to Tarangire for a game drive among baobabs, woodland and river habitats. Look for elephants, giraffes, antelope and birds, with a picnic lunch at a designated site. Your guide adjusts the route to wildlife and conditions. Leave with enough time to reach your Karatu lodge for dinner; this is a safari-and-transfer day.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Arusha to Tarangire: about 2-3 hours; park exit to Karatu: 1.5-2.5 hours, plus game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater safari",
+        "description": "Leave early for the Ngorongoro Conservation Area and descend into the crater after formalities. Explore grassland, wetland and other habitats, looking for the resident wildlife; a rhino or predator sighting is a possibility, never a promise. Enjoy a picnic lunch and return to your Karatu lodge after the permitted crater session. The same lodge awaits tonight.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Karatu to the crater access area: about 1.5-2 hours each way, depending on the lodge, gate queues and descent route. The crater session follows permit limits."
+      },
+      {
+        "day": 4,
+        "title": "Journey to Central Serengeti",
+        "description": "Travel through the Ngorongoro highlands and onward to Central Serengeti with a packed lunch and comfort stops. There is no crater descent today. Once inside Serengeti, enjoy wildlife viewing along the permitted route to camp as time allows. Settle in before dinner; the priority is a comfortable arrival rather than a late extra game drive.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: Allow about 5-7 hours from Karatu including normal stops and formalities; sightings, weather and tracks can extend this. This is a long transfer day."
+      },
+      {
+        "day": 5,
+        "title": "A full day in Central Serengeti",
+        "description": "Explore the Seronera region with your guide, pausing to watch animal behaviour around plains, kopjes and river corridors. Choose a picnic outing or morning and afternoon drives with a camp break when distances allow. A pre-booked sunrise balloon safari can replace the early game drive. Return to the same camp for dinner.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. Game-drive distance depends on wildlife, weather and your preferences. Balloon collection is before dawn."
+      },
+      {
+        "day": 6,
+        "title": "Another unhurried Serengeti day",
+        "description": "Spend a second complete day exploring from the same camp. Revisit a promising area or choose different habitats with your guide, allowing time for photography and rest. You can begin later if you prefer a slower morning. The herds move seasonally: the route does not include northern Mara River or southern Ndutu excursions.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning time: No camp move. An optional balloon on Day 5 is preferred, with Day 6 a possible alternative only if seats and arrangements permit."
+      },
+      {
+        "day": 7,
+        "title": "Fly from Serengeti to Arusha",
+        "description": "Transfer from camp to Seronera Airstrip for your confirmed scheduled flight to Arusha Airport (ARK). A morning game drive is not promised because check-in determines the departure from camp. On arrival, meet your driver for a transfer to an Arusha hotel, where this package ends. Lunch is provided as a packed meal or in Arusha according to the schedule.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Planning time: Airstrip transfer depends on the camp. Flight routing may include stops. ARK is not JRO: a JRO transfer and any extra hotel night are separately quoted. Avoid a tight onward connection."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 3,
+        "midrange": [
+          "Serengeti Kati Kati",
+          "Embalakai Serengeti"
+        ],
+        "luxury": [
+          "Kubu Kubu",
+          "Serengeti Serena"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 4500,
+          "maxUsd": 6500
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 6100,
+          "maxUsd": 9100
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "BA-7D-SERENGETI.pdf",
+      "sha256": "7476a6e91a1a0c6e64c03ccbe881fef8d48592c4f2289e59e2625d712acff27c",
+      "pricePage": 6,
+      "receivedDate": "2026-09-30"
+    },
+    "imageKey": "serengeti",
+    "featured": false
+  },
+  {
+    "slug": "8-day-grumeti-migration-safari",
+    "code": "BA-8D-GRUMETI",
+    "name": "8-Day Western Serengeti & Grumeti Migration",
+    "duration": "8 days / 7 nights",
+    "days": 8,
+    "nights": 7,
+    "summary": "Follow a May-to-July migration itinerary through Tarangire, Ngorongoro and Central Serengeti into the Western Corridor. Two western nights give you time to explore before flying back to Arusha.",
+    "highlights": [
+      "May-July migration planning window",
+      "Two Western Serengeti nights",
+      "Scheduled Grumeti-to-Arusha flight"
+    ],
+    "includes": [
+      "Seven nights in the confirmed accommodation, sharing a double or twin room.",
+      "Private 4x4 safari vehicle with pop-up roof and an English-speaking driver-guide for the described road safari and scheduled game drives.",
+      "Required park/conservation entry, transit and overnight fees, plus one Ngorongoro Crater descent, itemised for the selected route.",
+      "JRO-to-Arusha arrival transfer; lodge-to-Grumeti Airstrip transfer; one scheduled Grumeti-ARK flight per guest with applicable ticket taxes; ARK-to-Arusha-hotel transfer.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-7; breakfast and lunch on Day 8: 7 breakfasts, 7 lunches and 7 dinners.",
+      "Drinking water in the safari vehicle, arrival briefing, and applicable taxes/levies for the quoted services."
+    ],
+    "excludes": [
+      "International flights and domestic flights other than the quoted Grumeti-ARK sector; ARK-to-JRO transfer unless separately arranged.",
+      "Visas, personal travel/medical insurance, excess baggage and the optional balloon safari.",
+      "Day 8 Arusha accommodation, additional nights, Zanzibar extensions and activities/access outside the agreed itinerary.",
+      "Tips, laundry, shopping and other personal expenses; alcoholic/soft drinks unless expressly included in the confirmed property rate.",
+      "Single-room supplements, meals outside the stated plan and other optional activities."
+    ],
+    "idealFor": "Wildlife enthusiasts and photographers who enjoy patient viewing",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti-central"
+    ],
+    "category": "Seasonal migration",
+    "travelStyle": "Private road safari with a shared scheduled flight back to Arusha",
+    "travelWindow": "May-July migration window; dates chosen around seasonal conditions",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "paceNote": "Arrival and departure are included in the total duration. Transfer days allow less time for wildlife viewing.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Tanzania",
+        "description": "On arrival at Kilimanjaro International Airport, meet your Boker Adventures representative and transfer to your Arusha hotel. Settle in and rest after your journey. There are no scheduled safari activities today. At your briefing, discuss the route, daily departure times, dietary needs, road conditions, wildlife etiquette and any booked extras. For a late arrival, the briefing takes place before departure the following morning. Tell us your flight details before confirmation so the transfer and check-in can be arranged.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Transfer estimate: 1-1.5 hours from JRO, depending on the hotel and traffic. Late meals depend on hotel arrangements."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park and Karatu",
+        "description": "After breakfast, drive to Tarangire and begin your first game drive. Follow permitted tracks through woodland and open country, pausing to observe wildlife rather than racing between sightings. Look for elephants, giraffes, antelope and birdlife; your guide will choose the route according to current conditions. Take a picnic lunch at a designated site, then continue wildlife viewing before leaving for Karatu. Arrive for dinner and an overnight stay in the highlands. This day combines park exploration with travel, rather than a full day entirely inside the park.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Transfer estimates: Arusha to Tarangire 2-3 hours; park exit to Karatu 1.5-2.5 hours, excluding game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater without changing lodges",
+        "description": "Leave Karatu early and travel to the Ngorongoro Conservation Area. After entry formalities, descend into the crater for your scheduled game drive. Explore the open grasslands, wetland margins and woodland with your guide, stopping to watch animal behaviour and enjoy a picnic lunch at a designated site. You may encounter zebra, buffalo, antelope and birds, with opportunities to look for lion, elephant and black rhino. Sightings are never guaranteed. After the crater visit, return to the same Karatu lodge for a quieter afternoon or early evening and dinner. There is no onward Serengeti transfer today.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning estimate: around 1-1.5 hours each way to/from the crater approach, plus formalities and descent/ascent; allow approximately 4-5 hours for the permitted crater visit. Timing depends on the lodge and current access rules."
+      },
+      {
+        "day": 4,
+        "title": "Across the highlands to Central Serengeti",
+        "description": "After breakfast, drive through the Ngorongoro highlands towards Central Serengeti, stopping for views and comfort breaks where practical. Enjoy a packed lunch along the way. The crater has its own day, so today is dedicated to the journey and settling into your Serengeti base. Once inside the park, continue towards camp with wildlife stops as time allows. Arrive in time to settle in before dinner. Afternoon viewing is flexible and may be shortened if road conditions or formalities cause delays.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Allow approximately 5-7 hours including normal stops and entry formalities; extended sightings may add time. This is a longer travel day."
+      },
+      {
+        "day": 5,
+        "title": "Central Serengeti at your pace",
+        "description": "Spend a full day exploring the Seronera area without moving camp. Your guide will select routes through grassland, river corridors and rocky outcrops according to recent sightings. Take time to watch the wildlife rather than following a fixed list of animals. Lions, leopards and cheetahs are possible encounters, alongside plains wildlife and birds. Choose a longer outing with a picnic lunch, or morning and afternoon drives with a camp break where distances permit. An optional sunrise balloon safari can replace the early game drive; rejoin your guide after breakfast and continue at a comfortable pace.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 6,
+        "title": "From Central Serengeti to the Western Corridor",
+        "description": "After breakfast, travel west with your guide, allowing time for selected wildlife stops along the way. The scenery changes as you approach the western plains and river country. Lunch is arranged as a picnic or at your lodge according to the route and arrival time. Settle into your chosen western base and take a break before a local game drive if conditions allow. Your guide will plan the afternoon around recent herd reports and permitted access, rather than promising a particular river crossing. Stay in the same property for the next two nights.",
+        "overnight": "Western Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Allow approximately 2-4 hours for the direct camp-to-camp transfer on this proposed route, plus longer wildlife stops. Exact location, rain and tracks can extend the journey. Any outside-park alternative requires a revised access plan."
+      },
+      {
+        "day": 7,
+        "title": "A full day with the western migration",
+        "description": "Set out to explore the Western Corridor according to the location of the wildebeest and zebra herds. Your guide may spend time on open grazing areas, along permitted river routes, or waiting at a suitable viewing point when animals gather. A crossing cannot be timed or promised, and the herds may move beyond this area. Keep the day flexible with a picnic lunch, or return to the lodge if distances allow. Watch the broader wildlife scene as well as the migration: river habitats, birds and resident animals are part of the experience. Vehicles follow park rules and keep a respectful distance from animals and riverbanks.",
+        "overnight": "Western Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 8,
+        "title": "Fly from Grumeti to Arusha",
+        "description": "After breakfast, transfer to Grumeti Airstrip for your confirmed scheduled flight to Arusha Airport (ARK). Departure time determines the morning plan; a further game drive is not promised. The service may stop at other airstrips, and the ticket confirms routing, check-in and arrival time. Meet your driver at ARK and transfer to an Arusha hotel, where the package ends. No hotel night is included today. Lunch is arranged as a packed meal or in Arusha depending on the flight schedule. Kilimanjaro International Airport (JRO) is a different airport: an onward transfer or additional night is quoted separately.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": ""
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Neptune Ngorongoro Luxury Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Embalakai Authentic Camps - Serengeti",
+          "Serengeti Kati Kati Tented Camp"
+        ],
+        "luxury": [
+          "Serengeti Serena Safari Lodge",
+          "Kubu Kubu Tented Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Western Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Mbalageti Serengeti - Lodge Room",
+          "Grumeti Migration Camp"
+        ],
+        "luxury": [
+          "Kirawira Serena Camp",
+          "&Beyond Grumeti Serengeti River Lodge - separately quoted upgrade"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 5100,
+          "maxUsd": 7200
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 6700,
+          "maxUsd": 9800
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "Boker-8-Day-Grumeti-Migration-Safari.pdf",
+      "sha256": "68241839d11c76e55a50d7e04f6a431d35ef01a9941cacb47456bfe955218e0f",
+      "pricePage": 6,
+      "receivedDate": "2026-09-29"
+    },
+    "imageKey": "serengeti",
+    "featured": false
+  },
+  {
+    "slug": "8-day-mara-migration-safari",
+    "code": "BA-8D-MARA",
+    "name": "8-Day Northern Serengeti Migration",
+    "duration": "8 days / 7 nights",
+    "days": 8,
+    "nights": 7,
+    "summary": "Journey from Tarangire and the crater to Central Serengeti and the Mara River region. Two northern nights and a flight back make room for patient viewing during the usual July-to-October migration window.",
+    "highlights": [
+      "July-October northern migration window",
+      "Two nights near the Mara River region",
+      "Scheduled Kogatende-to-Arusha flight"
+    ],
+    "includes": [
+      "Seven nights in the confirmed accommodation category, sharing a double or twin room.",
+      "Private 4x4 safari vehicle with pop-up roof and an English-speaking driver-guide for the road safari; scheduled game drives as described.",
+      "Relevant park/conservation entry, transit and overnight fees, plus one Ngorongoro Crater descent, itemised in the final quotation.",
+      "Arrival transfer from JRO to your Arusha hotel; camp-to-Kogatende transfer; one scheduled Kogatende-ARK flight per guest with applicable ticket taxes; ARK-to-Arusha-hotel transfer.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-7; breakfast and lunch on Day 8: 7 breakfasts, 7 lunches and 7 dinners.",
+      "Drinking water in the safari vehicle, arrival briefing, and applicable taxes/levies for the quoted services."
+    ],
+    "excludes": [
+      "International flights and domestic flights other than the stated Kogatende-ARK sector; ARK-to-JRO transfer unless separately quoted.",
+      "Visas, personal travel/medical insurance, excess baggage and optional balloon safari.",
+      "Day 8 Arusha accommodation, additional nights, Zanzibar extensions and services outside the agreed programme.",
+      "Tips, laundry, shopping and personal expenses; alcoholic/soft drinks unless expressly included in your confirmed rate.",
+      "Single-room supplements, meals outside the stated plan and other optional activities."
+    ],
+    "idealFor": "Wildlife enthusiasts and photographers who enjoy patient viewing",
+    "destinations": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro",
+      "serengeti-central"
+    ],
+    "category": "Seasonal migration",
+    "travelStyle": "Private road safari; shared scheduled return flight included in scope",
+    "travelWindow": "July-October; timing depends on rainfall and herd movements",
+    "seasonMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "paceNote": "Arrival and departure are included in the total duration. Transfer days allow less time for wildlife viewing.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Tanzania",
+        "description": "On arrival at Kilimanjaro International Airport, meet your Boker Adventures representative and transfer to your Arusha hotel. Settle in and rest after your journey. There are no scheduled safari activities today. At your briefing, discuss the route, daily departure times, dietary needs, road conditions, wildlife etiquette and any booked extras. For a late arrival, the briefing takes place before departure the following morning. Tell us your flight details before confirmation so the transfer and check-in can be arranged.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Transfer estimate: 1-1.5 hours from JRO, depending on the hotel and traffic. Late meals depend on hotel arrangements."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park and Karatu",
+        "description": "After breakfast, drive to Tarangire and begin your first game drive. Follow permitted tracks through woodland and open country, pausing to observe wildlife rather than racing between sightings. Look for elephants, giraffes, antelope and birdlife; your guide will choose the route according to current conditions. Take a picnic lunch at a designated site, then continue wildlife viewing before leaving for Karatu. Arrive for dinner and an overnight stay in the highlands. This day combines park exploration with travel, rather than a full day entirely inside the park.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Transfer estimates: Arusha to Tarangire 2-3 hours; park exit to Karatu 1.5-2.5 hours, excluding game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater without changing lodges",
+        "description": "Leave Karatu early and travel to the Ngorongoro Conservation Area. After entry formalities, descend into the crater for your scheduled game drive. Explore the open grasslands, wetland margins and woodland with your guide, stopping to watch animal behaviour and enjoy a picnic lunch at a designated site. You may encounter zebra, buffalo, antelope and birds, with opportunities to look for lion, elephant and black rhino. Sightings are never guaranteed. After the crater visit, return to the same Karatu lodge for a quieter afternoon or early evening and dinner. There is no onward Serengeti transfer today.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning estimate: around 1-1.5 hours each way to/from the crater approach, plus formalities and descent/ascent; allow approximately 4-5 hours for the permitted crater visit. Timing depends on the lodge and current access rules."
+      },
+      {
+        "day": 4,
+        "title": "Across the highlands to Central Serengeti",
+        "description": "After breakfast, drive through the Ngorongoro highlands towards Central Serengeti, stopping for views and comfort breaks where practical. Enjoy a packed lunch along the way. The crater has its own day, so today is dedicated to the journey and settling into your Serengeti base. Once inside the park, continue towards camp with wildlife stops as time allows. Arrive in time to settle in before dinner. Afternoon viewing is flexible and may be shortened if road conditions or formalities cause delays.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Allow approximately 5-7 hours including normal stops and entry formalities; extended sightings may add time. This is a longer travel day."
+      },
+      {
+        "day": 5,
+        "title": "Central Serengeti at your pace",
+        "description": "Spend a full day exploring the Seronera area without moving camp. Your guide will select routes through grassland, river corridors and rocky outcrops according to recent sightings. Take time to watch the wildlife rather than following a fixed list of animals. Lions, leopards and cheetahs are possible encounters, alongside plains wildlife and birds. Choose a longer outing with a picnic lunch, or morning and afternoon drives with a camp break where distances permit. An optional sunrise balloon safari can replace the early game drive; rejoin your guide after breakfast and continue at a comfortable pace.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 6,
+        "title": "Journey to northern Serengeti",
+        "description": "Depart after breakfast for the northern Serengeti, travelling towards the Kogatende and Mara River region. Enjoy selected wildlife stops and a picnic lunch along the way. This is a scenic transfer day rather than a promised full day waiting at river crossing points. Settle into your northern camp. If arrival time allows, take a short local drive; otherwise rest and discuss the next day's migration plan with your guide. The route depends on the confirmed camp, permitted tracks and current road conditions.",
+        "overnight": "Northern Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning estimate: 5-7 hours between Central and northern Serengeti camps with normal stops; viewing detours can extend the day. The trip is not free of long drives, but the two-night stays and flight out reduce backtracking."
+      },
+      {
+        "day": 7,
+        "title": "Northern migration and the Mara River region",
+        "description": "Spend today exploring the northern plains and permitted river-viewing areas according to the herds' location. Your guide may suggest waiting patiently near a possible crossing or exploring elsewhere when the animals show no sign of moving. There is no fixed crossing time, and some days bring none at all. Enjoy a picnic lunch to keep your options flexible, or return to camp if distances allow. Look beyond the river for the wider landscape, birdlife and resident animals. Respect viewing distances and access rules; vehicles must never pressure herds into the water.",
+        "overnight": "Northern Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 8,
+        "title": "Fly from Kogatende to Arusha",
+        "description": "After breakfast, transfer to Kogatende Airstrip for your booked scheduled flight to Arusha Airport (ARK). A short wildlife stop is possible only if the flight time and check-in requirements allow. The flight may make intermediate stops; routing and arrival time are confirmed on your ticket. On arrival at ARK, meet your transfer driver and continue to an Arusha hotel, where this package ends. No hotel night is included today. Lunch is arranged as a packed meal or in Arusha according to the flight schedule. International flights normally use JRO, a different airport: any ARK-to-JRO transfer must be requested and quoted separately.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": ""
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Embalakai Authentic Camps - Serengeti",
+          "Serengeti Kati Kati Tented Camp"
+        ],
+        "luxury": [
+          "Serengeti Serena Safari Lodge",
+          "Kubu Kubu Tented Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Northern Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Mara Kati Kati Tented Camp",
+          "Tanzania Bush Camps - Mara River Camp"
+        ],
+        "luxury": [
+          "Mara Mara Tented Lodge",
+          "Sayari Camp - separately quoted upgrade"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 5400,
+          "maxUsd": 7600
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 7700,
+          "maxUsd": 10700
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "Boker-8-Day-Mara-Migration-Safari.pdf",
+      "sha256": "261fbc82f04ef6f6ec18e824406dd4da2126439bba82d7115ffecad017fe6c22",
+      "pricePage": 6,
+      "receivedDate": "2026-09-29"
+    },
+    "imageKey": "serengeti",
+    "featured": true
+  },
+  {
+    "slug": "8-day-ndutu-calving-safari",
+    "code": "NDUTU-CALVING",
+    "name": "8-Day Ndutu Calving-season Safari",
+    "duration": "8 days / 7 nights",
+    "days": 8,
+    "nights": 7,
+    "summary": "Explore Tarangire and Central Serengeti before spending two nights in Ndutu during the January-to-March calving season. Finish with the crater and a Karatu night before your return transfer.",
+    "highlights": [
+      "January-March calving-season window",
+      "Two Ndutu nights",
+      "Ngorongoro visit and a final Karatu night"
+    ],
+    "includes": [
+      "Seven nights in the confirmed accommodation category, sharing a double or twin room.",
+      "Private 4x4 safari vehicle with pop-up roof and an English-speaking driver-guide for the described programme.",
+      "Scheduled game drives, relevant park/conservation entry and overnight fees, and one Ngorongoro Crater descent, as itemised in the final quote.",
+      "Arrival transfer from JRO to Arusha and the Day 8 return to JRO or an Arusha hotel; ARK arrangements can be quoted if preferred.",
+      "Dinner on Day 1; breakfast, lunch and dinner on Days 2-7; breakfast and lunch on Day 8. This is 7 breakfasts, 7 lunches and 7 dinners.",
+      "Drinking water in the safari vehicle and the arrival safari briefing.",
+      "Applicable taxes and levies for the listed services, specified in the final quotation."
+    ],
+    "excludes": [
+      "International or domestic flights, visas and personal travel/medical insurance.",
+      "Balloon safari and other optional activities; Zanzibar accommodation, flights, transfers and required inbound insurance for that extension.",
+      "Tips, laundry, shopping, telephone charges and other personal expenses.",
+      "Alcoholic drinks and soft drinks unless expressly included by the confirmed property and quotation.",
+      "Meals outside the stated plan, single-room supplements, extra nights and services outside the agreed itinerary."
+    ],
+    "idealFor": "Wildlife enthusiasts and photographers who enjoy patient viewing",
+    "destinations": [
+      "tarangire",
+      "serengeti",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "serengeti-central",
+      "ngorongoro"
+    ],
+    "category": "Seasonal migration",
+    "travelStyle": "Private road safari with mid-range or luxury accommodation",
+    "travelWindow": "January-March; exact dates depend on camp operation and herd movements",
+    "seasonMonths": [
+      1,
+      2,
+      3
+    ],
+    "paceNote": "Arrival and departure are included in the total duration. Transfer days allow less time for wildlife viewing.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Tanzania",
+        "description": "On arrival at Kilimanjaro International Airport, meet your Boker Adventures representative and transfer to your Arusha hotel. Settle in and rest after your journey. There are no scheduled safari activities today. At your briefing, discuss the route, daily departure times, dietary needs, road conditions, wildlife etiquette and any booked extras. For a late arrival, the briefing takes place before departure the following morning. Tell us your flight details before confirmation so the transfer and check-in can be arranged.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Transfer estimate: 1-1.5 hours from JRO, depending on the hotel and traffic. Late meals depend on hotel arrangements."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park and Karatu",
+        "description": "After breakfast, drive to Tarangire and begin your first game drive. Follow permitted tracks through woodland and open country, pausing to observe wildlife rather than racing between sightings. Look for elephants, giraffes, antelope and birdlife; your guide will choose the route according to current conditions. Take a picnic lunch at a designated site, then continue wildlife viewing before leaving for Karatu. Arrive for dinner and an overnight stay in the highlands. This day combines park exploration with travel, rather than a full day entirely inside the park.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Transfer estimates: Arusha to Tarangire 2-3 hours; park exit to Karatu 1.5-2.5 hours, excluding game drives and stops."
+      },
+      {
+        "day": 3,
+        "title": "Journey to Central Serengeti",
+        "description": "Leave after breakfast and travel through the Ngorongoro highlands towards Central Serengeti. Pause for views and comfort stops where practical. The crater visit is reserved for Day 7, allowing today to focus on the journey rather than combining two major activities. Enjoy a packed lunch en route. After entering Serengeti, continue towards your camp with wildlife viewing as time allows. Settle in before dinner. Your guide may shorten the afternoon drive if road conditions or gate formalities delay the journey.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Allow approximately 5-7 hours for the journey, including normal stops and formalities; extended sightings can add time. This is one of the longer travel days."
+      },
+      {
+        "day": 4,
+        "title": "A full day in Central Serengeti",
+        "description": "Spend the day exploring the Seronera area with your guide. Search the grasslands, rocky outcrops and river corridors for wildlife, allowing time to watch behaviour and take photographs. Lions, leopards and cheetahs may be encountered, alongside the resident plains animals. Choose with your guide between a longer outing with a picnic lunch or morning and afternoon drives with a camp break, where distances permit. Stay at the same camp tonight, with no packing or long transfer required. Optional add-on: a sunrise balloon safari can replace the early game drive. Rejoin your guide after the balloon breakfast and continue the day at a comfortable pace. It is an extra-cost activity, subject to availability and weather.",
+        "overnight": "Central Serengeti",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 5,
+        "title": "From Central Serengeti to Ndutu",
+        "description": "After breakfast, make your way south towards the Ndutu area. Enjoy selected wildlife stops along the route, with a picnic lunch or lunch at camp depending on the day's timing. The aim is to reach your migration base with time to settle in. Later, head out to explore nearby grasslands and woodland if time and conditions allow. Your guide will respond to recent sightings and the location of the herds. Ndutu lies within the wider southern Serengeti ecosystem, spanning areas managed under different authorities; access depends on the booked camp and permits.",
+        "overnight": "Ndutu area",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Planning estimate: 3-5 hours between camps with normal stops; seasonal camp locations and wildlife viewing can change this substantially."
+      },
+      {
+        "day": 6,
+        "title": "Ndutu migration and calving-season safari",
+        "description": "Dedicate today to the southern migration area. Set out early to search for wildebeest and zebra herds, following your guide's assessment of rain, grazing and recent animal movements. During the calving period, you may encounter newborn calves and the predators drawn to the plains. Spend time watching the herds rather than trying to cover every corner of the region. Enjoy a picnic lunch on a longer outing, or return for a camp break if the sightings are close enough. Your second night at the same camp gives you a full day without relocating. Animals determine the experience. A birth, hunt or large herd gathering is never scheduled or guaranteed. Vehicles remain at respectful distances and follow the rules of each conservation area.",
+        "overnight": "Ndutu area",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 7,
+        "title": "Ngorongoro Crater and a Karatu overnight",
+        "description": "Depart Ndutu early with a packed breakfast or after an early camp breakfast, according to the confirmed location. Travel towards the crater, complete formalities and descend for your scheduled crater game drive. Explore its contrasting habitats with your guide and pause for a picnic lunch at a designated site. Look for plains wildlife and birds, with the possibility of lion, elephant or black rhino sightings. After your visit, ascend and continue to your Karatu lodge for dinner. There is no airport connection today.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": ""
+      },
+      {
+        "day": 8,
+        "title": "A relaxed return and departure",
+        "description": "Enjoy breakfast before driving towards Arusha. Lunch is included, arranged in Arusha or as a packed meal according to your departure plan. Continue to Kilimanjaro International Airport for your agreed onward flight, or finish at an Arusha hotel if extending your stay.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Allow approximately 3-4 hours to Arusha, or 4-5 hours to JRO, plus any meal stops and flight check-in buffer. Send your flight details before booking: early departures may require an extra Arusha night and a revised quotation. No same-day flight connection is guaranteed before review."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House"
+        ],
+        "luxury": [
+          "Elewana Arusha Coffee Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Karatu",
+        "nights": 2,
+        "midrange": [
+          "Ngorongoro Farm House"
+        ],
+        "luxury": [
+          "Kitela Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Central Serengeti",
+        "nights": 2,
+        "midrange": [
+          "Serengeti Kati Kati Tented Camp"
+        ],
+        "luxury": [
+          "Kubu Kubu Tented Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      },
+      {
+        "location": "Ndutu area",
+        "nights": 2,
+        "midrange": [
+          "Ndutu Kati Kati Tented Camp"
+        ],
+        "luxury": [
+          "Masek Tented Lodge"
+        ],
+        "note": "Named options from the brochure; each property and room is quoted separately, subject to availability."
+      }
+    ],
+    "pricing": {
+      "status": "planning",
+      "currency": "USD",
+      "basis": "Per person, based on two non-resident adults sharing one double or twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 4300,
+          "maxUsd": 5900
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 6400,
+          "maxUsd": 8700
+        }
+      ],
+      "note": "Planning budgets only. Final prices require a dated quotation for your travel year, rooms, party and availability."
+    },
+    "source": {
+      "document": "Boker-8-Day-Ndutu-Calving-Safari.pdf",
+      "sha256": "a236a4e64c99d79c252a9e62b8e7366a04af5de77340469d46155646c7e008ac",
+      "pricePage": 5,
+      "receivedDate": "2026-09-29"
+    },
+    "imageKey": "serengeti",
+    "featured": false
+  }
+]

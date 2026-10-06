@@ -14,6 +14,9 @@ export const metadata: Metadata = {
 type Props = {
   searchParams: Promise<{
     package?: string;
+    travelDates?: string;
+    partySize?: string;
+    message?: string;
     interest?: string;
     market?: string;
     utm_source?: string;
@@ -71,6 +74,9 @@ export default async function EnquirePage({ searchParams }: Props) {
         <div className="mt-8 rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-sm sm:p-8">
           <EnquireForm
             defaultPackage={packageSlug}
+            defaultTravelDates={typeof sp.travelDates === "string" ? sp.travelDates.slice(0, 120) : ""}
+            defaultPartySize={typeof sp.partySize === "string" && /^\d{1,2}$/.test(sp.partySize) && Number(sp.partySize) >= 1 && Number(sp.partySize) <= 30 ? sp.partySize : "2"}
+            defaultMessage={typeof sp.message === "string" ? sp.message.slice(0, 2000) : ""}
             defaultInterests={defaultInterests}
             defaultMarket={defaultMarket}
             defaultInterestParam={interestParam}

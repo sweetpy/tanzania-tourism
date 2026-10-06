@@ -31,7 +31,7 @@ credential isolation, upstream failure handling and enquiry-reference preservati
 **Boker** is a dual-audience digital platform for Tanzania tourism:
 
 1. **Travellers** discover destinations, experiences, and packages — then enquire.
-2. **Outbound tour operators** (**Boker Trade**) browse a live partner catalog, apply to partner, and resell packages under their own brand.
+2. **Outbound tour operators** (**Boker Trade**) browse a prepared journey catalog, apply to partner, and resell packages under their own brand.
 
 Ambition: become the default digital layer for Tanzania visits — platform-scale IA and trust UX, not a ThemeForest safari brochure. Partnership-ready with government tourism institutions (TTB, MNRT) and licensed inbound DMCs — **tasteful framing only; no fake logos or endorsements**.
 
@@ -158,3 +158,11 @@ Key figures in UI (examples): 2.29M arrivals (2025), USD 4.41B earnings, 58.8% U
 ## Repo
 
 GitHub: https://github.com/sweetpy/tanzania-tourism
+
+## Prepared safari packages
+
+Twenty reviewed Boker brochures now provide daily itineraries, meal plans, overnight allocations, lodge alternatives, inclusion/exclusion details and 40 USD planning ranges. See [source audit](docs/boker-package-source-audit.md). The three bespoke journeys retain price-on-request status.
+
+Edit `src/data/curatedPackages.json` only against source documents or approved dated rate sheets. Do not treat these modelled budgets as confirmed selling rates. The planner ranks prepared routes by complete park coverage, duration and migration window; its managed custom-trip rates remain independent. Package enquiries preserve dates, party and comfort preferences, with package code derived server-side from the catalogue.
+
+Run `npm test`, `npm run lint`, `npm run build`, then `node scripts/verify-packages-ui.mjs`. Set `BOKER_TEST_URL` for public-domain smoke checks and `PLAYWRIGHT_PATH` if using a bundled browser runtime. Enquiry submissions in the browser checks are intercepted and mocked.
