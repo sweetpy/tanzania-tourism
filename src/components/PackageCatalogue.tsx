@@ -1,10 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { Card } from "@/components/Card";
 import { packages, packagePriceLabel } from "@/data/packages";
 
+const subscribe = () => () => {};
+const clientReady = () => true;
+const serverReady = () => false;
+
 export function PackageCatalogue() {
+  // Keep the first choice from being lost while the server-rendered page hydrates.
+  const ready = useSyncExternalStore(subscribe, clientReady, serverReady);
   const [search, setSearch] = useState("");
   const [days, setDays] = useState("");
   const [category, setCategory] = useState("");
@@ -23,6 +29,7 @@ export function PackageCatalogue() {
           Find a journey
           <input
             type="search"
+            disabled={!ready}
             value={search}
             onChange={(event) => setSearch(event.target.value)}
             placeholder="Park, route or package code"
@@ -32,6 +39,7 @@ export function PackageCatalogue() {
         <label className="text-sm font-semibold text-ink">
           Trip length
           <select
+            disabled={!ready}
             value={days}
             onChange={(event) => setDays(event.target.value)}
             className="mt-2 w-full rounded-lg border border-ink/20 bg-white px-3 py-3 font-normal"
@@ -49,6 +57,7 @@ export function PackageCatalogue() {
         <label className="text-sm font-semibold text-ink">
           Journey style
           <select
+            disabled={!ready}
             value={category}
             onChange={(event) => setCategory(event.target.value)}
             className="mt-2 w-full rounded-lg border border-ink/20 bg-white px-3 py-3 font-normal"

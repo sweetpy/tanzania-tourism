@@ -58,9 +58,9 @@ try {
   }
   await page.goto(`${base}/packages`, { waitUntil: "domcontentloaded" });
   await page.getByLabel("Trip length").selectOption("4");
-  await page.getByRole("status").filter({ hasText: "3 journeys" }).waitFor();
+  await page.getByRole("status").filter({ hasText: /^3 journeys/ }).waitFor();
   await page.getByLabel("Find a journey", { exact: true }).fill("Eyasi");
-  await page.getByRole("status").filter({ hasText: "1 journey" }).waitFor();
+  await page.getByRole("status").filter({ hasText: /^1 journey/ }).waitFor();
   await page
     .getByRole("link", {
       name: "4-Day Lake Eyasi: Hadzabe & Datoga",
@@ -69,7 +69,7 @@ try {
     .waitFor();
   await page.getByLabel("Find a journey", { exact: true }).fill("");
   await page.getByLabel("Trip length").selectOption("");
-  await page.getByRole("status").filter({ hasText: "23 journeys" }).waitFor();
+  await page.getByRole("status").filter({ hasText: /^23 journeys/ }).waitFor();
   report.filters = true;
   console.log("Catalogue and all 20 detail pages passed.");
   await page.screenshot({
