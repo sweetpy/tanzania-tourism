@@ -35,10 +35,10 @@ export default function DestinationsPage() {
             See packages
           </Link>
           <Link
-            href="/enquire"
+            href="/plan"
             className="rounded-full border border-cream/35 bg-cream/10 px-6 py-3 text-sm font-semibold text-cream backdrop-blur hover:bg-cream/20"
           >
-            Plan a routing
+            Build an itinerary
           </Link>
         </div>
       </PageHero>
@@ -65,7 +65,11 @@ export default function DestinationsPage() {
         <div className="mt-16">
           <CTABand
             title="Not sure which parks fit your dates?"
-            description="Tell us your season and interests — we’ll suggest a routing that matches wildlife highlights and your pace."
+            description="Choose your dates and favourite parks to explore safari routes at your own pace."
+            href="/plan"
+            label="Build an itinerary"
+            secondaryHref="/enquire"
+            secondaryLabel="Ask our team"
           />
         </div>
       </div>

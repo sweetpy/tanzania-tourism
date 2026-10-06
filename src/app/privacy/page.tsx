@@ -22,7 +22,7 @@ export default function PrivacyPage() {
       <article className="prose-platform mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="space-y-6 text-sm leading-relaxed text-ink/75 sm:text-base">
           <p>
-            When you submit a Plan a trip enquiry or a Wazi Trade partner form,
+            When you submit an itinerary enquiry, a traveller enquiry, or a Boker Trade partner form,
             we collect the details you provide (such as name, email, travel
             dates, company information, and message) so we can respond about
             that request.
@@ -33,18 +33,27 @@ export default function PrivacyPage() {
             trade follow-up you asked for.
           </p>
           <p>
-            Demo and staging environments may store submissions for follow-up
-            testing. Production contact addresses are placeholders until
-            operational mail is configured (
-            <span className="text-ink">{siteConfig.contactEmail}</span> /{" "}
-            <span className="text-ink">{siteConfig.partnerEmail}</span>).
+            Itinerary enquiries include your selected route, travel preferences,
+            and contact details. They are saved in the shared Pin Destinations
+            back office so the team can follow up on the itinerary you chose.
+            Traveller enquiries and Boker Trade applications continue to use
+            this site’s existing enquiry storage and configured notification
+            services.
+          </p>
+          <p>
+            To ask about your information, including access, correction, or
+            deletion, email{" "}
+            <a href={`mailto:${siteConfig.contactEmail}`} className="font-semibold text-teal hover:underline">
+              {siteConfig.contactEmail}
+            </a>
+            .
           </p>
           <p>
             For questions about this notice, use the{" "}
             <Link href="/enquire" className="font-semibold text-teal hover:underline">
               Plan a trip
             </Link>{" "}
-            form or your existing Wazi Trade contact. See also our{" "}
+            form or your existing Boker Trade contact. See also our{" "}
             <Link href="/terms" className="font-semibold text-teal hover:underline">
               Terms
             </Link>

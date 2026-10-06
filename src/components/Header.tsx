@@ -67,10 +67,10 @@ export function Header() {
               </Link>
             ) : (
               <Link
-                href="/enquire"
+                href="/plan"
                 className="rounded-full bg-gold px-4 py-2 text-sm font-semibold text-ink transition hover:bg-gold-bright"
               >
-                Plan a trip
+                Build an itinerary
               </Link>
             )}
           </div>
@@ -199,16 +199,16 @@ export function Header() {
       >
         <div className="mx-auto flex max-w-lg gap-2">
           <Link
-            href="/enquire"
+            href="/plan"
             className="flex-1 rounded-full bg-gold py-3 text-center text-sm font-bold text-ink"
           >
-            Plan a trip
+            Build an itinerary
           </Link>
           <Link
             href="/operators"
             className="flex-1 rounded-full border border-cream/25 py-3 text-center text-sm font-semibold text-cream"
           >
-            Wazi Trade
+            Boker Trade
           </Link>
         </div>
       </div>

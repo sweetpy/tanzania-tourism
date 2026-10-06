@@ -3,23 +3,29 @@
  * without hunting through pages.
  */
 export const siteConfig = {
-  name: "Wazi",
-  shortName: "Wazi",
+  name: "Boker",
+  shortName: "Boker",
   tagline: "Open Tanzania.",
   description:
-    "Wazi opens Tanzania for travellers and tour operators — Serengeti safaris, Kilimanjaro, Ngorongoro, Ruaha, and Zanzibar. Plan a trip or partner through Wazi Trade.",
-  url: "https://tanzania-tourism-production.up.railway.app",
+    "Discover Tanzania with Boker. Build your safari itinerary, explore Serengeti, Kilimanjaro and Zanzibar, or partner through Boker Trade.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.bokeradventure.com",
   locale: "en_US",
-  /** Public contact — MVP uses founder Gmail until a branded domain inbox exists. */
-  contactEmail: "agubouy@gmail.com",
-  partnerEmail: "agubouy@gmail.com",
-  founderEmail: "agubouy@gmail.com",
-  social: {
-    twitter: "@wazitz",
-  },
+  contactEmail: "support@pindestinations.com",
+  partnerEmail: "support@pindestinations.com",
   ambition:
-    "Become the default digital layer for Tanzania travel — travellers discover and enquire; outbound operators browse, white-label, and resell via Wazi Trade.",
-  tradeName: "Wazi Trade",
+    "Discover Tanzania, build a safari around your dates, and make it your own. For outbound operators, Boker Trade connects inspiration with adaptable journeys.",
+  tradeName: "Boker Trade",
+};
+
+/** Destination guide slugs mapped to parks supported by the itinerary service. */
+export const plannerParks: Readonly<Partial<Record<string, string>>> = {
+  serengeti: "serengeti-central",
+  ngorongoro: "ngorongoro",
+  "lake-manyara": "manyara",
+  ruaha: "ruaha",
+  tarangire: "tarangire",
+  mikumi: "mikumi",
+  nyerere: "nyerere",
 };
 
 /** Primary traveler navigation */
@@ -29,7 +35,7 @@ export const navLinks = [
   { href: "/packages", label: "Packages" },
   { href: "/about", label: "About" },
   { href: "/partners", label: "Partners" },
-  { href: "/operators", label: "Wazi Trade" },
+  { href: "/operators", label: "Boker Trade" },
 ];
 
 /** Trade / partner secondary links */
@@ -44,7 +50,7 @@ export const ecosystemPartners = [
   {
     name: "Tanzania Tourist Board (TTB)",
     role: "National destination marketing",
-    note: "Wazi aligns with official destination narratives and welcomes collaboration on trade campaigns — with Tanzania, not instead of TTB.",
+    note: "Boker aligns with official destination narratives and welcomes collaboration on trade campaigns — with Tanzania, not instead of TTB.",
   },
   {
     name: "Ministry of Natural Resources & Tourism (MNRT)",

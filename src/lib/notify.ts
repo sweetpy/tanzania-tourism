@@ -22,7 +22,7 @@ function formatBody(
   payload: Record<string, unknown>,
 ): { subject: string; text: string } {
   const label = kind === "enquire" ? "Traveller enquiry" : "Trade partner application";
-  const subject = `[Wazi] ${label} ${id}`;
+  const subject = `[Boker] ${label} ${id}`;
   const lines = Object.entries(payload).map(
     ([k, v]) => `${k}: ${typeof v === "string" ? v : JSON.stringify(v)}`,
   );
@@ -34,7 +34,7 @@ function formatBody(
     "",
     ...lines,
     "",
-    "— Wazi lead notify (MVP). Also stored in Postgres (and JSONL backup when available).",
+    "— Boker lead notify (MVP). Also stored in Postgres (and JSONL backup when available).",
   ].join("\n");
   return { subject, text };
 }
@@ -48,7 +48,7 @@ async function sendResend(
   if (!key) return { sent: false, reason: "RESEND_API_KEY not set" };
 
   const from =
-    process.env.LEADS_FROM_EMAIL?.trim() || "Wazi <onboarding@resend.dev>";
+    process.env.LEADS_FROM_EMAIL?.trim() || "Boker <onboarding@resend.dev>";
 
   try {
     const res = await fetch("https://api.resend.com/emails", {

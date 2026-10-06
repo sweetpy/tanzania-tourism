@@ -7,13 +7,13 @@ import { ecosystemPartners, siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "How Wazi frames collaboration with Tanzania’s tourism institutions — TTB, MNRT, and licensed inbound operators — without fabricated logos or endorsements.",
+    "How Boker frames collaboration with Tanzania’s tourism institutions — TTB, MNRT, and licensed inbound operators — without fabricated logos or endorsements.",
 };
 
 const principles = [
   {
     title: "With Tanzania, not instead of",
-    body: "Official destination marketing remains with institutions such as the Tanzania Tourist Board. Wazi is a dual-audience digital layer — travellers plan trips; outbound operators use Wazi Trade — that complements, rather than replaces, national campaigns.",
+    body: "Official destination marketing remains with institutions such as the Tanzania Tourist Board. Boker is a dual-audience digital layer — travellers plan trips; outbound operators use Boker Trade — that complements, rather than replaces, national campaigns.",
   },
   {
     title: "Cited trust, not brochure fluff",
@@ -21,7 +21,7 @@ const principles = [
   },
   {
     title: "Licensed ground delivery",
-    body: "Resell and fulfilment run through licensed Tanzanian inbound operators and DMCs for parks, vehicles, and guiding. Wazi Trade is a demand and packaging surface — not a substitute for local licensing.",
+    body: "Resell and fulfilment run through licensed Tanzanian inbound operators and DMCs for parks, vehicles, and guiding. Boker Trade is a demand and packaging surface — not a substitute for local licensing.",
   },
 ];
 
@@ -150,7 +150,7 @@ export default function PartnersPage() {
             </h2>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-cream/65 sm:text-base">
               Mentions of TTB, MNRT, and TATO describe the institutional
-              landscape Wazi is designed to work alongside. They are not logos,
+              landscape Boker is designed to work alongside. They are not logos,
               seals, or proof of sponsorship. When formal partnerships exist, we
               will say so plainly — until then, we stay accurate.
             </p>
@@ -159,13 +159,13 @@ export default function PartnersPage() {
                 href="/operators"
                 className="rounded-full bg-teal px-5 py-2.5 text-sm font-semibold text-cream hover:bg-teal-bright"
               >
-                Enter Wazi Trade
+                Enter Boker Trade
               </Link>
               <Link
                 href="/about"
                 className="rounded-full border border-cream/30 px-5 py-2.5 text-sm font-semibold text-cream hover:bg-cream/10"
               >
-                About Wazi
+                About Boker
               </Link>
             </div>
           </div>
@@ -189,11 +189,11 @@ export default function PartnersPage() {
             <CTABand
               variant="operator"
               title="Selling Tanzania this season?"
-              description="Wazi Trade is for outbound operators and advisors who need adaptable itineraries and a partner desk — not a consumer form."
+              description="Boker Trade is for outbound operators and advisors who need adaptable itineraries and a partner desk — not a consumer form."
               href="/operators/apply"
               label="Apply to partner"
               secondaryHref="/operators"
-              secondaryLabel="How Wazi Trade works"
+              secondaryLabel="How Boker Trade works"
             />
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import {
   buildEnquireHref,
   MARKET_OFFER_PARAMS,
@@ -52,10 +52,22 @@ function offerEnquireHref(id: MarketOfferId, utms: ReturnType<typeof pickUtms>) 
 }
 
 export function MarketOffers() {
-  // Default featured: US
-  const [featuredId, setFeaturedId] = useState<MarketOfferId>("us");
+  return (
+    <Suspense fallback={<MarketOffersContent utms={{}} />}>
+      <AttributedMarketOffers />
+    </Suspense>
+  );
+}
+
+function AttributedMarketOffers() {
   const searchParams = useSearchParams();
   const utms = useMemo(() => pickUtms(searchParams), [searchParams]);
+  return <MarketOffersContent utms={utms} />;
+}
+
+function MarketOffersContent({ utms }: { utms: ReturnType<typeof pickUtms> }) {
+  // Default featured: US
+  const [featuredId, setFeaturedId] = useState<MarketOfferId>("us");
 
   const ordered = useMemo(() => {
     const featured = OFFERS.find((o) => o.id === featuredId) ?? OFFERS[0];

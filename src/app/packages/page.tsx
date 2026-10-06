@@ -30,10 +30,10 @@ export default function PackagesPage() {
       >
         <div className="flex flex-wrap gap-3">
           <Link
-            href="/enquire"
+            href="/plan"
             className="rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink hover:bg-gold-bright"
           >
-            Enquire as traveller
+            Build an itinerary
           </Link>
           <Link
             href="/operators/catalog"
@@ -48,7 +48,7 @@ export default function PackagesPage() {
         <SectionHeading
           eyebrow="Catalog"
           title="Ready-to-adapt itineraries"
-          description="Travellers enquire for dates and lodge category. Outbound operators request resell rights via Wazi Trade."
+          description="Travellers enquire for dates and lodge category. Outbound operators request resell rights via Boker Trade."
         />
         <p className="mt-4 text-sm text-ink/55">
           Trade path:{" "}
@@ -84,7 +84,11 @@ export default function PackagesPage() {
         <div className="mt-16 grid gap-6 lg:grid-cols-2">
           <CTABand
             title="Want a fully custom itinerary?"
-            description="Mix parks, climb days, and beach nights — enquire with your preferences and we’ll sketch options."
+            description="Build a safari around your dates and favourite parks. For a climb, beach extension, or mixed journey, our team can help."
+            href="/plan"
+            label="Build an itinerary"
+            secondaryHref="/enquire"
+            secondaryLabel="Ask about a custom journey"
           />
           <CTABand
             variant="operator"

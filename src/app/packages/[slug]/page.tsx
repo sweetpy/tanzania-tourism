@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { CTABand } from "@/components/CTABand";
 import { getDestination } from "@/data/destinations";
 import { getPackage, packages } from "@/data/packages";
+import { plannerParks } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -35,6 +36,9 @@ export default async function PackageDetailPage({ params }: Props) {
   const linkedDestinations = pkg.destinations
     .map((s) => getDestination(s))
     .filter(Boolean);
+  const plannerPark = pkg.destinations.length > 0 && pkg.destinations.every(destination => plannerParks[destination])
+    ? plannerParks[pkg.destinations[0]]
+    : undefined;
 
   return (
     <>
@@ -120,6 +124,14 @@ export default async function PackageDetailPage({ params }: Props) {
               Prefill this package on the enquiry form and tell us your dates —
               we’ll reply with a clear outline and a refined from-price band for your dates and lodge level.
             </p>
+            {plannerPark && (
+              <Link
+                href={`/plan?park=${plannerPark}`}
+                className="mt-5 inline-flex w-full justify-center rounded-full bg-gold px-4 py-3 text-sm font-semibold text-ink hover:bg-gold-bright"
+              >
+                Build an itinerary
+              </Link>
+            )}
             <Link
               href={`/enquire?package=${pkg.slug}`}
               className="mt-5 inline-flex w-full justify-center rounded-full bg-ink px-4 py-3 text-sm font-semibold text-cream hover:bg-ink-soft"
@@ -153,7 +165,12 @@ export default async function PackageDetailPage({ params }: Props) {
 
       <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-2">
-          <CTABand />
+          <CTABand
+            title={plannerPark ? "Create your own safari" : "Make this journey your own"}
+            description={plannerPark ? "Use this journey as inspiration. Start with its first park, then choose your destinations, dates and pace in the itinerary builder." : "Share your travel window and interests with our team to tailor this package to you."}
+            href={plannerPark ? `/plan?park=${plannerPark}` : `/enquire?package=${pkg.slug}`}
+            label={plannerPark ? "Build an itinerary" : "Enquire about this package"}
+          />
           <CTABand
             variant="operator"
             title="Trade partners welcome"

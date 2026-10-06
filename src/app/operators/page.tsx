@@ -62,7 +62,7 @@ export default function OperatorsPage() {
         />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-bright">
-            Wazi Trade
+            Boker Trade
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             Resell Tanzania with a{" "}

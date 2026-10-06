@@ -53,7 +53,7 @@ export default async function EnquirePage({ searchParams }: Props) {
             <span className="text-gold-bright">Tanzania trip</span>
           </>
         }
-        description="Share your dates, party size, and how you want to move. A person on the Wazi team reads every enquiry and replies with a clear outline — usually within 1–2 business days. No payment to enquire."
+        description="Share your dates, party size, and how you want to move. A person on the Boker team reads every enquiry and replies with a clear outline — usually within 1–2 business days. No payment to enquire."
         image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=2400&q=85"
         imageAlt="Soft dawn light over distant African hills"
       />

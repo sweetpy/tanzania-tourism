@@ -4,9 +4,9 @@
      height="512"
      viewBox="0 0 512 512"
      role="img"
-     aria-label="Wazi">
+     aria-label="Boker">
   <rect width="512" height="512" rx="96" fill="#0B1020"/>
-  <path d="M96 128 L176 384 L256 200 L336 384 L416 128"
+  <path d="M160 128 V384 H272 C376 384 376 256 272 256 H160 M160 128 H264 C360 128 360 256 264 256"
         fill="none"
         stroke="#F4F0E6"
         stroke-width="36"

@@ -70,16 +70,20 @@ export default async function ExperienceDetailPage({ params }: Props) {
             ))}
           </ul>
           <Link
-            href={`/enquire?interest=${exp.slug}`}
+            href={exp.slug === "safari" ? "/plan" : `/enquire?interest=${exp.slug}`}
             className="mt-6 inline-flex w-full justify-center rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-cream hover:bg-ink-soft"
           >
-            Enquire about this experience
+            {exp.slug === "safari" ? "Build an itinerary" : "Enquire about this experience"}
           </Link>
         </aside>
       </div>
 
       <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
-        <CTABand />
+        <CTABand
+          description={exp.slug === "safari" ? "Choose your parks, dates and travel style to explore your day-by-day safari options." : "Share your travel window and interests. Our team will help shape a journey around you."}
+          href={exp.slug === "safari" ? "/plan" : `/enquire?interest=${exp.slug}`}
+          label={exp.slug === "safari" ? "Build an itinerary" : "Enquire about this experience"}
+        />
       </div>
     </>
   );

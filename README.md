@@ -1,9 +1,37 @@
-# Wazi — Open Tanzania.
+# Boker — Open Tanzania.
 
-**Wazi** is a dual-audience digital platform for Tanzania tourism:
+Boker combines the Tanzania Tourism (Wazi) traveller and trade website with the
+existing Boker itinerary builder. Browse destinations, experiences and packages,
+or visit `/plan` to generate a day-by-day safari and request a confirmed quote.
+
+The Next.js application preserves the existing traveller and trade lead storage.
+The new `/api/boker/config`, `/api/boker/preview` and `/api/boker/enquiries` gateway
+uses the existing Pin Destinations public APIs. Planner rates, availability flags,
+validation, enquiry references and idempotency remain owned by that backend.
+No Pin credentials, database copy, private admin APIs or browser cookies are
+forwarded through the gateway. A saved itinerary enquiry is not a booking or an
+email confirmation.
+
+See `.env.example` for the optional server-only `BOKER_API_ORIGIN` and canonical
+`NEXT_PUBLIC_SITE_URL`. Retain all existing database, volume and notification
+environment settings during deployment. No database migration is required.
+
+Legacy `/boker` links redirect to `/plan`. The custom-domain edge service lives in
+`deployment/boker-edge`; it serves the unified website while preserving the Boker
+domain in the address bar and the existing Pin staff-workspace link.
+
+## Merge validation
+
+Run `npm test`, `npm run lint`, `npx tsc --noEmit` and `npm run build`.
+Gateway tests cover operation restrictions, request limits, same-origin submission,
+credential isolation, upstream failure handling and enquiry-reference preservation.
+
+## Platform architecture
+
+**Boker** is a dual-audience digital platform for Tanzania tourism:
 
 1. **Travellers** discover destinations, experiences, and packages — then enquire.
-2. **Outbound tour operators** (**Wazi Trade**) browse a live partner catalog, apply to partner, and resell packages under their own brand.
+2. **Outbound tour operators** (**Boker Trade**) browse a live partner catalog, apply to partner, and resell packages under their own brand.
 
 Ambition: become the default digital layer for Tanzania visits — platform-scale IA and trust UX, not a ThemeForest safari brochure. Partnership-ready with government tourism institutions (TTB, MNRT) and licensed inbound DMCs — **tasteful framing only; no fake logos or endorsements**.
 
@@ -18,9 +46,9 @@ Rename / rebrand from one place:
 
 | Token | Role |
 |-------|------|
-| Master | **Wazi** |
+| Master | **Boker** |
 | Tagline | **Open Tanzania.** |
-| Trade surface | **Wazi Trade** |
+| Trade surface | **Boker Trade** |
 | Night | `#0B1020` |
 | Ink | `#141B2D` |
 | Ivory | `#F4F0E6` |

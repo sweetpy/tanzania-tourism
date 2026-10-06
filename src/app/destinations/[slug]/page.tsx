@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CTABand } from "@/components/CTABand";
 import { destinations, getDestination } from "@/data/destinations";
+import { plannerParks } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -30,6 +31,9 @@ export default async function DestinationDetailPage({ params }: Props) {
   const { slug } = await params;
   const d = getDestination(slug);
   if (!d) notFound();
+  const parkId = plannerParks[d.slug];
+  const enquiryInterest = d.slug === "kilimanjaro" ? "mountain-climbing" : d.slug === "zanzibar" ? "beach-islands" : "safari";
+  const planningHref = parkId ? `/plan?park=${parkId}` : `/enquire?interest=${enquiryInterest}`;
 
   return (
     <>
@@ -74,16 +78,21 @@ export default async function DestinationDetailPage({ params }: Props) {
             <span className="text-ink/60">{d.bestTime}</span>
           </p>
           <Link
-            href={`/enquire?interest=safari`}
+            href={planningHref}
             className="mt-6 inline-flex w-full justify-center rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-cream hover:bg-ink-soft"
           >
-            Enquire about {d.name.split(" ")[0]}
+            {parkId ? "Build an itinerary" : `Enquire about ${d.name.split(" ")[0]}`}
           </Link>
         </aside>
       </div>
 
       <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
-        <CTABand />
+        <CTABand
+          title={`Make ${d.name} part of your journey`}
+          description={parkId ? "Start with this park, choose your dates and travel style, then explore your day-by-day safari options." : "Tell us your travel window and interests. Our team will help shape a journey around you."}
+          href={planningHref}
+          label={parkId ? "Build an itinerary" : "Enquire about this destination"}
+        />
       </div>
     </>
   );

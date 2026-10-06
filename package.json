@@ -1,15 +1,17 @@
 {
-  "name": "tanzania-tourism",
+  "name": "boker-adventures",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start --hostname 0.0.0.0 --port ${PORT:-3000}",
-    "lint": "eslint"
+    "build": "next build --webpack",
+    "start": "node scripts/start.mjs",
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test tests/bokerGateway.test.mjs deployment/boker-edge/server.test.mjs"
   },
   "dependencies": {
-    "next": "16.3.5",
+    "lucide-react": "^1.52.0",
+    "next": "16.3.8",
     "pg": "^8.23.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
@@ -21,9 +23,12 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.5",
+    "eslint-config-next": "16.3.8",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "description": "Tanzania tourism platform — travellers + outbound operator resell gateway"
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "description": "Boker Tanzania discovery, safari itinerary planning and tour operator partnerships"
 }

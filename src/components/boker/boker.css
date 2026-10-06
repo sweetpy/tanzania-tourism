@@ -1,0 +1,221 @@
+.boker-site {
+  --boker-ink: var(--ink);
+  --boker-accent: var(--gold);
+  --boker-muted: #5c6373;
+  --boker-line: #d8d3c8;
+  background: var(--cream);
+  color: var(--boker-ink);
+  font-family: var(--font-dm-sans), Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  padding: 40px 24px 1px;
+  min-height: 70vh;
+}
+.boker-site * { box-sizing: border-box; }
+.boker-site h1, .boker-site h2, .boker-site h3, .boker-site h4, .boker-site p { margin: 0; }
+.boker-site h1, .boker-site h2, .boker-site h3 {
+  font-family: var(--font-syne), Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+.boker-site a { color: inherit; }
+.boker-site button, .boker-site input, .boker-site select, .boker-site textarea { font: inherit; }
+.boker-site button, .boker-site a { touch-action: manipulation; }
+.boker-site button { cursor: pointer; }
+.boker-site button:disabled { cursor: not-allowed; opacity: .55; }
+.boker-site :focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+.boker-site fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.boker-intro {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  border: 1px solid var(--boker-line);
+  border-radius: 24px;
+  overflow: hidden;
+  background: #fffdf8;
+}
+.boker-photo { position: relative; min-height: 690px; background: var(--night); isolation: isolate; }
+.boker-photo img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; }
+.boker-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #0b102026, #0b102070 35%, #0b1020ed);
+  z-index: 0;
+}
+.boker-photo-copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  color: var(--cream);
+  padding: 42px;
+}
+.boker-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .18em; display: block; margin-bottom: 12px; }
+.boker-photo .boker-eyebrow { color: var(--gold-bright); }
+.boker-photo h1 { font-size: clamp(44px, 4.8vw, 70px); font-weight: 800; letter-spacing: -.055em; }
+.boker-photo h1 em { color: var(--gold-bright); font-weight: 800; font-style: normal; }
+.boker-photo p { font-size: 17px; color: #f4f0e6d9; margin-top: 24px; }
+.boker-photo-note { margin-top: 44px; font-size: 11px; letter-spacing: .03em; text-underline-offset: 4px; }
+.boker-planner { padding: 34px 36px; scroll-margin-top: 100px; }
+.boker-planner > .boker-eyebrow { color: var(--teal); }
+.boker-planner h2 { font-size: 30px; margin-bottom: 24px; max-width: 420px; }
+.boker-site label { display: block; font-size: 13px; font-weight: 600; line-height: 1.4; }
+.boker-site input:not([type=checkbox]), .boker-site select, .boker-site textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid var(--boker-line);
+  border-radius: 8px;
+  background: white;
+  color: var(--boker-ink);
+  margin-top: 7px;
+  min-height: 44px;
+}
+.boker-site select { padding-right: 25px; }
+.boker-site textarea { resize: vertical; }
+.boker-fields { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 16px; margin-bottom: 15px; }
+.boker-optional { font-size: 11px; color: var(--boker-muted); font-weight: 400; }
+.boker-destinations { margin: 18px 0 !important; }
+.boker-destinations legend { font-size: 13px; font-weight: 600; }
+.boker-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
+.boker-chips label { display: flex; align-items: center; gap: 7px; border: 1px solid var(--boker-line); padding: 8px 11px; border-radius: 8px; cursor: pointer; font-size: 12px; min-height: 40px; }
+.boker-chips label.is-selected { background: #1f8a8a10; border-color: var(--teal); }
+.boker-chips input { accent-color: var(--teal); width: 14px; height: 14px; }
+.boker-primary {
+  background: var(--gold);
+  color: var(--night) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 22px;
+  transition: background .15s;
+}
+.boker-primary:hover { background: var(--gold-bright); }
+.boker-primary svg { flex-shrink: 0; }
+.boker-primary svg:last-child { margin-left: auto; }
+.boker-form-note { font-size: 11px !important; display: flex; align-items: center; justify-content: center; gap: 7px; color: var(--boker-muted); margin-top: 12px !important; }
+.boker-form-note svg { flex-shrink: 0; }
+.boker-error { background: #fff1ef; color: #9a3226; padding: 12px; border: 1px solid #eab4ad; font-size: 14px; border-radius: 8px; margin-top: 16px !important; }
+.boker-journey { max-width: 1200px; margin: 70px auto; scroll-margin-top: 100px; }
+.boker-section-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 25px; }
+.boker-section-heading h2 { font-size: 34px; }
+.boker-section-heading .boker-eyebrow { color: var(--teal); }
+.boker-secondary { background: transparent; border: 1px solid var(--boker-line); padding: 11px 14px; border-radius: 999px; display: flex; align-items: center; gap: 8px; font-size: 13px; white-space: nowrap; }
+.boker-empty { border-top: 1px solid var(--boker-line); display: flex; align-items: center; gap: 24px; padding: 32px 0; max-width: 730px; color: var(--boker-muted); }
+.boker-empty svg { flex-shrink: 0; color: var(--teal); }
+.boker-options { display: flex; gap: 12px; margin-bottom: 30px; overflow-x: auto; padding-bottom: 7px; }
+.boker-options button { background: #fffdf8; border: 1px solid var(--boker-line); border-radius: 14px; min-width: 220px; flex: 1; text-align: left; padding: 18px; }
+.boker-options button.active { border: 2px solid var(--teal); padding: 17px; background: #1f8a8a0a; }
+.boker-options span { font-size: 10px; letter-spacing: .15em; display: block; margin-bottom: 10px; }
+.boker-options strong { display: block; font-size: 14px; line-height: 1.5; }
+.boker-options small { display: block; margin-top: 12px; color: var(--boker-muted); font-size: 12px; }
+.boker-itinerary-layout { display: grid; grid-template-columns: minmax(0,1fr) 330px; gap: 40px; align-items: start; }
+.boker-route-heading { padding-bottom: 25px; }
+.boker-tag { display: inline-block; background: #1f8a8a14; color: #176969; padding: 5px 9px; font-size: 10px; font-weight: 700; letter-spacing: .1em; border-radius: 4px; margin-bottom: 15px; }
+.boker-route-heading h3 { font-size: 30px; }
+.boker-route-heading p { font-size: 14px; color: var(--boker-muted); margin-top: 12px; }
+.boker-day { display: grid; grid-template-columns: 58px 1fr; gap: 20px; border-top: 1px solid var(--boker-line); padding: 28px 0; break-inside: avoid; }
+.boker-day-number { font-family: var(--font-syne), Arial, sans-serif; font-weight: 700; font-size: 32px; line-height: 1.3; color: var(--teal); }
+.boker-day-number small { display: block; font-family: var(--font-dm-sans), Arial, sans-serif; letter-spacing: .14em; font-size: 10px; }
+.boker-day-date { font-size: 12px; color: var(--boker-muted); }
+.boker-day h4 { font-family: var(--font-syne), Arial, sans-serif; font-size: 23px; font-weight: 700; margin: 5px 0 10px; }
+.boker-day p { color: #424b5c; font-size: 15px; }
+.boker-day .boker-overnight { margin-top: 15px; display: flex; gap: 8px; align-items: start; font-size: 13px; font-weight: 600; }
+.boker-overnight svg { flex-shrink: 0; margin-top: 2px; }
+.boker-day .boker-travel-note { font-size: 12px; color: var(--boker-muted); margin-top: 8px; }
+.boker-trip-summary { background: #fffdf8; border: 1px solid var(--boker-line); border-top: 4px solid var(--gold); border-radius: 14px; padding: 25px; position: sticky; top: 100px; }
+.boker-trip-summary h3 { font-size: 26px; }
+.boker-trip-summary dl { margin: 22px 0; }
+.boker-trip-summary dl div { display: flex; gap: 14px; justify-content: space-between; font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--boker-line); }
+.boker-trip-summary dd { margin: 0; text-align: right; text-transform: capitalize; }
+.boker-trip-summary dt { color: var(--boker-muted); }
+.boker-price { background: var(--cream); padding: 16px; margin: 0 -6px; border-radius: 8px; }
+.boker-price > span { font-size: 14px; font-weight: 600; }
+.boker-price > strong { display: block; font-family: var(--font-syne), Arial, sans-serif; font-size: 32px; margin-top: 8px; }
+.boker-price p, .boker-price details { font-size: 13px; margin-top: 8px; }
+.boker-price summary { cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.boker-price ul { list-style: disc; padding-left: 18px; margin-bottom: 0; }
+.boker-price li + li { margin-top: 6px; }
+.boker-stays { margin-top: 20px; }
+.boker-stays h4 { font-size: 14px; }
+.boker-stays p { margin-top: 10px; font-size: 14px; }
+.boker-stays a { text-decoration: underline; text-underline-offset: 3px; }
+.boker-stays small { display: block; font-size: 12px; color: var(--boker-muted); }
+.boker-disclaimer { font-size: 12px; margin-top: 20px !important; color: var(--boker-muted); }
+.boker-enquiry { display: grid; grid-template-columns: 1fr 1.25fr; gap: 50px; background: var(--cream-deep); padding: 38px; margin-top: 40px; scroll-margin-top: 100px; border-radius: 20px; }
+.boker-enquiry h2 { font-size: 36px; margin-bottom: 18px; }
+.boker-enquiry p { color: var(--boker-muted); }
+.boker-enquiry label + label { margin-top: 15px; }
+.boker-enquiry .boker-fields label { margin-top: 0; }
+.boker-enquiry .boker-form-note { display: block; text-align: left; font-size: 13px !important; margin-top: 22px !important; }
+.boker-receipt { background: #fffdf8; padding: 28px; border: 1px solid #1f8a8a66; border-radius: 12px; }
+.boker-receipt > svg { color: var(--teal); }
+.boker-receipt h3 { font-size: 27px; margin: 12px 0; }
+.boker-receipt p { margin-top: 12px; overflow-wrap: anywhere; }
+.boker-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+.boker-spin { animation: boker-spin 1s linear infinite; }
+@keyframes boker-spin { to { transform: rotate(360deg); } }
+@media (max-width: 1000px) {
+  .boker-site { padding: 24px 20px 1px; }
+  .boker-intro { grid-template-columns: .85fr 1fr; }
+  .boker-photo-copy { padding: 30px; }
+  .boker-planner { padding: 28px; }
+  .boker-itinerary-layout { gap: 25px; grid-template-columns: minmax(0,1fr) 300px; }
+  .boker-enquiry { gap: 25px; padding: 28px; }
+}
+@media (max-width: 740px) {
+  .boker-site { padding: 16px 12px 1px; }
+  .boker-intro { display: flex; flex-direction: column; border-radius: 18px; }
+  .boker-photo { min-height: 345px; height: 345px; }
+  .boker-photo-copy { padding: 28px; }
+  .boker-photo h1 { font-size: 46px; }
+  .boker-photo p { font-size: 15px; margin-top: 15px; }
+  .boker-photo-note { margin-top: 22px; font-size: 10px; }
+  .boker-planner { padding: 26px 20px; }
+  .boker-planner h2 { font-size: 27px; }
+  .boker-fields { gap: 10px; }
+  .boker-journey { margin: 44px auto; padding: 0 8px; }
+  .boker-section-heading { align-items: start; flex-direction: column; gap: 16px; }
+  .boker-section-heading h2 { font-size: 29px; }
+  .boker-itinerary-layout { display: flex; flex-direction: column; }
+  .boker-trip-summary { position: static; width: 100%; order: -1; }
+  .boker-day { grid-template-columns: 40px 1fr; gap: 14px; }
+  .boker-enquiry { display: block; padding: 23px; }
+  .boker-enquiry form, .boker-receipt { margin-top: 25px; }
+  .boker-options button { min-width: 240px; }
+}
+@media (max-width: 370px) {
+  .boker-fields { grid-template-columns: 1fr; }
+  .boker-photo-copy { padding: 22px; }
+  .boker-photo h1 { font-size: 41px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .boker-site * { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
+@media print {
+  body:has(.boker-site) > header, body:has(.boker-site) > footer,
+  body:has(.boker-site) > [aria-label="Mobile quick actions"],
+  .boker-no-print, .boker-intro, .boker-empty { display: none !important; }
+  .boker-site { background: white; color: black; padding: 0; }
+  .boker-journey { margin: 20px 0; padding: 0; }
+  .boker-itinerary-layout { display: block; }
+  .boker-trip-summary { position: static; break-inside: avoid; margin-top: 25px; }
+  .boker-day { padding: 14px 0; }
+  .boker-section-heading h2 { font-size: 26px; }
+  .boker-days h3 { font-size: 25px; }
+}

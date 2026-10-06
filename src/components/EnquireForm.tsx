@@ -141,7 +141,7 @@ export function EnquireForm(props: Props) {
           Asante — we have your details
         </h3>
         <p className="mt-3 text-ink/70">
-          We’ve logged your enquiry. Next, a person on the Wazi team will sketch
+          We’ve logged your enquiry. Next, a person on the Boker team will sketch
           a concrete outline around the places that fit your window — northern
           circuit plains (Serengeti / Ngorongoro), Zanzibar shores, Kilimanjaro,
           or a thread of them — not a vague “we’ll be in touch.”
@@ -154,7 +154,7 @@ export function EnquireForm(props: Props) {
         ) : null}
         <ul className="mx-auto mt-5 max-w-md space-y-2 text-left text-sm text-ink/65">
           <li>
-            A person on the Wazi team reads every enquiry — this is not an
+            A person on the Boker team reads every enquiry — this is not an
             automated quote engine.
           </li>
           <li>

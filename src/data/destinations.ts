@@ -158,9 +158,9 @@ export const destinations: Destination[] = [
     ],
     bestTime: "Jun–Oct; flamingos depend on water levels",
     image:
-      "https://images.unsplash.com/photo-1534177616575-04216ba07832?w=1600&q=80",
+      "https://upload.wikimedia.org/wikipedia/commons/2/21/Lake_Manyara.jpg",
     imageAlt:
-      "Flamingos wading in shallow alkaline lake water beneath Rift Valley hills",
+      "Lake Manyara and its forest seen from the Great Rift Valley escarpment",
     featured: false,
   },
 ];

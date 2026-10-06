@@ -13,7 +13,7 @@ import { packageInsights } from "@/data/insights";
 import { getFeaturedPackages } from "@/data/packages";
 import { siteConfig } from "@/lib/site";
 
-const whyWazi = [
+const whyBoker = [
   {
     title: "Wildlife on Tanzania’s clock",
     body: "Calving plains, river crossings, dry-season waterholes — we route by season, not by brochure defaults.",
@@ -23,8 +23,8 @@ const whyWazi = [
     body: "Northern circuit drama, Kilimanjaro’s zones, southern quiet in Ruaha, then Zanzibar’s turquoise finish — one country, sequenced.",
   },
   {
-    title: "Grounded, not generic",
-    body: "Fair guiding standards, clear from-price starting points, and follow-up that treats your dates and party as real constraints.",
+    title: "Build before you enquire",
+    body: "Choose your parks, dates, and travel style. Compare day-by-day safari options, then send your chosen route to our team for a confirmed quote.",
   },
 ];
 
@@ -64,17 +64,17 @@ export default function HomePage() {
             the bush.
           </h1>
           <p className="animate-fade-up-delay-2 type-body mt-7 max-w-2xl text-cream/72">
-            Wazi is how curious travellers step into Tanzania — Serengeti and
+            Boker is how curious travellers step into Tanzania — Serengeti and
             Ngorongoro, Uhuru Peak, Ruaha’s quiet wild, and Zanzibar’s spice
             coast — with clear seasons, honest from-prices, and a plan built
             around how you actually want to move.
           </p>
           <div className="animate-fade-up-delay-2 mt-10 flex flex-wrap items-center gap-3">
             <Link
-              href="/enquire"
+              href="/plan"
               className="rounded-full bg-gold px-8 py-3.5 text-sm font-bold text-ink shadow-lg shadow-night/40 transition hover:bg-gold-bright"
             >
-              Plan a trip
+              Build an itinerary
             </Link>
             <Link
               href="/operators"
@@ -93,7 +93,7 @@ export default function HomePage() {
           <p className="type-eyebrow text-terracotta">Who are you planning for?</p>
           <div className="mt-8 grid gap-0 overflow-hidden rounded-3xl border border-ink/10 lg:grid-cols-2">
             <Link
-              href="/enquire"
+              href="/plan"
               className="group relative bg-cream p-8 transition hover:bg-white sm:p-10"
             >
               <p className="type-eyebrow text-gold">Traveller</p>
@@ -101,11 +101,12 @@ export default function HomePage() {
                 I’m planning my own journey
               </h2>
               <p className="type-body mt-3 max-w-md text-ink/60">
-                Safari, summit, beach, or a thread of all three. Tell us your
-                window — we’ll sketch a concrete outline.
+                Choose your safari parks, dates, and travel style. Build a
+                day-by-day route, compare options, and send your favourite to
+                our team.
               </p>
               <span className="mt-6 inline-flex text-sm font-semibold text-ink transition group-hover:text-gold">
-                Plan a trip →
+                Build an itinerary →
               </span>
             </Link>
             <Link
@@ -135,13 +136,13 @@ export default function HomePage() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <SectionHeading
-              eyebrow="Why Wazi"
+              eyebrow="Why Boker"
               title="Tanzania, opened with precision"
-              description="Long-haul leisure to Tanzania is often package-mediated. Wazi gives travellers a clear front door — and gives operators a serious trade path — without replacing official destination marketing."
+              description="Explore the places that draw you here, then shape the safari yourself. Boker brings destination guides, an interactive itinerary builder, and a dedicated trade desk together."
             />
           </div>
           <ol className="space-y-10 lg:col-span-7">
-            {whyWazi.map((item, i) => (
+            {whyBoker.map((item, i) => (
               <li
                 key={item.title}
                 className="flex gap-5 border-t border-ink/10 pt-8 first:border-t-0 first:pt-0"
@@ -185,7 +186,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Packages"
               title="Ready-to-adapt journeys"
-              description="From-prices in USD are starting points. Lodge level, season, and pacing lock after you enquire — or after your operator does via Wazi Trade."
+              description="From-prices in USD are starting points. Lodge level, season, and pacing lock after you enquire — or after your operator does via Boker Trade."
               light
             />
             <Link
@@ -214,18 +215,20 @@ export default function HomePage() {
           <div className="lg:col-span-3">
             <CTABand
               title="Ready when your dates are."
-              description="Share your travel window and interests. We’ll reply with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend."
-              href="/enquire"
-              label="Plan a trip"
+              description="Choose your safari parks and travel style, then compare day-by-day routes. For Kilimanjaro, Zanzibar, or a wider journey, talk to our team."
+              href="/plan"
+              label="Build an itinerary"
+              secondaryHref="/enquire"
+              secondaryLabel="Talk to our team"
             />
           </div>
           <div className="lg:col-span-2">
             <CTABand
               variant="operator"
               title="Selling Tanzania this season?"
-              description={`Wazi Trade is for outbound operators who need adaptable itineraries — ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings were package-driven in 2025.`}
+              description={`Boker Trade is for outbound operators who need adaptable itineraries — ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings were package-driven in 2025.`}
               href="/operators"
-              label="Enter Wazi Trade"
+              label="Enter Boker Trade"
               secondaryHref="/operators/apply"
               secondaryLabel="Apply to partner"
             />

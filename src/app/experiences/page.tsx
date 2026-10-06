@@ -59,7 +59,7 @@ export default function ExperiencesPage() {
           <CTABand
             variant="operator"
             title="Sell experiences under your brand"
-            description="Apply for Wazi Trade access — browse the partner catalog and request resell rights."
+            description="Apply for Boker Trade access — browse the partner catalog and request resell rights."
             href="/operators/apply"
             label="Apply to partner"
             secondaryHref="/operators"

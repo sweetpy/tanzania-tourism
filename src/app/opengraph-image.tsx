@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Wazi — Open Tanzania.";
+export const alt = "Boker — Open Tanzania.";
 export const size = {
   width: 1200,
   height: 630,
@@ -56,7 +56,7 @@ export default function OpenGraphImage() {
             lineHeight: 1,
           }}
         >
-          Wazi
+          Boker
         </div>
         <div
           style={{

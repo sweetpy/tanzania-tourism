@@ -23,7 +23,7 @@ export default function TermsPage() {
         <div className="space-y-6 text-sm leading-relaxed text-ink/75 sm:text-base">
           <p>
             {siteConfig.name} ({siteConfig.tagline}) provides destination
-            information, package templates, and enquiry forms for travellers and
+            information, an itinerary builder, package templates, and enquiry forms for travellers and
             outbound tour operators. Content is informational and may change
             without notice.
           </p>
@@ -31,7 +31,13 @@ export default function TermsPage() {
             From-prices shown in USD are indicative starting points only. Final
             quotes depend on season, lodge category, group size, park fees, and
             other factors confirmed after you enquire — or after your operator
-            does via Wazi Trade. Nothing on this site is a binding offer.
+            does via Boker Trade. Nothing on this site is a binding offer.
+          </p>
+          <p>
+            Itinerary previews and cost estimates help you explore your options.
+            Sending an itinerary enquiry does not reserve accommodation or
+            confirm a booking. Our team will confirm availability, final pricing,
+            and booking terms with you.
           </p>
           <p>
             Mentions of institutions such as the Tanzania Tourist Board (TTB),

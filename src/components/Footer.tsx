@@ -72,19 +72,22 @@ export function Footer() {
             Dual audience
           </p>
           <p className="mt-3 text-sm leading-relaxed text-cream/50">
-            Travellers plan trips. Outbound tour operators browse the catalog
-            and apply to resell. Both paths lead to Tanzania — with research-
-            grounded trust, not brochure fluff.
+            Choose your parks, travel dates, and pace to build a safari.
+            Outbound tour operators can explore the catalog and apply to
+            partner through Boker Trade.
           </p>
           <Link
-            href="/enquire"
+            href="/plan"
             className="mt-4 inline-flex rounded-full bg-gold px-4 py-2 text-sm font-semibold text-ink hover:bg-gold-bright"
           >
-            Start an enquiry
+            Build an itinerary
           </Link>
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-5 sm:px-6 lg:px-8">
+        <p className="mx-auto mb-3 max-w-7xl text-xs leading-relaxed text-cream/40">
+          Photographs from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg" target="_blank" rel="noopener noreferrer" className="underline">Lake Manyara, Clem23</a>; <a href="https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG" target="_blank" rel="noopener noreferrer" className="underline">Serengeti, Bjørn Christian Tørrissen</a>. <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer" className="underline">CC BY-SA 3.0</a>; cropped for display.
+        </p>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-center text-xs leading-relaxed text-cream/40 sm:text-left">
             © {new Date().getFullYear()} {siteConfig.name}. Indicative
