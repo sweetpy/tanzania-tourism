@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { BokerLogo } from "@/components/BokerLogo";
 import { navLinks, operatorNavLinks, siteConfig } from "@/lib/site";
 
 const travelerLinks = navLinks.filter(
@@ -18,13 +19,8 @@ export function Header() {
     <>
       <header className="sticky top-0 z-50 border-b border-white/10 bg-night/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          <Link href="/" className="group flex items-baseline gap-2">
-            <span className="font-display text-xl font-extrabold tracking-tight text-cream sm:text-2xl">
-              {siteConfig.name}
-            </span>
-            <span className="hidden text-[10px] font-medium uppercase tracking-[0.22em] text-mist-token sm:inline">
-              {siteConfig.tagline}
-            </span>
+          <Link href="/" className="group inline-flex shrink-0 text-cream" aria-label="Boker Adventures home">
+            <BokerLogo />
           </Link>
 
           <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Main">
