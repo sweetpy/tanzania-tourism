@@ -243,6 +243,29 @@ test(
     assert.ok(mountains.length > 12);
     assert.ok(mountains.every((d) => d.deadline >= todayInTanzania()));
     await store.seedDepartures();
+    const nonce = randomBytes(16).toString("hex");
+    await store.claimBackofficeNonce(nonce);
+    await assert.rejects(
+      store.claimBackofficeNonce(nonce),
+      (error) => error.status === 409,
+    );
+    const pinActor = {
+      id: "pin-test-staff",
+      email: "staff@example.test",
+      role: "admin",
+      department: "management",
+      capabilities: {
+        read: true,
+        registrations: true,
+        publish: true,
+        offer: true,
+        confirm: true,
+        cancel: true,
+        recoverLink: true,
+        export: true,
+      },
+    };
+
     const prepared = seeds.find((d) => d.templateId === "marangu-hike");
     const proposed = await store.saveDeparture({
       ...prepared,
@@ -390,7 +413,13 @@ test(
       store.rateLimit(limiter, 2),
       (error) => error.status === 429,
     );
-    const rotated = await store.rotateRegistrationLink(first.id);
+    const rotated = await store.rotateRegistrationLink(first.id, pinActor);
+    const trail = await db.query(
+      "SELECT detail FROM boker_group_audit WHERE entity_id=$1 AND action='private-link-replaced' ORDER BY id DESC LIMIT 1",
+      [first.id],
+    );
+    assert.equal(trail.rows[0].detail.actor.id, pinActor.id);
+    assert.equal(trail.rows[0].detail.actor.email, pinActor.email);
     await assert.rejects(
       store.getRegistration(first.id, first.token),
       (error) => error.status === 401,

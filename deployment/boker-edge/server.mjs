@@ -29,9 +29,9 @@ const PAGES = new Set([
   "/packages",
 ]);
 const GROUP_GET =
-  /^\/api\/groups(?:\/(?:team|session|export|calendar(?:\/[a-zA-Z0-9_-]{5,100})?|registration\/BG-[A-F0-9]{12}))?$/;
+  /^\/api\/groups(?:\/(?:calendar(?:\/[a-zA-Z0-9_-]{5,100})?|registration\/BG-[A-F0-9]{12}))?$/;
 const GROUP_POST =
-  /^\/api\/groups\/(?:login|logout|register|registration\/BG-[A-F0-9]{12}|team\/(?:departure|(?:registration|link)\/BG-[A-F0-9]{12}))$/;
+  /^\/api\/groups\/(?:register|registration\/BG-[A-F0-9]{12})$/;
 const ALLOWED_ORIGINS = new Set([
   PUBLIC_ORIGIN,
   "https://bokeradventure.com",
@@ -95,7 +95,19 @@ export function createServer(fetchUpstream = fetch) {
           "Content-Type": "application/json",
           "Cache-Control": "no-store",
         })
-        .end('{"status":"ok","service":"boker-unified-edge","version":3}');
+        .end('{"status":"ok","service":"boker-unified-edge","version":4}');
+      return;
+    }
+    if (
+      url.pathname === "/groups/desk" &&
+      ["GET", "HEAD"].includes(req.method)
+    ) {
+      res
+        .writeHead(302, {
+          Location: "https://www.pin.co.tz/admin?tab=bokergroups",
+          "Cache-Control": "no-store",
+        })
+        .end();
       return;
     }
     if (url.pathname === "/admin" && ["GET", "HEAD"].includes(req.method)) {
@@ -150,16 +162,9 @@ export function createServer(fetchUpstream = fetch) {
         Accept: req.headers.accept || "*/*",
         ...(body ? { "Content-Type": "application/json" } : {}),
       };
-      // Only the dedicated group API can receive its own session/capability.
+      // Only customer registration links can carry their bearer capability.
       // Pin credentials and arbitrary browser cookies never cross this boundary.
       if (url.pathname.startsWith("/api/groups")) {
-        const cookie = req.headers.cookie
-          ?.split(";")
-          .map((value) => value.trim())
-          .find((value) =>
-            /^boker_group_team=\d{13}\.[a-f0-9]{32}\.[a-f0-9]{64}$/.test(value),
-          );
-        if (cookie) requestHeaders.cookie = cookie;
         if (/^Bearer [A-Za-z0-9_-]{43}$/.test(req.headers.authorization || ""))
           requestHeaders.authorization = req.headers.authorization;
         // The public origin was checked above. The upstream receives its own
@@ -215,12 +220,6 @@ export function createServer(fetchUpstream = fetch) {
       ]) {
         if (response.headers.has(name))
           headers[name] = response.headers.get(name);
-      }
-      if (url.pathname.startsWith("/api/groups/")) {
-        const cookies = response.headers
-          .getSetCookie()
-          .filter((cookie) => cookie.startsWith("boker_group_team="));
-        if (cookies.length) headers["set-cookie"] = cookies;
       }
       if (url.pathname.startsWith("/api/"))
         headers["cache-control"] = "no-store";

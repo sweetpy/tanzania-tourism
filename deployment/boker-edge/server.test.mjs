@@ -164,25 +164,17 @@ test("permits the calendar, exact group operations and licensed assets without e
     "/groups/my/BG-ABCDEF123456",
     "/groups/machame-2027-01-03",
     "/api/groups",
-    "/api/groups/team",
-    "/api/groups/session",
     "/api/groups/calendar",
     "/api/groups/calendar/machame-2027-01-03",
     "/api/groups/registration/BG-ABCDEF123456",
-    "/api/groups/export",
     "/images/groups/meru.jpg",
     "/sitemap.xml",
     "/robots.txt",
   ])
     assert.equal(permitted("GET", path), true, path);
   for (const path of [
-    "/api/groups/login",
-    "/api/groups/logout",
     "/api/groups/register",
     "/api/groups/registration/BG-ABCDEF123456",
-    "/api/groups/team/departure",
-    "/api/groups/team/registration/BG-ABCDEF123456",
-    "/api/groups/team/link/BG-ABCDEF123456",
   ])
     assert.equal(permitted("POST", path), true, path);
   for (const path of [
@@ -197,78 +189,96 @@ test("permits the calendar, exact group operations and licensed assets without e
   }
 });
 
-test("forwards only the group session and private capability, verifies public origins, and keeps private responses uncached", async (t) => {
-  const secret = "TestGroupProxySigningKeyForLocalVerificationOnly";
-  const previous = process.env.BOKER_GROUP_PROXY_SECRET;
+test("keeps staff administration in Pin and blocks legacy and internal routes", async (t) => {
+  let calls = 0;
+  const base = await start(t, async () => {
+    calls++;
+    return Response.json({});
+  });
+  const redirect = await fetch(base + "/groups/desk", { redirect: "manual" });
+  assert.equal(redirect.status, 302);
+  assert.equal(
+    redirect.headers.get("location"),
+    "https://www.pin.co.tz/admin?tab=bokergroups",
+  );
+  assert.equal(calls, 0);
+  for (const path of [
+    "/api/groups/team",
+    "/api/groups/session",
+    "/api/groups/export",
+    "/api/groups/backoffice",
+    "/api/groups/backoffice/export",
+    "/api/groups/team/departure",
+    "/api/groups/login",
+    "/api/boker-groups/team",
+  ]) {
+    assert.equal(permitted("GET", path), false, path);
+    assert.equal(permitted("POST", path), false, path);
+  }
+});
+
+test("forwards only customer capabilities, signs visitor limits, and never forwards staff cookies", async (t) => {
+  const secret = "TestGroupProxySigningKeyForLocalVerificationOnly",
+    previous = process.env.BOKER_GROUP_PROXY_SECRET;
   process.env.BOKER_GROUP_PROXY_SECRET = secret;
   t.after(() => {
     if (previous === undefined) delete process.env.BOKER_GROUP_PROXY_SECRET;
     else process.env.BOKER_GROUP_PROXY_SECRET = previous;
   });
   const requests = [];
-  const session = `boker_group_team=${Date.now() + 60000}.${"a".repeat(32)}.${"b".repeat(64)}`;
   const base = await start(t, async (url, options) => {
     requests.push({ url, options });
     return Response.json(
       { ok: true },
       {
         headers: {
-          "set-cookie": session + "; Path=/; HttpOnly; Secure; SameSite=Strict",
+          "set-cookie": "boker_group_team=old; Path=/",
           "content-disposition": "attachment; filename=groups.csv",
         },
       },
     );
   });
-  const login = await fetch(base + "/api/groups/login", {
+  const response = await fetch(base + "/api/groups/register", {
     method: "POST",
     headers: {
       Origin: "https://www.bokeradventure.com",
       "Content-Type": "application/json",
-      Cookie: `PinSession=secret; ${session}`,
+      Cookie: "PinSession=secret; boker_group_team=old",
       "x-boker-group-visitor": "forged",
+      "x-boker-backoffice": "forged",
       "x-forwarded-for": "forged, 203.0.113.10",
     },
-    body: '{"password":"test"}',
+    body: "{}",
   });
-  assert.equal(login.status, 200);
+  assert.equal(response.status, 200);
+  assert.equal(requests[0].options.headers.cookie, undefined);
+  assert.equal(requests[0].options.headers["x-boker-backoffice"], undefined);
+  assert.equal(response.headers.get("set-cookie"), null);
+  assert.equal(response.headers.get("cache-control"), "no-store");
   assert.equal(
     requests[0].options.headers.origin,
     "https://tanzania-tourism-production.up.railway.app",
   );
-  assert.equal(requests[0].options.headers.cookie, session);
-  assert.equal(
-    login.headers.get("set-cookie"),
-    session + "; Path=/; HttpOnly; Secure; SameSite=Strict",
-  );
-  assert.equal(login.headers.get("cache-control"), "no-store");
-  const proof = requests[0].options.headers["x-boker-group-visitor"];
-  assert.match(proof, /^\d{13}\.[a-f0-9]{64}\.[a-f0-9]{64}$/);
-  const [expires, visitor, signature] = proof.split(".");
+  const [expires, visitor, signature] =
+    requests[0].options.headers["x-boker-group-visitor"].split(".");
   assert.equal(
     signature,
-    createHmac("sha256", secret).update(`${expires}.${visitor}`).digest("hex"),
+    createHmac("sha256", secret)
+      .update(expires + "." + visitor)
+      .digest("hex"),
   );
-  assert.ok(Number(expires) > Date.now());
   const token = "A".repeat(43);
   await fetch(base + "/api/groups/registration/BG-ABCDEF123456", {
     headers: {
       Authorization: "Bearer " + token,
-      Cookie: `PinSession=secret; ${session}`,
+      Cookie: "PinSession=secret; boker_group_team=old",
     },
   });
   assert.equal(requests[1].options.headers.authorization, "Bearer " + token);
-  assert.equal(requests[1].options.headers.cookie, session);
-  await fetch(base + "/api/groups/team", {
-    headers: {
-      Authorization: "Bearer PinSessionSecret",
-      Cookie: "PinSession=secret",
-    },
-  });
-  assert.equal(requests[2].options.headers.authorization, undefined);
-  assert.equal(requests[2].options.headers.cookie, undefined);
+  assert.equal(requests[1].options.headers.cookie, undefined);
   assert.equal(
     (
-      await fetch(base + "/api/groups/login", {
+      await fetch(base + "/api/groups/register", {
         method: "POST",
         headers: {
           Origin: "https://foreign.example",
@@ -278,15 +288,5 @@ test("forwards only the group session and private capability, verifies public or
       })
     ).status,
     403,
-  );
-  await fetch(base + "/api/groups/login", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: "{}",
-  });
-  assert.equal(
-    requests[3].options.headers.origin,
-    undefined,
-    "No missing origin is invented for private mutations",
   );
 });

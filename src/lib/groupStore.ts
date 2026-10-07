@@ -19,6 +19,8 @@ import type {
   RegistrationStatus,
 } from "@/lib/groupTypes";
 
+import type { BackofficeActor } from "./groupBackofficeAuth";
+
 declare global {
   var __bokerGroupsReady: Promise<void> | undefined;
   var __bokerGroupSeed: { date: string; ready: Promise<void> } | undefined;
@@ -28,6 +30,7 @@ CREATE TABLE IF NOT EXISTS boker_group_departures(id TEXT PRIMARY KEY,template_i
 CREATE TABLE IF NOT EXISTS boker_group_registrations(id TEXT PRIMARY KEY,departure_id TEXT NOT NULL REFERENCES boker_group_departures(id),request_key TEXT UNIQUE NOT NULL,token_hash TEXT NOT NULL,status TEXT NOT NULL,seats INTEGER NOT NULL CHECK(seats BETWEEN 1 AND 12),hold_until TIMESTAMPTZ,payload JSONB NOT NULL,created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW());
 CREATE TABLE IF NOT EXISTS boker_group_audit(id BIGSERIAL PRIMARY KEY,created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),entity_id TEXT NOT NULL,action TEXT NOT NULL,detail JSONB NOT NULL);
 CREATE TABLE IF NOT EXISTS boker_group_rate_limits(key TEXT PRIMARY KEY,hits INTEGER NOT NULL,expires_at TIMESTAMPTZ NOT NULL);
+CREATE TABLE IF NOT EXISTS boker_group_backoffice_nonces(nonce TEXT PRIMARY KEY,expires_at TIMESTAMPTZ NOT NULL);
 CREATE INDEX IF NOT EXISTS boker_group_dates_idx ON boker_group_departures(start_date);
 CREATE INDEX IF NOT EXISTS boker_group_registration_departure_idx ON boker_group_registrations(departure_id,status);
 `;
@@ -46,6 +49,21 @@ export async function ensureGroups() {
       throw error;
     });
   await globalThis.__bokerGroupsReady;
+}
+export async function claimBackofficeNonce(nonce: string) {
+  await ensureGroups();
+  await query(
+    "DELETE FROM boker_group_backoffice_nonces WHERE expires_at<NOW()",
+  );
+  const result = await query(
+    "INSERT INTO boker_group_backoffice_nonces(nonce,expires_at) VALUES($1,NOW()+INTERVAL '2 minutes') ON CONFLICT DO NOTHING RETURNING nonce",
+    [nonce],
+  );
+  if (!result.rowCount)
+    throw new GroupError(
+      "This staff request has already been used. Refresh the desk.",
+      409,
+    );
 }
 export async function rateLimit(key: string, max = 12, minutes = 60) {
   await ensureGroups();
@@ -277,17 +295,28 @@ export async function listRegistrations(): Promise<Registration[]> {
   );
   return result.rows.map((row) => effectiveRegistration(row.payload));
 }
-export async function rotateRegistrationLink(id: string) {
+export async function rotateRegistrationLink(
+  id: string,
+  actor?: BackofficeActor,
+) {
   await ensureGroups();
   const token = randomBytes(32).toString("base64url");
-  const result = await query(
-    "UPDATE boker_group_registrations SET token_hash=$2,updated_at=NOW() WHERE id=$1 RETURNING id",
-    [id, hash(token)],
-  );
-  if (!result.rowCount) throw new GroupError("Registration not found.", 404);
-  return token;
+  return transaction(async (client) => {
+    const result = await client.query(
+      "UPDATE boker_group_registrations SET token_hash=$2,updated_at=NOW() WHERE id=$1 RETURNING id",
+      [id, hash(token)],
+    );
+    if (!result.rowCount) throw new GroupError("Registration not found.", 404);
+    await audit(client, id, "private-link-replaced", {
+      actor: actor || "team",
+    });
+    return token;
+  });
 }
-export async function saveDeparture(raw: Record<string, unknown>) {
+export async function saveDeparture(
+  raw: Record<string, unknown>,
+  actor?: BackofficeActor,
+) {
   await seedDepartures();
   const template = getGroupTemplate(String(raw.templateId || ""));
   if (!template) throw new GroupError("Choose a prepared trip programme.");
@@ -411,6 +440,7 @@ export async function saveDeparture(raw: Record<string, unknown>) {
     await audit(client, id, "departure-updated", {
       before: old,
       after: departure,
+      actor: actor || "team",
     });
     return departure;
   });
@@ -420,6 +450,7 @@ export async function updateRegistration(
   action: string,
   raw: Record<string, unknown>,
   token?: string,
+  actor?: BackofficeActor,
 ) {
   const publicRegistration = token ? await getRegistration(id, token) : null;
   await ensureGroups();
@@ -555,7 +586,7 @@ export async function updateRegistration(
     await audit(client, id, action, {
       before,
       after: status,
-      actor: token ? "traveller" : "team",
+      actor: token ? "traveller" : actor || "team",
     });
     return reg;
   });

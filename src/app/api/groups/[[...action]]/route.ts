@@ -3,14 +3,11 @@ import { groupTemplates, getGroupTemplate } from "@/data/groupTours";
 import { calendarFile, GroupError, safeCsv } from "@/lib/groupPolicy";
 import {
   assertSameOrigin,
-  assertTeam,
-  authenticatedGroupRequest,
   groupCookie,
-  issueGroupSession,
-  verifyGroupPassword,
   groupVisitorIdentity,
 } from "@/lib/groupAuth";
 import {
+  claimBackofficeNonce,
   getDeparture,
   getRegistration,
   listDepartures,
@@ -21,6 +18,7 @@ import {
   saveDeparture,
   updateRegistration,
 } from "@/lib/groupStore";
+import { verifyBackofficeRequest } from "@/lib/groupBackofficeAuth";
 import { notifyFounder } from "@/lib/notify";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -94,16 +92,27 @@ export async function GET(request: Request, context: Context) {
         departures: await listDepartures(),
         templates: groupTemplates,
       });
-    if (action[0] === "team") {
-      assertTeam(request);
+    if (["team", "session", "export"].includes(action[0]))
+      throw new GroupError(
+        "Use the Pin Destinations back office to manage Boker departures.",
+        401,
+      );
+    if (action[0] === "backoffice" && action.length === 1) {
+      const { actor, nonce } = verifyBackofficeRequest(
+        request,
+        undefined,
+        "read",
+      );
+      await claimBackofficeNonce(nonce);
       return json({
         departures: await listDepartures(true),
-        registrations: await listRegistrations(),
+        registrations: actor.capabilities.registrations
+          ? await listRegistrations()
+          : [],
         templates: groupTemplates,
+        capabilities: actor.capabilities,
       });
     }
-    if (action[0] === "session")
-      return json({ signedIn: authenticatedGroupRequest(request) });
     if (action[0] === "calendar" && action.length === 1) {
       const departures = await listDepartures(),
         origin =
@@ -156,8 +165,13 @@ export async function GET(request: Request, context: Context) {
         },
       });
     }
-    if (action[0] === "export") {
-      assertTeam(request);
+    if (
+      action[0] === "backoffice" &&
+      action[1] === "export" &&
+      action.length === 2
+    ) {
+      const { nonce } = verifyBackofficeRequest(request, undefined, "export");
+      await claimBackofficeNonce(nonce);
       const registrations = await listRegistrations();
       const csv = [
         [
@@ -212,10 +226,13 @@ export async function GET(request: Request, context: Context) {
 export async function POST(request: Request, context: Context) {
   try {
     const { action = [] } = await context.params;
-    assertSameOrigin(
-      request,
-      action[0] === "team" || action[0] === "login" || action[0] === "logout",
-    );
+    if (action[0] !== "backoffice")
+      assertSameOrigin(request, action[0] === "logout");
+    if (action[0] === "team" || action[0] === "login")
+      throw new GroupError(
+        "Use the Pin Destinations back office to manage Boker departures.",
+        401,
+      );
     if (action[0] === "logout") {
       const response = json({ success: true });
       response.cookies.set(groupCookie, "", {
@@ -228,19 +245,45 @@ export async function POST(request: Request, context: Context) {
       return response;
     }
     const raw = await body(request);
-    if (action[0] === "login") {
-      await rateLimit(`login:${ip(request)}`, 8, 15);
-      if (!verifyGroupPassword(raw.password))
-        throw new GroupError("The access code is incorrect.", 401);
-      const response = json({ success: true });
-      response.cookies.set(groupCookie, issueGroupSession(), {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "strict",
-        path: "/",
-        maxAge: 12 * 3600,
+    if (action[0] === "backoffice") {
+      const operation = action[1],
+        registrationAction = String(raw.action || "");
+      const capability =
+        operation === "departure" && action.length === 2
+          ? "publish"
+          : operation === "link" && action.length === 3
+            ? "recoverLink"
+            : operation === "registration" && action.length === 3
+              ? registrationAction === "offer" ||
+                registrationAction === "waitlist"
+                ? "offer"
+                : registrationAction === "confirm"
+                  ? "confirm"
+                  : registrationAction === "cancel" ||
+                      registrationAction === "close-cancellation"
+                    ? "cancel"
+                    : null
+              : null;
+      if (!capability) throw new GroupError("Action not found.", 404);
+      const { actor, nonce } = verifyBackofficeRequest(
+        request,
+        raw,
+        capability,
+      );
+      await claimBackofficeNonce(nonce);
+      if (operation === "departure")
+        return json({ departure: await saveDeparture(raw, actor) });
+      if (operation === "link")
+        return json({ token: await rotateRegistrationLink(action[2], actor) });
+      return json({
+        registration: await updateRegistration(
+          action[2],
+          registrationAction,
+          raw,
+          undefined,
+          actor,
+        ),
       });
-      return response;
     }
     if (action[0] === "register") {
       await rateLimit(`register:${ip(request)}`, 20);
@@ -255,7 +298,7 @@ export async function POST(request: Request, context: Context) {
             email: raw.email,
             phone: raw.phone,
             status: result.status,
-            teamDesk: "https://www.bokeradventure.com/groups/desk",
+            teamDesk: "https://www.pin.co.tz/admin?tab=bokergroups",
           }),
           new Promise((resolve) => setTimeout(resolve, 5000)),
         ]);
@@ -272,21 +315,6 @@ export async function POST(request: Request, context: Context) {
           token(request),
         ),
       });
-    }
-    if (action[0] === "team") {
-      assertTeam(request);
-      if (action[1] === "departure")
-        return json({ departure: await saveDeparture(raw) });
-      if (action[1] === "registration" && action[2])
-        return json({
-          registration: await updateRegistration(
-            action[2],
-            String(raw.action || ""),
-            raw,
-          ),
-        });
-      if (action[1] === "link" && action[2])
-        return json({ token: await rotateRegistrationLink(action[2]) });
     }
     throw new GroupError("Action not found.", 404);
   } catch (error) {

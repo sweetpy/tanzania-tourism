@@ -1,6 +1,6 @@
 # Boker group departure calendar
 
-The public calendar is `/groups`. The private team desk is `/groups/desk`.
+The public calendar is `/groups`. The Boker departure desk is managed inside [Pin Destinations back office](https://www.pin.co.tz/admin?tab=bokergroups). The former `/groups/desk` address redirects there.
 
 ## Prepared calendar
 
@@ -10,7 +10,7 @@ New dates are inserted without overwriting team edits. Proposed dates collect ea
 
 ## Publish and sell a departure
 
-1. Sign in with the server-configured team access code. Access is a twelve-hour, signed, HttpOnly cookie. Keep the code private and rotate `BOKER_GROUP_ADMIN_SECRET` if access changes.
+1. Sign in with your Pin staff account and open **Fulfilment > Boker departure desk**. Existing MFA, account status, department permissions and Boker brand access apply. Management publishes dates and selling prices; sales and operations handle offers; finance or management verifies accepted bookings. Marketing can view dates without traveller details. There is no separate team access code.
 2. Review the prepared programme, dates, meeting arrangements, suitability, suppliers and services. Confirm park/route permissions, guide availability, transport, rooms or camping arrangements before opening.
 3. Enter the approved adult price and its native currency, capacity, minimum group target, request deadline, services, supplements and booking terms. TZS values remain whole shillings; USD values use cents internally. Resident permits, children, room sharing and additions need the party's exact quote.
 4. Choose Open for requests or Departure confirmed after the operational checks. A confirmed departure still requires a separate confirmed booking for each party. Share its public trip link and calendar download for marketing.
@@ -29,11 +29,11 @@ Registration is persisted before a best-effort team notification through the exi
 
 ## Storage and deployment
 
-`BOKER_GROUP_DATABASE_URL` can designate a dedicated PostgreSQL service; otherwise the existing `DATABASE_URL` is used. All new records use `boker_group_` tables, with no changes to legacy traveller records. Tables cover departures, registrations, action audits and rate limits. Preserve these tables in normal database backups. The app seeds new proposed dates on daily access without modifying existing departures.
+`BOKER_GROUP_DATABASE_URL` can designate a dedicated PostgreSQL service; otherwise the existing `DATABASE_URL` is used. All new records use `boker_group_` tables, with no changes to legacy traveller records. Tables cover departures, registrations, action audits, rate limits and short-lived staff request nonces. Preserve these tables in normal database backups. The app seeds new proposed dates on daily access without modifying existing departures.
 
-`BOKER_GROUP_ADMIN_SECRET` must be a random server-only value of at least 32 characters. Never place it in a public variable or commit it. Production private pages and team routes are excluded from indexing. No contact information appears in the public API or sitemap.
+`BOKER_GROUP_BACKOFFICE_SECRET` is a separate random server-only value of at least 32 characters shared by Pin and the Boker website. It signs requests bound to the staff identity, allowed action, method, path, body, timestamp and one-use nonce. Never place it in a public variable or commit it. Retired access codes and cookies no longer authorize management. Production private pages and team routes are excluded from indexing. No contact information appears in the public API or sitemap.
 
-The custom domain uses the separate Boker edge. It forwards only the group API's own signed session cookie and private-link bearer key. `BOKER_GROUP_PROXY_SECRET` is a separate random server-only key shared by the edge and website. It signs short-lived anonymous visitor hashes for rate limits, so every visitor is not grouped under the proxy's address. Forged or expired identity headers are ignored. Public origin validation runs before proxying; private Pin credentials are never forwarded.
+The custom domain uses the separate Boker edge. It forwards only customer private-link bearer keys. Staff management and legacy login routes are blocked at the public edge; Pin calls Boker's internal signed API directly. Pin's server audit records each requested operation, while Boker's transaction audit records the actual verified staff actor on successful changes. `BOKER_GROUP_PROXY_SECRET` is a separate random server-only key shared by the edge and website. It signs short-lived anonymous visitor hashes for rate limits, so every visitor is not grouped under the proxy's address. Forged or expired identity headers are ignored. Public origin validation runs before proxying; private Pin credentials are never forwarded.
 
 Individual and whole-calendar ICS files use stable event IDs and mark proposed dates tentative. Customers should revisit the trip page for current arrangements; importing a downloaded file does not automatically subscribe them to updates. Public sharing uses a departure's image, dates and programme.
 
@@ -41,4 +41,4 @@ Real regional photographs are hosted with attribution and licence links at `/gro
 
 ## Verification
 
-Run `npm test` for the catalogue, planner, calendar policy and security tests. The database integration suite runs only when `BOKER_GROUP_TEST_DATABASE_URL` is supplied and refuses any target except its isolated loopback test cluster. `scripts/verify-groups.mjs` covers mobile layout, filters, saved trips, calendar files and enrolment. Locally it also verifies the full team offer, customer acceptance, manual confirmation and cancellation flow. Public verification mocks registration submission and creates no public leads or payments.
+Run `npm test` for the catalogue, planner, calendar policy and security tests. The database integration suite runs only when `BOKER_GROUP_TEST_DATABASE_URL` is supplied and refuses any target except its isolated loopback test cluster. `scripts/verify-groups.mjs` covers mobile layout, filters, saved trips, calendar files and enrolment. The Pin desk verification script covers the native staff interface through the signed bridge to an isolated Boker server and database, including offers, customer acceptance, confirmation and cancellation. Public verification mocks registration submission and creates no public leads or payments.
