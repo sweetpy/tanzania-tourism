@@ -72,7 +72,7 @@ try {
     climb = index.departures.find((d) => d.templateId === "lemosho");
   assert.ok(d && climb);
   const anonymous = await context.request.get(base + "/api/groups/team");
-  assert.equal(anonymous.status(), 401);
+  assert.ok([401, 404].includes(anonymous.status()), "Standalone team access is retired");
   assert.equal(
     (
       await api("/api/groups/registration/BG-000000000000", {
@@ -81,16 +81,7 @@ try {
     ).response.status(),
     401,
   );
-  assert.equal(
-    (
-      await api(
-        "/api/groups/team/departure",
-        {},
-        { Origin: "https://foreign.example" },
-      )
-    ).response.status(),
-    403,
-  );
+  assert.ok([403, 404].includes((await api("/api/groups/team/departure", {}, { Origin: "https://foreign.example" })).response.status()));
   assert.equal(
     (
       await context.request.post(base + "/api/groups/register", {
