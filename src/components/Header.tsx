@@ -19,11 +19,18 @@ export function Header() {
     <>
       <header className="sticky top-0 z-50 border-b border-white/10 bg-night/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          <Link href="/" className="group inline-flex shrink-0 text-cream" aria-label="Boker Adventures home">
+          <Link
+            href="/"
+            className="group inline-flex shrink-0 text-cream"
+            aria-label="Boker Adventures home"
+          >
             <BokerLogo />
           </Link>
 
-          <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Main">
+          <nav
+            className="hidden items-center gap-0.5 lg:flex"
+            aria-label="Main"
+          >
             {travelerLinks.map((link) => {
               const active =
                 pathname === link.href || pathname.startsWith(`${link.href}/`);
@@ -201,10 +208,10 @@ export function Header() {
             Build an itinerary
           </Link>
           <Link
-            href="/operators"
+            href={isOperator ? "/operators" : "/groups"}
             className="flex-1 rounded-full border border-cream/25 py-3 text-center text-sm font-semibold text-cream"
           >
-            Boker Trade
+            {isOperator ? "Boker Trade" : "Group trips"}
           </Link>
         </div>
       </div>

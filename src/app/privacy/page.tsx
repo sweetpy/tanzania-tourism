@@ -50,6 +50,20 @@ export default function PrivacyPage() {
             .
           </p>
           <p>
+            Group trip registrations include your contact details, party size,
+            children’s ages, permit category and any notes you choose to share.
+            We save these to prepare the group offer, manage places and follow
+            up about your trip. Relevant details may be shared with the
+            suppliers arranging your confirmed services.
+          </p>
+          <p>
+            Optional group trip updates require a separate opt-in. You can
+            switch them off on your private registration page or contact us.
+            Your private link gives access to the registration, so keep it to
+            yourself. Saved trip shortlists stay on your device; they do not
+            subscribe you to marketing.
+          </p>
+          <p>
             For questions about this notice, use the{" "}
             <Link
               href="/enquire"

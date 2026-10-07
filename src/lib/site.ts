@@ -30,6 +30,7 @@ export const plannerParks: Readonly<Partial<Record<string, string>>> = {
 
 /** Primary traveler navigation */
 export const navLinks = [
+  { href: "/groups", label: "Group trips" },
   { href: "/destinations", label: "Destinations" },
   { href: "/experiences", label: "Experiences" },
   { href: "/packages", label: "Packages" },

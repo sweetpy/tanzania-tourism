@@ -6,6 +6,7 @@ import { getDestination } from "@/data/destinations";
 import { getPackage, packages, packagePriceLabel } from "@/data/packages";
 import { formatRange } from "@/lib/packageTypes";
 import { plannerParks } from "@/lib/site";
+import { groupTemplates } from "@/data/groupTours";
 
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() {
@@ -59,6 +60,16 @@ export default async function PackageDetailPage({ params }: Props) {
             {packagePriceLabel(pkg)}
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href={
+                groupTemplates.some((t) => t.packageSlug === pkg.slug)
+                  ? `/groups?package=${pkg.slug}#departure-calendar`
+                  : "/groups#departure-calendar"
+              }
+              className="rounded-full border border-cream/40 px-6 py-3 text-sm font-semibold text-cream hover:bg-cream/10"
+            >
+              Find group departure dates
+            </Link>
             <Link
               href={enquiry}
               className="rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink hover:bg-gold-bright"

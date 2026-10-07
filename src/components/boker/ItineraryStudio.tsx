@@ -479,6 +479,9 @@ export default function ItineraryStudio({
           <Link href="/packages">
             Explore the collection <ArrowRight size={16} />
           </Link>
+          <Link href="/groups">
+            Prefer a group trip? Find planned dates <ArrowRight size={16} />
+          </Link>
         </div>
       </section>
       {saved && (

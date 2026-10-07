@@ -4,6 +4,7 @@ import { CTABand } from "@/components/CTABand";
 import { DestinationMosaic } from "@/components/DestinationMosaic";
 import { ExperiencesShowcase } from "@/components/ExperiencesShowcase";
 import { FeaturedPackage } from "@/components/FeaturedPackage";
+import { GroupDiscover } from "@/components/GroupDiscover";
 import { MarketOffers } from "@/components/MarketOffers";
 import { PartnershipStrip } from "@/components/PartnershipStrip";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -85,6 +86,7 @@ export default function HomePage() {
       </section>
 
       <MarketOffers />
+      <GroupDiscover />
 
       <section className="border-b border-ink/8 bg-cream py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

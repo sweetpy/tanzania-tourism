@@ -31,8 +31,9 @@ export default function TermsPage() {
             From-prices shown in USD are indicative starting points only. Final
             quotes depend on season, lodge category, group size, park fees, and
             other factors confirmed after an enquiry from you or your tour
-            operator through Boker Trade. Nothing on this site is a binding
-            offer.
+            operator through Boker Trade. Public price labels do not include
+            every party’s requirements; your written offer confirms the complete
+            selling terms.
           </p>
           <p>
             Itinerary previews and cost estimates help you explore your options.
@@ -44,6 +45,29 @@ export default function TermsPage() {
             Mentions of institutions such as the Tanzania Tourist Board (TTB),
             MNRT, or TATO describe the sector landscape. They are not claims of
             endorsement, sponsorship, or affiliation unless explicitly stated.
+          </p>
+          <p>
+            Proposed group dates collect early interest while arrangements are
+            reviewed. Registering interest, requesting places or joining a
+            waitlist does not confirm a booking. Approved group prices are
+            separate from private-party brochure estimates. Resident
+            eligibility, child rates, rooms, equipment and supplements are
+            confirmed in your party’s written offer.
+          </p>
+          <p>
+            Offered places are held for up to 48 hours, as shown on your private
+            trip page. Accept the offer and follow its verified booking
+            instructions before the hold expires. Boker confirms the booking
+            after checking the agreed payment or authorisation. An expired hold
+            returns to the waitlist and requires a fresh offer.
+          </p>
+          <p>
+            The accepted offer sets payment and cancellation terms. A
+            cancellation request for a confirmed booking goes to the team for
+            review; submitting it does not process a refund. Departure changes,
+            group formation, weather, park access and guide decisions may affect
+            arrangements. The team discusses the options before you commit to a
+            revised offer.
           </p>
           <p>
             Research figures cite published Exit Survey and MNRT sources with
