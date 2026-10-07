@@ -19,8 +19,7 @@ export default function ExperiencesPage() {
         eyebrow="Experiences"
         title={
           <>
-            Ways to{" "}
-            <span className="text-gold-bright">feel</span> Tanzania
+            Ways to <span className="text-gold-bright">feel</span> Tanzania
           </>
         }
         description="Safari mornings, summit nights, reef days, and living culture — choose a thread, or weave several into one itinerary."
@@ -41,6 +40,22 @@ export default function ExperiencesPage() {
           title="How you want to travel"
           description="Each experience opens into packages and enquiries — with a parallel path for outbound operators who resell."
         />
+        <div className="mt-8 rounded-2xl border border-teal/20 bg-teal/5 p-6">
+          <h2 className="font-display text-2xl font-bold text-ink">
+            A day for coffee, lakes, culture or wildlife
+          </h2>
+          <p className="mt-3 text-ink/70">
+            Explore 21 prepared day outings from Arusha and Moshi, each with its
+            own programme, pickup town and planning budget. Accommodation is
+            separate.
+          </p>
+          <Link
+            href="/packages?days=1"
+            className="mt-4 inline-block font-semibold text-teal underline"
+          >
+            Explore the day trips →
+          </Link>
+        </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {experiences.map((exp) => (
             <Card

@@ -3082,5 +3082,2158 @@
     },
     "imageKey": "serengeti",
     "featured": false
+  },
+  {
+    "slug": "2-day-arusha-national-park",
+    "code": "BA-2D-ARUSHA",
+    "name": "2-Day Arusha National Park Safari with Arrival Night",
+    "duration": "2 days / 1 nights",
+    "days": 2,
+    "nights": 1,
+    "summary": "Enjoy an arrival night in Arusha followed by a wildlife and scenery day in nearby Arusha National Park. This option has the shortest road transfers in the collection and suits travellers who prefer a gentler introduction to safari. No cultural tour or Serengeti visit is included.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Arusha National Park",
+      "One wildlife day; Arusha hotel finish"
+    ],
+    "includes": [
+      "One Arusha accommodation night on Day 1 in the confirmed room.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for Day 2 and Arusha hotel drop-off at the end.",
+      "One daytime visit to Arusha National Park with applicable entry and vehicle permits. No crater descent or night drive.",
+      "Dinner Day 1; breakfast and picnic lunch Day 2: one breakfast, one lunch and one dinner. Drinking water in the vehicle and taxes on the quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 2 dinner and the onward JRO transfer are extra. No cultural visits, Serengeti travel, walking safari, canoeing or night game drive are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "arusha-national-park"
+    ],
+    "plannerParkIds": [
+      "arusha-national-park"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "Day 1 is arrival and rest; Day 2 visits one park. Arusha National Park offers the shortest transfers. Tarangire and Manyara involve longer road journeys. Choose an extra night if you want a relaxed onward departure. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Arusha National Park",
+        "description": "After breakfast, travel to Arusha National Park for a guided game drive. Explore accessible forest and open habitats, with views towards Momella Lakes and Ngurdoto viewpoints where the route permits. Look for giraffes, buffalo, monkeys and birds, with a picnic lunch. Return to your chosen Arusha hotel later in the afternoon. This is a scenery and wildlife safari, not a Big Five itinerary; sightings and clear mountain views cannot be guaranteed. Allow approximately 45-90 minutes each way between an Arusha hotel and the park gate, depending on hotel location and traffic. The base package includes vehicle-based viewing only; a ranger-guided walk requires advance arrangement and replaces some driving time. Meals: breakfast and picnic lunch. No second hotel night, Day 2 dinner or onward airport transfer is included.",
+        "overnight": "None",
+        "meals": "breakfast and picnic lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 500,
+          "maxUsd": 800
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 700,
+          "maxUsd": 1100
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "BA-2D-ARUSHA.pdf",
+      "sha256": "7d4b51c5b4115c2654e85194c4b001c90f243215e685c3bb9505d233a22aa1fc",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "2-day-tarangire-safari",
+    "code": "BA-2D-TARANGIRE",
+    "name": "2-Day Tarangire Safari with Arusha Arrival Night",
+    "duration": "2 days / 1 nights",
+    "days": 2,
+    "nights": 1,
+    "summary": "Arrive in Tanzania, rest overnight in Arusha, then spend the following day exploring Tarangire National Park. This short private safari focuses on a single wildlife destination, with no cultural tour or Serengeti travel.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Tarangire National Park",
+      "One wildlife day; Arusha hotel finish"
+    ],
+    "includes": [
+      "One Arusha accommodation night on Day 1 in the confirmed room.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for Day 2 and Arusha hotel drop-off at the end.",
+      "One daytime visit to Tarangire National Park with applicable entry and vehicle permits. No crater descent or night drive.",
+      "Dinner Day 1; breakfast and picnic lunch Day 2: one breakfast, one lunch and one dinner. Drinking water in the vehicle and taxes on the quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 2 dinner and the onward JRO transfer are extra. No cultural visits, Serengeti travel, walking safari, canoeing or night game drive are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "tarangire"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "Day 1 is arrival and rest; Day 2 visits one park. Arusha National Park offers the shortest transfers. Tarangire and Manyara involve longer road journeys. Choose an extra night if you want a relaxed onward departure. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After an early breakfast, drive to Tarangire. Explore baobab country, woodland and river habitats with your guide, looking for elephants, giraffes, antelope and birds. Pause for a picnic lunch at a designated site. Leave the park with enough time for the drive back to Arusha, where the package ends at your chosen hotel. Wildlife sightings are never guaranteed. Allow approximately 2-3 hours each way between Arusha and the park gate, plus gate formalities and game drives. This is a full safari-and-travel day; expect a late-afternoon or evening return depending on stops and conditions. Meals: breakfast and picnic lunch. No second hotel night, Day 2 dinner or onward airport transfer is included.",
+        "overnight": "None",
+        "meals": "breakfast and picnic lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 500,
+          "maxUsd": 800
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 700,
+          "maxUsd": 1200
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "manyara",
+    "featured": false,
+    "source": {
+      "document": "BA-2D-TARANGIRE.pdf",
+      "sha256": "f8157450529762819c0ebcc00ee36921acc37450ed02f6da74adcc91f494da05",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "2-day-lake-manyara-safari",
+    "code": "BA-2D-MANYARA",
+    "name": "2-Day Lake Manyara Safari with Arusha Arrival Night",
+    "duration": "2 days / 1 nights",
+    "days": 2,
+    "nights": 1,
+    "summary": "Combine a restful arrival night in Arusha with a day in Lake Manyara National Park. Forest, birdlife and Rift Valley scenery give this compact private safari its character. No Serengeti or cultural visits are included.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Lake Manyara National Park",
+      "One wildlife day; Arusha hotel finish"
+    ],
+    "includes": [
+      "One Arusha accommodation night on Day 1 in the confirmed room.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for Day 2 and Arusha hotel drop-off at the end.",
+      "One daytime visit to Lake Manyara National Park with applicable entry and vehicle permits. No crater descent or night drive.",
+      "Dinner Day 1; breakfast and picnic lunch Day 2: one breakfast, one lunch and one dinner. Drinking water in the vehicle and taxes on the quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 2 dinner and the onward JRO transfer are extra. No cultural visits, Serengeti travel, walking safari, canoeing or night game drive are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "lake-manyara"
+    ],
+    "plannerParkIds": [
+      "manyara"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "Day 1 is arrival and rest; Day 2 visits one park. Arusha National Park offers the shortest transfers. Tarangire and Manyara involve longer road journeys. Choose an extra night if you want a relaxed onward departure. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Lake Manyara National Park",
+        "description": "After an early breakfast, travel to Lake Manyara National Park. Follow accessible forest and lake-edge routes, watching for primates, birds and other wildlife. Enjoy a picnic lunch and continue viewing before returning to Arusha. Lake levels and track conditions shape the route. Tree-climbing lions and large flamingo gatherings are possibilities, not promises. Allow approximately 2-2.5 hours each way between Arusha and the park gate, plus entry procedures, game drives and stops. Finish at an Arusha hotel in the late afternoon or evening, depending on conditions. Meals: breakfast and picnic lunch. No second hotel night, Day 2 dinner or onward airport transfer is included.",
+        "overnight": "None",
+        "meals": "breakfast and picnic lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 500,
+          "maxUsd": 800
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 700,
+          "maxUsd": 1200
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "manyara",
+    "featured": false,
+    "source": {
+      "document": "BA-2D-MANYARA.pdf",
+      "sha256": "c9eb9fd2dd225387114c6d84988339be2d04056a9db5133a758cdddaf5e86f3b",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "3-day-tarangire-ngorongoro",
+    "code": "BA-3D-TAR-NGOR",
+    "name": "3-Day Tarangire & Ngorongoro Safari",
+    "duration": "3 days / 2 nights",
+    "days": 3,
+    "nights": 2,
+    "summary": "Discover Tarangire woodland and baobab country, followed by a morning in Ngorongoro Crater. An arrival night in Arusha gives you time to settle in before the safari begins. This compact journey visits two wildlife areas without travelling farther north.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Tarangire National Park",
+      "Ngorongoro Crater and return to Arusha"
+    ],
+    "includes": [
+      "Two accommodation nights: Arusha on Day 1 and Karatu on Day 2.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for the stated daytime route, and Day 3 Arusha hotel drop-off.",
+      "Listed park visits, applicable entry and vehicle permits, overnight charges where required, and one Ngorongoro Crater descent.",
+      "Dinner Day 1; breakfast, lunch and dinner Day 2; breakfast and lunch Day 3. Total: two breakfasts, two lunches and two dinners. Drinking water in the vehicle and taxes on quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 3 dinner and the onward JRO transfer are extra. No cultural visits or Serengeti travel are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "tarangire",
+      "ngorongoro"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "This is a compact two-park safari. Day 3 starts early and combines a crater visit with a substantial return drive. Choose the Tarangire-only option for less travel, or add a separately quoted night for a slower two-park programme. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire National Park",
+        "description": "After breakfast, drive to Tarangire National Park. Explore woodland, river habitats and open areas with your guide, pausing for wildlife and a picnic lunch. Look for elephants, giraffes, antelope and birds without a fixed sightings checklist. Leave in time to travel to Karatu and settle into your lodge before dinner. Arusha to Tarangire gate: approximately 2-3 hours. Park exit to Karatu: approximately 1.5-2.5 hours, in addition to viewing, gate formalities and stops. Overnight: Karatu. Meals: breakfast, lunch and dinner.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater and return to Arusha",
+        "description": "Leave Karatu early with breakfast or a breakfast box. After entry formalities, descend into Ngorongoro Crater for a morning game drive and picnic lunch. Explore the accessible habitats within the permitted session; rhino and predator sightings are never guaranteed. Ascend around midday or early afternoon as agreed with your guide, then return to Arusha and finish at your chosen hotel. Allow about 1.5-2 hours from Karatu to the crater access area, then the game-drive session. The return from the crater area to Arusha can take approximately 4-5 hours, including ordinary gate procedures but excluding long stops. Expect a long day and potentially an evening arrival. Meals: breakfast and lunch. No third hotel night, dinner or onward airport transfer is included. Driving times are estimates, not guarantees.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      },
+      {
+        "location": "Karatu",
+        "nights": 1,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Alternatives require a revised quote; they are not equal-price substitutions."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 1500,
+          "maxUsd": 2300
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 1900,
+          "maxUsd": 3000
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "manyara",
+    "featured": false,
+    "source": {
+      "document": "BA-3D-TAR-NGOR.pdf",
+      "sha256": "f7c2b8d0c80e4e490ba96e8bb23d7cf4f2de3a8009a0c17d4b256bd46c48c5be",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "3-day-manyara-ngorongoro",
+    "code": "BA-3D-MANYARA-NGOR",
+    "name": "3-Day Lake Manyara & Ngorongoro Safari",
+    "duration": "3 days / 2 nights",
+    "days": 3,
+    "nights": 2,
+    "summary": "Pair Lake Manyara forest and lake-edge habitats with the dramatic landscape of Ngorongoro Crater. This short safari suits travellers who enjoy birds, primates and varied scenery alongside larger wildlife. Day 1 is reserved for arrival and rest in Arusha.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Lake Manyara National Park",
+      "Ngorongoro Crater and return to Arusha"
+    ],
+    "includes": [
+      "Two accommodation nights: Arusha on Day 1 and Karatu on Day 2.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for the stated daytime route, and Day 3 Arusha hotel drop-off.",
+      "Listed park visits, applicable entry and vehicle permits, overnight charges where required, and one Ngorongoro Crater descent.",
+      "Dinner Day 1; breakfast, lunch and dinner Day 2; breakfast and lunch Day 3. Total: two breakfasts, two lunches and two dinners. Drinking water in the vehicle and taxes on quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 3 dinner and the onward JRO transfer are extra. No cultural visits or Serengeti travel are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "lake-manyara",
+      "ngorongoro"
+    ],
+    "plannerParkIds": [
+      "manyara",
+      "ngorongoro"
+    ],
+    "category": "Classic safari",
+    "travelStyle": "Private road safari",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "This is a compact two-park safari. Day 3 starts early and combines a crater visit with a substantial return drive. Choose the Tarangire-only option for less travel, or add a separately quoted night for a slower two-park programme. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Lake Manyara National Park",
+        "description": "After breakfast, travel to Lake Manyara National Park for a game drive and picnic lunch. Follow accessible forest and lakeside tracks, watching for primates, birds and other wildlife. Water levels and track closures may change the route; tree-climbing lions and large flamingo gatherings are not guaranteed. Continue to Karatu for time to relax before dinner. Arusha to Manyara gate: approximately 2-2.5 hours. Gate to Karatu lodge: about 30-60 minutes, plus viewing and stops. Overnight: Karatu. Meals: breakfast, lunch and dinner.",
+        "overnight": "Karatu",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 3,
+        "title": "Ngorongoro Crater and return to Arusha",
+        "description": "Leave Karatu early with breakfast or a breakfast box. After entry formalities, descend into Ngorongoro Crater for a morning game drive and picnic lunch. Explore the accessible habitats within the permitted session; rhino and predator sightings are never guaranteed. Ascend around midday or early afternoon as agreed with your guide, then return to Arusha and finish at your chosen hotel. Allow about 1.5-2 hours from Karatu to the crater access area, then the game-drive session. The return from the crater area to Arusha can take approximately 4-5 hours, including ordinary gate procedures but excluding long stops. Expect a long day and potentially an evening arrival. Meals: breakfast and lunch. No third hotel night, dinner or onward airport transfer is included. Driving times are estimates, not guarantees.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      },
+      {
+        "location": "Karatu",
+        "nights": 1,
+        "midrange": [
+          "Ngorongoro Farm House",
+          "Tloma Lodge"
+        ],
+        "luxury": [
+          "Kitela Lodge",
+          "Gibb's Farm"
+        ],
+        "note": "Alternatives require a revised quote; they are not equal-price substitutions."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 1500,
+          "maxUsd": 2200
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 1900,
+          "maxUsd": 3000
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "manyara",
+    "featured": false,
+    "source": {
+      "document": "BA-3D-MANYARA-NGOR.pdf",
+      "sha256": "6798221d0e3fab0eff7196bf2fa5adc302f96d5dc5d30debcd4403d57204a3b8",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "3-day-tarangire-night-safari",
+    "code": "BA-3D-TAR-NIGHT",
+    "name": "3-Day Tarangire Safari with Night Game Drive",
+    "duration": "3 days / 2 nights",
+    "days": 3,
+    "nights": 2,
+    "summary": "Focus on Tarangire with daytime wildlife viewing and one pre-booked night game drive. Stay inside the park after the evening outing, then return to Arusha the following day. This is the gentlest route in the collection because it avoids a second wildlife destination.",
+    "highlights": [
+      "Arrival and briefing in Arusha",
+      "Tarangire day and night safari",
+      "Return to Arusha"
+    ],
+    "includes": [
+      "Two accommodation nights: Arusha on Day 1 and Tarangire Safari Lodge on Day 2.",
+      "JRO arrival transfer, private safari 4x4 with English-speaking driver-guide for the stated daytime route, and Day 3 Arusha hotel drop-off.",
+      "Listed park visits, applicable entry and vehicle permits, overnight charges where required, and one pre-booked inside-park night drive with activity guide and any required ranger arrangements.",
+      "Dinner Day 1; breakfast, lunch and dinner Day 2; breakfast and lunch Day 3. Total: two breakfasts, two lunches and two dinners. Drinking water in the vehicle and taxes on quoted services."
+    ],
+    "excludes": [
+      "International or domestic flights, visas, travel insurance, voluntary tips, personal purchases, laundry and drinks other than those specified. Single-room supplements, optional activities, an additional Arusha hotel night, Day 3 dinner and the onward JRO transfer are extra. No cultural visits or Serengeti travel are included."
+    ],
+    "idealFor": "travellers fitting a private safari into a short stay",
+    "destinations": [
+      "tarangire"
+    ],
+    "plannerParkIds": [
+      "tarangire"
+    ],
+    "category": "Night safari",
+    "travelStyle": "Private daytime road safari; the night outing may be shared.",
+    "travelWindow": "Year-round subject to weather, access and lodge operation.",
+    "seasonMonths": [],
+    "paceNote": "This single-park option allows a rest before the night drive and a flexible return day. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "finishNote": "Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Tanzania",
+        "description": "Meet your Boker Adventures representative at Kilimanjaro International Airport (JRO) and transfer to your Arusha hotel. Rest after the flight; no game drive is scheduled. Your briefing covers timings, meals, wildlife etiquette, medical or mobility needs and booked extras. Late arrivals receive the briefing the next morning. Allow about 1-1.5 hours for the transfer, depending on the hotel and traffic. Arrange late dinner in advance. Overnight: Arusha. Meal included: dinner.",
+        "overnight": "Arusha",
+        "meals": "dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 2,
+        "title": "Tarangire day and night safari",
+        "description": "After breakfast, drive to Tarangire National Park and enjoy wildlife viewing on the way to Tarangire Safari Lodge, with lunch arranged to fit the route. Reach the lodge with time to rest. After dark, join the pre-booked night game drive on an authorised route, looking for nocturnal wildlife. Return to the lodge to sleep; dinner timing follows the confirmed activity schedule. Arusha to park gate: approximately 2-3 hours, followed by lodge transfer and wildlife stops. Allow roughly 1.5-2 hours for the night outing, subject to the operator-confirmed schedule. It is an evening activity, not an all-night drive. Overnight: Tarangire Safari Lodge. Meals: breakfast, lunch and dinner.",
+        "overnight": "Tarangire Safari Lodge",
+        "meals": "breakfast, lunch and dinner",
+        "timing": "Driving times are estimates. Your guide confirms the daily timing."
+      },
+      {
+        "day": 3,
+        "title": "Return to Arusha",
+        "description": "Enjoy breakfast and leave the lodge at an agreed time. Wildlife may be seen along the exit route, but no separate morning game drive is promised. Return to Arusha with lunch arranged en route or in town, and finish at your chosen hotel. Allow roughly 3-4 hours from the Tarangire lodge to Arusha, plus extended wildlife stops or delays. Meals: breakfast and lunch. No third hotel night, dinner or onward airport transfer is included. Driving times are estimates, not guarantees.",
+        "overnight": "None",
+        "meals": "breakfast and lunch",
+        "timing": "Driving times are estimates. Ends at your chosen Arusha hotel; a room that night, dinner and onward airport transfer are not included. Ask for a reviewed flight connection or an extra Arusha night."
+      }
+    ],
+    "stays": [
+      {
+        "location": "Arusha",
+        "nights": 1,
+        "midrange": [
+          "Kahawa House",
+          "Pazuri Inn"
+        ],
+        "luxury": [
+          "Arusha Coffee Lodge",
+          "Hamerkop House"
+        ],
+        "note": "Quoted property, room category and availability require confirmation."
+      },
+      {
+        "location": "Tarangire National Park",
+        "nights": 1,
+        "midrange": [
+          "Tarangire Safari Lodge tent or bungalow"
+        ],
+        "luxury": [
+          "Tarangire Safari Lodge suite, if available"
+        ],
+        "note": "A suite at the same lodge is a request, not an all-luxury-camp itinerary. Another property requires night-drive access checks."
+      }
+    ],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.",
+      "ranges": [
+        {
+          "tier": "midrange",
+          "minUsd": 1700,
+          "maxUsd": 2500
+        },
+        {
+          "tier": "luxury",
+          "minUsd": 2000,
+          "maxUsd": 3200
+        }
+      ],
+      "note": "Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote."
+    },
+    "imageKey": "manyara",
+    "featured": false,
+    "source": {
+      "document": "BA-3D-TAR-NIGHT.pdf",
+      "sha256": "51148f904f2d2917dbb2bc8e8ca52d996b8891ed691e1da3c82afd7b32d1ad74",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    }
+  },
+  {
+    "slug": "day-trip-duluti",
+    "code": "BA-DT-DULUTI",
+    "name": "Lake Duluti Nature Walk and Canoe Day Trip",
+    "duration": "1 day · 5-6 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Take a quieter break near Arusha with a guided lakeside walk and a short canoe outing.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "5-6 hours including travel",
+      "Easy-moderate; uneven lakeside paths"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "lake-duluti"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "The proposed range includes the canoe session. Confirm minimum age, weight/boat limits, life jackets and cancellation alternatives before payment. Moshi transfers require a separate quote. Birdlife and calm scenery are the focus. Canoeing depends on weather, suitable equipment and operator approval; this is not a swimming excursion.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Duluti Nature Walk and Canoe Day Trip",
+        "description": "09:00 pickup and travel to the lake; meet the local guide. Walk selected forest-side paths, then take a planned 60-90 minute guided canoe session with a fitted life jacket. Enjoy a simple lunch and return around 14:00-15:00. Birdlife and calm scenery are the focus. Canoeing depends on weather, suitable equipment and operator approval; this is not a swimming excursion.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "5-6 hours in total; road travel: 30-60 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 90,
+          "maxUsd": 160
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 65,
+          "maxUsd": 120
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniatourism.com/destination/lake-duluti"
+  },
+  {
+    "slug": "day-trip-tengeru-coffee",
+    "code": "BA-DT-TENGERU-COFFEE",
+    "name": "Tengeru Coffee and Meru Community Tour",
+    "duration": "1 day · 5-6 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Meet local hosts for a coffee-focused visit and conversation about farming and everyday life.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "5-6 hours including travel",
+      "Easy-moderate farm walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "tengeru"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "The included community fee and local guiding are separate from voluntary tips and purchases. Ask permission before photographs. A lake visit is not included in this route. Hosts decide what to share. Demonstrations may use stored beans; a working harvest or performance is not guaranteed.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Tengeru Coffee and Meru Community Tour",
+        "description": "09:00 pickup and transfer to the agreed community meeting point. Visit a coffee plot and join a host-led preparation and tasting session; fresh harvesting depends on season. Share a simple local lunch, with time for questions, before returning around 14:00-15:00. Hosts decide what to share. Demonstrations may use stored beans; a working harvest or performance is not guaranteed.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "5-6 hours in total; road travel: 30-60 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 80,
+          "maxUsd": 130
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 55,
+          "maxUsd": 95
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 5,
+      "programmePage": 4,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tengeruculturaltourism.com/tours.html"
+  },
+  {
+    "slug": "day-trip-tengeru-cook",
+    "code": "BA-DT-TENGERU-COOK",
+    "name": "Tengeru Market and Tanzanian Cooking Experience",
+    "duration": "1 day · 5-6 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Spend the day learning about ingredients and preparing a local meal with willing hosts.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "5-6 hours including travel",
+      "Easy walking; standing during cooking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "tengeru"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Lunch, agreed ingredients and host fees are included. No compulsory shopping, school visits or performances are part of the plan. This is a hosted food experience, not a guaranteed large market day. Advise dietary needs beforehand; ingredients and the menu vary.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Tengeru Market and Tanzanian Cooking Experience",
+        "description": "09:00 pickup; meet your local guide and explore available food stalls, subject to market trading that day. Join a pre-arranged cooking session using ingredients and dishes chosen by the hosts. Eat the meal you helped prepare and return to Arusha around 14:00-15:00. This is a hosted food experience, not a guaranteed large market day. Advise dietary needs beforehand; ingredients and the menu vary.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "5-6 hours in total; road travel: 30-60 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 85,
+          "maxUsd": 145
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 60,
+          "maxUsd": 105
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 7,
+      "programmePage": 6,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tengeruculturaltourism.com/tours.html"
+  },
+  {
+    "slug": "day-trip-mtowambu",
+    "code": "BA-DT-MTOWAMBU",
+    "name": "Mto wa Mbu Village and Food Day Tour",
+    "duration": "1 day · 8-10 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Visit Mto wa Mbu with a community guide for a day of local food, farming and conversation.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "8-10 hours including travel",
+      "Moderate walking in heat"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "mto-wa-mbu"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "A bicycle alternative can be quoted with helmets and equipment checks; it replaces part of the walk. Host and guide fees are included, purchases and voluntary tips are not. Visits depend on host availability and market schedules. No Lake Manyara National Park entry is included, despite the nearby location.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Mto wa Mbu Village and Food Day Tour",
+        "description": "07:30 pickup and drive to the village; meet your local guide. Take a 2-3 hour walk through agreed farm, market and craft stops, with breaks in the shade. Enjoy a hosted local lunch and a short final stop before returning around 15:30-17:30. Visits depend on host availability and market schedules. No Lake Manyara National Park entry is included, despite the nearby location.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "8-10 hours in total; road travel: 2-2.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 145,
+          "maxUsd": 230
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 90,
+          "maxUsd": 150
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 9,
+      "programmePage": 8,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://mtowambuculturaltourism.org/"
+  },
+  {
+    "slug": "day-trip-olpopongi",
+    "code": "BA-DT-OLPOPONGI",
+    "name": "Olpopongi Maasai Cultural Village Day Visit",
+    "duration": "1 day · 7-9 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Visit an organised Maasai cultural village and museum with hosts who explain selected aspects of their heritage.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "7-9 hours including travel",
+      "Easy-moderate; dusty access roads"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "olpopongi"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Confirm the venue programme and lunch before booking. No ceremony or traditional treatment is guaranteed. Moshi departure is possible only with a separate transport quote; no overnight stay is included. This is a purpose-arranged cultural venue, not an unannounced visit to a private household. Programme content and any demonstrations are chosen by hosts.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Olpopongi Maasai Cultural Village Day Visit",
+        "description": "08:00 pickup and drive to the venue; introduction by the hosts. Join the booked museum and cultural programme, then a short guided outdoor walk where available. Have the agreed local lunch and return around 15:00-17:00. This is a purpose-arranged cultural venue, not an unannounced visit to a private household. Programme content and any demonstrations are chosen by hosts.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "7-9 hours in total; road travel: 1.5-2.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 175,
+          "maxUsd": 275
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 120,
+          "maxUsd": 190
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 11,
+      "programmePage": 10,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.maasai-village.com/"
+  },
+  {
+    "slug": "day-trip-arusha-city",
+    "code": "BA-DT-ARUSHA-CITY",
+    "name": "Arusha City, Markets and Art Day Tour",
+    "duration": "1 day · 4-5 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Get oriented in Arusha through a guided city walk, everyday markets and an agreed art or craft stop.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "4-5 hours including travel",
+      "Easy urban walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "arusha-city"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Paid museum admissions, specialist gem experiences and shopping are excluded unless added to the quote. The base tour uses public areas and an agreed free-entry art/craft stop. Traffic, opening hours and market conditions determine the order. Guides ask permission before photographs; no government-building or private-home entry is promised.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arusha City, Markets and Art Day Tour",
+        "description": "09:00 pickup and a guided central-city walk, including the Clock Tower area. Visit trading areas open that day and an agreed gallery or craft venue; purchases are optional. Have a simple local lunch and return around 13:00-14:00. Traffic, opening hours and market conditions determine the order. Guides ask permission before photographs; no government-building or private-home entry is promised.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "4-5 hours in total; road travel: Local transfers, usually 15-40 minutes between stops. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 55,
+          "maxUsd": 100
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 40,
+          "maxUsd": 70
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Arusha-Experiences.pdf",
+      "sha256": "d89a154b2b18472f49af6c9e8b31f57e75690c014ef500a72945e6e040bc1523",
+      "pricePage": 13,
+      "programmePage": 12,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://arushacc.go.tz/our-history"
+  },
+  {
+    "slug": "day-trip-materuni",
+    "code": "BA-DT-MATERUNI",
+    "name": "Materuni Waterfall and Coffee Day Tour",
+    "duration": "1 day · 6-8 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Combine a waterfall walk with a hosted coffee session in the foothills above Moshi.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "6-8 hours including travel",
+      "Moderate; muddy and uneven waterfall trail"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "materuni"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Sturdy shoes are important. Host fees, coffee tasting and lunch are included. If the trail is unsafe, agree a shorter village/coffee alternative and any cost adjustment; do not force the waterfall visit. Expect roughly 1.5-2.5 hours of walking overall, adjusted for conditions. Mountain views and fresh coffee picking depend on weather and season; swimming is not included or promised.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Materuni Waterfall and Coffee Day Tour",
+        "description": "08:30 pickup; meet the local guide and walk towards the waterfall at a comfortable pace. Pause for views and return for a simple local lunch. Join a coffee preparation and tasting session; return to Moshi approximately 14:30-16:30. Expect roughly 1.5-2.5 hours of walking overall, adjusted for conditions. Mountain views and fresh coffee picking depend on weather and season; swimming is not included or promised.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "6-8 hours in total; road travel: 45-75 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 80,
+          "maxUsd": 135
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 55,
+          "maxUsd": 95
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.chaggacoffee.com/frequently-asked-questions/"
+  },
+  {
+    "slug": "day-trip-materuni-coffee",
+    "code": "BA-DT-MATERUNI-COFFEE",
+    "name": "Materuni Coffee and Chagga Host Experience",
+    "duration": "1 day · 4-5 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Choose a coffee-focused visit with local hosts, without the longer waterfall walk.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "4-5 hours including travel",
+      "Easy-moderate; short farm paths"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "materuni"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "No waterfall or Kilimanjaro National Park visit is included. Agree walking needs and dietary requirements beforehand; hosts control the content of the encounter. This is a shorter alternative to the waterfall combination, not an extra visit to buy alongside it. Harvesting is seasonal; demonstrations may use prepared beans.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Materuni Coffee and Chagga Host Experience",
+        "description": "09:00 pickup and travel to the booked farm or host meeting point. Explore a short farm route and learn about processing through a preparation and tasting session. Enjoy a simple local lunch, then return around 13:00-14:00. This is a shorter alternative to the waterfall combination, not an extra visit to buy alongside it. Harvesting is seasonal; demonstrations may use prepared beans.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "4-5 hours in total; road travel: 45-75 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 75,
+          "maxUsd": 125
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 50,
+          "maxUsd": 90
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 5,
+      "programmePage": 4,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.chaggacoffee.com/"
+  },
+  {
+    "slug": "day-trip-marangu",
+    "code": "BA-DT-MARANGU",
+    "name": "Marangu Waterfall and Chagga Heritage Day Tour",
+    "duration": "1 day · 7-9 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Explore the Marangu area with a local guide, combining a selected waterfall with an arranged heritage visit.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "7-9 hours including travel",
+      "Moderate; steep steps and uneven ground"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "marangu"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "The proposal budgets one waterfall and one heritage visit. No Kilimanjaro park entry or summit hiking. Confirm local operation before offering dates; replace a closed site only with client agreement. The exact waterfall and heritage venue must be named before payment. Ndoro and Kinukamori are different sites; do not promise both by default. A cave interior is optional and depends on access and personal comfort.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Marangu Waterfall and Chagga Heritage Day Tour",
+        "description": "08:30 pickup and drive to Marangu; meet the local guide. Walk to the waterfall selected and confirmed in your quotation, then have a simple lunch. Visit an agreed Chagga heritage site with willing hosts and return around 15:30-17:30. The exact waterfall and heritage venue must be named before payment. Ndoro and Kinukamori are different sites; do not promise both by default. A cave interior is optional and depends on access and personal comfort.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "7-9 hours in total; road travel: 1-1.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 95,
+          "maxUsd": 165
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 65,
+          "maxUsd": 120
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 7,
+      "programmePage": 6,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.maranguhotel.com/pages/stay-at-marangu-hotel/"
+  },
+  {
+    "slug": "day-trip-chemka",
+    "code": "BA-DT-CHEMKA",
+    "name": "Chemka Hot Springs Relaxation Day Trip",
+    "duration": "1 day · 6-7 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Spend an unhurried day at the spring-fed pools also known as Kikuletwa or Rundugai.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "6-7 hours including travel",
+      "Relaxed; swimming ability matters"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "chemka"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Entry and lunch are included. Flotation equipment, if needed, must be confirmed in advance; hire is extra unless quoted. Children require close adult supervision. Arusha pickup needs a revised transfer price. Despite the name, do not expect a hot spa bath. Water can be deep and moving; swimming is optional and there is no guaranteed lifeguard service. Weekends can be busy.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Chemka Hot Springs Relaxation Day Trip",
+        "description": "09:00 pickup; drive through the countryside, with a rough final road section. Arrive for a site briefing, then relax beside the water or swim only if local conditions and your ability allow. Enjoy a simple lunch and return to Moshi around 15:00-16:00. Despite the name, do not expect a hot spa bath. Water can be deep and moving; swimming is optional and there is no guaranteed lifeguard service. Weekends can be busy.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "6-7 hours in total; road travel: 1-1.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 85,
+          "maxUsd": 145
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 55,
+          "maxUsd": 95
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 9,
+      "programmePage": 8,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://rundugaiculturaltourism.com/"
+  },
+  {
+    "slug": "day-trip-chala",
+    "code": "BA-DT-CHALA",
+    "name": "Lake Chala Crater Lake Day Trip",
+    "duration": "1 day · 7-9 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Explore the Tanzania side of Lake Chala with a local guide and time for crater-rim scenery.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "7-9 hours including travel",
+      "Moderate to strenuous if descending to shore"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "lake-chala"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Kayaking is excluded; add it only after the operator confirms current permission, safe equipment, life jackets and conditions, with a separate price and schedule. The descent and climb back can be steep and hot. A rim-only visit is possible. The trip does not cross into Kenya and does not include swimming.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Chala Crater Lake Day Trip",
+        "description": "08:00 pickup and drive to the authorised day-visitor access point. Take a rim walk; descend only if the trail, permissions and your fitness allow. Have a picnic lunch and time for birdwatching before returning around 15:00-17:00. The descent and climb back can be steep and hot. A rim-only visit is possible. The trip does not cross into Kenya and does not include swimming.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "7-9 hours in total; road travel: 1.5-2 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 115,
+          "maxUsd": 190
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 75,
+          "maxUsd": 130
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 11,
+      "programmePage": 10,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniatourism.com/destination/lake-chala"
+  },
+  {
+    "slug": "day-trip-jipe",
+    "code": "BA-DT-JIPE",
+    "name": "Lake Jipe Birdwatching Day Trip",
+    "duration": "1 day · 9-11 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Visit an agreed Tanzania-side lakeshore access point for birdwatching and quiet wetland scenery.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "9-11 hours including travel",
+      "Long drive; easy-moderate shore walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "lake-jipe"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "No boat trip, border crossing or Kenya park admission is included. Confirm local access and guiding before taking payment; rough roads may require a 4x4 and a revised quote. Birds, water levels and road access vary. Keep well away from wildlife and the water edge where advised; swimming is not part of this trip.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Jipe Birdwatching Day Trip",
+        "description": "07:00 pickup and drive towards the lake with comfort stops. Meet the local guide, follow a permitted shore route and watch birds from safe viewpoints. Picnic lunch and a final viewing stop; return to Moshi around 16:00-18:00. Birds, water levels and road access vary. Keep well away from wildlife and the water edge where advised; swimming is not part of this trip.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "9-11 hours in total; road travel: 2-3 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 140,
+          "maxUsd": 230
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 85,
+          "maxUsd": 145
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 13,
+      "programmePage": 12,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniatourism.com/destination/lake-jipe"
+  },
+  {
+    "slug": "day-trip-rau",
+    "code": "BA-DT-RAU",
+    "name": "Rau Forest Guided Nature Walk",
+    "duration": "1 day · 4-5 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Take a locally guided forest walk close to Moshi, suited to travellers seeking a quieter nature outing.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "4-5 hours including travel",
+      "Easy-moderate forest trails"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "rau-forest"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Reserve entry and local guiding are budgeted. Cycling is an optional alternative requiring a separate quote, suitable bikes and helmets; it is not automatically included. Wildlife sightings are uncertain. Trails can be muddy; this is a nature reserve walk, not a national-park game drive.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Rau Forest Guided Nature Walk",
+        "description": "08:30 pickup and transfer to the authorised reserve entrance. Walk selected trails for roughly 2-3 hours with breaks for trees, birds and possible monkey sightings. Simple picnic lunch and return around 12:30-13:30. Wildlife sightings are uncertain. Trails can be muddy; this is a nature reserve walk, not a national-park game drive.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "4-5 hours in total; road travel: 15-30 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 55,
+          "maxUsd": 100
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 40,
+          "maxUsd": 75
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 15,
+      "programmePage": 14,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniatourism.com/destination/rau-nature-forest-reserve"
+  },
+  {
+    "slug": "day-trip-moshi-town",
+    "code": "BA-DT-MOSHI-TOWN",
+    "name": "Moshi Town, Market and Coffee Stop",
+    "duration": "1 day · 4-5 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Discover central Moshi at street level with a local guide, a coffee stop and a simple lunch.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "4-5 hours including travel",
+      "Easy urban walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "moshi-town"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "One coffee or tea and lunch are included. Museum admissions, purchases and extra drinks are excluded. Traffic and market opening affect the route. This is a town experience, not a coffee-farm production tour. Mountain views depend on weather and no private-building admission is guaranteed.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Moshi Town, Market and Coffee Stop",
+        "description": "09:00 pickup from a central hotel and orientation walk through town. Visit open market areas and stop for a cup of locally served coffee; allow time for questions and optional shopping. Have a simple lunch and finish around 13:00-14:00. This is a town experience, not a coffee-farm production tour. Mountain views depend on weather and no private-building admission is guaranteed.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "4-5 hours in total; road travel: Short local transfers, mostly walking. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 50,
+          "maxUsd": 95
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 35,
+          "maxUsd": 65
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Moshi-Experiences.pdf",
+      "sha256": "45d0fd9c7585a88c94d54bda0ada565442f32d2c7fefefbb88220aca86b04fbf",
+      "pricePage": 17,
+      "programmePage": 16,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniatourism.com/destinations/region/kilimanjaro"
+  },
+  {
+    "slug": "day-trip-arusha-park",
+    "code": "BA-DT-ARUSHA-PARK",
+    "name": "Arusha National Park Day Safari",
+    "duration": "1 day · 7-9 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "A nearby wildlife day through forest and open habitats, with time to watch animals rather than chase a checklist.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "7-9 hours including travel",
+      "Easy vehicle safari"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "arusha-national-park"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Optional ranger-guided walk or canoe outing requires a separate quote, permits, operator availability and eligibility checks. It replaces part of the game drive. Moshi departure can be quoted separately with more travel. Look for giraffes, buffalo, monkeys and birds. This is not a Big Five safari; mountain views depend on cloud. No summit hike is included.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arusha National Park Day Safari",
+        "description": "08:00 pickup and drive to the park; guide briefing and entry formalities. Morning game drive on accessible routes towards Ngurdoto viewpoints and Momella Lakes; picnic lunch. Continue viewing in the afternoon and return to Arusha around 15:00-17:00. Look for giraffes, buffalo, monkeys and birds. This is not a Big Five safari; mountain views depend on cloud. No summit hike is included.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "7-9 hours in total; road travel: 45-90 minutes each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 235,
+          "maxUsd": 340
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 160,
+          "maxUsd": 235
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 3,
+      "programmePage": 2,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1633611951-AM-ENG.pdf"
+  },
+  {
+    "slug": "day-trip-tarangire",
+    "code": "BA-DT-TARANGIRE",
+    "name": "Tarangire National Park Day Safari",
+    "duration": "1 day · 10-12 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Spend a full day exploring Tarangire woodland, baobab scenery and river habitats.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "10-12 hours including travel",
+      "Long vehicle day"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "tarangire"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "No night drive or balloon is included. A night drive needs a separately designed itinerary and operating confirmation. Moshi adds substantial travel; start from Arusha instead. Wildlife moves naturally; no animal or river concentration is guaranteed. The road journey is a significant part of the day.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Tarangire National Park Day Safari",
+        "description": "06:30 pickup after breakfast; drive to Tarangire and complete entry formalities. Game drive with time for elephant, antelope and bird sightings; picnic lunch at an approved site. More viewing as time allows, then leave for Arusha; approximate return 16:30-18:30. Wildlife moves naturally; no animal or river concentration is guaranteed. The road journey is a significant part of the day.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "10-12 hours in total; road travel: 2-3 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 255,
+          "maxUsd": 380
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 175,
+          "maxUsd": 260
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 5,
+      "programmePage": 4,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://tanzaniaparks.go.tz/tarangire"
+  },
+  {
+    "slug": "day-trip-manyara",
+    "code": "BA-DT-MANYARA",
+    "name": "Lake Manyara National Park Day Safari",
+    "duration": "1 day · 9-11 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "Explore forest and lake-edge routes at Lake Manyara, with a picnic and time for birdwatching.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "9-11 hours including travel",
+      "Long vehicle day"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "lake-manyara"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "No village visit, canopy walkway or canoeing is included. Any additional activity needs a quote and replaces some viewing. Arusha is preferred over a much longer Moshi departure. Primates, birds and other wildlife vary by season. Flooding or track closures may limit access; tree-climbing lions and flamingo gatherings are not promised.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Lake Manyara National Park Day Safari",
+        "description": "07:00 pickup and drive towards the Rift Valley escarpment; enter the park. Morning game drive through accessible forest and wetland routes, followed by picnic lunch. Continue viewing and return to Arusha around 16:00-18:00. Primates, birds and other wildlife vary by season. Flooding or track closures may limit access; tree-climbing lions and flamingo gatherings are not promised.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "9-11 hours in total; road travel: 2-2.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 250,
+          "maxUsd": 370
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 170,
+          "maxUsd": 255
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 7,
+      "programmePage": 6,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniaparks.go.tz/lake-manyara/visitor-guide"
+  },
+  {
+    "slug": "day-trip-ngorongoro",
+    "code": "BA-DT-NGORONGORO",
+    "name": "Ngorongoro Crater Day Safari",
+    "duration": "1 day · 13-15 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Arusha",
+    "summary": "A specialist long-day option for travellers who accept substantial driving to visit the crater without an overnight stay. Ngorongoro is a conservation area, not a national park.",
+    "highlights": [
+      "Arusha central-hotel pickup and return",
+      "13-15 hours including travel",
+      "Very long day; early start"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Arusha who want a separately booked day out",
+    "destinations": [
+      "ngorongoro"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "The base cost includes one crater vehicle descent fee as well as guest entry. Do not combine with another park or an onward flight. Moshi departure is not offered in this day-trip plan; an overnight route is more comfortable. The crater session is limited by permits and return travel; this is not a full day on the crater floor. Rhino and predator sightings are uncertain.",
+    "finishNote": "Start and finish at a central Arusha hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ngorongoro Crater Day Safari",
+        "description": "About 05:00 pickup with a pre-arranged breakfast box; drive through Karatu to the conservation-area entrance. Descend after formalities for a permitted crater session and picnic lunch; the guide agrees the exit time. Ascend and drive directly back to Arusha, commonly around 18:00-20:00 if conditions permit. The crater session is limited by permits and return travel; this is not a full day on the crater floor. Rhino and predator sightings are uncertain.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "13-15 hours in total; road travel: 4-5 hours each way including ordinary formalities. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Arusha; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 490,
+          "maxUsd": 675
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 300,
+          "maxUsd": 415
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "arusha",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 9,
+      "programmePage": 8,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.ncaa.go.tz/"
+  },
+  {
+    "slug": "day-trip-kili-marangu",
+    "code": "BA-DT-KILI-MARANGU",
+    "name": "Kilimanjaro Marangu Rainforest Day Hike",
+    "duration": "1 day · 10-12 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Walk inside Kilimanjaro National Park on the Marangu route with a registered mountain guide. This is a forest hike towards Mandara, not a summit climb.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "10-12 hours including travel",
+      "Strenuous; approximately 5-7 hours walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "kilimanjaro"
+    ],
+    "plannerParkIds": [],
+    "category": "Active adventure",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Guide, park day-entry and any required rescue/registration charges are included in the costing allowance. Boots and personal equipment are not. Tell Boker about health or mobility needs and obtain insurance covering the stated altitude. Arusha pickup adds travel and needs a revised plan. Mandara is roughly 2,700 m above sea level; reaching it is not guaranteed. Mud, pace and weather may require an earlier return. Do not expect snow or a summit view.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kilimanjaro Marangu Rainforest Day Hike",
+        "description": "About 07:00 pickup, drive to Marangu Gate, register and complete the guide briefing. Hike uphill at a steady pace towards Mandara, with packed lunch; the guide sets a firm turnaround time. Descend the same route and return to Moshi around 17:00-19:00. Mandara is roughly 2,700 m above sea level; reaching it is not guaranteed. Mud, pace and weather may require an earlier return. Do not expect snow or a summit view.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "10-12 hours in total; road travel: 1-1.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 235,
+          "maxUsd": 350
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 180,
+          "maxUsd": 270
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 11,
+      "programmePage": 10,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniaparks.go.tz/kilimanjaro/attractions"
+  },
+  {
+    "slug": "day-trip-kili-shira",
+    "code": "BA-DT-KILI-SHIRA",
+    "name": "Kilimanjaro Shira Plateau Day Visit",
+    "duration": "1 day · 11-13 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Travel by suitable 4x4 through authorised western access for a guided plateau walk, subject to park permission and road conditions.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "11-13 hours including travel",
+      "High altitude; moderate walking"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "kilimanjaro"
+    ],
+    "plannerParkIds": [],
+    "category": "Active adventure",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "Quote only after confirming 4x4 access, guide, park permits and all mandatory charges. The guide may shorten or cancel the walk for symptoms or weather. Insurance must cover the altitude. Arusha start requires separate route and price confirmation. This can involve rapid ascent to roughly 3,000-3,500 m; the exact access point is confirmed before booking. It is not a summit trek or guaranteed acclimatisation. Weather may hide the peaks.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kilimanjaro Shira Plateau Day Visit",
+        "description": "About 06:00 pickup; drive towards the western gate and complete park formalities. Continue only to the vehicle access point authorised that day. Walk a guide-selected plateau route, with packed lunch and a conservative turnaround. Return by the same road, aiming for Moshi around 17:00-19:00. This can involve rapid ascent to roughly 3,000-3,500 m; the exact access point is confirmed before booking. It is not a summit trek or guaranteed acclimatisation. Weather may hide the peaks.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "11-13 hours in total; road travel: 2.5-3.5 hours each way, access-dependent. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 310,
+          "maxUsd": 470
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 220,
+          "maxUsd": 335
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 13,
+      "programmePage": 12,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1633027058-KI.pdf"
+  },
+  {
+    "slug": "day-trip-mkomazi",
+    "code": "BA-DT-MKOMAZI",
+    "name": "Mkomazi National Park Day Safari",
+    "duration": "1 day · 11-13 hours · no overnight",
+    "days": 1,
+    "nights": 0,
+    "kind": "day-trip",
+    "departureTown": "Moshi",
+    "summary": "Explore Mkomazi dry-country scenery on a private game drive, with realistic expectations for a less concentrated wildlife experience.",
+    "highlights": [
+      "Moshi central-hotel pickup and return",
+      "11-13 hours including travel",
+      "Long vehicle day"
+    ],
+    "includes": [
+      "return central-hotel transport in the stated town; driver and/or activity guide as appropriate; the base activities and applicable entry/host fees; one simple lunch and drinking water. Park game drives use a safari 4x4; other trips use a suitable road vehicle unless 4x4 access is required."
+    ],
+    "excludes": [
+      "accommodation, breakfast, dinner, airport transfers, flights, visas, insurance, voluntary tips, shopping and any optional activity or equipment hire not expressly included. Carry breakfast or arrange it with your existing hotel for early starts."
+    ],
+    "idealFor": "guests already staying in Moshi who want a separately booked day out",
+    "destinations": [
+      "mkomazi"
+    ],
+    "plannerParkIds": [],
+    "category": "Day trip",
+    "travelStyle": "Private day excursion; no accommodation or airport transfer",
+    "travelWindow": "Subject to weather, access, permits and host availability.",
+    "seasonMonths": [],
+    "paceNote": "A dedicated rhino-viewing session is an optional, separately priced activity requiring a confirmed booking and additional fees; replace some game driving to fit it. Do not advertise wild-dog breeding-area access as included. Arusha is too far for the standard plan. General park entry does not guarantee access to rhino or wild-dog conservation facilities. Sightings on the ordinary game drive can be sparse.",
+    "finishNote": "Start and finish at a central Moshi hotel. Be in town before the activity day; accommodation and airport transfers are not included.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Mkomazi National Park Day Safari",
+        "description": "About 06:00 pickup; travel towards the park and complete gate procedures. Game drive with picnic lunch and time for birds, antelope and landscapes. Leave with a sensible return margin; reach Moshi approximately 17:00-19:00. General park entry does not guarantee access to rhino or wild-dog conservation facilities. Sightings on the ordinary game drive can be sparse.",
+        "overnight": "None",
+        "meals": "simple lunch and drinking water; breakfast and dinner excluded",
+        "timing": "11-13 hours in total; road travel: 2.5-3.5 hours each way. Times depend on conditions."
+      }
+    ],
+    "stays": [],
+    "pricing": {
+      "status": "on-request",
+      "currency": "USD",
+      "basis": "USD per non-resident adult from Moshi; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.",
+      "ranges": [
+        {
+          "tier": "private party of 2 adults",
+          "minUsd": 245,
+          "maxUsd": 375
+        },
+        {
+          "tier": "private party of 4 adults",
+          "minUsd": 155,
+          "maxUsd": 245
+        }
+      ],
+      "note": "Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price."
+    },
+    "imageKey": "moshi",
+    "featured": false,
+    "source": {
+      "document": "Boker-Parks-and-Mountains.pdf",
+      "sha256": "ddcc79ec60e82601064b7680d5d4700bc231b01dd5800c8464076ed254878e67",
+      "pricePage": 15,
+      "programmePage": 14,
+      "receivedDate": "2026-10-07"
+    },
+    "planningReference": "https://tanzaniaparks.go.tz/nationalparks/mkomazi"
   }
 ]

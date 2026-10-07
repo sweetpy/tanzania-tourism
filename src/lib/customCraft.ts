@@ -4,6 +4,10 @@ import { customRoute, parkIdFor } from "./itineraryCraft";
 import { handleBokerRequest } from "./bokerGateway";
 // Server rebuilds from trusted configuration and the current preview, never a client-supplied day plan.
 export async function resolveCustomCraft(trip: LearnedTrip, id: string) {
+  if (trip.days < 3)
+    throw new Error(
+      "Choose a prepared short safari or day trip for this duration.",
+    );
   const configResponse = await handleBokerRequest(
     new Request(
       `https://boker.local/api/boker/config?date=${trip.arrivalDate}`,

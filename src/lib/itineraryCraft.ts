@@ -18,6 +18,90 @@ export const places = [
   { id: "ruaha", name: "Ruaha", circuit: "southern" },
   { id: "mikumi", name: "Mikumi", circuit: "southern" },
   { id: "nyerere", name: "Nyerere", circuit: "southern" },
+  {
+    id: "arusha-national-park",
+    name: "Arusha National Park",
+    circuit: "northern",
+  },
+  {
+    id: "lake-duluti",
+    name: "Lake Duluti",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "tengeru",
+    name: "Tengeru coffee & cooking",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "mto-wa-mbu",
+    name: "Mto wa Mbu village",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "olpopongi",
+    name: "Olpopongi cultural village",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "arusha-city",
+    name: "Arusha city",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "materuni",
+    name: "Materuni waterfall & coffee",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "marangu",
+    name: "Marangu heritage",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "chemka",
+    name: "Chemka springs",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "lake-chala",
+    name: "Lake Chala",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "lake-jipe",
+    name: "Lake Jipe",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "rau-forest",
+    name: "Rau Forest",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "moshi-town",
+    name: "Moshi town",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  {
+    id: "kilimanjaro",
+    name: "Kilimanjaro day hike",
+    circuit: "northern",
+    dayTripOnly: true,
+  },
+  { id: "mkomazi", name: "Mkomazi", circuit: "northern", dayTripOnly: true },
 ];
 export type Property = {
   id: string;
@@ -54,6 +138,8 @@ export type CraftRoute = {
   source?: Package["source"];
   pricing?: Package["pricing"];
   modelVersion?: string;
+  kind?: "day-trip";
+  departureTown?: string;
 };
 export type DayChoice = {
   day: number;
@@ -98,10 +184,8 @@ export function validateTrip(
     t.arrivalDate > dateAt(today, 730)
   )
     throw new Error("Choose an arrival date within the next two years.");
-  if (!Number.isInteger(t.days) || t.days < 3 || t.days > 20)
-    throw new Error(
-      "Choose a trip of 3 to 20 days, including arrival and departure.",
-    );
+  if (!Number.isInteger(t.days) || t.days < 1 || t.days > 20)
+    throw new Error("Choose a day trip or a journey of 2 to 20 days.");
   if (
     !Number.isInteger(t.adults) ||
     t.adults < 1 ||
@@ -120,7 +204,13 @@ export function validateTrip(
     t.placeIds.length > 7 ||
     new Set(t.placeIds).size !== t.placeIds.length ||
     t.placeIds.some(
-      (id) => !places.some((p) => p.id === id && p.circuit === t.circuit),
+      (id) =>
+        !places.some(
+          (p) =>
+            p.id === id &&
+            p.circuit === t.circuit &&
+            (!p.dayTripOnly || t.days === 1),
+        ),
     )
   )
     throw new Error("Choose places in the same safari circuit.");
@@ -174,13 +264,15 @@ export function brochureRoute(
     title: pkg.name,
     origin: "brochure",
     packageSlug: pkg.slug,
+    kind: pkg.kind,
+    departureTown: pkg.departureTown,
     days: pkg.itinerary.map((d) => ({
       ...d,
       date: dateAt(trip.arrivalDate, d.day - 1),
     })),
     includes: pkg.includes,
     excludes: pkg.excludes || [],
-    note: pkg.paceNote || pkg.summary,
+    note: pkg.paceNote || pkg.finishNote || pkg.summary,
     source: pkg.source,
     pricing: pkg.pricing,
     modelVersion,
@@ -271,7 +363,7 @@ export const services = [
     id: "unhurried",
     name: "Unhurried afternoon",
     description:
-      "Ask for a later start or time at camp where the route allows. Your guide will balance transfers and park access.",
+      "Ask for a later start or more time at a stop where the route allows. Your guide will balance travel, opening hours and access.",
     kind: "Pace preference",
   },
   {
@@ -391,6 +483,8 @@ export function serializeCraft(
     origin: route.origin,
     source: route.source || null,
     modelVersion: route.modelVersion || null,
+    kind: route.kind || "safari",
+    departureTown: route.departureTown || null,
     priceStatus: "dated-quote-required",
     days: route.days.map((day, i) => ({
       ...day,

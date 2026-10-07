@@ -62,8 +62,10 @@ function fit(pairs) {
   return weights;
 }
 // Group split: no positive example from a held-out brochure participates in fitting.
+const sourceGroups = [...new Set(corpus.map((pkg) => pkg.source.sha256))];
+const heldOutSources = sourceGroups.filter((_, index) => index % 4 === 0);
 const heldOutCodes = corpus
-  .filter((_, index) => index % 4 === 0)
+  .filter((pkg) => heldOutSources.includes(pkg.source.sha256))
   .map((pkg) => pkg.code);
 const validation = training.filter((pair) =>
   heldOutCodes.includes(pair.positive),
@@ -82,12 +84,13 @@ const correct = validation.filter(
     ) > 0,
 ).length;
 const model = {
-  version: "brochure-ranker-v1",
+  version: "brochure-ranker-v2",
   featureNames: FEATURE_NAMES,
   weights: fit(training),
   corpusSha256: createHash("sha256").update(raw).digest("hex"),
   training: {
     documents: corpus.length,
+    sourceDocuments: sourceGroups.length,
     pairs: training.length,
     method:
       "Pairwise logistic learning from document-derived route preferences; L2 regularization",

@@ -8,11 +8,15 @@ const subscribe = () => () => {};
 const clientReady = () => true;
 const serverReady = () => false;
 
-export function PackageCatalogue() {
+export function PackageCatalogue({
+  initialDays = "",
+}: {
+  initialDays?: string;
+}) {
   // Keep the first choice from being lost while the server-rendered page hydrates.
   const ready = useSyncExternalStore(subscribe, clientReady, serverReady);
   const [search, setSearch] = useState("");
-  const [days, setDays] = useState("");
+  const [days, setDays] = useState(initialDays);
   const [category, setCategory] = useState("");
   const visible = packages.filter(
     (pkg) =>
@@ -49,7 +53,7 @@ export function PackageCatalogue() {
               .sort((a, b) => a - b)
               .map((value) => (
                 <option key={value} value={value}>
-                  {value} days
+                  {value === 1 ? "1 day / no overnight" : `${value} days`}
                 </option>
               ))}
           </select>
@@ -71,7 +75,8 @@ export function PackageCatalogue() {
       </div>
       <p className="mt-5 text-sm text-ink/60" role="status">
         {visible.length} {visible.length === 1 ? "journey" : "journeys"} ·
-        Prepared safari durations include arrival and departure days.
+        Safari durations include arrival and final travel days. Day outings
+        start from an existing hotel stay.
       </p>
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((pkg) => (
@@ -94,10 +99,27 @@ export function PackageCatalogue() {
         </p>
       )}
       <p className="mt-8 text-sm leading-relaxed text-ink/60">
-        Brochure budgets are per person for two non-resident adults sharing a
-        double or twin room and one private vehicle. They are planning ranges,
-        subject to a dated quotation. Children, solo travellers, residents, room
-        changes and upgrades require their own quote.
+        Safari budgets assume two non-resident adults sharing a room and private
+        vehicle. Day trips show separate per-adult estimates for private parties
+        of two or four, from the stated town. All ranges need a dated quote;
+        solo guests, children and residents are quoted individually.
+      </p>
+      <p className="mt-3 text-xs text-ink/50">
+        Regional photographs:{" "}
+        <a
+          className="underline"
+          href="https://commons.wikimedia.org/wiki/File:Look_at_Mt._Meru_Arusha_Tanzania.jpg"
+        >
+          Arusha / Phase9, CC BY-SA 3.0
+        </a>{" "}
+        and{" "}
+        <a
+          className="underline"
+          href="https://commons.wikimedia.org/wiki/File:Moshi_facing_Mt.Kilimanjaro.jpg"
+        >
+          Moshi / Lebu Ayiga, CC BY 4.0
+        </a>
+        . Cropped for display; scenery illustrates the departure region.
       </p>
     </>
   );

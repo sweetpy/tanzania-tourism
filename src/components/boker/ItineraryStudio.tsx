@@ -233,6 +233,10 @@ export default function ItineraryStudio({
               Number(a.packageSlug === initialPackageSlug),
           )
         : prepared;
+    if (current.days < 3)
+      throw new Error(
+        "Choose one prepared day outing or short safari that covers your places. Try a suggested journey below; custom multi-park routes need at least three days.",
+      );
     const config = await api<BokerConfig>(
       `/api/boker/config?date=${current.arrivalDate}`,
     );
@@ -470,8 +474,11 @@ export default function ItineraryStudio({
         </div>
         <div className="studio-hero-note">
           <span>BUILT AROUND REAL JOURNEYS</span>
-          <strong>20</strong>
-          <p>prepared safari routes, shaped by the people who know Tanzania.</p>
+          <strong>{brochureCatalogue.length}</strong>
+          <p>
+            prepared safaris and day outings, shaped by the people who know
+            Tanzania.
+          </p>
           <Link href="/packages">
             Explore the collection <ArrowRight size={16} />
           </Link>
@@ -504,16 +511,18 @@ export default function ItineraryStudio({
             <h2>What does your adventure look like?</h2>
           </div>
           <p>
-            Trip length includes arrival and departure. You can mix
-            accommodation styles later.
+            {trip.days === 1
+              ? "Day trips start from an existing hotel stay. Accommodation and airport transfers are separate."
+              : "Safari length includes arrival and the final travel day. You can mix accommodation styles later."}
           </p>
         </div>
         <fieldset disabled={!hydrated || busy}>
           <legend className="sr-only">Choose your safari preferences</legend>
           <div className="studio-field-grid">
             <label>
-              Arrival date
+              {trip.days === 1 ? "Activity date" : "Arrival date"}
               <input
+                aria-label={trip.days === 1 ? "Activity date" : "Arrival date"}
                 required
                 type="date"
                 min={minArrivalDate}
@@ -527,11 +536,30 @@ export default function ItineraryStudio({
               <select
                 aria-label="Trip length"
                 value={trip.days}
-                onChange={(e) => update({ days: Number(e.target.value) })}
+                onChange={(e) => {
+                  const days = Number(e.target.value);
+                  const placeIds = trip.placeIds.filter((id) =>
+                    places.some(
+                      (p) => p.id === id && (!p.dayTripOnly || days === 1),
+                    ),
+                  );
+                  update({
+                    days,
+                    placeIds: placeIds.length ? placeIds : ["tarangire"],
+                    style:
+                      days === 1
+                        ? "Day trip"
+                        : trip.style === "Day trip"
+                          ? "Any"
+                          : trip.style,
+                  });
+                }}
               >
-                {Array.from({ length: 18 }, (_, i) => i + 3).map((n) => (
+                {Array.from({ length: 20 }, (_, i) => i + 1).map((n) => (
                   <option key={n} value={n}>
-                    {n} days / {n - 1} nights
+                    {n === 1
+                      ? "1 day / no overnight"
+                      : `${n} days / ${n - 1} nights`}
                   </option>
                 ))}
               </select>
@@ -632,7 +660,18 @@ export default function ItineraryStudio({
             <span>Places you want to include</span>
             <div>
               {places
-                .filter((p) => p.circuit === trip.circuit)
+                .filter(
+                  (p) =>
+                    p.circuit === trip.circuit &&
+                    (!p.dayTripOnly || trip.days === 1) &&
+                    (trip.days !== 1 ||
+                      ![
+                        "serengeti",
+                        "lake-eyasi",
+                        "lake-natron",
+                        "ol-doinyo-lengai",
+                      ].includes(p.id)),
+                )
                 .map((p) => (
                   <label
                     key={p.id}
@@ -680,7 +719,10 @@ export default function ItineraryStudio({
             {nearby.map((pkg) => (
               <article key={pkg.slug}>
                 <span>
-                  {pkg.duration} · {pkg.category}
+                  {pkg.duration} ·{" "}
+                  {pkg.kind === "day-trip"
+                    ? `from ${pkg.departureTown}`
+                    : pkg.category}
                 </span>
                 <h3>{pkg.name}</h3>
                 <p>{pkg.summary}</p>
@@ -731,7 +773,9 @@ export default function ItineraryStudio({
                 </span>
                 <strong>{r.title}</strong>
                 <small>
-                  {r.days.length} days · {r.days.length - 1} nights
+                  {r.kind === "day-trip"
+                    ? `1 day · from ${r.departureTown} · no overnight`
+                    : `${r.days.length} days · ${r.days.length - 1} nights`}
                 </small>
                 {r.id === routeId && <Check size={20} />}
               </button>
@@ -804,7 +848,9 @@ export default function ItineraryStudio({
                             ? selectedProperty.name
                             : overnight
                               ? `Overnight: ${overnight} · choose your stay`
-                              : "Departure day · no overnight stay"}
+                              : route.kind === "day-trip"
+                                ? `Day outing from ${route.departureTown} · no accommodation`
+                                : "Final day · no overnight stay"}
                         </em>
                       </span>
                       {activeDay === day.day ? (
@@ -1105,14 +1151,27 @@ export default function ItineraryStudio({
                   travellers
                 </span>
               </div>
-              <div className="studio-progress">
-                <span>
-                  {selectedNights} of {generatedTrip.days - 1} nights
-                  personalised
-                </span>
-                <progress value={selectedNights} max={generatedTrip.days - 1} />
-                <small>Unselected nights: let the team recommend a stay.</small>
-              </div>
+              {generatedTrip.days > 1 ? (
+                <div className="studio-progress">
+                  <span>
+                    {selectedNights} of {generatedTrip.days - 1} nights
+                    personalised
+                  </span>
+                  <progress
+                    value={selectedNights}
+                    max={generatedTrip.days - 1}
+                  />
+                  <small>
+                    Unselected nights: let the team recommend a stay.
+                  </small>
+                </div>
+              ) : (
+                <p className="studio-small">
+                  Pickup and return: central {route.departureTown} hotel. Be in
+                  town before the activity day. No accommodation or airport
+                  transfers included.
+                </p>
+              )}
               <ol className="studio-selected-stays">
                 {route.days
                   .filter((d) => locationFor(d))
@@ -1191,6 +1250,47 @@ export default function ItineraryStudio({
               </button>
             </aside>
           </div>
+          {route.kind !== "day-trip" &&
+            generatedTrip.circuit === "northern" && (
+              <section
+                className="studio-inspiration"
+                aria-label="Separate day outings"
+              >
+                <span className="studio-kicker">ROOM FOR ANOTHER DAY?</span>
+                <h2>Coffee, a lake or a little city life.</h2>
+                <p>
+                  These outings need a separate activity day before or after
+                  your safari, from an existing Arusha hotel stay. They are
+                  quoted separately and do not fit into your arrival or transfer
+                  day automatically.
+                </p>
+                <div className="studio-scroll">
+                  {brochureCatalogue
+                    .filter((p) =>
+                      [
+                        "BA-DT-DULUTI",
+                        "BA-DT-TENGERU-COFFEE",
+                        "BA-DT-ARUSHA-CITY",
+                      ].includes(p.code || ""),
+                    )
+                    .map((p) => (
+                      <article key={p.slug}>
+                        <span>
+                          {p.duration} · from {p.departureTown}
+                        </span>
+                        <h3>{p.name}</h3>
+                        <p>{p.summary}</p>
+                        <Link href={`/packages/${p.slug}`}>
+                          Explore this separate day out ↗
+                        </Link>
+                      </article>
+                    ))}
+                </div>
+                <Link href="/packages?days=1">
+                  See all Arusha and Moshi day outings →
+                </Link>
+              </section>
+            )}
           <section className="studio-quote" id="studio-quote">
             <div>
               <span className="studio-kicker">03 / BRING IT TO LIFE</span>

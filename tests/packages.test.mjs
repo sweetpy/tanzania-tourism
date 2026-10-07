@@ -37,9 +37,13 @@ const brochureRanges = {
   "NDUTU-CALVING": [4300, 5900, 6400, 8700],
 };
 test("all 20 brochures retain their 40 price ranges and the two-adult planning basis", () => {
-  assert.equal(catalogue.length, 20);
-  assert.equal(new Set(catalogue.map((pkg) => pkg.slug)).size, 20);
-  for (const pkg of catalogue) {
+  const original = catalogue.filter((pkg) => pkg.code in brochureRanges);
+  assert.equal(original.length, 20);
+  assert.equal(
+    new Set(catalogue.map((pkg) => pkg.slug)).size,
+    catalogue.length,
+  );
+  for (const pkg of original) {
     assert.deepEqual(
       pkg.pricing.ranges.flatMap((range) => [range.minUsd, range.maxUsd]),
       brochureRanges[pkg.code],

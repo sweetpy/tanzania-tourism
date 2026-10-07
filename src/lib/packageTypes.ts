@@ -11,6 +11,10 @@ export type Package = {
   name: string;
   duration: string;
   days: number;
+  kind?: "day-trip";
+  departureTown?: string;
+  finishNote?: string;
+  planningReference?: string;
   nights?: number;
   code?: string;
   summary: string;
@@ -50,6 +54,7 @@ export type Package = {
     sha256: string;
     pricePage: number;
     receivedDate: string;
+    programmePage?: number;
   };
 };
 
@@ -61,6 +66,7 @@ export function packagePriceLabel(
   pkg: Pick<Package, "pricing">,
   tier = "midrange",
 ) {
+  if (pkg.pricing.status === "on-request") return "Price on request";
   const range = pkg.pricing.ranges.find((item) => item.tier === tier);
   return range
     ? `${formatRange(range)} USD pp · ${tier === "midrange" ? "midrange" : tier} planning range`

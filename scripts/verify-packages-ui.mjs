@@ -52,7 +52,12 @@ try {
         pkg.code,
       );
     }
-    assert.match(budget, /two non-resident adults/);
+    assert.match(
+      budget,
+      pkg.kind === "day-trip"
+        ? /two or four adults/
+        : /two non-resident adults/,
+    );
     assert.match(budget, /not a confirmed quote/);
     report.packages.push({ code: pkg.code, status: 200, days: pkg.days });
   }
@@ -77,10 +82,12 @@ try {
   await page.getByLabel("Trip length").selectOption("");
   await page
     .getByRole("status")
-    .filter({ hasText: /^23 journeys/ })
+    .filter({ hasText: new RegExp(`^${catalogue.length + 3} journeys`) })
     .waitFor();
   report.filters = true;
-  console.log("Catalogue and all 20 detail pages passed.");
+  console.log(
+    `Catalogue and all ${catalogue.length} prepared detail pages passed.`,
+  );
   await page.screenshot({
     path: path.join(output, "package-catalogue-desktop.png"),
   });

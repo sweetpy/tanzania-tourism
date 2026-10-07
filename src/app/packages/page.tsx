@@ -12,7 +12,14 @@ export const metadata: Metadata = {
     "Twenty prepared Tanzania safaris with day-by-day itineraries, lodge choices and USD planning ranges, plus bespoke climbs, beach extensions and southern safaris.",
 };
 
-export default function PackagesPage() {
+export default async function PackagesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ days?: string }>;
+}) {
+  const query = await searchParams;
+  const initialDays =
+    query.days && /^(?:[1-9]|1\d|20)$/.test(query.days) ? query.days : "";
   return (
     <>
       <PageHero
@@ -23,7 +30,7 @@ export default function PackagesPage() {
             <span className="text-gold-bright">clear starting points</span>
           </>
         }
-        description={`Twenty thoughtfully paced safaris, from four-day escapes to eight-day migration journeys. Compare the route, daily plan and lodge options, then make it yours.`}
+        description="From a day out in Arusha or Moshi to a short safari or an eight-day migration journey. Compare the programme, departure town and lodge options, then make it yours."
         image="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=2400&q=85"
         imageAlt="Giraffe beside acacia trees at sunset"
       >
@@ -66,7 +73,7 @@ export default function PackagesPage() {
           </Link>
           .
         </p>
-        <PackageCatalogue />
+        <PackageCatalogue key={initialDays} initialDays={initialDays} />
         <div className="mt-16 grid gap-6 lg:grid-cols-2">
           <CTABand
             title="Want a fully custom itinerary?"

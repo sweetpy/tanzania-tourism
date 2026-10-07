@@ -52,8 +52,9 @@ test("trained model and labels are reproducible and tied to the exact public bro
       .digest("hex"),
   );
   assert.deepEqual(model.featureNames, FEATURE_NAMES);
-  assert.equal(model.training.documents, 20);
-  assert.equal(pairs.length, 301);
+  assert.equal(model.training.documents, 47);
+  assert.equal(model.training.sourceDocuments, 29);
+  assert.equal(pairs.length, 688);
   assert.ok(model.weights.every((w) => Number.isFinite(w) && w > 0));
   assert.ok(
     pairs.every(
@@ -170,7 +171,7 @@ test("hard geography, complete seasonal window and child constraints cannot be o
     false,
   );
 });
-test("all 20 programmes retain their nights, dates, meal plans and departure days", () => {
+test("all 47 programmes retain their nights, dates and meal plans", () => {
   for (const p of corpus) {
     const month = p.seasonMonths[0] || 6;
     const t = {

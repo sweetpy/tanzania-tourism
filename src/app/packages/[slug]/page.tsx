@@ -138,9 +138,11 @@ export default async function PackageDetailPage({ params }: Props) {
                 Your journey, day by day
               </h2>
               <p className="mt-3 text-sm text-ink/60">
-                Arrival and departure are included in the trip length. Driving
-                times are planning guides; weather, roads and park formalities
-                can change the day.
+                {pkg.kind === "day-trip"
+                  ? `Start and return: central ${pkg.departureTown} hotel. Be in town before the activity day. Accommodation and airport transfers are not included.`
+                  : "Arrival and the final travel day are included in the trip length."}{" "}
+                Driving times are planning guides; weather, roads and
+                formalities can change the day.
               </p>
               <ol className="mt-8 space-y-6">
                 {pkg.itinerary.map((day) => (
@@ -181,7 +183,7 @@ export default async function PackageDetailPage({ params }: Props) {
               </ol>
             </section>
           )}
-          {pkg.stays && (
+          {!!pkg.stays?.length && (
             <section>
               <h2 className="font-display text-3xl font-bold text-ink">
                 Places to stay
@@ -306,6 +308,11 @@ export default async function PackageDetailPage({ params }: Props) {
             <p className="mt-5 text-sm leading-relaxed text-ink/70">
               {pkg.pricing.basis}
             </p>
+            {pkg.finishNote && (
+              <p className="mt-4 text-sm leading-relaxed text-ink/70">
+                {pkg.finishNote}
+              </p>
+            )}
             <p className="mt-3 text-sm leading-relaxed text-ink/70">
               {pkg.pricing.note}
             </p>

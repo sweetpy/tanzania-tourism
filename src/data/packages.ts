@@ -6,7 +6,7 @@ export { packagePriceLabel } from "@/lib/packageTypes";
 const landscape =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serengeti-Landscape-2012.JPG/1280px-Serengeti-Landscape-2012.JPG";
 const rift =
-  "https://upload.wikimedia.org/wikipedia/commons/2/21/Lake_Manyara.jpg";
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lake_Manyara.jpg/1280px-Lake_Manyara.jpg";
 const onRequest: PackagePrice = {
   status: "on-request",
   currency: "USD",
@@ -17,16 +17,35 @@ const onRequest: PackagePrice = {
 
 const crafted: Package[] = curated.map((pkg) => ({
   ...pkg,
-  image: pkg.imageKey === "serengeti" ? landscape : rift,
+  kind: pkg.kind as Package["kind"],
+  image:
+    pkg.imageKey === "arusha"
+      ? "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Look_at_Mt._Meru_Arusha_Tanzania.jpg/1280px-Look_at_Mt._Meru_Arusha_Tanzania.jpg"
+      : pkg.imageKey === "moshi"
+        ? "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Moshi_facing_Mt.Kilimanjaro.jpg/1280px-Moshi_facing_Mt.Kilimanjaro.jpg"
+        : pkg.imageKey === "serengeti"
+          ? landscape
+          : rift,
   imageAlt:
-    pkg.imageKey === "serengeti"
-      ? "Savannah and acacia trees in Serengeti National Park"
-      : "Lake Manyara and the Rift Valley landscape in northern Tanzania",
+    pkg.imageKey === "arusha"
+      ? "Arusha and Mount Meru · regional scenery, not an activity preview"
+      : pkg.imageKey === "moshi"
+        ? "Moshi facing Mount Kilimanjaro · regional scenery, not an activity preview"
+        : pkg.imageKey === "serengeti"
+          ? "Savannah and acacia trees in Serengeti National Park"
+          : "Lake Manyara and the Rift Valley landscape in northern Tanzania",
   imageCredit:
-    pkg.imageKey === "serengeti"
-      ? "https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG"
-      : "https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg",
-  pricing: { ...pkg.pricing, status: "planning" },
+    pkg.imageKey === "arusha"
+      ? "https://commons.wikimedia.org/wiki/File:Look_at_Mt._Meru_Arusha_Tanzania.jpg"
+      : pkg.imageKey === "moshi"
+        ? "https://commons.wikimedia.org/wiki/File:Moshi_facing_Mt.Kilimanjaro.jpg"
+        : pkg.imageKey === "serengeti"
+          ? "https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG"
+          : "https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg",
+  pricing: {
+    ...pkg.pricing,
+    status: pkg.pricing.status as PackagePrice["status"],
+  },
 }));
 
 const customJourneys: Package[] = [

@@ -36,6 +36,7 @@ export const journeyStyles = [
   "Fly-in & fly-back",
   "Seasonal migration",
   "Active adventure",
+  "Day trip",
 ];
 export const canonicalPlace = (id: string) =>
   id.startsWith("serengeti-")

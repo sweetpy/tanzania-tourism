@@ -1,5 +1,5 @@
 {
-  "version": "brochure-ranker-v1",
+  "version": "brochure-ranker-v2",
   "featureNames": [
     "durationFit",
     "routeFocus",
@@ -7,15 +7,16 @@
     "seasonalFit"
   ],
   "weights": [
-    3.4356700700009215,
-    2.306974596478937,
-    2.4486553563290947,
-    0.16875755802652195
+    3.3948303582166415,
+    1.9248105107709224,
+    2.256506565459604,
+    0.0931510518226208
   ],
-  "corpusSha256": "f4bedb39f1b26fb60ebc8f49785166a500b350b67b9d221be8739e7ab5fed163",
+  "corpusSha256": "5ad513910242694ac820f85495398d2754e7bc72ad208333bf7432285c9ab624",
   "training": {
-    "documents": 20,
-    "pairs": 301,
+    "documents": 47,
+    "sourceDocuments": 29,
+    "pairs": 688,
     "method": "Pairwise logistic learning from document-derived route preferences; L2 regularization"
   },
   "evaluation": {
@@ -24,10 +25,19 @@
       "BA-5D-EYASI",
       "BA-6D-EYASI",
       "BA-7D-CLASSIC",
-      "BA-7D-SERENGETI"
+      "BA-7D-SERENGETI",
+      "BA-2D-ARUSHA",
+      "BA-3D-MANYARA-NGOR",
+      "BA-DT-ARUSHA-PARK",
+      "BA-DT-TARANGIRE",
+      "BA-DT-MANYARA",
+      "BA-DT-NGORONGORO",
+      "BA-DT-KILI-MARANGU",
+      "BA-DT-KILI-SHIRA",
+      "BA-DT-MKOMAZI"
     ],
-    "pairs": 73,
-    "correct": 73,
+    "pairs": 239,
+    "correct": 239,
     "pairwiseAccuracy": 1,
     "limitation": "Document-derived validation, not a measure of real customer satisfaction. No LLM fine-tuning or pricing learning."
   }
