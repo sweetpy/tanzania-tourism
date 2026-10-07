@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { packages } from "@/data/packages";
 import { experiences } from "@/data/experiences";
@@ -39,6 +39,9 @@ type FormState = {
 
 /** Interim SLA — Edwin tempo lock: hours not days. Refine later if needed. */
 const REPLY_SLA = "24 hours";
+const subscribeToReadiness = () => () => {};
+const clientReady = () => true;
+const serverReady = () => false;
 
 function buildInitial(props: Props): FormState {
   const utms = props.utms ?? {};
@@ -71,11 +74,16 @@ export function EnquireForm(props: Props) {
   } = props;
 
   const [form, setForm] = useState<FormState>(() => buildInitial(props));
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(
-    "idle",
-  );
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [referenceId, setReferenceId] = useState("");
+  const hydrated = useSyncExternalStore(
+    subscribeToReadiness,
+    clientReady,
+    serverReady,
+  );
 
   const interestOptions = useMemo(
     () => experiences.map((e) => ({ value: e.slug, label: e.name })),
@@ -144,10 +152,10 @@ export function EnquireForm(props: Props) {
           Asante — we have your details
         </h3>
         <p className="mt-3 text-ink/70">
-          We’ve logged your enquiry. Next, a person on the Boker team will sketch
-          a concrete outline around the places that fit your window — northern
-          circuit plains (Serengeti / Ngorongoro), Zanzibar shores, Kilimanjaro,
-          or a thread of them — not a vague “we’ll be in touch.”
+          We’ve logged your enquiry. Next, a person on the Boker team will
+          sketch a concrete outline around the places that fit your window —
+          northern circuit plains (Serengeti / Ngorongoro), Zanzibar shores,
+          Kilimanjaro, or a thread of them — not a vague “we’ll be in touch.”
         </p>
         {referenceId ? (
           <p className="mt-4 rounded-xl bg-white/70 px-4 py-3 font-mono text-sm text-ink/80">
@@ -198,148 +206,151 @@ export function EnquireForm(props: Props) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-5" noValidate>
-      <input type="hidden" name="market" value={form.market} />
-      <input type="hidden" name="interest" value={form.interest} />
-      {UTM_KEYS.map((key) => (
-        <input key={key} type="hidden" name={key} value={form[key]} />
-      ))}
+    <form onSubmit={onSubmit} noValidate>
+      <fieldset disabled={!hydrated} className="space-y-5">
+        <legend className="sr-only">Your trip enquiry</legend>
+        <input type="hidden" name="market" value={form.market} />
+        <input type="hidden" name="interest" value={form.interest} />
+        {UTM_KEYS.map((key) => (
+          <input key={key} type="hidden" name={key} value={form[key]} />
+        ))}
 
-      <div className="grid gap-5 sm:grid-cols-2">
-        <label className="block text-sm">
-          <span className="font-medium text-ink">Full name *</span>
-          <input
-            required
-            name="name"
-            autoComplete="name"
-            value={form.name}
-            onChange={(e) => update("name", e.target.value)}
-            className={field}
-          />
-        </label>
-        <label className="block text-sm">
-          <span className="font-medium text-ink">Email *</span>
-          <input
-            required
-            type="email"
-            name="email"
-            autoComplete="email"
-            value={form.email}
-            onChange={(e) => update("email", e.target.value)}
-            className={field}
-          />
-        </label>
-      </div>
-
-      <div className="grid gap-5 sm:grid-cols-2">
-        <label className="block text-sm">
-          <span className="font-medium text-ink">Phone (optional)</span>
-          <input
-            type="tel"
-            name="phone"
-            autoComplete="tel"
-            value={form.phone}
-            onChange={(e) => update("phone", e.target.value)}
-            className={field}
-          />
-        </label>
-        <label className="block text-sm">
-          <span className="font-medium text-ink">Party size *</span>
-          <input
-            required
-            type="number"
-            name="partySize"
-            min={1}
-            max={30}
-            value={form.partySize}
-            onChange={(e) => update("partySize", e.target.value)}
-            className={field}
-          />
-        </label>
-      </div>
-
-      <label className="block text-sm">
-        <span className="font-medium text-ink">Travel dates *</span>
-        <input
-          required
-          name="travelDates"
-          placeholder="e.g. mid-July 2027, or 12–22 Sep 2027"
-          value={form.travelDates}
-          onChange={(e) => update("travelDates", e.target.value)}
-          className={field}
-        />
-      </label>
-
-      <fieldset>
-        <legend className="text-sm font-medium text-ink">Interests</legend>
-        <div className="mt-2 flex flex-wrap gap-2">
-          {interestOptions.map((opt) => {
-            const checked = form.interests.includes(opt.value);
-            return (
-              <label
-                key={opt.value}
-                className={`cursor-pointer rounded-full border px-3 py-1.5 text-sm ${
-                  checked
-                    ? "border-ink bg-ink text-cream"
-                    : "border-ink/20 bg-white text-ink/80"
-                }`}
-              >
-                <input
-                  type="checkbox"
-                  className="sr-only"
-                  checked={checked}
-                  onChange={() => toggleInterest(opt.value)}
-                />
-                {opt.label}
-              </label>
-            );
-          })}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <label className="block text-sm">
+            <span className="font-medium text-ink">Full name *</span>
+            <input
+              required
+              name="name"
+              autoComplete="name"
+              value={form.name}
+              onChange={(e) => update("name", e.target.value)}
+              className={field}
+            />
+          </label>
+          <label className="block text-sm">
+            <span className="font-medium text-ink">Email *</span>
+            <input
+              required
+              type="email"
+              name="email"
+              autoComplete="email"
+              value={form.email}
+              onChange={(e) => update("email", e.target.value)}
+              className={field}
+            />
+          </label>
         </div>
-      </fieldset>
 
-      <label className="block text-sm">
-        <span className="font-medium text-ink">Package preference</span>
-        <select
-          name="packageSlug"
-          value={form.packageSlug}
-          onChange={(e) => update("packageSlug", e.target.value)}
-          className={field}
+        <div className="grid gap-5 sm:grid-cols-2">
+          <label className="block text-sm">
+            <span className="font-medium text-ink">Phone (optional)</span>
+            <input
+              type="tel"
+              name="phone"
+              autoComplete="tel"
+              value={form.phone}
+              onChange={(e) => update("phone", e.target.value)}
+              className={field}
+            />
+          </label>
+          <label className="block text-sm">
+            <span className="font-medium text-ink">Party size *</span>
+            <input
+              required
+              type="number"
+              name="partySize"
+              min={1}
+              max={30}
+              value={form.partySize}
+              onChange={(e) => update("partySize", e.target.value)}
+              className={field}
+            />
+          </label>
+        </div>
+
+        <label className="block text-sm">
+          <span className="font-medium text-ink">Travel dates *</span>
+          <input
+            required
+            name="travelDates"
+            placeholder="e.g. mid-July 2027, or 12–22 Sep 2027"
+            value={form.travelDates}
+            onChange={(e) => update("travelDates", e.target.value)}
+            className={field}
+          />
+        </label>
+
+        <fieldset>
+          <legend className="text-sm font-medium text-ink">Interests</legend>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {interestOptions.map((opt) => {
+              const checked = form.interests.includes(opt.value);
+              return (
+                <label
+                  key={opt.value}
+                  className={`cursor-pointer rounded-full border px-3 py-1.5 text-sm ${
+                    checked
+                      ? "border-ink bg-ink text-cream"
+                      : "border-ink/20 bg-white text-ink/80"
+                  }`}
+                >
+                  <input
+                    type="checkbox"
+                    className="sr-only"
+                    checked={checked}
+                    onChange={() => toggleInterest(opt.value)}
+                  />
+                  {opt.label}
+                </label>
+              );
+            })}
+          </div>
+        </fieldset>
+
+        <label className="block text-sm">
+          <span className="font-medium text-ink">Package preference</span>
+          <select
+            name="packageSlug"
+            value={form.packageSlug}
+            onChange={(e) => update("packageSlug", e.target.value)}
+            className={field}
+          >
+            <option value="">Not sure yet — help me choose</option>
+            {packages.map((pkg) => (
+              <option key={pkg.slug} value={pkg.slug}>
+                {pkg.name} ({pkg.duration})
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="block text-sm">
+          <span className="font-medium text-ink">Message *</span>
+          <textarea
+            required
+            name="message"
+            rows={5}
+            placeholder="Tell us about your dream trip, budget range, or special occasions…"
+            value={form.message}
+            onChange={(e) => update("message", e.target.value)}
+            className={field}
+          />
+        </label>
+
+        {status === "error" && (
+          <p className="text-sm text-red-700" role="alert">
+            {errorMsg}
+          </p>
+        )}
+
+        <button
+          type="submit"
+          disabled={status === "loading"}
+          className="w-full rounded-full bg-ink px-6 py-3 text-sm font-semibold text-cream shadow hover:bg-ink-soft disabled:opacity-60 sm:w-auto"
         >
-          <option value="">Not sure yet — help me choose</option>
-          {packages.map((pkg) => (
-            <option key={pkg.slug} value={pkg.slug}>
-              {pkg.name} ({pkg.duration})
-            </option>
-          ))}
-        </select>
-      </label>
-
-      <label className="block text-sm">
-        <span className="font-medium text-ink">Message *</span>
-        <textarea
-          required
-          name="message"
-          rows={5}
-          placeholder="Tell us about your dream trip, budget range, or special occasions…"
-          value={form.message}
-          onChange={(e) => update("message", e.target.value)}
-          className={field}
-        />
-      </label>
-
-      {status === "error" && (
-        <p className="text-sm text-red-700" role="alert">
-          {errorMsg}
-        </p>
-      )}
-
-      <button
-        type="submit"
-        disabled={status === "loading"}
-        className="w-full rounded-full bg-ink px-6 py-3 text-sm font-semibold text-cream shadow hover:bg-ink-soft disabled:opacity-60 sm:w-auto"
-      >
-        {status === "loading" ? "Sending…" : "Submit enquiry"}
-      </button>
+          {status === "loading" ? "Sending…" : "Submit enquiry"}
+        </button>
+      </fieldset>
     </form>
   );
 }
