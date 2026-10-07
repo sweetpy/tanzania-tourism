@@ -6,6 +6,31 @@ import {
 } from "node:crypto";
 import { GroupError } from "@/lib/groupPolicy";
 export const groupCookie = "boker_group_team";
+export function groupVisitorIdentity(
+  request: Request,
+  now = Date.now(),
+): string | null {
+  const value = request.headers.get("x-boker-group-visitor");
+  const proxySecret = process.env.BOKER_GROUP_PROXY_SECRET;
+  if (
+    !value ||
+    !proxySecret ||
+    proxySecret.length < 32 ||
+    !/^\d{13}\.[a-f0-9]{64}\.[a-f0-9]{64}$/.test(value)
+  )
+    return null;
+  const [expires, visitor, signature] = value.split(".");
+  if (Number(expires) <= now || Number(expires) > now + 120_000) return null;
+  const expected = createHmac("sha256", proxySecret)
+    .update(`${expires}.${visitor}`)
+    .digest("hex");
+  return timingSafeEqual(
+    Buffer.from(signature, "hex"),
+    Buffer.from(expected, "hex"),
+  )
+    ? visitor
+    : null;
+}
 function secret() {
   const value = process.env.BOKER_GROUP_ADMIN_SECRET?.trim();
   if (!value || value.length < 32)

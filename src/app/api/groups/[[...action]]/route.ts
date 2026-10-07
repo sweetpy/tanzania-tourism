@@ -8,6 +8,7 @@ import {
   groupCookie,
   issueGroupSession,
   verifyGroupPassword,
+  groupVisitorIdentity,
 } from "@/lib/groupAuth";
 import {
   getDeparture,
@@ -39,6 +40,8 @@ function fail(error: unknown) {
   );
 }
 function ip(request: Request) {
+  const visitor = groupVisitorIdentity(request);
+  if (visitor) return visitor;
   return (
     request.headers.get("x-real-ip") ||
     request.headers.get("x-forwarded-for")?.split(",").at(-1) ||

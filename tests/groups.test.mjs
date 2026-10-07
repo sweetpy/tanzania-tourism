@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { randomBytes, randomUUID } from "node:crypto";
+import { randomBytes, randomUUID, createHmac } from "node:crypto";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
@@ -207,6 +207,29 @@ test(
     const store = require("../src/lib/groupStore.ts"),
       catalogue = require("../src/data/groupTours.ts"),
       db = require("../src/lib/groupDatabase.ts");
+    const auth = require("../src/lib/groupAuth.ts");
+    const proxySecret = "LocalGroupProxySecretForIdentityVerification";
+    process.env.BOKER_GROUP_PROXY_SECRET = proxySecret;
+    const proofBody = `${Date.now() + 60_000}.${"a".repeat(64)}`;
+    const proof = `${proofBody}.${createHmac("sha256", proxySecret).update(proofBody).digest("hex")}`;
+    const proofRequest = (value) =>
+      new Request("https://www.bokeradventure.com/api/groups", {
+        headers: { "x-boker-group-visitor": value },
+      });
+    assert.equal(
+      auth.groupVisitorIdentity(proofRequest(proof)),
+      "a".repeat(64),
+    );
+    assert.equal(
+      auth.groupVisitorIdentity(
+        proofRequest(proof.slice(0, -1) + (proof.endsWith("0") ? "1" : "0")),
+      ),
+      null,
+    );
+    assert.equal(
+      auth.groupVisitorIdentity(proofRequest(proof), Date.now() + 120_000),
+      null,
+    );
     context.after(() => db.closeGroupDatabase());
     const seeds = catalogue.seedGroupCalendar();
     assert.ok(seeds.length > 60);

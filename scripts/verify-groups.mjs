@@ -75,7 +75,9 @@ try {
   assert.equal(anonymous.status(), 401);
   assert.equal(
     (
-      await api("/api/groups/registration/BG-NOT-REAL", { action: "confirm" })
+      await api("/api/groups/registration/BG-000000000000", {
+        action: "confirm",
+      })
     ).response.status(),
     401,
   );

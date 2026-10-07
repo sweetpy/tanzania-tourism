@@ -33,6 +33,8 @@ Registration is persisted before a best-effort team notification through the exi
 
 `BOKER_GROUP_ADMIN_SECRET` must be a random server-only value of at least 32 characters. Never place it in a public variable or commit it. Production private pages and team routes are excluded from indexing. No contact information appears in the public API or sitemap.
 
+The custom domain uses the separate Boker edge. It forwards only the group API's own signed session cookie and private-link bearer key. `BOKER_GROUP_PROXY_SECRET` is a separate random server-only key shared by the edge and website. It signs short-lived anonymous visitor hashes for rate limits, so every visitor is not grouped under the proxy's address. Forged or expired identity headers are ignored. Public origin validation runs before proxying; private Pin credentials are never forwarded.
+
 Individual and whole-calendar ICS files use stable event IDs and mark proposed dates tentative. Customers should revisit the trip page for current arrangements; importing a downloaded file does not automatically subscribe them to updates. Public sharing uses a departure's image, dates and programme.
 
 Real regional photographs are hosted with attribution and licence links at `/groups/credits`. They do not guarantee particular wildlife sightings or identify booked accommodation.
