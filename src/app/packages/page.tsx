@@ -9,7 +9,7 @@ import { packageInsights } from "@/data/insights";
 export const metadata: Metadata = {
   title: "Packages",
   description:
-    "Twenty prepared Tanzania safaris with day-by-day itineraries, lodge choices and USD planning ranges, plus bespoke climbs, beach extensions and southern safaris.",
+    "Tanzania safaris and day trips with daily programmes, accommodation options and price estimates. Request a quote for your dates and party.",
 };
 
 export default async function PackagesPage({
@@ -26,8 +26,8 @@ export default async function PackagesPage({
         eyebrow="Packages"
         title={
           <>
-            Journeys with{" "}
-            <span className="text-gold-bright">clear starting points</span>
+            Safaris and day trips{" "}
+            <span className="text-gold-bright">across Tanzania</span>
           </>
         }
         description="From a day out in Arusha or Moshi to a short safari or an eight-day migration journey. Compare the programme, departure town and lodge options, then make it yours."
@@ -53,11 +53,11 @@ export default async function PackagesPage({
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Catalog"
-          title="Ready-to-adapt itineraries"
-          description="Travellers enquire for dates and lodge category. Outbound operators request resell rights via Boker Trade."
+          title="Choose your itinerary"
+          description="Compare the daily programme, accommodation and price assumptions. Request a quote for your dates and party."
         />
         <p className="mt-4 text-sm text-ink/55">
-          Trade path:{" "}
+          For tour operators:{" "}
           <Link
             href="/operators/catalog"
             className="font-semibold text-teal hover:underline"

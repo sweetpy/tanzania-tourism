@@ -8,7 +8,7 @@ import { packages, packagePriceLabel } from "@/data/packages";
 export const metadata: Metadata = {
   title: "Partner catalog",
   description:
-    "Browse Tanzania packages available for outbound tour operator resale — safari, Kilimanjaro, Zanzibar, and southern wild.",
+    "Browse Tanzania safari, Kilimanjaro and Zanzibar itineraries for your clients. Request rates and commercial terms through Boker Trade.",
 };
 
 export default function PartnerCatalogPage() {
@@ -17,11 +17,14 @@ export default function PartnerCatalogPage() {
       <SectionHeading
         eyebrow="Partner catalog"
         title="Packages you can discuss for resale"
-        description={`Prepared routes and bespoke journeys from the traveller catalog (${packages.length} journeys). Brochure ranges are planning budgets for two non-resident adults sharing; availability and partner net rates require a quotation.`}
+        description={`Browse ${packages.length} itineraries for your clients. Safari estimates assume two non-resident adults sharing; day-trip estimates distinguish parties of two and four adults. Availability and partner net rates are confirmed in your quote.`}
       />
 
       <div className="mt-4 flex flex-wrap gap-3 text-sm">
-        <Link href="/operators" className="font-medium text-teal hover:underline">
+        <Link
+          href="/operators"
+          className="font-medium text-teal hover:underline"
+        >
           ← How resell works
         </Link>
         <Link
@@ -66,7 +69,9 @@ export default function PartnerCatalogPage() {
                 <p className="mt-3 text-sm leading-relaxed text-ink/65">
                   {pkg.summary}
                 </p>
-                <p className="mt-2 text-xs text-ink/45">Ideal for: {pkg.idealFor}</p>
+                <p className="mt-2 text-xs text-ink/45">
+                  Ideal for: {pkg.idealFor}
+                </p>
               </div>
               <div className="mt-5 flex flex-wrap gap-3">
                 <Link
@@ -91,7 +96,7 @@ export default function PartnerCatalogPage() {
         <CTABand
           variant="operator"
           title="Need net rates or custom departures?"
-          description="Apply once — then we share commercial terms and coordinate with licensed inbound DMCs."
+          description="Apply for partner access. We’ll discuss commercial terms and arrangements with licensed Tanzanian operators."
           href="/operators/apply"
           label="Apply to partner"
         />

@@ -9,7 +9,7 @@ import { experiences } from "@/data/experiences";
 export const metadata: Metadata = {
   title: "Experiences",
   description:
-    "Tanzania experiences: safari adventures, beach & islands, mountain climbing, and cultural journeys — for travellers and outbound operators.",
+    "Tanzania safaris, beach holidays, mountain climbs and cultural visits for travellers and tour operators.",
 };
 
 export default function ExperiencesPage() {
@@ -19,10 +19,10 @@ export default function ExperiencesPage() {
         eyebrow="Experiences"
         title={
           <>
-            Ways to <span className="text-gold-bright">feel</span> Tanzania
+            Explore <span className="text-gold-bright">more of</span> Tanzania
           </>
         }
-        description="Safari mornings, summit nights, reef days, and living culture — choose a thread, or weave several into one itinerary."
+        description="Combine safari, Zanzibar, climbing and cultural visits. Find activities that suit your dates and interests."
         image="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=2400&q=85"
         imageAlt="Elephants crossing open savannah under wide African sky"
       >
@@ -30,7 +30,7 @@ export default function ExperiencesPage() {
           href="/enquire"
           className="inline-flex rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink hover:bg-gold-bright"
         >
-          Match me to an experience
+          Ask about activities
         </Link>
       </PageHero>
 
@@ -38,7 +38,7 @@ export default function ExperiencesPage() {
         <SectionHeading
           eyebrow="Four paths"
           title="How you want to travel"
-          description="Each experience opens into packages and enquiries — with a parallel path for outbound operators who resell."
+          description="Explore each activity, compare itineraries and request a quote. Tour operators can enquire through Boker Trade."
         />
         <div className="mt-8 rounded-2xl border border-teal/20 bg-teal/5 p-6">
           <h2 className="font-display text-2xl font-bold text-ink">
@@ -74,7 +74,7 @@ export default function ExperiencesPage() {
           <CTABand
             variant="operator"
             title="Sell experiences under your brand"
-            description="Apply for Boker Trade access — browse the partner catalog and request resell rights."
+            description="Browse the partner catalog and apply for commercial terms through Boker Trade."
             href="/operators/apply"
             label="Apply to partner"
             secondaryHref="/operators"

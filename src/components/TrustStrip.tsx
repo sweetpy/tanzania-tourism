@@ -21,17 +21,18 @@ export function TrustStrip({ showMarkets = true, compact = false }: Props) {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-gold">
-              Grounded numbers
+              Tourism in figures
             </p>
             <h2
               id="trust-heading"
               className="mt-3 font-display text-3xl font-extrabold tracking-tight sm:text-4xl"
             >
-              Official visitor data, not brochure guesses
+              Tanzania visitor statistics
             </h2>
           </div>
           <p className="max-w-sm text-sm text-mist-token">
-            Cited Exit Survey &amp; MNRT figures with year — trust you can check.
+            Figures from the International Visitors’ Exit Survey and MNRT, with
+            the publication year shown.
           </p>
         </div>
 

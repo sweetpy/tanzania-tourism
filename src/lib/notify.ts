@@ -1,7 +1,7 @@
 /**
  * Optional founder notify for new leads.
  * Prefer Resend (RESEND_API_KEY) or a webhook (LEADS_WEBHOOK_URL).
- * Gmail MCP is agent-side only — not available from the Railway runtime.
+ * Gmail MCP is agent-side only; not available from the Railway runtime.
  */
 
 export type NotifyResult =
@@ -21,7 +21,8 @@ function formatBody(
   id: string,
   payload: Record<string, unknown>,
 ): { subject: string; text: string } {
-  const label = kind === "enquire" ? "Traveller enquiry" : "Trade partner application";
+  const label =
+    kind === "enquire" ? "Traveller enquiry" : "Trade partner application";
   const subject = `[Boker] ${label} ${id}`;
   const lines = Object.entries(payload).map(
     ([k, v]) => `${k}: ${typeof v === "string" ? v : JSON.stringify(v)}`,
@@ -34,7 +35,7 @@ function formatBody(
     "",
     ...lines,
     "",
-    "— Boker lead notify (MVP). Also stored in Postgres (and JSONL backup when available).",
+    "Boker enquiry notification. A copy has been saved.",
   ].join("\n");
   return { subject, text };
 }
@@ -111,7 +112,7 @@ async function sendWebhook(
   }
 }
 
-/** Best-effort notify. Never throws — callers still succeed if DB/JSONL persisted. */
+/** Best-effort notify. Never throws; callers still succeed if DB/JSONL persisted. */
 export async function notifyFounder(
   kind: "enquire" | "partner",
   id: string,

@@ -21,32 +21,35 @@ const OFFERS: Offer[] = [
   {
     id: "us",
     markets: "US · Israel",
-    title: "Northern Circuit, timed to the herds",
-    body: "Serengeti plains and Ngorongoro density — migration windows and crater-floor wildlife for long-haul calendars.",
+    title: "Serengeti and Ngorongoro",
+    body: "Visit Serengeti and Ngorongoro, with travel dates chosen around the wildlife you want to see.",
   },
   {
     id: "eu-beach",
     markets: "Italy · France · Netherlands",
-    title: "Zanzibar first — then bush if you want",
-    body: "Stone Town and turquoise rest first — then add a shorter safari when you’re ready for dust and dawn.",
+    title: "Zanzibar with an optional safari",
+    body: "Spend time in Stone Town and on the beach, with the option of adding a short safari.",
   },
   {
     id: "uk",
     markets: "United Kingdom",
     title: "Uhuru Peak, then Serengeti",
-    body: "Climb and savannah in one thread — summit attempt, then plains time with a tailored quote.",
+    body: "Climb Kilimanjaro, then visit Serengeti. Allow time to rest and travel after the climb.",
   },
 ];
 
 /** Exact featured lines from UX+Copy lock */
 const FEATURED_LINES: Record<MarketOfferId, string> = {
-  us: "Northern Circuit, timed to the herds — Serengeti plains and Ngorongoro density.",
+  us: "Visit Serengeti and Ngorongoro, with dates chosen around seasonal wildlife movements.",
   "eu-beach":
-    "Zanzibar first — Stone Town and turquoise rest — then add bush if you want.",
-  uk: "Uhuru Peak, then Serengeti — climb and savannah in one thread.",
+    "Explore Stone Town and Zanzibar’s beaches, then add a short safari if you wish.",
+  uk: "Climb Kilimanjaro, allow time to rest, then continue to Serengeti.",
 };
 
-function offerEnquireHref(id: MarketOfferId, utms: ReturnType<typeof pickUtms>) {
+function offerEnquireHref(
+  id: MarketOfferId,
+  utms: ReturnType<typeof pickUtms>,
+) {
   const { market, interest } = MARKET_OFFER_PARAMS[id];
   return buildEnquireHref({ market, interest, utms });
 }
@@ -92,7 +95,7 @@ function MarketOffersContent({ utms }: { utms: ReturnType<typeof pickUtms> }) {
           <div>
             <p className="type-eyebrow text-gold">Start from how you travel</p>
             <h2 className="type-h2 mt-3 max-w-2xl font-display font-extrabold">
-              Three market-led ways in — not a generic safari dream
+              Three ideas for your trip
             </h2>
           </div>
           <button
@@ -104,14 +107,16 @@ function MarketOffersContent({ utms }: { utms: ReturnType<typeof pickUtms> }) {
           </button>
         </div>
 
-        {/* Featured + 2 secondary — NOT equal 3-up. No Trade in this band. */}
+        {/* Featured + 2 secondary; NOT equal 3-up. No Trade in this band. */}
         <div className="mt-10 grid gap-4 lg:grid-cols-12 lg:gap-5">
           <div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-ink-soft p-8 transition lg:col-span-7 lg:row-span-2 lg:p-10">
             <p className="type-eyebrow text-gold">{featured.markets}</p>
             <h3 className="type-card mt-4 font-display font-bold text-cream">
               {featured.title}
             </h3>
-            <p className="type-body mt-4 max-w-lg text-cream/65">{featuredLine}</p>
+            <p className="type-body mt-4 max-w-lg text-cream/65">
+              {featuredLine}
+            </p>
             <Link
               href={featuredHref}
               className="mt-8 inline-flex rounded-full bg-gold px-6 py-3 text-sm font-bold text-ink transition hover:bg-gold-bright"
@@ -131,7 +136,9 @@ function MarketOffersContent({ utms }: { utms: ReturnType<typeof pickUtms> }) {
                   onClick={() => setFeaturedId(offer.id)}
                   className="text-left transition hover:opacity-90"
                 >
-                  <p className="type-eyebrow text-mist-token">{offer.markets}</p>
+                  <p className="type-eyebrow text-mist-token">
+                    {offer.markets}
+                  </p>
                   <h3 className="mt-2 font-display text-xl font-bold text-cream lg:text-[1.25rem]">
                     {offer.title}
                   </h3>
@@ -151,8 +158,8 @@ function MarketOffersContent({ utms }: { utms: ReturnType<typeof pickUtms> }) {
         </div>
 
         <p className="mt-8 text-sm text-mist-token">
-          Neighbouring East Africa travellers: ask for a light outline — we
-          don’t hard-sell packages where overland timing already works.
+          Travelling from East Africa? Ask us about overland connections,
+          shorter stays and options for your dates.
         </p>
       </div>
     </section>

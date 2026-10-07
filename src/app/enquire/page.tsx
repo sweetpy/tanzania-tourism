@@ -56,7 +56,7 @@ export default async function EnquirePage({ searchParams }: Props) {
             <span className="text-gold-bright">Tanzania trip</span>
           </>
         }
-        description="Share your dates, party size, and how you want to move. A person on the Boker team reads every enquiry and replies with a clear outline — usually within 1–2 business days. No payment to enquire."
+        description="Tell us your dates, party size and interests. We’ll review your enquiry and propose a trip. You can enquire without making a payment."
         image="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=2400&q=85"
         imageAlt="Soft dawn light over distant African hills"
       />
@@ -74,9 +74,22 @@ export default async function EnquirePage({ searchParams }: Props) {
         <div className="mt-8 rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-sm sm:p-8">
           <EnquireForm
             defaultPackage={packageSlug}
-            defaultTravelDates={typeof sp.travelDates === "string" ? sp.travelDates.slice(0, 120) : ""}
-            defaultPartySize={typeof sp.partySize === "string" && /^\d{1,2}$/.test(sp.partySize) && Number(sp.partySize) >= 1 && Number(sp.partySize) <= 30 ? sp.partySize : "2"}
-            defaultMessage={typeof sp.message === "string" ? sp.message.slice(0, 2000) : ""}
+            defaultTravelDates={
+              typeof sp.travelDates === "string"
+                ? sp.travelDates.slice(0, 120)
+                : ""
+            }
+            defaultPartySize={
+              typeof sp.partySize === "string" &&
+              /^\d{1,2}$/.test(sp.partySize) &&
+              Number(sp.partySize) >= 1 &&
+              Number(sp.partySize) <= 30
+                ? sp.partySize
+                : "2"
+            }
+            defaultMessage={
+              typeof sp.message === "string" ? sp.message.slice(0, 2000) : ""
+            }
             defaultInterests={defaultInterests}
             defaultMarket={defaultMarket}
             defaultInterestParam={interestParam}
@@ -85,8 +98,8 @@ export default async function EnquirePage({ searchParams }: Props) {
         </div>
         <p className="mt-6 text-center text-xs text-ink/45">
           By submitting, you agree we may contact you about this enquiry. We
-          never sell your details. Enquire only — no live inventory or instant
-          booking.
+          never sell your details. Availability and prices are confirmed in your
+          quote.
         </p>
       </div>
     </>

@@ -15,12 +15,12 @@ import { siteConfig } from "@/lib/site";
 
 const whyBoker = [
   {
-    title: "Wildlife on Tanzania’s clock",
-    body: "Calving plains, river crossings, dry-season waterholes — we route by season, not by brochure defaults.",
+    title: "Plan around the season",
+    body: "Choose your dates around calving, migration movements and dry-season wildlife viewing.",
   },
   {
-    title: "Bush, peak, then shore",
-    body: "Northern circuit drama, Kilimanjaro’s zones, southern quiet in Ruaha, then Zanzibar’s turquoise finish — one country, sequenced.",
+    title: "Safari, climbing and Zanzibar",
+    body: "Combine the northern parks, Kilimanjaro, Ruaha or Zanzibar, with time for travel between each stop.",
   },
   {
     title: "Build before you enquire",
@@ -60,14 +60,12 @@ export default function HomePage() {
             {siteConfig.name} · {siteConfig.tagline}
           </p>
           <h1 className="animate-fade-up-delay type-hero mt-5 max-w-5xl font-display font-extrabold text-cream">
-            The migration on open plains. The crater at dawn. The island after
-            the bush.
+            Plan your Tanzania adventure.
           </h1>
           <p className="animate-fade-up-delay-2 type-body mt-7 max-w-2xl text-cream/72">
-            Boker is how curious travellers step into Tanzania — Serengeti and
-            Ngorongoro, Uhuru Peak, Ruaha’s quiet wild, and Zanzibar’s spice
-            coast — with clear seasons, clear planning budgets, and a plan built
-            around how you actually want to move.
+            Explore Tanzania’s parks, climb Kilimanjaro or spend a few days in
+            Zanzibar. Choose your dates, compare routes and lodges, and send us
+            the trip you have in mind.
           </p>
           <div className="animate-fade-up-delay-2 mt-10 flex flex-wrap items-center gap-3">
             <Link
@@ -90,7 +88,9 @@ export default function HomePage() {
 
       <section className="border-b border-ink/8 bg-cream py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="type-eyebrow text-terracotta">Who are you planning for?</p>
+          <p className="type-eyebrow text-terracotta">
+            Who are you planning for?
+          </p>
           <div className="mt-8 grid gap-0 overflow-hidden rounded-3xl border border-ink/10 lg:grid-cols-2">
             <Link
               href="/plan"
@@ -120,9 +120,8 @@ export default function HomePage() {
                 I sell Tanzania to my clients
               </h2>
               <p className="type-body mt-3 max-w-md text-cream/55">
-                Outbound operators and advisors: ready-to-adapt itineraries,
-                season guidance, and a trade enquiry path built for resale — not
-                a consumer brochure.
+                Find itineraries for your clients, compare travel seasons and
+                request commercial terms through Boker Trade.
               </p>
               <span className="mt-6 inline-flex text-sm font-semibold text-teal-bright transition group-hover:text-gold">
                 Enter {siteConfig.tradeName} →
@@ -137,8 +136,8 @@ export default function HomePage() {
           <div className="lg:col-span-5">
             <SectionHeading
               eyebrow="Why Boker"
-              title="Tanzania, shaped around you"
-              description="Explore the places that draw you here, then shape the safari yourself. Boker brings destination guides, an interactive itinerary builder, and a dedicated trade desk together."
+              title="Choose a trip that suits you"
+              description="Read about the parks, compare prepared itineraries and choose your accommodation. Our team confirms the route and price for your dates."
             />
           </div>
           <ol className="space-y-10 lg:col-span-7">
@@ -169,8 +168,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Destinations"
-            title="Where the country opens"
-            description="Migration plains and crater floors. Summit trails. Southern wild. Spice-island shores."
+            title="Places to visit"
+            description="Explore Serengeti, Ngorongoro, Kilimanjaro, Ruaha and Zanzibar."
             light
           />
           <div className="mt-12 lg:mt-16">
@@ -185,8 +184,8 @@ export default function HomePage() {
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <SectionHeading
               eyebrow="Packages"
-              title="Ready-to-adapt journeys"
-              description="Twenty prepared safaris, from short park escapes to seasonal migration journeys. Explore the daily plan and midrange or luxury planning budget, then request a quote for your dates."
+              title="Safaris and day trips"
+              description="Compare short safaris, migration journeys and day outings from Arusha or Moshi. Read the daily programme and price assumptions, then request a quote for your dates."
               light
             />
             <Link
@@ -214,7 +213,7 @@ export default function HomePage() {
         <div className="grid gap-6 lg:grid-cols-5">
           <div className="lg:col-span-3">
             <CTABand
-              title="Ready when your dates are."
+              title="Start planning your trip"
               description="Choose your safari parks and travel style, then compare day-by-day routes. For Kilimanjaro, Zanzibar, or a wider journey, talk to our team."
               href="/plan"
               label="Build an itinerary"
@@ -226,7 +225,7 @@ export default function HomePage() {
             <CTABand
               variant="operator"
               title="Selling Tanzania this season?"
-              description={`Boker Trade is for outbound operators who need adaptable itineraries — ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings were package-driven in 2025.`}
+              description={`Request itineraries and commercial terms through Boker Trade. Package travellers accounted for about ${packageInsights.packageEarningsShareUrt2025}% of earnings in the 2025 URT Exit Survey.`}
               href="/operators"
               label="Enter Boker Trade"
               secondaryHref="/operators/apply"

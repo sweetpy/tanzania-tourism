@@ -37,7 +37,7 @@ type FormState = {
   utm_content: string;
 };
 
-/** Interim SLA — Edwin tempo lock: hours not days. Refine later if needed. */
+/** Interim SLA; Edwin tempo lock: hours not days. Refine later if needed. */
 const REPLY_SLA = "24 hours";
 const subscribeToReadiness = () => () => {};
 const clientReady = () => true;
@@ -149,13 +149,11 @@ export function EnquireForm(props: Props) {
           Enquiry logged
         </p>
         <h3 className="mt-2 font-display text-2xl font-bold text-ink">
-          Asante — we have your details
+          Asante. Your enquiry is saved.
         </h3>
         <p className="mt-3 text-ink/70">
-          We’ve logged your enquiry. Next, a person on the Boker team will
-          sketch a concrete outline around the places that fit your window —
-          northern circuit plains (Serengeti / Ngorongoro), Zanzibar shores,
-          Kilimanjaro, or a thread of them — not a vague “we’ll be in touch.”
+          We’ll review your dates and preferences and prepare a proposed
+          itinerary.
         </p>
         {referenceId ? (
           <p className="mt-4 rounded-xl bg-white/70 px-4 py-3 font-mono text-sm text-ink/80">
@@ -165,11 +163,11 @@ export function EnquireForm(props: Props) {
         ) : null}
         <ul className="mx-auto mt-5 max-w-md space-y-2 text-left text-sm text-ink/65">
           <li>
-            A person on the Boker team reads every enquiry — this is not an
-            automated quote engine.
+            The Boker team will review your enquiry and confirm the available
+            options.
           </li>
           <li>
-            Expect a human reply within{" "}
+            We aim to reply within{" "}
             <strong className="text-ink">{REPLY_SLA}</strong> (East Africa
             Time).
           </li>
@@ -315,7 +313,7 @@ export function EnquireForm(props: Props) {
             onChange={(e) => update("packageSlug", e.target.value)}
             className={field}
           >
-            <option value="">Not sure yet — help me choose</option>
+            <option value="">Help me choose</option>
             {packages.map((pkg) => (
               <option key={pkg.slug} value={pkg.slug}>
                 {pkg.name} ({pkg.duration})
@@ -330,7 +328,7 @@ export function EnquireForm(props: Props) {
             required
             name="message"
             rows={5}
-            placeholder="Tell us about your dream trip, budget range, or special occasions…"
+            placeholder="Tell us your interests, budget range and any special requirements."
             value={form.message}
             onChange={(e) => update("message", e.target.value)}
             className={field}

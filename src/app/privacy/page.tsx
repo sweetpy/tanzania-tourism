@@ -22,10 +22,10 @@ export default function PrivacyPage() {
       <article className="prose-platform mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="space-y-6 text-sm leading-relaxed text-ink/75 sm:text-base">
           <p>
-            When you submit an itinerary enquiry, a traveller enquiry, or a Boker Trade partner form,
-            we collect the details you provide (such as name, email, travel
-            dates, company information, and message) so we can respond about
-            that request.
+            When you submit an itinerary enquiry, a traveller enquiry, or a
+            Boker Trade partner form, we collect the details you provide (such
+            as name, email, travel dates, company information, and message) so
+            we can respond about that request.
           </p>
           <p>
             We do not sell your details. We may share relevant information with
@@ -33,28 +33,35 @@ export default function PrivacyPage() {
             trade follow-up you asked for.
           </p>
           <p>
-            Itinerary enquiries include your selected route, travel preferences,
-            and contact details. They are saved in the shared Pin Destinations
-            back office so the team can follow up on the itinerary you chose.
-            Traveller enquiries and Boker Trade applications continue to use
-            this site’s existing enquiry storage and configured notification
-            services.
+            Itinerary enquiries include your selected route, travel preferences
+            and contact details. We save these details so our team can prepare
+            your quotation and follow up. Partner applications include the
+            company and business information you provide.
           </p>
           <p>
             To ask about your information, including access, correction, or
             deletion, email{" "}
-            <a href={`mailto:${siteConfig.contactEmail}`} className="font-semibold text-teal hover:underline">
+            <a
+              href={`mailto:${siteConfig.contactEmail}`}
+              className="font-semibold text-teal hover:underline"
+            >
               {siteConfig.contactEmail}
             </a>
             .
           </p>
           <p>
             For questions about this notice, use the{" "}
-            <Link href="/enquire" className="font-semibold text-teal hover:underline">
+            <Link
+              href="/enquire"
+              className="font-semibold text-teal hover:underline"
+            >
               Plan a trip
             </Link>{" "}
             form or your existing Boker Trade contact. See also our{" "}
-            <Link href="/terms" className="font-semibold text-teal hover:underline">
+            <Link
+              href="/terms"
+              className="font-semibold text-teal hover:underline"
+            >
               Terms
             </Link>
             .

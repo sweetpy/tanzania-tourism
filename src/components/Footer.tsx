@@ -8,7 +8,11 @@ export function Footer() {
     <footer className="border-t border-white/10 bg-ink text-cream">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-1">
-          <Link href="/" className="inline-flex text-cream" aria-label="Boker Adventures home">
+          <Link
+            href="/"
+            className="inline-flex text-cream"
+            aria-label="Boker Adventures home"
+          >
             <BokerLogo />
           </Link>
           <p className="mt-4 text-sm leading-relaxed text-cream/50">
@@ -69,12 +73,12 @@ export function Footer() {
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-            Dual audience
+            Plan with Boker
           </p>
           <p className="mt-3 text-sm leading-relaxed text-cream/50">
             Choose your parks, travel dates, and pace to build a safari.
-            Outbound tour operators can explore the catalog and apply to
-            partner through Boker Trade.
+            Outbound tour operators can explore the catalog and apply to partner
+            through Boker Trade.
           </p>
           <Link
             href="/plan"
@@ -86,11 +90,40 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10 px-4 py-5 sm:px-6 lg:px-8">
         <p className="mx-auto mb-3 max-w-7xl text-xs leading-relaxed text-cream/40">
-          Photographs from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg" target="_blank" rel="noopener noreferrer" className="underline">Lake Manyara, Clem23</a>; <a href="https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG" target="_blank" rel="noopener noreferrer" className="underline">Serengeti, Bjørn Christian Tørrissen</a>. <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer" className="underline">CC BY-SA 3.0</a>; cropped for display.
+          Photographs from Wikimedia Commons:{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Lake_Manyara.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Lake Manyara, Clem23
+          </a>
+          ;{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Serengeti, Bjørn Christian Tørrissen
+          </a>
+          .{" "}
+          <a
+            href="https://creativecommons.org/licenses/by-sa/3.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            CC BY-SA 3.0
+          </a>
+          ; cropped for display.
         </p>
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-center text-xs leading-relaxed text-cream/40 sm:text-left">
-            © {new Date().getFullYear()} {siteConfig.name}. USD planning ranges require a confirmed quote for your dates and party. {citationsFooter}
+            © {new Date().getFullYear()} {siteConfig.name}. USD planning ranges
+            require a confirmed quote for your dates and party.{" "}
+            {citationsFooter}
           </p>
           <p className="flex shrink-0 gap-4 text-xs text-cream/50">
             <Link href="/privacy" className="hover:text-cream">

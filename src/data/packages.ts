@@ -59,7 +59,7 @@ const customJourneys: Package[] = [
     name: "Kilimanjaro Lemosho Trek",
     duration: "8 days on the mountain",
     summary:
-      "A scenic western approach with strong acclimatisation — rainforest, Shira Plateau, and a midnight push for Uhuru Peak.",
+      "Follow Kilimanjaro’s western Lemosho route through rainforest and the Shira Plateau, with acclimatisation days before the summit attempt.",
     highlights: [
       "8-day Lemosho itinerary",
       "Experienced mountain guides & porters",
@@ -121,7 +121,7 @@ const customJourneys: Package[] = [
     name: "Southern Wild: Ruaha",
     duration: "6 days / 5 nights",
     summary:
-      "Fly into Ruaha for intimate game viewing among baobabs and riverine woodland — fewer vehicles, bigger wilderness.",
+      "Fly into Ruaha for game drives among baobabs and riverine woodland, in a quieter southern safari area.",
     highlights: [
       "Fly-in safari logistics",
       "Elephant and predator focus",

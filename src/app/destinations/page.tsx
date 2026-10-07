@@ -9,7 +9,7 @@ import { destinations } from "@/data/destinations";
 export const metadata: Metadata = {
   title: "Destinations",
   description:
-    "Explore Tanzania destinations: Serengeti, Ngorongoro, Kilimanjaro, Zanzibar, Ruaha, and Lake Manyara — cinematic guides for travellers and trade partners.",
+    "Explore Serengeti, Ngorongoro, Kilimanjaro, Zanzibar, Ruaha and Lake Manyara. Compare travel seasons and plan your route.",
 };
 
 export default function DestinationsPage() {
@@ -19,11 +19,11 @@ export default function DestinationsPage() {
         eyebrow="Destinations"
         title={
           <>
-            Where Tanzania{" "}
-            <span className="text-gold-bright">unfolds</span>
+            Places to visit in{" "}
+            <span className="text-gold-bright">Tanzania</span>
           </>
         }
-        description="Six cornerstone places — migration plains, crater floors, summit trails, southern wild, and spice-island shores. Pick a region, or weave several into one journey."
+        description="Read about Tanzania’s parks, mountain routes and islands. Choose one destination or combine several in your itinerary."
         image="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=2400&q=85"
         imageAlt="Golden savannah landscape with acacia trees at sunset in Tanzania"
       >
@@ -46,8 +46,8 @@ export default function DestinationsPage() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="The map"
-          title="Icons with their own rhythm"
-          description="Northern circuit classics, a freestanding peak, southern wilderness, and the Swahili coast — each destination page is built for immersion, not brochure fluff."
+          title="Compare destinations"
+          description="Compare wildlife, landscapes, travel seasons and activities before choosing your route."
         />
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {destinations.map((d) => (

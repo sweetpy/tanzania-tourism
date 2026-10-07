@@ -7,21 +7,21 @@ import { ecosystemPartners, siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "How Boker frames collaboration with Tanzania’s tourism institutions — TTB, MNRT, and licensed inbound operators — without fabricated logos or endorsements.",
+    "Information about Tanzania’s tourism institutions, licensed local operators and Boker Trade partnerships.",
 };
 
 const principles = [
   {
-    title: "With Tanzania, not instead of",
-    body: "Official destination marketing remains with institutions such as the Tanzania Tourist Board. Boker is a dual-audience digital layer — travellers plan trips; outbound operators use Boker Trade — that complements, rather than replaces, national campaigns.",
+    title: "Destination marketing",
+    body: "The Tanzania Tourist Board promotes the country internationally. Boker helps travellers plan trips and tour operators request itineraries and commercial terms.",
   },
   {
-    title: "Cited trust, not brochure fluff",
-    body: "Platform stats cite the International Visitors’ Exit Survey and MNRT publications with year and source labels. We do not invent figures or imply government endorsement.",
+    title: "Published tourism figures",
+    body: "Tourism figures come from the International Visitors’ Exit Survey and MNRT publications. Each figure includes its source and publication year.",
   },
   {
-    title: "Licensed ground delivery",
-    body: "Resell and fulfilment run through licensed Tanzanian inbound operators and DMCs for parks, vehicles, and guiding. Boker Trade is a demand and packaging surface — not a substitute for local licensing.",
+    title: "Local trip arrangements",
+    body: "Licensed Tanzanian operators arrange park visits, transport and guiding. Trade partners manage the client relationship and agree the trip details and commercial terms before booking.",
   },
 ];
 
@@ -37,25 +37,24 @@ function DawnPip({ className = "" }: { className?: string }) {
 export default function PartnersPage() {
   return (
     <>
-      {/* Institutional Night field + Ivory type — no safari hero imagery */}
+      {/* Institutional Night field + Ivory type; no safari hero imagery */}
       <section className="relative isolate overflow-hidden bg-night grain">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(232,163,23,0.08),_transparent_55%)]" />
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
           <div className="flex items-center gap-2.5">
             <DawnPip />
-            <p className="type-eyebrow text-gold">Institutional partners</p>
+            <p className="type-eyebrow text-gold">
+              Tourism and trade partnerships
+            </p>
           </div>
           <h1 className="type-hero mt-5 max-w-4xl font-display font-extrabold text-cream">
-            Built for partnership with{" "}
-            <span className="text-gold-bright">
-              Tanzania’s tourism ecosystem
-            </span>
+            Working with{" "}
+            <span className="text-gold-bright">Tanzania’s tourism sector</span>
           </h1>
           <p className="type-body mt-6 max-w-2xl text-cream/70">
-            {siteConfig.name} frames collaboration with government and trade
-            bodies tastefully — no fabricated logos, seals, or endorsements.
-            Credibility over cosplay. Enquire and apply only — no inventory
-            theater.
+            {siteConfig.name} welcomes enquiries from tour operators and tourism
+            organisations. Contact us to discuss itineraries for your clients,
+            local trip arrangements or opportunities to work together.
           </p>
         </div>
       </section>
@@ -70,14 +69,15 @@ export default function PartnersPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2.5">
             <DawnPip />
-            <p className="type-eyebrow text-gold">Ecosystem</p>
+            <p className="type-eyebrow text-gold">Tourism organisations</p>
           </div>
           <h2 className="type-h2 mt-4 max-w-2xl font-display font-extrabold text-cream">
-            Who we align with
+            Roles in Tanzania tourism
           </h2>
           <p className="type-body mt-4 max-w-2xl text-cream/60">
-            These are institutional roles we respect and design for — not claims
-            of affiliation or sponsorship.
+            These organisations oversee destination promotion, sector policy and
+            local operations. References here do not imply affiliation or
+            sponsorship.
           </p>
           <ul className="mt-12 grid gap-6 md:grid-cols-3">
             {ecosystemPartners.map((p) => (
@@ -105,14 +105,14 @@ export default function PartnersPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2.5">
             <DawnPip />
-            <p className="type-eyebrow text-gold">Posture</p>
+            <p className="type-eyebrow text-gold">Working together</p>
           </div>
           <h2 className="type-h2 mt-4 max-w-2xl font-display font-extrabold text-cream">
-            How partnership shows up in the product
+            How we work with partners
           </h2>
           <p className="type-body mt-4 max-w-2xl text-cream/60">
-            Every trust strip and trade CTA is written to invite collaboration —
-            never to imply approval we have not earned.
+            We share travel information, discuss commercial terms and coordinate
+            local arrangements for each trip.
           </p>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {principles.map((item, i) => (
@@ -143,16 +143,15 @@ export default function PartnersPage() {
           <div className="rounded-3xl border border-cream/12 bg-ink-soft px-6 py-10 text-cream sm:px-10">
             <div className="flex items-center gap-2.5">
               <DawnPip />
-              <p className="type-eyebrow text-gold">Clarity note</p>
+              <p className="type-eyebrow text-gold">Institutional references</p>
             </div>
             <h2 className="mt-4 font-display text-2xl font-bold text-cream sm:text-3xl">
-              No fake logos. No implied endorsements.
+              Affiliation and endorsement
             </h2>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-cream/65 sm:text-base">
-              Mentions of TTB, MNRT, and TATO describe the institutional
-              landscape Boker is designed to work alongside. They are not logos,
-              seals, or proof of sponsorship. When formal partnerships exist, we
-              will say so plainly — until then, we stay accurate.
+              References to TTB, MNRT and TATO explain their roles in Tanzania
+              tourism. They do not indicate that Boker is affiliated with,
+              sponsored or endorsed by these organisations.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -176,20 +175,20 @@ export default function PartnersPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Next step"
-            title="Enquire or apply — MVP honesty"
-            description="Travellers plan a trip. Operators apply to partner. No live rates portal, no fake seals."
+            title="Contact Boker"
+            description="Tell us about your travel plans or apply to offer Boker itineraries to your clients."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             <CTABand
-              title="Ready when your dates are."
-              description="Share your travel window and interests. We’ll reply with a tailored outline — safari, Kilimanjaro, Zanzibar, or a blend."
+              title="Plan your trip"
+              description="Share your dates and interests. We’ll prepare options for safari, Kilimanjaro, Zanzibar or a combination."
               href="/enquire"
               label="Plan a trip"
             />
             <CTABand
               variant="operator"
               title="Selling Tanzania this season?"
-              description="Boker Trade is for outbound operators and advisors who need adaptable itineraries and a partner desk — not a consumer form."
+              description="Request itineraries for your clients and discuss commercial terms with the Boker Trade team."
               href="/operators/apply"
               label="Apply to partner"
               secondaryHref="/operators"

@@ -224,7 +224,7 @@ try {
     .getByLabel("Email address", { exact: true })
     .fill("studio-verification@example.com");
   await page
-    .getByRole("button", { name: "Send my crafted itinerary", exact: true })
+    .getByRole("button", { name: "Send my itinerary", exact: true })
     .click();
   await page
     .getByRole("alert")
@@ -234,7 +234,7 @@ try {
   assert.equal(await page.locator(".studio-receipt").count(), 0);
   rejectFirst = false;
   await page
-    .getByRole("button", { name: "Send my crafted itinerary", exact: true })
+    .getByRole("button", { name: "Send my itinerary", exact: true })
     .click();
   await page.locator(".studio-receipt").waitFor();
   assert.equal(submitted.craft.routeId, data.routeId);

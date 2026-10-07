@@ -87,7 +87,7 @@ function SupplierPhoto({
       src={property.images[index]}
       width={640}
       height={420}
-      alt={`${property.name} — supplier photograph ${index + 1}`}
+      alt={`${property.name}. Supplier photograph ${index + 1}`}
       unoptimized
       onError={() => setFailed(true)}
     />
@@ -463,22 +463,19 @@ export default function ItineraryStudio({
             <em>your own.</em>
           </h1>
           <p>
-            A considered route is just the beginning. Choose where you sleep,
-            shape each day, and picture yourself there.
+            Choose your route, compare places to stay and add your preferences
+            for each day.
           </p>
           <div className="studio-steps">
             <span>01 Choose your route</span>
-            <span>02 Craft your days</span>
+            <span>02 Choose stays and services</span>
             <span>03 Get a confirmed quote</span>
           </div>
         </div>
         <div className="studio-hero-note">
-          <span>BUILT AROUND REAL JOURNEYS</span>
+          <span>SAFARIS AND DAY TRIPS</span>
           <strong>{brochureCatalogue.length}</strong>
-          <p>
-            prepared safaris and day outings, shaped by the people who know
-            Tanzania.
-          </p>
+          <p>prepared journeys to explore and personalise.</p>
           <Link href="/packages">
             Explore the collection <ArrowRight size={16} />
           </Link>
@@ -508,7 +505,7 @@ export default function ItineraryStudio({
         <div className="studio-section-title">
           <div>
             <span className="studio-kicker">01 / YOUR STARTING POINT</span>
-            <h2>What does your adventure look like?</h2>
+            <h2>Choose your trip preferences</h2>
           </div>
           <p>
             {trip.days === 1
@@ -880,7 +877,7 @@ export default function ItineraryStudio({
                             <div className="studio-stay-heading">
                               <div>
                                 <span className="studio-kicker">
-                                  YOUR PLACE TO REST
+                                  ACCOMMODATION
                                 </span>
                                 <h3>Stay in {overnight}</h3>
                               </div>
@@ -1019,10 +1016,8 @@ export default function ItineraryStudio({
                           </section>
                         )}
                         <section className="studio-services">
-                          <span className="studio-kicker">
-                            SMALL DETAILS, YOUR WAY
-                          </span>
-                          <h3>Shape the experience</h3>
+                          <span className="studio-kicker">DAY PREFERENCES</span>
+                          <h3>Services and preferences</h3>
                           <div>
                             {offeredServices.map((service) => (
                               <label
@@ -1213,7 +1208,7 @@ export default function ItineraryStudio({
                 </p>
                 {route.pricing?.ranges.length ? (
                   <details>
-                    <summary>View original brochure budget</summary>
+                    <summary>View the planning price estimate</summary>
                     <p>{route.pricing.basis}</p>
                     {route.pricing.ranges.map((r) => (
                       <p key={r.tier}>
@@ -1293,7 +1288,7 @@ export default function ItineraryStudio({
             )}
           <section className="studio-quote" id="studio-quote">
             <div>
-              <span className="studio-kicker">03 / BRING IT TO LIFE</span>
+              <span className="studio-kicker">03 / REQUEST A QUOTE</span>
               <h2>
                 Let&apos;s turn your draft
                 <br />
@@ -1381,9 +1376,7 @@ export default function ItineraryStudio({
                   disabled={sending}
                   type="submit"
                 >
-                  {sending
-                    ? "Saving your itinerary…"
-                    : "Send my crafted itinerary"}
+                  {sending ? "Saving your itinerary…" : "Send my itinerary"}
                   <ArrowRight size={18} />
                 </button>
               </form>

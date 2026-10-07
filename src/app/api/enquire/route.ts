@@ -219,7 +219,7 @@ export async function POST(request: Request) {
     stored: true,
     emailed: notified.sent,
     message: notified.sent
-      ? "Enquiry received — our team has been notified and will reply within 1–2 business days."
+      ? "Enquiry received; our team has been notified and will reply within 1–2 business days."
       : "Enquiry received and saved. Our team reviews submissions regularly and will reply within 1–2 business days.",
   });
 }

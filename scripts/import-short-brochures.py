@@ -67,7 +67,7 @@ for code,(slug,place,second,ranges) in shorts.items():
   travelWindow='Year-round subject to weather, access and lodge operation.',seasonMonths=[],paceNote=pace+' '+departure,finishNote=departure,
   itinerary=itinerary,stays=stays,pricing=dict(status='on-request',currency='USD',basis='USD per person for two non-resident adults sharing one double/twin room and one private safari vehicle.',
    ranges=[dict(tier='midrange',minUsd=ranges[0],maxUsd=ranges[1]),dict(tier='luxury',minUsd=ranges[2],maxUsd=ranges[3])],
-   note='Brochure cost-model estimates only. Public selling price is on request until a supplier-backed rate is approved. Dates, room choice, permits, party and extras require a dated quote.'),
+   note='These are planning estimates. Request a quote to confirm the selling price for your dates, rooms, party, permits and extras.'),
   imageKey='arusha' if place=='arusha-national-park' else 'manyara',featured=False,source=source(p,3)))
  publish(p)
 
@@ -104,7 +104,7 @@ for filename in ['Boker-Arusha-Experiences.pdf','Boker-Moshi-Experiences.pdf','B
    itinerary=[dict(day=1,title=name,description=programme+' '+expectations,overnight='None',meals='simple lunch and drinking water; breakfast and dinner excluded',timing=f'{duration} in total; road travel: {road}. Times depend on conditions.')],stays=[],
    pricing=dict(status='on-request',currency='USD',basis=f'USD per non-resident adult from {town}; separate private-party estimates for two or four adults. Solo guests, children and residents require individual quotes.',
     ranges=[dict(tier=f'private party of {size} adults',minUsd=int(lo.replace(',','')),maxUsd=int(hi.replace(',',''))) for size,(lo,hi) in zip([2,4],values)],
-    note='Modelled planning ranges, not contracted rates or scheduled group departures. Your dated quote confirms exact pickup, fees, activities and total price.'),
+    note='These estimates are for a private day trip with the stated party size. Your quote confirms pickup, fees, activities and the total price. They are not scheduled group departures.'),
    imageKey=town.lower(),featured=False,source=source(p,index+2,index+1),planningReference=reference))
  publish(p)
 duplicate=args.input/'BA-3D-TAR-NGOR (1).pdf'

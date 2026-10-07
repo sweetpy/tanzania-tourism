@@ -9,7 +9,7 @@ import { packageInsights } from "@/data/insights";
 export const metadata: Metadata = {
   title: "About Tanzania",
   description:
-    "Why visit Tanzania, best seasons for safari and Kilimanjaro, responsible travel, and research-grounded visitor context.",
+    "Plan a visit to Tanzania with information on safari seasons, Kilimanjaro, coastal stays and responsible travel.",
 };
 
 const seasons = [
@@ -23,11 +23,11 @@ const seasons = [
   },
   {
     name: "Calving & warm months (Jan–Mar)",
-    body: "Southern Serengeti short-grass plains host wildebeest calving — predator action is intense. Good Kilimanjaro windows too, between heavier rain periods.",
+    body: "Wildebeest calve on the southern Serengeti plains, attracting predators. Drier periods between the rains also suit Kilimanjaro climbs.",
   },
   {
     name: "Long rains (Apr–May)",
-    body: "Many camps offer value rates; some remote roads are muddy. Ideal if you accept flexible plans and love emerald scenery — or prefer Zanzibar beaches.",
+    body: "Some camps offer lower rates during the rains, but remote roads can become muddy. Allow flexibility in your route and check lodge opening dates.",
   },
 ];
 
@@ -54,9 +54,8 @@ export default function AboutPage() {
             Plains, peaks, and Swahili shores
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-cream/75">
-            Tanzania holds some of Africa’s most celebrated wildlife landscapes
-            — and a coastline of spice islands that softens every safari ending.
-            In 2025,{" "}
+            Tanzania offers wildlife safaris, Kilimanjaro climbs and beach stays
+            on the Swahili coast. In 2025,{" "}
             {(packageInsights.arrivals2025 / 1_000_000).toFixed(2)}M
             international arrivals and USD{" "}
             {packageInsights.earningsUsdMillion2025.toLocaleString("en-US")}{" "}
@@ -70,21 +69,21 @@ export default function AboutPage() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeading
           title="Why Tanzania"
-          description="Few destinations combine migration drama, crater denseness, a freestanding 5,895 m peak, and UNESCO-listed Stone Town within one well-connected country."
+          description="Visit the Serengeti migration areas and Ngorongoro Crater, climb Kilimanjaro or explore Stone Town. Allow travel time between destinations."
         />
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {[
             {
-              t: "Wildlife density & diversity",
-              b: "Serengeti and Ngorongoro deliver iconic savannah viewing; Ruaha and other southern parks reward travellers seeking space and wildness.",
+              t: "Wildlife and national parks",
+              b: "Serengeti and Ngorongoro offer well-established safari routes. Ruaha and the southern parks suit travellers looking for quieter areas.",
             },
             {
               t: "Culture & coastline",
-              b: "Maasai highlands, Hadzabe traditions, and Swahili coastal heritage add human depth beyond the game drive.",
+              b: "Arrange community-led visits around Lake Eyasi and the Maasai highlands, or explore Swahili history on the coast.",
             },
             {
-              t: "One itinerary, many moods",
-              b: "Bush to beach is seamless: finish with Zanzibar’s reefs and spice farms, or start with Kilimanjaro before safari.",
+              t: "Combine safari, climbing and the coast",
+              b: "Add Zanzibar after your safari, or begin with a Kilimanjaro climb. We’ll plan the transfers and rest days around your dates.",
             },
           ].map((item) => (
             <div
@@ -104,7 +103,7 @@ export default function AboutPage() {
         <div className="mt-20">
           <SectionHeading
             title="Best seasons"
-            description="There is no single ‘perfect’ month — only the right match for migration timing, climbing windows, and your tolerance for rain or crowds."
+            description="Choose your travel month around wildlife movements, climbing conditions, rainfall and visitor numbers."
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {seasons.map((s) => (
@@ -127,12 +126,12 @@ export default function AboutPage() {
           </h2>
           <ul className="mt-4 list-disc space-y-3 pl-5 text-ink/70">
             <li>
-              Choose operators who treat guides and porters fairly — especially
-              on Kilimanjaro — and who respect park rules and wildlife distance.
+              Choose operators who treat guides and porters fairly, follow park
+              rules and keep a safe distance from wildlife.
             </li>
             <li>
-              Support community-led cultural visits; avoid performances that feel
-              extractive or staged without consent and fair pay.
+              Support community-led cultural visits; avoid performances that
+              feel extractive or staged without consent and fair pay.
             </li>
             <li>
               Pack light, refill bottles where possible, and follow lodge
@@ -141,16 +140,19 @@ export default function AboutPage() {
             <li>
               Travel insurance, yellow fever certificate requirements (where
               applicable), and malaria precautions are part of responsible
-              planning — we’ll remind you during enquiry follow-up.
+              planning. We’ll discuss these during enquiry follow-up.
             </li>
           </ul>
         </div>
 
         <div className="mt-12 rounded-2xl border border-teal/20 bg-teal/5 p-6 text-sm text-ink/70">
           <p>
-            <strong className="text-ink">Platform note:</strong> We also serve
-            outbound tour operators who resell Tanzanian packages.{" "}
-            <Link href="/operators" className="font-semibold text-teal hover:underline">
+            <strong className="text-ink">For tour operators:</strong> We also
+            serve outbound tour operators who resell Tanzanian packages.{" "}
+            <Link
+              href="/operators"
+              className="font-semibold text-teal hover:underline"
+            >
               Learn how partnership works
             </Link>
             .

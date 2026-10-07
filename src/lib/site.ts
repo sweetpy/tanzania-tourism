@@ -13,7 +13,7 @@ export const siteConfig = {
   contactEmail: "support@pindestinations.com",
   partnerEmail: "support@pindestinations.com",
   ambition:
-    "Discover Tanzania, build a safari around your dates, and make it your own. For outbound operators, Boker Trade connects inspiration with adaptable journeys.",
+    "Plan a Tanzania safari, climb or beach stay. Tour operators can request itineraries and commercial terms through Boker Trade.",
   tradeName: "Boker Trade",
 };
 
@@ -45,21 +45,21 @@ export const operatorNavLinks = [
   { href: "/operators/apply", label: "Apply to partner" },
 ];
 
-/** Tasteful institutional framing — no logos, no fake endorsements */
+/** Tasteful institutional framing; no logos, no fake endorsements */
 export const ecosystemPartners = [
   {
     name: "Tanzania Tourist Board (TTB)",
     role: "National destination marketing",
-    note: "Boker aligns with official destination narratives and welcomes collaboration on trade campaigns — with Tanzania, not instead of TTB.",
+    note: "The Tanzania Tourist Board promotes Tanzania as a travel destination.",
   },
   {
     name: "Ministry of Natural Resources & Tourism (MNRT)",
     role: "Sector policy & statistics",
-    note: "Trust signals cite MNRT and Exit Survey publications — not private estimates.",
+    note: "Tourism figures on this site come from MNRT publications and the International Visitors’ Exit Survey.",
   },
   {
     name: "TATO / licensed inbound operators",
     role: "Ground delivery network",
-    note: "Outbound partners connect through licensed Tanzanian DMCs for parks, vehicles, and guiding.",
+    note: "Licensed Tanzanian operators arrange park visits, vehicles and guiding for travellers and trade partners.",
   },
 ];

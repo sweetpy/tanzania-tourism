@@ -36,9 +36,9 @@ export function PartnerForm({
     ...initial,
     packageInterest: defaultPackage,
   });
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(
-    "idle",
-  );
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
   function update<K extends keyof FormState>(key: K, value: FormState[K]) {
@@ -79,7 +79,7 @@ export function PartnerForm({
           Application received
         </h3>
         <p className="mt-3 text-ink/70">
-          Asante — our partnerships team will review your details and follow up
+          Asante. Our partnerships team will review your details and follow up
           with next steps for catalog access and commercial terms.
         </p>
         <button
@@ -203,7 +203,9 @@ export function PartnerForm({
       </label>
 
       <label className="block text-sm">
-        <span className="font-medium text-ink">Tell us about your business *</span>
+        <span className="font-medium text-ink">
+          Tell us about your business *
+        </span>
         <textarea
           required
           name="message"

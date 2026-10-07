@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Partner application",
   description:
-    "Apply to become an outbound partner — resell Tanzania safari, Kilimanjaro, and Zanzibar packages under your brand.",
+    "Apply to offer Tanzania safaris, Kilimanjaro climbs and Zanzibar stays under your brand.",
 };
 
 type Props = {
@@ -31,14 +31,17 @@ export default async function PartnerApplyPage({ searchParams }: Props) {
             <span className="text-teal-bright">application</span>
           </>
         }
-        description="Share your markets, product mix, and volume. We review fit for catalog access — rates on request."
+        description="Tell us where you sell, which trips you offer and your expected volume. We’ll discuss partner access and commercial terms. Rates are available on request."
         image="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=2000&q=80"
         imageAlt="Open African landscape under a wide sky"
       />
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <p className="text-sm text-ink/55">
           New here?{" "}
-          <Link href="/operators" className="font-semibold text-teal hover:underline">
+          <Link
+            href="/operators"
+            className="font-semibold text-teal hover:underline"
+          >
             How resell works
           </Link>{" "}
           ·{" "}
@@ -53,9 +56,9 @@ export default async function PartnerApplyPage({ searchParams }: Props) {
           <PartnerForm defaultPackage={packageSlug} />
         </div>
         <p className="mt-6 text-center text-xs text-ink/45">
-          By submitting, you agree we may contact you about partnership. We never
-          sell your details. No fabricated institutional endorsements are implied
-          by applying.
+          By submitting, you agree we may contact you about partnership. We
+          never sell your details. Availability and commercial terms are
+          confirmed separately before booking.
         </p>
       </div>
     </>

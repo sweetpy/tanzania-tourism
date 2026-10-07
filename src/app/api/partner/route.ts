@@ -124,7 +124,7 @@ export async function POST(request: Request) {
     stored: true,
     emailed: notified.sent,
     message: notified.sent
-      ? "Application received — our partnerships team has been notified and will follow up within a few business days."
+      ? "Application received; our partnerships team has been notified and will follow up within a few business days."
       : "Application received and saved. We review partner applications regularly and will follow up within a few business days.",
   });
 }

@@ -88,7 +88,7 @@
   },
   {
     "id": "tarangire-safari",
-    "name": "Tarangire Safari Lodge — tent or bungalow",
+    "name": "Tarangire Safari Lodge (tent or bungalow)",
     "location": "Tarangire National Park",
     "tier": "midrange",
     "url": "https://www.tarangiresafarilodge.com/accommodation",
@@ -161,7 +161,7 @@
   },
   {
     "id": "africa-natron",
-    "name": "Africa Safari Lake Natron — Comfort Bungalow",
+    "name": "Africa Safari Lake Natron (Comfort Bungalow)",
     "location": "Lake Natron",
     "tier": "midrange",
     "url": "https://www.beachsafarihotels.com/africa-safari-lake-natron",
@@ -267,7 +267,7 @@
   },
   {
     "id": "mbalageti",
-    "name": "Mbalageti Serengeti — Lodge Room",
+    "name": "Mbalageti Serengeti (Lodge Room)",
     "location": "Western Serengeti",
     "tier": "midrange",
     "url": "https://www.mbalageti.com/",
@@ -320,7 +320,7 @@
   {
     "id": "sayari",
     "minAge": 5,
-    "name": "Sayari Camp — separately quoted upgrade",
+    "name": "Sayari Camp (separately quoted upgrade)",
     "location": "Northern Serengeti",
     "tier": "luxury",
     "url": "https://www.asiliaafrica.com/camps-lodges/sayari-camp/",

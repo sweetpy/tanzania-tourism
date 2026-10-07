@@ -10,8 +10,8 @@ export function ExperiencesShowcase() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
             eyebrow="Experiences"
-            title="How you move through Tanzania"
-            description="Safari. Beach. Mountain. Culture. Choose one thread — or braid them."
+            title="Things to do in Tanzania"
+            description="Combine safari, Zanzibar, climbing and cultural visits."
           />
           <Link
             href="/experiences"

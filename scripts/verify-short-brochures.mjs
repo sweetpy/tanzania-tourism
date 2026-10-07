@@ -114,7 +114,7 @@ try {
     .getByLabel("Email address", { exact: true })
     .fill("daytrip-verification@example.com");
   await page
-    .getByRole("button", { name: "Send my crafted itinerary", exact: true })
+    .getByRole("button", { name: "Send my itinerary", exact: true })
     .click();
   await page.locator(".studio-receipt").waitFor();
   assert.equal(submitted.craft.trip.days, 1);

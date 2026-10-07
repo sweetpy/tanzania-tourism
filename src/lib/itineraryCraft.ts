@@ -279,19 +279,21 @@ export function brochureRoute(
   };
 }
 export function customRoute(option: BokerOption): CraftRoute {
+  const displayText = (value: string) => value.replace(/\s*\u2014\s*/g, ", ");
   return {
     id: `custom:${option.id}`,
-    title: option.title,
+    title: displayText(option.title),
     origin: "custom",
     days: option.days.map((d) => ({
       day: d.day,
       date: d.date,
-      title: d.parkName,
-      description: d.summary,
-      overnight: d.overnight || "None",
+      title: displayText(d.parkName),
+      description: displayText(d.summary),
+      overnight: displayText(d.overnight || "None"),
       meals: "Confirmed in your quotation",
-      timing:
+      timing: displayText(
         d.travelNote || "Your guide confirms departure and activity times.",
+      ),
     })),
     includes: [],
     excludes: [],

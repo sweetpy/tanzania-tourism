@@ -21,12 +21,12 @@ export function PartnershipStrip({ variant = "home" }: Props) {
               id="ecosystem-heading"
               className="mt-3 font-display text-2xl font-bold text-ink sm:text-3xl"
             >
-              With Tanzania’s tourism ecosystem — not instead of it
+              Tanzania’s tourism organisations
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink/55 sm:text-base">
-              Collaboration framed tastefully. No fabricated logos or
-              endorsements. Official statistics ground trust; licensed inbound
-              operators deliver on the ground.
+              Learn about Tanzania’s tourism institutions and the role of
+              licensed local operators. Institutional references do not imply
+              affiliation or endorsement.
             </p>
           </div>
           {variant === "home" ? (
@@ -34,7 +34,7 @@ export function PartnershipStrip({ variant = "home" }: Props) {
               href="/partners"
               className="shrink-0 text-sm font-semibold text-ink/70 underline-offset-4 hover:text-ink hover:underline"
             >
-              Partners page →
+              About partnerships →
             </Link>
           ) : (
             <Link
@@ -59,7 +59,9 @@ export function PartnershipStrip({ variant = "home" }: Props) {
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-mist-token">
                   {p.role}
                 </p>
-                <p className="mt-1 text-sm leading-relaxed text-ink/55">{p.note}</p>
+                <p className="mt-1 text-sm leading-relaxed text-ink/55">
+                  {p.note}
+                </p>
               </div>
             </li>
           ))}

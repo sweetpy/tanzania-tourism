@@ -23,7 +23,7 @@ const steps = [
   {
     n: "02",
     title: "Browse & select",
-    body: "Approved partners access adaptable package templates — northern safari, migration, Kilimanjaro, bush-and-beach, southern wild. Rates and lodge bands on request.",
+    body: "Choose from northern and southern safaris, migration itineraries, Kilimanjaro climbs and beach extensions. Request rates and accommodation options for each booking.",
   },
   {
     n: "03",
@@ -39,16 +39,16 @@ const steps = [
 
 const why = [
   {
-    title: "Package-heavy demand",
-    body: `${packageInsights.urtPackageShare2025}% of surveyed URT visitors and ${packageInsights.zanzibarPackageShare2025}% in Zanzibar travelled on a package in 2025 — trade mediation remains central.`,
+    title: "Package travel",
+    body: `${packageInsights.urtPackageShare2025}% of surveyed URT visitors and ${packageInsights.zanzibarPackageShare2025}% in Zanzibar travelled on a package in 2025.`,
   },
   {
-    title: "Yield concentration",
+    title: "Visitor spending",
     body: `Package travellers spent ~USD ${packageInsights.spendPackagePpn2025}/person/night vs USD ${packageInsights.spendNonPackagePpn2025} non-package, and accounted for ~${packageInsights.packageEarningsShareUrt2025}% of URT Exit Survey earnings (2025).`,
   },
   {
-    title: "Agent as main source",
-    body: `${packageInsights.agentInfoSourceShare2025}% of Exit Survey respondents named travel agents / tour operators as their main information source about Tanzania (2025) — your channel still converts.`,
+    title: "Travel agents and tour operators",
+    body: `${packageInsights.agentInfoSourceShare2025}% of Exit Survey respondents named travel agents / tour operators as their main information source about Tanzania (2025).`,
   },
 ];
 
@@ -65,14 +65,13 @@ export default function OperatorsPage() {
             Boker Trade
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-            Resell Tanzania with a{" "}
-            <span className="text-teal-bright">partner-ready</span> catalog
+            Tanzania trips for{" "}
+            <span className="text-teal-bright">your clients</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-cream/70">
-            {siteConfig.name} is dual-audience by design: travellers discover
-            and enquire; outbound operators browse packages, apply to partner,
-            and sell under their own brand — backed by licensed inbound ground
-            handlers.
+            Browse {siteConfig.name} itineraries for your clients and apply for
+            commercial terms. Licensed Tanzanian operators arrange transport,
+            accommodation and guiding, while you manage the client relationship.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link
@@ -97,7 +96,7 @@ export default function OperatorsPage() {
         <SectionHeading
           eyebrow="Why partner here"
           title="Demand that runs through the trade"
-          description="Figures from the 2025 International Visitors' Exit Survey — cited, not invented."
+          description="Figures from the 2025 International Visitors' Exit Survey."
         />
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {why.map((item) => (
@@ -146,7 +145,7 @@ export default function OperatorsPage() {
           <SectionHeading
             eyebrow="Catalog preview"
             title={`${packages.length} package templates ready to discuss`}
-            description="Full partner catalog mirrors the traveller packages — with trade CTAs. Rates on request, not a live allotment portal."
+            description="Browse the itineraries and request commercial terms. Rates, rooms and services are confirmed for each booking."
           />
           <Link
             href="/operators/catalog"
@@ -188,7 +187,7 @@ export default function OperatorsPage() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <CTABand
           variant="operator"
-          title="Ready to add Tanzania to your shelf?"
+          title="Offer Tanzania to your clients"
           description="Apply for partner access. We’ll follow up on markets, margins, and ground-handler coordination."
           href="/operators/apply"
           label="Apply now"

@@ -17,13 +17,14 @@ export const destinations: Destination[] = [
     slug: "serengeti",
     name: "Serengeti National Park",
     region: "Northern Circuit",
-    tagline: "Short-grass plains, then the herds — calving south or crossings north.",
+    tagline:
+      "Visit the southern calving areas or northern migration routes in season.",
     summary:
-      "Africa’s most iconic savannah — home to the Great Migration and some of the finest predator viewing on Earth.",
+      "See the Great Migration and look for lions, cheetahs and leopards across the Serengeti plains.",
     description: [
-      "The Serengeti stretches across northern Tanzania in a tapestry of short-grass plains, riverine woodland, and rocky kopjes. It is best known for the Great Migration: more than a million wildebeest, hundreds of thousands of zebra, and accompanying predators moving in a roughly circular annual cycle.",
-      "Game drives here feel cinematic. Lions rest on kopjes, cheetahs scan the open flats, and elephants move between waterholes as the light turns amber. Lodges range from classic tented camps to mobile fly-camps that follow the herds.",
-      "Whether you visit for calving season on the southern plains or the dramatic river crossings further north, the Serengeti rewards patient travellers who linger for several nights.",
+      "The Serengeti stretches across northern Tanzania, with open plains, riverine woodland and rocky kopjes. Its annual migration includes more than a million wildebeest and hundreds of thousands of zebra, followed by predators.",
+      "Game drives explore the plains and kopjes, looking for lions, cheetahs, elephants and other wildlife. Accommodation includes permanent lodges, tented camps and seasonal camps near the migration areas.",
+      "Allow several nights to explore. The southern plains suit calving-season visits, while the northern areas are known for river crossings in season. Wildlife movements and sightings vary.",
     ],
     highlights: [
       "Great Migration wildebeest and zebra herds",
@@ -42,11 +43,11 @@ export const destinations: Destination[] = [
     slug: "ngorongoro",
     name: "Ngorongoro Crater",
     region: "Northern Circuit",
-    tagline: "Dawn on the crater floor: dense wildlife in one volcanic bowl.",
+    tagline: "Explore the crater floor on a guided game drive.",
     summary:
-      "The world’s largest intact volcanic caldera — a dense wildlife haven with black rhinos, flamingos, and Big Five viewing.",
+      "A volcanic crater with grasslands, forest and a soda lake, home to black rhinos, flamingos and other wildlife.",
     description: [
-      "Ngorongoro Crater sits inside a UNESCO World Heritage conservation area. The crater floor is a self-contained ecosystem of grasslands, forest, and soda lake — often described as a natural amphitheatre of wildlife.",
+      "Ngorongoro Crater lies within a UNESCO World Heritage conservation area. Game drives explore its grasslands, forest and soda lake.",
       "A single day on the crater floor can deliver elephants, lions, buffalo, hippos, and the rare chance of spotting black rhino. Maasai communities live in the surrounding highlands, and cultural visits add depth to a classic safari itinerary.",
       "Most travellers combine Ngorongoro with the Serengeti or Lake Manyara, staying on the crater rim for sweeping views at dawn and dusk.",
     ],
@@ -67,13 +68,14 @@ export const destinations: Destination[] = [
     slug: "kilimanjaro",
     name: "Mount Kilimanjaro",
     region: "Northern Tanzania",
-    tagline: "Rainforest to alpine desert — toward Uhuru Peak.",
+    tagline:
+      "Walk through rainforest, moorland and alpine desert towards Uhuru Peak.",
     summary:
       "Climb Uhuru Peak through rainforest, moorland, alpine desert, and glacier-capped summit zones.",
     description: [
-      "Kilimanjaro rises 5,895 metres above the surrounding plains — a freestanding volcano and Africa’s highest mountain. Routes such as Machame, Lemosho, and Rongai take climbers through distinct ecological zones over 6–8 days.",
+      "Uhuru Peak reaches 5,895 metres above sea level on Kilimanjaro, Africa’s highest mountain. Routes such as Machame, Lemosho and Rongai cross rainforest, moorland and alpine desert over 6–8 days.",
       "Success depends more on acclimatisation and pacing than technical climbing skill. Responsible operators emphasise “pole pole” (slowly), experienced guides, and fair treatment of porters.",
-      "Whether you summit or simply trek to high camp for the views, Kilimanjaro is a transformative East African adventure that pairs well with a short safari afterward.",
+      "Choose a full climb or a separately arranged day hike that suits your fitness and experience. A short safari can follow the climb, with time to rest first.",
     ],
     highlights: [
       "Uhuru Peak at 5,895 m",
@@ -92,13 +94,13 @@ export const destinations: Destination[] = [
     slug: "zanzibar",
     name: "Zanzibar Archipelago",
     region: "Indian Ocean Coast",
-    tagline: "Stone Town alleys, then turquoise rest after the bush.",
+    tagline: "Explore Stone Town and spend time on Zanzibar’s beaches.",
     summary:
-      "Historic Stone Town, spice farms, and powder-white beaches on Unguja and Pemba — the perfect safari add-on.",
+      "Visit Stone Town, spice farms and beaches on Unguja or Pemba, on their own or after a safari.",
     description: [
-      "Zanzibar blends Swahili coastal culture with Indian Ocean calm. Stone Town’s carved doors, rooftop cafés, and UNESCO-listed alleys tell centuries of trade history. Outside town, beaches stretch from Nungwi and Kendwa in the north to quieter Paje and Jambiani on the east coast.",
+      "Stone Town’s carved doors, cafés and narrow streets reflect Zanzibar’s Swahili and trading history. Beach stays range from Nungwi and Kendwa in the north to Paje and Jambiani on the east coast.",
       "Day trips include spice tours, Jozani Forest’s red colobus monkeys, snorkelling around Mnemba, and dhow sailing at sunset. Pemba Island offers a wilder, less-visited alternative for diving and quiet resorts.",
-      "Most travellers fly from Arusha or Kilimanjaro after safari — a classic Tanzania combination of bush and beach.",
+      "Travellers often fly to Zanzibar from Arusha or Kilimanjaro after safari. Confirm flight connections when planning your itinerary.",
     ],
     highlights: [
       "Stone Town heritage walks",
@@ -117,13 +119,14 @@ export const destinations: Destination[] = [
     slug: "ruaha",
     name: "Ruaha National Park",
     region: "Southern Circuit",
-    tagline: "Baobabs, riverine game, fewer vehicles — southern quiet.",
+    tagline:
+      "Explore baobab woodland and wildlife along the Great Ruaha River.",
     summary:
-      "Tanzania’s largest national park: baobabs, the Great Ruaha River, and outstanding elephant and predator densities.",
+      "A southern Tanzania park known for baobabs, the Great Ruaha River, elephants and predators.",
     description: [
-      "Ruaha feels remote in the best way. Vast miombo woodland, baobab-dotted ridges, and the life-giving Great Ruaha River support large elephant herds, lions, wild dogs, and prolific birdlife — with far fewer vehicles than the northern parks.",
+      "Ruaha’s miombo woodland, baobab ridges and river habitats support elephants, lions, wild dogs and many bird species. It generally has fewer safari vehicles than the popular northern parks.",
       "It is ideal for travellers who have done the classic circuit and want something quieter, or for first-timers who prefer space and exclusivity. Fly-in safaris from Dar es Salaam make logistics straightforward.",
-      "Combine Ruaha with Nyerere (Selous) or a beach stay for a southern Tanzania itinerary that feels deeply wild.",
+      "Combine Ruaha with Nyerere or a beach stay, allowing time for the flight or road connections.",
     ],
     highlights: [
       "Large elephant herds and predators",
@@ -142,9 +145,10 @@ export const destinations: Destination[] = [
     slug: "lake-manyara",
     name: "Lake Manyara National Park",
     region: "Northern Circuit",
-    tagline: "Escarpment forest to soda lake — the northern-circuit opener.",
+    tagline:
+      "Forest, lake shores and Rift Valley views on a northern safari route.",
     summary:
-      "A compact, scenic park between the Rift Valley escarpment and a soda lake — perfect as a northern circuit opener.",
+      "A compact park with groundwater forest and lake shores below the Rift Valley escarpment. It can be combined with Ngorongoro or Serengeti.",
     description: [
       "Lake Manyara packs variety into a small area: groundwater forest alive with baboons and blue monkeys, open floodplains, and alkaline lake shores that attract flamingos when water levels are right.",
       "Famous for its tree-climbing lions and large elephant herds, Manyara is often visited on the way to Ngorongoro or the Serengeti. A night at a lodge on the escarpment offers sweeping Rift Valley views.",

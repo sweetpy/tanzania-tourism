@@ -23,21 +23,22 @@ export default function TermsPage() {
         <div className="space-y-6 text-sm leading-relaxed text-ink/75 sm:text-base">
           <p>
             {siteConfig.name} ({siteConfig.tagline}) provides destination
-            information, an itinerary builder, package templates, and enquiry forms for travellers and
-            outbound tour operators. Content is informational and may change
-            without notice.
+            information, an itinerary builder, package templates, and enquiry
+            forms for travellers and outbound tour operators. Content is
+            informational and may change without notice.
           </p>
           <p>
             From-prices shown in USD are indicative starting points only. Final
             quotes depend on season, lodge category, group size, park fees, and
-            other factors confirmed after you enquire — or after your operator
-            does via Boker Trade. Nothing on this site is a binding offer.
+            other factors confirmed after an enquiry from you or your tour
+            operator through Boker Trade. Nothing on this site is a binding
+            offer.
           </p>
           <p>
             Itinerary previews and cost estimates help you explore your options.
             Sending an itinerary enquiry does not reserve accommodation or
-            confirm a booking. Our team will confirm availability, final pricing,
-            and booking terms with you.
+            confirm a booking. Our team will confirm availability, final
+            pricing, and booking terms with you.
           </p>
           <p>
             Mentions of institutions such as the Tanzania Tourist Board (TTB),
@@ -52,7 +53,10 @@ export default function TermsPage() {
           <p>
             By submitting a form you confirm the information is accurate and
             that we may contact you about that enquiry. See our{" "}
-            <Link href="/privacy" className="font-semibold text-teal hover:underline">
+            <Link
+              href="/privacy"
+              className="font-semibold text-teal hover:underline"
+            >
               Privacy
             </Link>{" "}
             note for how we handle those details.
