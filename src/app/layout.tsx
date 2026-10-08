@@ -19,6 +19,7 @@ const syne = Syne({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  verification: { google: "qIIzXN4EQoGdXHD-MML5aSzhNhU22WC4Wa8edpY7A6Y" },
   title: {
     default: `${siteConfig.name} | ${siteConfig.tagline}`,
     template: `%s | ${siteConfig.name}`,
