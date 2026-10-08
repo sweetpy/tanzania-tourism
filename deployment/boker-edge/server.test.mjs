@@ -314,3 +314,7 @@ test('retains the existing public Search Console verification token on both path
     assert.equal(readFileSync(new URL('../../public'+path,import.meta.url),'utf8'),body);
   }
 });
+test('edge image includes its legacy routing manifest',async()=>{
+  const {readFileSync}=await import('node:fs');
+  assert.match(readFileSync(new URL('./Dockerfile',import.meta.url),'utf8'),/^COPY .*legacy-routes\.json.*\.\/$/m);
+});
