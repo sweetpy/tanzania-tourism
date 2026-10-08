@@ -1,4 +1,5 @@
 import http from "node:http";
+import legacyRoutes from "./legacy-routes.json" with { type: "json" };
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { pathToFileURL } from "node:url";
@@ -52,6 +53,8 @@ export function permitted(method, path) {
     /^\/images\/groups\/(?:kilimanjaro|meru|manyara|serengeti)\.jpg$/.test(
       path,
     ) ||
+    path === "/google7c5b542c6dac0143.html" ||
+    path === "/boker/google7c5b542c6dac0143.html" ||
     path === "/robots.txt" ||
     path === "/sitemap.xml" ||
     /^\/(destinations|experiences|packages)\/[a-z0-9-]+$/.test(path) ||
@@ -95,7 +98,7 @@ export function createServer(fetchUpstream = fetch) {
           "Content-Type": "application/json",
           "Cache-Control": "no-store",
         })
-        .end('{"status":"ok","service":"boker-unified-edge","version":4}');
+        .end('{"status":"ok","service":"boker-unified-edge","version":5}');
       return;
     }
     if (
@@ -108,6 +111,15 @@ export function createServer(fetchUpstream = fetch) {
           "Cache-Control": "no-store",
         })
         .end();
+      return;
+    }
+    const legacyPath = url.pathname.replace(/\/$/, "");
+    const legacyDestination = legacyRoutes[legacyPath];
+    if (legacyDestination && ["GET", "HEAD"].includes(req.method)) {
+      res.writeHead(301, {
+        Location: legacyDestination + url.search,
+        "Cache-Control": "public, max-age=3600",
+      }).end();
       return;
     }
     if (url.pathname === "/admin" && ["GET", "HEAD"].includes(req.method)) {

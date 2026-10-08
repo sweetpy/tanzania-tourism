@@ -5,6 +5,7 @@ import { CTABand } from "@/components/CTABand";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
 import { destinations } from "@/data/destinations";
+import legacyDestinations from "@/data/legacyDestinations.json";
 
 export const metadata: Metadata = {
   title: "Destinations",
@@ -62,6 +63,16 @@ export default function DestinationsPage() {
             />
           ))}
         </div>
+        <section className="mt-16">
+          <h2 className="font-display text-3xl font-bold">More places to explore</h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {legacyDestinations.filter(d => d.slug !== "zanzibar-unguja" && !destinations.some(place => place.slug === d.slug)).map(d => <Link key={d.slug} href={`/destinations/${d.slug}`} className="rounded-xl border border-ink/10 bg-white/80 p-5 hover:border-gold">
+              <span className="text-xs uppercase text-ink/60">{d.region} · {d.category}</span>
+              <h3 className="mt-2 font-display text-lg font-bold">{d.name}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/70">{d.summary}</p>
+            </Link>)}
+          </div>
+        </section>
         <div className="mt-16">
           <CTABand
             title="Not sure which parks fit your dates?"

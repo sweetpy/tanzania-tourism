@@ -1,0 +1,711 @@
+[
+  {
+    "slug": "serengeti",
+    "name": "Serengeti National Park",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "Open plains, rocky outcrops and a remarkable movement of wildebeest make the Serengeti a landscape to explore slowly, not just a place to tick off.",
+    "highlights": [
+      "Savanna wildlife",
+      "Seasonal migration landscapes"
+    ],
+    "planningNote": "The instant planner covers central Serengeti. Migration locations and river crossings are never guaranteed; other sectors need a tailored route.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/serengeti/about",
+    "plannerParkId": "serengeti-central"
+  },
+  {
+    "slug": "ngorongoro",
+    "name": "Ngorongoro Conservation Area",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "A volcanic crater, highland scenery and an exceptional human-history record come together in this UNESCO-listed conservation landscape.",
+    "highlights": [
+      "Ngorongoro Crater",
+      "Conservation highlands"
+    ],
+    "planningNote": "Crater descent, vehicle charges and special-access activities need separate confirmation before a quote is final.",
+    "sourceUrl": "https://whc.unesco.org/en/list/39/",
+    "plannerParkId": "ngorongoro"
+  },
+  {
+    "slug": "tarangire",
+    "name": "Tarangire National Park",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "Elephants, baobabs and the Tarangire River give this northern park a character of its own, with changing wildlife concentrations across the seasons.",
+    "highlights": [
+      "Baobab landscapes",
+      "Elephants and birdlife"
+    ],
+    "planningNote": "Allow time for game drives away from the entrance. Wildlife movements depend on water and rainfall.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/tarangire/about",
+    "plannerParkId": "tarangire"
+  },
+  {
+    "slug": "lake-manyara",
+    "name": "Lake Manyara National Park",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "A Rift Valley lake and its surrounding woodland create a compact change of scenery on a northern safari, particularly for travellers interested in birds.",
+    "highlights": [
+      "Rift Valley scenery",
+      "Lake and woodland birdlife"
+    ],
+    "planningNote": "Lake levels and bird concentrations change. Confirm the current status of optional activities separately.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/lake-manyara/about",
+    "plannerParkId": "manyara"
+  },
+  {
+    "slug": "arusha-national-park",
+    "name": "Arusha National Park",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "Mount Meru, the Momella lakes and a mix of forest and open country offer a different perspective on the northern safari landscape.",
+    "highlights": [
+      "Momella lakes",
+      "Mount Meru scenery"
+    ],
+    "planningNote": "Ask an advisor to arrange this extension. Guided walks and any canoe activity require separate arrangements.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1633611951-AM-ENG.pdf"
+  },
+  {
+    "slug": "kilimanjaro",
+    "name": "Kilimanjaro National Park",
+    "region": "Northern",
+    "category": "Mountains",
+    "summary": "Africa's highest mountain rises through distinct landscapes towards Kibo, Mawenzi and the Shira plateau. A climb deserves its own carefully planned expedition.",
+    "highlights": [
+      "High-altitude trekking",
+      "Volcanic mountain scenery"
+    ],
+    "planningNote": "Climbs are advisor-assisted. Route, acclimatisation time, qualified guides, equipment and appropriate insurance must be reviewed; a summit is not guaranteed.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/kilimanjaro/about"
+  },
+  {
+    "slug": "mkomazi",
+    "name": "Mkomazi National Park",
+    "region": "Northern",
+    "category": "Wildlife",
+    "summary": "Mkomazi adds a conservation-focused stop to northern Tanzania, with a protected landscape associated with black rhino and African wild dog programmes.",
+    "highlights": [
+      "Rhino conservation",
+      "Northern wildlife extension"
+    ],
+    "planningNote": "Sanctuary visits are not the same as a general game drive. Confirm access, reservations and additional charges with an advisor.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff"
+  },
+  {
+    "slug": "nyerere",
+    "name": "Nyerere National Park",
+    "region": "Southern",
+    "category": "Wildlife",
+    "summary": "Woodlands, floodplains and river habitats support a varied southern safari, with the possibility of combining land-based wildlife viewing and permitted boat excursions.",
+    "highlights": [
+      "River and floodplain habitats",
+      "Southern safari wildlife"
+    ],
+    "planningNote": "Boat and walking activities depend on the camp, operator, conditions and permissions; they are not automatically included in a draft.",
+    "sourceUrl": "https://tanzaniaparks.go.tz/nyerere/wildlife",
+    "plannerParkId": "nyerere"
+  },
+  {
+    "slug": "ruaha",
+    "name": "Ruaha National Park",
+    "region": "Southern",
+    "category": "Wildlife",
+    "summary": "Baobab-studded country and the Great Ruaha River frame a safari centred on wide landscapes, predators, elephants and patient wildlife watching.",
+    "highlights": [
+      "Great Ruaha River",
+      "Baobabs and predator habitat"
+    ],
+    "planningNote": "Allow realistic transfer time on a southern circuit. Confirm seasonal camp operations and road or air connections before booking.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/ruaha/about",
+    "plannerParkId": "ruaha"
+  },
+  {
+    "slug": "mikumi",
+    "name": "Mikumi National Park",
+    "region": "Southern",
+    "category": "Wildlife",
+    "summary": "The Mkata floodplain opens into broad grassland, with hippo pools and woodland adding variety to game drives on Tanzania's southern circuit.",
+    "highlights": [
+      "Mkata floodplain",
+      "Hippo pools and birdlife"
+    ],
+    "planningNote": "Match transfer days to your arrival and departure plans. Optional activities require operator confirmation.",
+    "sourceUrl": "https://tanzaniaparks.go.tz/mikumi/attractions",
+    "plannerParkId": "mikumi"
+  },
+  {
+    "slug": "udzungwa-mountains",
+    "name": "Udzungwa Mountains National Park",
+    "region": "Southern",
+    "category": "Mountains",
+    "summary": "Rainforest trails, Sanje's cascading water and range-restricted primates make Udzungwa a walking-focused contrast to the open savanna.",
+    "highlights": [
+      "Sanje waterfalls",
+      "Eastern Arc forest walks"
+    ],
+    "planningNote": "An advisor should match the guided trail to your fitness and the weather. Do not assume a waterfall route is suitable for everyone.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/udzungwa/attractions"
+  },
+  {
+    "slug": "kitulo",
+    "name": "Kitulo National Park",
+    "region": "Southern",
+    "category": "Mountains",
+    "summary": "Highland grasslands, wildflowers and birds give Kitulo a botanical focus, with open walking country quite unlike a classic big-game safari.",
+    "highlights": [
+      "Seasonal wildflowers",
+      "Highland walking and birds"
+    ],
+    "planningNote": "Flowering follows seasonal conditions. Request a guided highland itinerary and prepare for variable weather.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/kitulo-national-park"
+  },
+  {
+    "slug": "katavi",
+    "name": "Katavi National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "The Katuma River and seasonal floodplains shape a remote safari landscape known for hippos, crocodiles and large gatherings of buffalo.",
+    "highlights": [
+      "Katuma River",
+      "Seasonal floodplain wildlife"
+    ],
+    "planningNote": "Plan with an advisor: flights, road access, camp openings and supplies need coordination in this remote part of the country.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/katavi/wildlife"
+  },
+  {
+    "slug": "mahale-mountains",
+    "name": "Mahale Mountains National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Forested mountains meet Lake Tanganyika at Mahale, where guided chimpanzee trekking is the centrepiece of a forest-and-lake journey.",
+    "highlights": [
+      "Chimpanzee trekking",
+      "Lake Tanganyika shoreline"
+    ],
+    "planningNote": "Trekking permits, age and health rules, fitness, boat transfers and camp availability need confirmation. Chimpanzee sightings remain wildlife encounters, not promises.",
+    "sourceUrl": "https://tanzaniaparks.go.tz/mahale/wildlife"
+  },
+  {
+    "slug": "gombe",
+    "name": "Gombe National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Gombe's forested lakeshore is closely associated with chimpanzee research and offers a specialised primate-focused addition to a western Tanzania journey.",
+    "highlights": [
+      "Chimpanzee habitat",
+      "Forest trekking"
+    ],
+    "planningNote": "Arrange authorised guides and transfers. Confirm current age, health and viewing rules before committing to a trek.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1634499887-GO-ENG.pdf"
+  },
+  {
+    "slug": "rubondo-island",
+    "name": "Rubondo Island National Park",
+    "region": "Central & Lakes",
+    "category": "Wildlife",
+    "summary": "Forest, papyrus margins and quiet coves create an island safari on Lake Victoria, with birdlife and conservation stories at its heart.",
+    "highlights": [
+      "Island forest",
+      "Lake Victoria birdlife"
+    ],
+    "planningNote": "Confirm boat or air access and available guided activities. Primate programmes should not be assumed to guarantee sightings.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/rubondo/about"
+  },
+  {
+    "slug": "saanane-island",
+    "name": "Saanane Island National Park",
+    "region": "Central & Lakes",
+    "category": "Wildlife",
+    "summary": "Granite rocks, footpaths and lake viewpoints make this island park a nature-focused outing from Mwanza on Lake Victoria.",
+    "highlights": [
+      "Granite island scenery",
+      "Lake viewpoints"
+    ],
+    "planningNote": "Ask an advisor to confirm the boat transfer, guided visit and current visitor arrangements.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1634494897-SN-ENG.pdf"
+  },
+  {
+    "slug": "burigi-chato",
+    "name": "Burigi-Chato National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Lakes and savanna provide the setting for a less familiar wildlife journey in northwestern Tanzania.",
+    "highlights": [
+      "Lake landscapes",
+      "Savanna wildlife"
+    ],
+    "planningNote": "This is a tailored extension. Confirm the operating gate, guiding, accommodation and road conditions before travel.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1633028706-BC.pdf"
+  },
+  {
+    "slug": "ibanda-kyerwa",
+    "name": "Ibanda-Kyerwa National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "This Kagera park brings a northwestern wildlife stop into a journey through Tanzania's borderland landscapes.",
+    "highlights": [
+      "Kagera landscapes",
+      "Northwestern safari extension"
+    ],
+    "planningNote": "Advisor-assisted only: confirm access, ranger services, visitor facilities and overnight arrangements before including it in a route.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff"
+  },
+  {
+    "slug": "rumanyika-karagwe",
+    "name": "Rumanyika-Karagwe National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Explore a lesser-known protected landscape in Kagera as part of a carefully arranged northwestern Tanzania itinerary.",
+    "highlights": [
+      "Kagera nature",
+      "Northwestern exploration"
+    ],
+    "planningNote": "Ask an advisor to verify current access and guiding. This catalogue listing is not confirmation of available tourism services.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff"
+  },
+  {
+    "slug": "ugalla-river",
+    "name": "Ugalla River National Park",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Miombo woodland and seasonally flooded grassland surround the Ugalla River, creating a remote landscape for specialist wildlife journeys.",
+    "highlights": [
+      "Miombo woodland",
+      "River and floodplain scenery"
+    ],
+    "planningNote": "An advisor must check seasonal access, permitted activities, guiding and camp logistics before proposing a visit.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1654768941-UGALLAENG.pdf"
+  },
+  {
+    "slug": "kigosi",
+    "name": "Kigosi landscape",
+    "region": "Western",
+    "category": "Wildlife",
+    "summary": "Kigosi appears in TANAPA's park directory as a western wilderness destination, but published official listings are not fully consistent.",
+    "highlights": [
+      "Western wilderness",
+      "Specialist exploration"
+    ],
+    "planningNote": "Current management, tourism access and permitted activities must be verified directly before any itinerary or booking is offered.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/tourism/visitor-information/tariff"
+  },
+  {
+    "slug": "saadani",
+    "name": "Saadani National Park",
+    "region": "Coast & Islands",
+    "category": "Wildlife",
+    "summary": "Coastal grasslands, mangroves and the Wami estuary bring safari landscapes close to the Indian Ocean.",
+    "highlights": [
+      "Wami estuary",
+      "Coastal wildlife landscapes"
+    ],
+    "planningNote": "Game drives, river trips and beach access need a coordinated plan. Follow ranger advice around waterways and wildlife.",
+    "sourceUrl": "https://tanzaniaparks.go.tz/saadani/attractions"
+  },
+  {
+    "slug": "olduvai-gorge",
+    "name": "Olduvai Gorge",
+    "region": "Northern",
+    "category": "Culture & Heritage",
+    "summary": "Olduvai's fossil and stone-tool record adds a human-history perspective to the Ngorongoro and Serengeti landscapes.",
+    "highlights": [
+      "Human-origins history",
+      "Archaeological landscape"
+    ],
+    "planningNote": "Ask an advisor to include the visitor experience and applicable conservation-area access. Excavation areas are not freely accessible.",
+    "sourceUrl": "https://whc.unesco.org/en/list/39/"
+  },
+  {
+    "slug": "stone-town",
+    "name": "Stone Town of Zanzibar",
+    "region": "Coast & Islands",
+    "category": "Culture & Heritage",
+    "summary": "A UNESCO-listed Swahili trading town where narrow streets and historic buildings record centuries of Indian Ocean exchange.",
+    "highlights": [
+      "Swahili architecture",
+      "Indian Ocean history"
+    ],
+    "planningNote": "A local guided walk adds context. Confirm individual monument openings and respect worship, residents and photography preferences.",
+    "sourceUrl": "https://whc.unesco.org/en/list/173/"
+  },
+  {
+    "slug": "kilwa-kisiwani-songo-mnara",
+    "name": "Kilwa Kisiwani & Songo Mnara",
+    "region": "Coast & Islands",
+    "category": "Culture & Heritage",
+    "summary": "The remains of these island trading settlements reveal the architecture and maritime connections of the medieval Swahili coast.",
+    "highlights": [
+      "UNESCO-listed ruins",
+      "Swahili trading history"
+    ],
+    "planningNote": "Arrange local guides, permissions and suitable boats; tides and sea conditions affect visits. Never climb fragile structures.",
+    "sourceUrl": "https://whc.unesco.org/en/list/144/"
+  },
+  {
+    "slug": "kondoa-rock-art",
+    "name": "Kondoa Rock-Art Sites",
+    "region": "Central & Lakes",
+    "category": "Culture & Heritage",
+    "summary": "Painted rock shelters preserve a remarkable cultural record within the landscapes around Kondoa, recognised on UNESCO's World Heritage List.",
+    "highlights": [
+      "Rock paintings",
+      "Cultural landscapes"
+    ],
+    "planningNote": "Visit with an authorised local guide. Respect living cultural practices and do not touch or wet the paintings.",
+    "sourceUrl": "https://whc.unesco.org/en/list/1183/"
+  },
+  {
+    "slug": "bagamoyo",
+    "name": "Bagamoyo & Kaole",
+    "region": "Coast & Islands",
+    "category": "Culture & Heritage",
+    "summary": "Bagamoyo's coastal buildings, museums and nearby Kaole ruins offer a thoughtful encounter with Swahili history and the region's caravan and slave-trade past.",
+    "highlights": [
+      "Kaole ruins",
+      "Coastal history and museums"
+    ],
+    "planningNote": "Book a locally guided heritage visit and confirm opening arrangements. Allow time for context, not just photographs.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/bagamoyo"
+  },
+  {
+    "slug": "zanzibar-unguja",
+    "name": "Zanzibar Island / Unguja",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Combine an Indian Ocean stay with Swahili heritage, spice-growing traditions and island nature on Unguja, the main island commonly called Zanzibar.",
+    "highlights": [
+      "Beach stays",
+      "Spice and cultural visits"
+    ],
+    "planningNote": "An advisor will match the coast to your interests and tides, and confirm transfers, activities and current entry requirements.",
+    "sourceUrl": "https://www.tanzaniatourism.go.tz/sea-sun-sand/"
+  },
+  {
+    "slug": "pemba",
+    "name": "Pemba Island",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Pemba combines green island scenery, coastal communities and a quieter setting for a separately planned Zanzibar archipelago escape.",
+    "highlights": [
+      "Island landscapes",
+      "Coastal culture"
+    ],
+    "planningNote": "Confirm inter-island transport and accommodation before travel. Marine excursions need a qualified operator and suitable conditions.",
+    "sourceUrl": "https://zanzibartourism.go.tz/"
+  },
+  {
+    "slug": "jozani-chwaka-bay",
+    "name": "Jozani-Chwaka Bay",
+    "region": "Coast & Islands",
+    "category": "Wildlife",
+    "summary": "A forest-focused change of pace on Unguja, with Zanzibar red colobus among the species visitors hope to observe on guided walks.",
+    "highlights": [
+      "Zanzibar red colobus",
+      "Forest nature walks"
+    ],
+    "planningNote": "Use authorised guides, keep your distance from wildlife and avoid feeding or touching monkeys. Sightings cannot be guaranteed.",
+    "sourceUrl": "https://site.tanzaniatourism.go.tz/public/uploads/KARAFUUFAMTRIP.pdf"
+  },
+  {
+    "slug": "nungwi-kendwa",
+    "name": "Nungwi & Kendwa",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Northern Unguja offers beach time alongside the maritime character of Nungwi and the neighbouring coast around Kendwa.",
+    "highlights": [
+      "Northern Zanzibar beaches",
+      "Boat-building heritage"
+    ],
+    "planningNote": "Choose a beach base with an advisor. Confirm swimming conditions, transfers and the operator of any boat activity.",
+    "sourceUrl": "https://www.zanzibardiaspora.go.tz/zanzibar/coastal-tourism"
+  },
+  {
+    "slug": "mnemba",
+    "name": "Mnemba marine area",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "The waters around Mnemba are associated with reef excursions and marine exploration off Zanzibar.",
+    "highlights": [
+      "Reef excursions",
+      "Snorkelling and diving interests"
+    ],
+    "planningNote": "The island is private; a marine excursion does not grant island access. Confirm permissions, sea conditions and responsible reef practices.",
+    "sourceUrl": "https://zanzibartourism.go.tz/"
+  },
+  {
+    "slug": "chumbe-island",
+    "name": "Chumbe Island",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Chumbe brings coral-reef conservation and island forest together in a small-scale nature experience near Zanzibar.",
+    "highlights": [
+      "Coral conservation",
+      "Island forest"
+    ],
+    "planningNote": "Visits require advance confirmation with the operator; do not assume daily access or available accommodation.",
+    "sourceUrl": "https://zanzibartourism.go.tz/"
+  },
+  {
+    "slug": "mafia-island",
+    "name": "Mafia Island & Marine Park",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Coral reefs, seagrass and mangroves make Mafia a destination for travellers interested in marine habitats as well as island time.",
+    "highlights": [
+      "Marine-park reefs",
+      "Mangroves and coastal habitats"
+    ],
+    "planningNote": "Confirm the location of your stay, marine-park permissions and charges, transfers and dive or snorkel arrangements separately.",
+    "sourceUrl": "https://www.marineparks.go.tz/pages/protected-areas"
+  },
+  {
+    "slug": "mnazi-bay",
+    "name": "Mnazi Bay-Ruvuma Estuary Marine Park",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Near Tanzania's southern coast, protected reefs, mangroves and seagrass offer a marine-focused extension around Mtwara.",
+    "highlights": [
+      "Southern coastal habitats",
+      "Reefs and mangroves"
+    ],
+    "planningNote": "Ask an advisor to confirm permitted excursions, local operators, accommodation and suitable sea conditions.",
+    "sourceUrl": "https://www.marineparks.go.tz/pages/protected-areas"
+  },
+  {
+    "slug": "pangani",
+    "name": "Pangani",
+    "region": "Coast & Islands",
+    "category": "Culture & Heritage",
+    "summary": "A river mouth and historic coastal town offer a slower mainland-coast stop, with opportunities to explore local heritage and river scenery.",
+    "highlights": [
+      "Historic town",
+      "Pangani River landscapes"
+    ],
+    "planningNote": "Confirm your coastal base and transfers with an advisor. River and ocean activities require separate operator arrangements.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/pangani"
+  },
+  {
+    "slug": "maziwe",
+    "name": "Maziwe Marine Reserve",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "Off the Pangani coast, Maziwe provides a marine-reserve excursion that can complement time on the mainland shore.",
+    "highlights": [
+      "Marine reserve",
+      "Pangani coastal extension"
+    ],
+    "planningNote": "Boat departures and access depend on tides, weather and permissions. Arrange a licensed operator and appropriate safety equipment.",
+    "sourceUrl": "https://www.marineparks.go.tz/pages/visitor-guide"
+  },
+  {
+    "slug": "bongoyo-mbudya",
+    "name": "Bongoyo & Mbudya Islands",
+    "region": "Coast & Islands",
+    "category": "Beach & Marine",
+    "summary": "These protected islands off Dar es Salaam bring an offshore nature break within reach of a city-based itinerary.",
+    "highlights": [
+      "Protected island shores",
+      "Dar es Salaam coastal extension"
+    ],
+    "planningNote": "Confirm the landing point, authorised boat, reserve fees and weather. No boat departure or swimming condition is guaranteed.",
+    "sourceUrl": "https://www.marineparks.go.tz/pages/marine-history"
+  },
+  {
+    "slug": "amboni-caves",
+    "name": "Amboni Caves",
+    "region": "Coast & Islands",
+    "category": "Lakes & Landscapes",
+    "summary": "Limestone passages near Tanga add a geological and cultural stop to a journey along the northern mainland coast.",
+    "highlights": [
+      "Limestone formations",
+      "Local cultural significance"
+    ],
+    "planningNote": "Visit with an authorised guide. Discuss confined spaces, footing and accessibility before choosing a cave route.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/amboni-caves"
+  },
+  {
+    "slug": "usambara-mountains",
+    "name": "Usambara Mountains",
+    "region": "Northern",
+    "category": "Mountains",
+    "summary": "Forest, cultivated slopes and expansive viewpoints make the Usambaras a walking destination, with Lushoto a gateway to the western range.",
+    "highlights": [
+      "Lushoto viewpoints",
+      "Forest and village walks"
+    ],
+    "planningNote": "Arrange locally guided walks suited to your fitness. Routes can be muddy, and community visits should be agreed with hosts.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/usambara-mountains"
+  },
+  {
+    "slug": "amani-forest",
+    "name": "Amani / East Usambara forests",
+    "region": "Northern",
+    "category": "Mountains",
+    "summary": "The wetter eastern Usambaras offer forest biodiversity and a nature-focused counterpart to the viewpoints and villages around Lushoto.",
+    "highlights": [
+      "Eastern Arc biodiversity",
+      "Forest birding interests"
+    ],
+    "planningNote": "Confirm reserve access, a specialist guide and local accommodation. Bird and wildlife sightings are not assured.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/usambara-mountains"
+  },
+  {
+    "slug": "lake-natron",
+    "name": "Lake Natron",
+    "region": "Northern",
+    "category": "Lakes & Landscapes",
+    "summary": "An alkaline Rift Valley lake beneath volcanic country, Natron is an important flamingo habitat and a striking landscape in its own right.",
+    "highlights": [
+      "Flamingo habitat",
+      "Rift Valley scenery"
+    ],
+    "planningNote": "Use local guides, avoid sensitive breeding areas and plan for heat and remote access. This is not a swimming-lake recommendation.",
+    "sourceUrl": "https://tawa.go.tz/attraction-details/lake-natron"
+  },
+  {
+    "slug": "lake-eyasi",
+    "name": "Lake Eyasi",
+    "region": "Northern",
+    "category": "Lakes & Landscapes",
+    "summary": "A seasonal Rift Valley lake south of the Serengeti highlands, with changing water levels and opportunities for birding and respectful community-led visits.",
+    "highlights": [
+      "Seasonal lake landscapes",
+      "Community-led cultural encounters"
+    ],
+    "planningNote": "Visits with Hadza or Datoga hosts must be arranged with consent and fair local benefit. Ask before photographing anyone.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-eyasi"
+  },
+  {
+    "slug": "lake-chala",
+    "name": "Lake Chala",
+    "region": "Northern",
+    "category": "Lakes & Landscapes",
+    "summary": "A crater lake on the Tanzania-Kenya border offers dramatic rim scenery and birding interests east of Kilimanjaro.",
+    "highlights": [
+      "Crater-rim views",
+      "Birdlife and volcanic scenery"
+    ],
+    "planningNote": "Arrange access on the Tanzanian side and a suitable guided route. Confirm activity safety locally; swimming is not assumed to be suitable.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-chala"
+  },
+  {
+    "slug": "lake-tanganyika",
+    "name": "Lake Tanganyika",
+    "region": "Western",
+    "category": "Lakes & Landscapes",
+    "summary": "Tanzania's western lakeshore links fishing communities, forested mountain backdrops and gateway towns such as Kigoma and Ujiji.",
+    "highlights": [
+      "Western lakeshore scenery",
+      "Kigoma and Ujiji connections"
+    ],
+    "planningNote": "Distances are substantial. Confirm boats, flight or road connections and local water safety before planning activities.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-tanganyika"
+  },
+  {
+    "slug": "lake-victoria",
+    "name": "Lake Victoria",
+    "region": "Central & Lakes",
+    "category": "Lakes & Landscapes",
+    "summary": "Islands, fishing livelihoods and broad water horizons give Tanzania's Lake Victoria shore its own travel rhythm beyond the safari parks.",
+    "highlights": [
+      "Lakeshore communities",
+      "Island landscapes"
+    ],
+    "planningNote": "Choose a specific lakeshore base with an advisor. Check current transport and water-safety advice rather than assuming boat or swimming access.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-victoria"
+  },
+  {
+    "slug": "lake-nyasa-matema",
+    "name": "Lake Nyasa & Matema",
+    "region": "Southern",
+    "category": "Lakes & Landscapes",
+    "summary": "At Matema, the mountains meet Lake Nyasa in a lakeshore setting that can complement a southern-highlands journey.",
+    "highlights": [
+      "Matema lakeshore",
+      "Mountain and lake scenery"
+    ],
+    "planningNote": "Confirm overland connections and your chosen accommodation. Seek current local safety and health advice before entering freshwater.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/matema-beach"
+  },
+  {
+    "slug": "lake-ngozi",
+    "name": "Lake Ngozi",
+    "region": "Southern",
+    "category": "Lakes & Landscapes",
+    "summary": "A forested crater in the Uporoto highlands near Mbeya rewards a guided walk with views down towards the lake.",
+    "highlights": [
+      "Crater-lake viewpoint",
+      "Montane forest"
+    ],
+    "planningNote": "Use a local guide and suitable footwear. Confirm trail conditions; steep terrain and weather can change the difficulty.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-ngozi"
+  },
+  {
+    "slug": "kalambo-falls",
+    "name": "Kalambo Falls",
+    "region": "Western",
+    "category": "Lakes & Landscapes",
+    "summary": "The Kalambo River drops into a dramatic gorge on the Tanzania-Zambia border, adding a waterfall landscape to a Lake Tanganyika journey.",
+    "highlights": [
+      "Waterfall and gorge",
+      "Southern Tanganyika extension"
+    ],
+    "planningNote": "Arrange the Tanzanian approach with a guide and verify road conditions. Water flow is seasonal; keep well back from unprotected edges.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/kalambo-falls"
+  },
+  {
+    "slug": "mbozi-meteorite",
+    "name": "Mbozi Meteorite",
+    "region": "Southern",
+    "category": "Lakes & Landscapes",
+    "summary": "A large iron meteorite in Songwe offers a distinctive natural-history stop on a journey through Tanzania's southwestern highlands.",
+    "highlights": [
+      "Iron meteorite",
+      "Songwe countryside"
+    ],
+    "planningNote": "Ask an advisor to confirm site access and a guided stop. Treat the protected monument with care.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/mbozi-meteorite"
+  },
+  {
+    "slug": "mount-meru",
+    "name": "Mount Meru",
+    "region": "Northern",
+    "category": "Mountains",
+    "summary": "Mount Meru anchors Arusha National Park and adds a mountain-focused objective to a northern Tanzania journey.",
+    "highlights": [
+      "Mountain landscapes",
+      "Arusha National Park setting"
+    ],
+    "planningNote": "A summit trek needs its own guided plan, permits, equipment and time for altitude. It is not included in a standard park day visit.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1633611951-AM-ENG.pdf"
+  },
+  {
+    "slug": "ol-doinyo-lengai",
+    "name": "Ol Doinyo Lengai",
+    "region": "Northern",
+    "category": "Mountains",
+    "summary": "This active volcano rises near Lake Natron and forms a powerful focal point in northern Tanzania's Rift Valley landscape.",
+    "highlights": [
+      "Volcanic scenery",
+      "Lake Natron combination"
+    ],
+    "planningNote": "Do not assume climbing is open or appropriate. Current volcanic conditions, permissions, specialist guidance and fitness must be reviewed first.",
+    "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-natron"
+  },
+  {
+    "slug": "isimila",
+    "name": "Isimila Stone Age Site",
+    "region": "Southern",
+    "category": "Culture & Heritage",
+    "summary": "Near Iringa, Isimila combines a Stone Age archaeological story with an eroded landscape of pillars and gullies.",
+    "highlights": [
+      "Stone Age heritage",
+      "Eroded pillar landscape"
+    ],
+    "planningNote": "Arrange a guided visit and allow for uneven ground. Leave artefacts and natural formations undisturbed.",
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1771310361-TANAPA%20Tourism%20Splash_Issue%20no%202%202026.pdf"
+  }
+]

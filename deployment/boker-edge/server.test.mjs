@@ -121,13 +121,13 @@ test("keeps public redirects on Boker and rejects external redirects", async (t)
       new Response(null, {
         status: 308,
         headers: {
-          location: url.includes("/boker")
+          location: url.includes("/packages")
             ? "https://tanzania-tourism-production.up.railway.app/plan?park=ruaha"
             : "https://evil.example/",
         },
       }),
   );
-  const redirect = await fetch(`${base}/boker`, { redirect: "manual" });
+  const redirect = await fetch(`${base}/packages`, { redirect: "manual" });
   assert.equal(redirect.headers.get("location"), "/plan?park=ruaha");
   assert.equal(
     (await fetch(`${base}/plan`, { redirect: "manual" })).status,
@@ -289,4 +289,28 @@ test("forwards only customer capabilities, signs visitor limits, and never forwa
     ).status,
     403,
   );
+});
+import legacyRoutes from './legacy-routes.json' with {type:'json'};
+import guides from '../../src/data/legacyDestinations.json' with {type:'json'};
+test('every original destination retains a matching guide and permanent public redirect', async t => {
+  const base=await start(t,()=>{throw new Error('Legacy redirects must not fetch upstream');});
+  assert.equal(guides.length,54);
+  for(const [old,target] of Object.entries(legacyRoutes)) for(const suffix of ['', '/']) {
+    const r=await fetch(base+old+suffix+'?utm_source=legacy',{redirect:'manual'});
+    assert.equal(r.status,301,old+suffix);
+    assert.equal(r.headers.get('location'),target+'?utm_source=legacy');
+    assert.equal(permitted('GET',target),true,target);
+  }
+  for(const guide of guides) assert.equal(legacyRoutes['/boker/destinations/'+guide.slug],'/destinations/'+(guide.slug==='zanzibar-unguja'?'zanzibar':guide.slug));
+  assert.equal((await fetch(base+'/boker/unknown',{redirect:'manual'})).status,404);
+  assert.equal((await fetch(base+'/boker/sitemap.xml',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})).status,404);
+});
+
+test('retains the existing public Search Console verification token on both paths',async t=>{
+  const {readFileSync}=await import('node:fs');
+  const body='google-site-verification: google7c5b542c6dac0143.html';
+  for(const path of ['/google7c5b542c6dac0143.html','/boker/google7c5b542c6dac0143.html']) {
+    assert.equal(permitted('GET',path),true);
+    assert.equal(readFileSync(new URL('../../public'+path,import.meta.url),'utf8'),body);
+  }
 });

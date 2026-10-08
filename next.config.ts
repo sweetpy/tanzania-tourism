@@ -1,3 +1,4 @@
+import legacyRoutes from "./deployment/boker-edge/legacy-routes.json";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -6,19 +7,10 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/packages/migration-and-crater", destination: "/packages/8-day-mara-migration-safari", permanent: true },
-      // Preserve links from the original Boker public website.
-      { source: "/boker", destination: "/plan", permanent: true },
-      { source: "/boker/destinations", destination: "/destinations", permanent: true },
-      ...["serengeti", "ngorongoro", "lake-manyara", "ruaha", "kilimanjaro"].map(slug => ({
-        source: `/boker/destinations/${slug}`, destination: `/destinations/${slug}`, permanent: true,
+      { source: "/destinations/zanzibar-unguja", destination: "/destinations/zanzibar", statusCode: 301 },
+      ...Object.entries(legacyRoutes).map(([source, destination]) => ({
+        source, destination, statusCode: 301 as const,
       })),
-      { source: "/boker/destinations/zanzibar-unguja", destination: "/destinations/zanzibar", permanent: true },
-      ...["tarangire", "mikumi", "nyerere"].map(park => ({
-        source: `/boker/destinations/${park}`, destination: `/plan?park=${park}`, permanent: true,
-      })),
-      { source: "/boker/destinations/:slug", destination: "/destinations", permanent: true },
-      { source: "/boker/privacy", destination: "/privacy", permanent: true },
-      { source: "/boker/terms", destination: "/terms", permanent: true },
     ];
   },
   images: {

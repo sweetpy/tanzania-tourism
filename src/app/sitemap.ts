@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { packages } from "@/data/packages";
 import { destinations } from "@/data/destinations";
 import { experiences } from "@/data/experiences";
+import legacyDestinations from "@/data/legacyDestinations.json";
 import { listDepartures } from "@/lib/groupStore";
 import { seedGroupCalendar } from "@/data/groupTours";
 export const dynamic = "force-dynamic";
@@ -31,6 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/terms",
     ...packages.map((p) => `/packages/${p.slug}`),
     ...destinations.map((d) => `/destinations/${d.slug}`),
+    ...legacyDestinations.filter(d => d.slug !== "zanzibar-unguja").map(d => `/destinations/${d.slug}`),
     ...experiences.map((e) => `/experiences/${e.slug}`),
     ...departures
       .filter((d) => d.status !== "cancelled")
